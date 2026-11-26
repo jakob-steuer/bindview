@@ -899,3 +899,90 @@ def test_the_database_s_file_is_read_for_a_stretch_of_the_chain_taken_as_the_lig
     for record in known:
         row, column = divmod(round(record.pae * 1000.0), 1000)
         assert row == record.residue_number < 150 <= column <= 157
+
+
+# The file of a complex of the AlphaFold database: the matrix and the chains of its rows
+
+FAB = TESTDATA / "fab_lysozyme" / "model.cif.gz"         # chains C, L and H; their label_asym_id is A, B and C
+
+
+def afdb_complex_file(folder, matrix, chains, name: str = "AF-MADE-F1-predicted_aligned_error_v6.json"):
+    """The matrix as the database writes it for a model of several chains: with ``chains``, each a
+    ``(label_asym_id, first residue, last residue)``."""
+    held = [{"predicted_aligned_error": np.asarray(matrix).tolist(), "max_predicted_aligned_error": 31.75,
+             "chains": [{"label_asym_id": c, "sequenceStart": first, "sequenceEnd": last} for c, first, last in chains]}]
+    path = folder / name
+    path.write_text(json.dumps(held))
+    return path
+
+
+def test_the_database_s_file_of_a_complex_is_read_chain_by_chain_by_their_labels(tmp_path):
+    """The file names a chain by its label_asym_id, which in a deposited structure is often not what its
+    authors call it: label C is chain H of the Fab, and chain C is label A. The rows are the chains in the
+    order the file declares them, whatever the order of the model's file."""
+    from bindview.distance_table import interface_contacts
+    from bindview.interface import Interface
+
+    model = read_structure(FAB)
+    sizes = {c: len(model.polymer_residues(c)) for c in ("C", "L", "H")}
+    assert sizes == {"C": 129, "L": 213, "H": 210}
+    path = afdb_complex_file(tmp_path, afdb_matrix(552), [("C", 1, 210), ("A", 1, 129), ("B", 1, 213)])
+    pae = Pae.read(path, model)
+    assert pae.chains == ("H",) * 210 + ("C",) * 129 + ("L",) * 213 and pae.by_number is False
+    assert pae.numbers == tuple(k.number for c in ("H", "C", "L") for k in model.polymer_residues(c))
+    assert pae.resnames[0] == model.residue_name(model.polymer_residues("H")[0]) and pae.places.shape == (552, 3)
+    first_c, first_l = model.polymer_residues("C")[0], model.polymer_residues("L")[0]
+    assert pae.between(first_c, first_l) == min(pae.matrix[210, 339], pae.matrix[339, 210]) == 211.340
+    # An interface of the two chains of the Fab: every contact has the value of its two rows.
+    face = Interface(model, ["H", "L"], interface_contacts(model, ["H"], ["L"])[:8], pae=path, model_confidence=None)
+    rows = {(c, n): i for i, (c, n) in enumerate(zip(pae.chains, pae.numbers))}
+    for c in face.contacts:
+        i, j = sorted((rows[(c.chain_a, c.number_a)], rows[(c.chain_b, c.number_b)]))
+        assert c.pae == pytest.approx(i + 1 + (j + 1) / 1000.0)
+
+
+def test_a_model_without_labels_has_the_chains_of_the_database_s_file_by_their_names(tmp_path):
+    two = made_model(tmp_path, [("ALA", "A", k, "") for k in range(1, 11)] + [("GLY", "B", k, "") for k in range(1, 11)],
+                     "two.pdb")
+    pae = Pae.read(afdb_complex_file(tmp_path, afdb_matrix(), [("A", 1, 10), ("B", 1, 10)]), two)
+    assert pae.chains == ("A",) * 10 + ("B",) * 10 and pae.numbers == tuple(range(1, 11)) * 2
+    assert pae.between(ResidueKey("A", 3), ResidueKey("B", 8)) == 3.018
+
+
+def test_the_database_s_file_of_a_complex_is_refused_where_it_is_not_whole_or_not_of_the_model(tmp_path):
+    model = read_structure(FAB)
+    declared = [("A", 1, 129), ("B", 1, 213), ("C", 1, 210)]
+    listed = r"\(chain A: 129, chain B: 213, chain C: 210\)"
+    # A file with fewer rows than it declares: every row after the missing ones would be another residue's.
+    with pytest.raises(BindviewError, match=r"declares 552 residues in its chains " + listed + r", and its matrix "
+                                            r"is 551 x 551: the file does not hold the rows it declares"):
+        Pae.read(afdb_complex_file(tmp_path, afdb_matrix(551), declared), model)
+    with pytest.raises(BindviewError, match=r"a complex of the AlphaFold database .*: the model it belongs to has "
+                                            r"to be given with it"):
+        Pae.read(afdb_complex_file(tmp_path, afdb_matrix(552), declared))
+    for chains, said in (([("A", 1, 130), ("B", 1, 212), ("C", 1, 210)],
+                          r"declares 130 residues in chain A \(in the model C\) .* has 129 there"),
+                         ([("A", 1, 129), ("B", 1, 213), ("Z", 1, 210)], r"declares chain Z .* has no polymer chain"),
+                         ([("A", 1, 129), ("B", 1, 213)], r"has polymer chains besides \(H\)")):
+        size = sum(last - first + 1 for _, first, last in chains)
+        with pytest.raises(BindviewError, match=said + ".*: the two are not of the same model"):
+            Pae.read(afdb_complex_file(tmp_path, afdb_matrix(size), chains), model)
+    for chains in ([("A", 1, 129), ("A", 1, 423)], [("A", 129, 1), ("B", 1, 552)]):
+        with pytest.raises(BindviewError, match=r"declares the chains of its matrix as .*: a chain is declared once"):
+            Pae.read(afdb_complex_file(tmp_path, afdb_matrix(552), chains), model)
+    path = afdb_complex_file(tmp_path, afdb_matrix(552), declared)
+    path.write_text(path.read_text().replace('"sequenceEnd"', '"end"'))
+    with pytest.raises(BindviewError, match=r"in a form that is not read here: each needs 'label_asym_id', "
+                                            r"'sequenceStart' and 'sequenceEnd'"):
+        Pae.read(path, model)
+
+
+def test_the_database_s_file_that_declares_its_one_chain_is_read_as_before(tmp_path):
+    model = read_structure(ROOT / "afdb_fah" / "model.cif.gz")
+    before = Pae.read(pae_file("afdb_fah"), model)
+    declared = Pae.read(afdb_complex_file(tmp_path, raw_matrix("afdb_fah"), [("A", 1, 419)]), model)
+    assert np.array_equal(declared.matrix, before.matrix)
+    assert (declared.chains, declared.numbers, declared.resnames) == (before.chains, before.numbers, before.resnames)
+    with pytest.raises(BindviewError, match=r"declares 418 residues in its chains \(chain A: 418\), and its matrix "
+                                            r"is 419 x 419"):
+        Pae.read(afdb_complex_file(tmp_path, raw_matrix("afdb_fah"), [("A", 1, 418)]), model)

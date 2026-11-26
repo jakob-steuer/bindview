@@ -171,7 +171,8 @@ def _afdb_matrix(data: Any, source: str = "") -> "np.ndarray | None":
     ``distance``, the two residues counted from 1. In every form the matrix is n × n, in ångström,
     for the n residues of the one chain of the model, in the model's order, and ``[i][j]`` (in the
     flat lists: ``residue1`` i + 1 with ``residue2`` j + 1) is the error of residue j when the model
-    is aligned on residue i: rows are aligned residues, as in :class:`Pae`.
+    is aligned on residue i: rows are aligned residues, as in :class:`Pae`. The file of a model of
+    several chains declares them beside the matrix (:func:`_afdb_chains`).
     """
     held = data[0] if isinstance(data, list) and len(data) == 1 else data
     if not isinstance(held, dict) or "pae" in held:
@@ -202,6 +203,49 @@ def _afdb_matrix(data: Any, source: str = "") -> "np.ndarray | None":
                             f"'predicted_aligned_error' is not a square matrix "
                             f"({' x '.join(str(n) for n in matrix.shape) or 'no rows'})")
     return matrix
+
+
+def _afdb_chains(data: Any, size: int, source: str = "") -> "list[tuple[str, int]] | None":
+    """The chains that the AlphaFold database's PAE file declares, each as its ``label_asym_id`` and its
+    number of residues, in the order of the rows; ``None`` where the file declares none.
+
+    The file of a model of several chains holds, beside the matrix, ``"chains": [{"label_asym_id": "A",
+    "sequenceStart": 1, "sequenceEnd": 246}, ...]``: its rows are those chains one after the other, each
+    over its residues from the first to the last. The residues declared have to be as many as the matrix
+    has rows. A file that holds fewer rows than it declares is not read: every row after the missing ones
+    would be taken for another residue, and nothing on a figure would show it.
+    """
+    held = data[0] if isinstance(data, list) and len(data) == 1 else data
+    if not isinstance(held, dict) or not held.get("chains"):
+        return None
+    what = source or "the PAE file"
+    try:
+        declared = [(str(c["label_asym_id"]), int(c["sequenceStart"]), int(c["sequenceEnd"])) for c in held["chains"]]
+    except (KeyError, TypeError, ValueError) as exc:
+        raise BindviewError(f"{what} declares the chains of its matrix ('chains') in a form that is not read here: "
+                            f"each needs 'label_asym_id', 'sequenceStart' and 'sequenceEnd' ({exc!r})") from exc
+    names = [name for name, _, _ in declared]
+    if len(set(names)) != len(names) or any(last < first for _, first, last in declared):
+        raise BindviewError(f"{what} declares the chains of its matrix as "
+                            f"{', '.join(f'{name} {first}-{last}' for name, first, last in declared)}: a chain is "
+                            f"declared once, from its first residue to its last")
+    counted = [(name, last - first + 1) for name, first, last in declared]
+    if sum(n for _, n in counted) != size:
+        raise BindviewError(f"{what} declares {sum(n for _, n in counted)} residues in its chains "
+                            f"({', '.join(f'chain {name}: {n}' for name, n in counted)}), and its matrix is {size} x "
+                            f"{size}: the file does not hold the rows it declares (is it whole?)")
+    return counted
+
+
+def _named_places(structure: "Structure", keys: Sequence[ResidueKey]) -> tuple[tuple[str, ...], np.ndarray]:
+    """The name of each residue and a place for it: its CA, or the centre of its heavy atoms where it has none."""
+    names, places = [], []
+    for k in keys:
+        atoms = [a for a in structure.residue_atoms(k) if a.element not in ("H", "D")]
+        ca = [a.xyz for a in atoms if a.name == "CA"]
+        names.append(structure.residue_name(k))
+        places.append(ca[0] if ca else tuple(np.mean([a.xyz for a in atoms], axis=0)))
+    return tuple(names), np.array(places, dtype=float).reshape(-1, 3)
 
 
 def model_beside(path: "str | Path") -> "Path | None":
@@ -368,7 +412,13 @@ class Pae:
         several chains. One chain that was cut into participants
         (:meth:`bindview.structure.Structure.split`) is still one chain: its
         parts keep their residue numbers, which run on from one part to the
-        next.
+        next. The file of a model of several chains (a complex of the
+        database) declares its chains beside the matrix (``chains``, each by
+        its ``label_asym_id`` with its first and last residue): its rows are
+        those chains of ``structure``, one after the other. It is refused where
+        it holds fewer or more rows than it declares, and where ``structure``
+        has another number of residues in one of them or a polymer chain that
+        it does not declare.
 
         In every file, and in :attr:`matrix`, row i and column j hold the error
         of residue j when the model is aligned on residue i.
@@ -435,6 +485,9 @@ class Pae:
         """
         held = _afdb_matrix(data, source)
         if held is not None:
+            declared = _afdb_chains(data, held.shape[0], source)
+            if declared is not None and len(declared) > 1:
+                return cls._of_chains(held, declared, source, structure, placed)
             return cls._of_one_chain(held, source, structure, placed)
         if not isinstance(data, dict):
             raise BindviewError(
@@ -487,15 +540,55 @@ class Pae:
         if len(keys) != matrix.shape[0]:
             raise BindviewError(f"{what} is a matrix of {size}, and {model} has {len(keys)} residues ({counted}): "
                                 f"the two are not of the same model")
-        names, places = [], []
-        for k in keys:
-            atoms = [a for a in structure.residue_atoms(k) if a.element not in ("H", "D")]
-            ca = [a.xyz for a in atoms if a.name == "CA"]
-            names.append(structure.residue_name(k))
-            places.append(ca[0] if ca else tuple(np.mean([a.xyz for a in atoms], axis=0)))
+        names, places = _named_places(structure, keys)
         return cls(matrix, tuple("" if cut else k.chain for k in keys), tuple(k.number for k in keys), source,
-                   tuple(names), np.array(places, dtype=float).reshape(-1, 3) if placed else None,
-                   tuple(k.icode for k in keys), by_number=cut)
+                   names, places if placed else None, tuple(k.icode for k in keys), by_number=cut)
+
+    @classmethod
+    def _of_chains(cls, matrix: np.ndarray, declared: "list[tuple[str, int]]", source: str,
+                   structure: "Structure | None", placed: bool = True) -> "Pae":
+        """The matrix of the AlphaFold database's file of a complex with the residues of its model as its rows.
+
+        The file names its chains by their ``label_asym_id`` (:func:`_afdb_chains`). A chain of the file is
+        the chain of the model whose polymer atoms have that label, or, where no polymer atom has it, the
+        chain of that name. Its rows are its polymer residues
+        (:meth:`bindview.structure.Structure.polymer_residues`) in the order of the model's file, named as
+        the model names them. A chain that was cut into participants
+        (:meth:`bindview.structure.Structure.split`) keeps its label: its rows are the residues of its parts.
+        The model has to have every chain the file declares, each with as many residues, and no other
+        polymer chain.
+        """
+        what = source or "the PAE file"
+        listed = ", ".join(f"chain {name}: {n}" for name, n in declared)
+        if structure is None:
+            raise BindviewError(f"{what} is the PAE file of a complex of the AlphaFold database ({listed}): the model "
+                                f"it belongs to has to be given with it, to say which of its chains each row is in")
+        model = structure.source or "the structure"
+        parts = {c: structure.polymer_residues(c) for c in dict.fromkeys(a.chain for a in structure.atoms)}
+        parts = {c: keys for c, keys in parts.items() if keys}
+        counted = ", ".join(f"chain {c}: {len(ks)}" for c, ks in parts.items()) or "no polymer chain"
+        keys: list[ResidueKey] = []
+        taken: list[str] = []
+        for label, n in declared:
+            chains = [c for c in structure._by_label(label) if c in parts] or ([label] if label in parts else [])
+            if not chains or set(chains) & set(taken):
+                raise BindviewError(f"{what} declares chain {label} ({listed}), and {model} has no polymer chain of "
+                                    f"that name that is not another's ({counted}): the two are not of the same model")
+            taken.extend(chains)
+            inside = {k for c in chains for k in parts[c]}
+            mine = [k for k in structure.residues() if k in inside]
+            if len(mine) != n:
+                said = f"chain {label}" + (f" (in the model {', '.join(chains)})" if chains != [label] else "")
+                raise BindviewError(f"{what} declares {n} residues in {said} ({listed}), and {model} has {len(mine)} "
+                                    f"there ({counted}): the two are not of the same model")
+            keys.extend(mine)
+        rest = [c for c in parts if c not in taken]
+        if rest:
+            raise BindviewError(f"{what} declares {listed}, and {model} has polymer chains besides "
+                                f"({', '.join(rest)}): the two are not of the same model")
+        names, places = _named_places(structure, keys)
+        return cls(matrix, tuple(k.chain for k in keys), tuple(k.number for k in keys), source,
+                   names, places if placed else None, tuple(k.icode for k in keys), by_number=False)
 
     @classmethod
     def _read_npz(cls, p: Path, structure: "Structure | None", placed: bool = True) -> "Pae":

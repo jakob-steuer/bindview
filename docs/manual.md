@@ -222,8 +222,8 @@ alpha, beta = hb.chain_of("P69905"), hb.chain_of("P68871")                     #
 Interface(hb, [alpha, beta], interface_contacts(hb, [alpha], [beta])).render_svg("hb.svg")
 ```
 
-A PAE file is AlphaFold 3's `confidences.json`, Boltz's `pae_*.npz` or the AlphaFold database's file; several draws of
-one model (`--pae` repeated, or a list) give the median of each contact. `pae_colors=True` draws the PAE as a glow
+A PAE file is AlphaFold 3's `confidences.json`, Boltz's `pae_*.npz` or the AlphaFold database's file, of one chain or of
+a complex; several draws of one model (`--pae` repeated, or a list) give the median of each contact. `pae_colors=True` draws the PAE as a glow
 behind each line. `layout="auto"` draws the boxes where their residues lie when they come in several stretches of the
 chain; `detail="sidechain"` draws the atoms of residues that make a directional contact.
 
