@@ -1,12 +1,12 @@
 [build-system]
-requires = ["hatchling>=1.27"]
+requires = ["hatchling>=1.27", "hatch-fancy-pypi-readme>=24.1"]
 build-backend = "hatchling.build"
 
 [project]
 name = "bindview"
 version = "0.1.0"
 description = "Publication-quality figures of molecular interactions: small molecules, peptides, RNA, DNA and proteins, from one structure to an ensemble."
-readme = "README.md"
+dynamic = ["readme"]
 requires-python = ">=3.12"
 license = "MIT"
 license-files = ["LICENSE", "NOTICE"]
@@ -43,6 +43,26 @@ Homepage = "https://github.com/jakob-steuer/bindview"
 Repository = "https://github.com/jakob-steuer/bindview"
 Issues = "https://github.com/jakob-steuer/bindview/issues"
 Changelog = "https://github.com/jakob-steuer/bindview/blob/main/CHANGELOG.md"
+
+[tool.hatch.metadata.hooks.fancy-pypi-readme]
+# The README as the package's description, with its pictures and links pointed at the repository: on PyPI a
+# path relative to the README leads nowhere. The README itself keeps its relative paths, which GitHub resolves.
+content-type = "text/markdown"
+
+[[tool.hatch.metadata.hooks.fancy-pypi-readme.fragments]]
+path = "README.md"
+
+[[tool.hatch.metadata.hooks.fancy-pypi-readme.substitutions]]
+pattern = '(src|srcset)="(?!https?://)([^"]+)"'
+replacement = '\1="https://raw.githubusercontent.com/jakob-steuer/bindview/main/\2"'
+
+[[tool.hatch.metadata.hooks.fancy-pypi-readme.substitutions]]
+pattern = 'href="(?!https?://|#)([^"]+)"'
+replacement = 'href="https://github.com/jakob-steuer/bindview/blob/main/\1"'
+
+[[tool.hatch.metadata.hooks.fancy-pypi-readme.substitutions]]
+pattern = '\]\((?!https?://|#)([^)]+)\)'
+replacement = '](https://github.com/jakob-steuer/bindview/blob/main/\1)'
 
 [tool.hatch.build.targets.wheel]
 packages = ["src/bindview"]
