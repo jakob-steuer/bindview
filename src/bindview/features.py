@@ -76,6 +76,25 @@ def perceive_rings(lig: Ligand) -> list[LigandGroup]:
     return out
 
 
+def _in_aromatic_six_ring(atom: Chem.Atom) -> bool:
+    return atom.GetIsAromatic() and atom.IsInRingSize(6)
+
+
+def _second_amino(atom: Chem.Atom) -> bool:
+    """Another carbon of the atom's aromatic six-ring carries an amino group (2,4-diaminopyrimidines, pteridines)."""
+    mol = atom.GetOwningMol()
+    for ring in mol.GetRingInfo().AtomRings():
+        if len(ring) != 6 or atom.GetIdx() not in ring:
+            continue
+        for j in ring:
+            other = mol.GetAtomWithIdx(j)
+            if j == atom.GetIdx() or other.GetSymbol() != "C":
+                continue
+            if any(n.GetSymbol() == "N" and not n.IsInRing() and n.GetTotalNumHs() > 0 for n in other.GetNeighbors()):
+                return True
+    return False
+
+
 def _heavy_neighbors(atom: Chem.Atom) -> list[Chem.Atom]:
     return [n for n in atom.GetNeighbors() if n.GetAtomicNum() > 1]
 
@@ -111,7 +130,7 @@ def perceive_charged_groups(lig: Ligand) -> list[LigandGroup]:
             if len(term_o) == 2 and len(nbrs) == 3:
                 out.append(LigandGroup("carboxylate", (i, *term_o), tuple(term_o), -1, 0))
             n_nb = [n for n in nbrs if n.GetSymbol() == "N"]
-            if len(n_nb) == 3 and len(nbrs) == 3:
+            if len(n_nb) == 3 and len(nbrs) == 3 and (not _in_aromatic_six_ring(atom) or _second_amino(atom)):
                 out.append(LigandGroup("guanidinium", (i, *(n.GetIdx() for n in n_nb)), (i,), +1, 0))
             elif len(n_nb) == 2 and len(nbrs) == 3 and not atom.GetIsAromatic() \
                     and all(not n.GetIsAromatic() for n in n_nb):

@@ -189,6 +189,10 @@ print(sorted({r.method for r in plip.interactions}))              # how PLIP's r
 * **What the ligand is** comes from its SMILES: its aromatic rings, its charged groups, which atoms carry a
   hydrogen. Without bond orders (no SMILES, no hydrogens in the file) every N and O may donate and accept, no ring
   is known to be aromatic, and only carboxylates, guanidiniums, phosphates and sulfonates are charged groups.
+* **A carbon bonded to three nitrogens is a guanidinium**, a cation. In an aromatic ring of six it is one only
+  where another carbon of that ring carries an amino group: a 2,4-diaminopyrimidine or pteridine, protonated in
+  the antifolates' sites (methotrexate in DHFR, its salt bridge to Glu30), is a cation; a 2-aminopyrimidine, barely
+  basic (imatinib's, which stacks on Phe811), is not.
 * **What it lacks.** No hydrogen is placed, so no angle is checked and a hydrogen bond has no angle. No water
   bridge. Partners of `ligand_contacts` are residues within 8 Å that have a template (the twenty amino acids and
   the eight nucleotides) and metal ions: a cofactor, a modified residue or another ligand beside the ligand is
@@ -207,7 +211,7 @@ print(sorted({r.method for r in plip.interactions}))              # how PLIP's r
 | salt bridge | 4 | 3 | 3 |
 | hydrophobic | 32 | 42 | 32 |
 | π-stacking | 2 | 2 | 2 |
-| π–cation | 2 | 3 | 2 |
+| π–cation | 2 | 2 | 2 |
 | halogen bond | 1 | 2 | 1 |
 | metal | 0 | 1 | 0 |
 | water bridge | 5 | 0 | 0 |
@@ -216,9 +220,8 @@ print(sorted({r.method for r in plip.interactions}))              # how PLIP's r
   that only the table has are 2.54 to 3.33 Å long; PLIP places hydrogens and checks angles, the table does not.
 * PLIP's salt bridge in `kit_imatinib` (Asp810 to the piperazine, 5.3 Å from centre to centre) is not in the
   table, which measures from atom to atom: the nearest oxygen is 4.7 Å from the nitrogens. The table's extra
-  π–cation (Phe811 and the aminopyrimidine of imatinib, which it counts as a guanidinium-like cation), halogen
-  bond (Val746 to a fluorine of bicalutamide) and metal row (the zinc of carbonic anhydrase on celecoxib's
-  sulfonamide) are not in PLIP's tables.
+  halogen bond (Val746 to a fluorine of bicalutamide) and metal row (the zinc of carbonic anhydrase on
+  celecoxib's sulfonamide) are not in PLIP's tables.
 * Every hydrophobic contact of PLIP's is in the table, with 10 more: the table prunes nothing.
 * Seven cases are a small sample, all crystal structures of drug-like ligands.
 

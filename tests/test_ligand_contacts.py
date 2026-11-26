@@ -53,6 +53,23 @@ def test_the_table_has_every_contact_of_plip_that_its_criteria_reach():
     assert set(reached) == {"hbond", "saltbridge", "hydrophobic", "pi_stacking", "pi_cation", "halogen"}
 
 
+def test_a_diaminopteridine_is_a_cation_and_an_aminopyrimidine_is_not():
+    """A carbon with three nitrogens in an aromatic ring of six is a cation only where another carbon of the ring
+    carries an amino group. Methotrexate's diaminopteridine keeps its salt bridge to Glu30; imatinib's
+    aminopyrimidine, which stacks on Phe811, is no cation over that ring. Both as in PLIP's tables."""
+    def plip(case: str, kind: str) -> "set[tuple[str, int]]":
+        return {(r.residue_name, r.residue_number) for r in load_interactions(TESTDATA / case / "interactions.tsv")
+                if r.type.value == kind}
+
+    imatinib = table_of("kit_imatinib")
+    assert {(r["residue_name"], r["residue_number"]) for r in of_kind(imatinib, "pi_cation")} == \
+        plip("kit_imatinib", "pi_cation") == {("LYS", 623), ("HIS", 790)}
+    assert ("PHE", 811) in {(r["residue_name"], r["residue_number"]) for r in of_kind(imatinib, "pi_stacking")}
+    (bridge,) = [r for r in of_kind(table_of("dhfr_methotrexate"), "saltbridge") if r["residue_number"] == 30]
+    assert ("GLU", 30) in plip("dhfr_methotrexate", "saltbridge")
+    assert set(str(bridge["ligand_atoms"]).split(",")) == {"C2", "N1", "NA2", "N3"}
+
+
 def test_the_rings_and_the_halogen_are_the_ones_plip_names():
     """Imatinib's pyrimidine on Phe811, edge on, with the atoms and the distance PLIP gives that stacking;
     bicalutamide's fluorine on the carbonyl oxygen of Met742, as PLIP has it."""
