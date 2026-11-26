@@ -2,6 +2,7 @@
  "what": "Three molecular dynamics simulations of a guanidine-II riboswitch dimer (two RNA hairpins of 18 nucleotides, chains A and B) with a ligand of two guanidinium ends, one for the pocket of each hairpin: what the figures of prototype/md_occupancy need of them. For each simulation a table (the plan that count.py writes: the occupancy of every contact, the frame to draw for the trajectory and for each bound state with its contacts, and the contacts and states against time in bins of 20 ns) and the frames that are drawn, as PDB files.",
  "what_it_is_not": "Not the trajectories, and not a test case of the library. bindview reads no trajectory: the contacts of every frame were found by ProLIF in an environment of its own, and counting them is sketch code (prototype/md_occupancy), not tested. Only the diagrams that are drawn from these tables are the library's own.",
  "source": "https://github.com/jakob-steuer/FHNW-Summer-School-2025-MolSim-Analysis, folder data/, MIT licence.",
+ "reference": "Steuer J, Sinn M, Eble F, Rütschlin S, Böttcher T, Hartig JS, Peter C. Cooperative binding of bivalent ligands yields new insights into the guanidine-II riboswitch. NAR Genom. Bioinform. 2024, 6(3), lqae132. https://doi.org/10.1093/nargab/lqae132",
  "topology": {
   "file": "testdata/nucleic/riboswitch_bisguanidine/model.pdb",
   "is": "data/structure.pdb of the source: the system without water, with its hydrogens",

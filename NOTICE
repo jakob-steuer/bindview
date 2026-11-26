@@ -37,6 +37,11 @@ are the database's, packed. The domain borders are from The Encyclopedia of Doma
 scripts/solvent_validation_set.tsv lists the Astex Diverse Set (Hartshorn et al., J. Med. Chem. 2007, 50, 726)
 with the ligand of each entry as PoseBusters names it (Buttenschoen et al., Chem. Sci. 2024, 15, 3130).
 
+testdata/nucleic/riboswitch_bisguanidine and testdata/md/riboswitch_bisguanidine: a frame and contact tables of
+the molecular dynamics simulations of a guanidine-II riboswitch with a bivalent ligand by the author of bindview
+(Steuer et al., NAR Genom. Bioinform. 2024, 6, lqae132; https://doi.org/10.1093/nargab/lqae132), taken from
+https://github.com/jakob-steuer/FHNW-Summer-School-2025-MolSim-Analysis (MIT).
+
 testdata/ensemble_bioemu2: samples of BioEmu 2 (Microsoft), whose code and checkpoint are under the MIT licence.
 
 testdata/*/interactions.tsv were written by PLIP (Adasme et al., Nucleic Acids Res. 2021, 49, W530), which is

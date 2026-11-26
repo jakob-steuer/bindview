@@ -765,7 +765,7 @@ what it is, where it is from and under which terms; the single cases also have P
 | `rna_kissing` | HIV-1 dimerisation-site kissing complex | PDB 1XPF | CC0 |
 | `interface_pae/afdb_fah`, `afdb_apobec3d`, `afdb_tectb` | AlphaFold models of one chain each, with their PAE files | AFDB P16930, Q96AK3, Q96PL2 (v6) | CC BY 4.0 |
 | `interface_multimer/tnfa_trimer` | TNF-α as a trimer predicted with Boltz: two of five draws, the scores of all five | made for the package | the package's (MIT) |
-| `nucleic/riboswitch_bisguanidine` | a guanidine-II riboswitch dimer with a bivalent ligand, one frame of a simulation | its `meta.json` | MIT |
+| `nucleic/riboswitch_bisguanidine` | a guanidine-II riboswitch dimer with a bivalent ligand, one frame of a simulation | the simulations of [Steuer et al. 2024](https://doi.org/10.1093/nargab/lqae132); its `meta.json` | MIT |
 | `md/riboswitch_bisguanidine` | contact tables and drawn frames of three simulations of the same system | its `manifest.json` | MIT |
 | `ensemble_bioemu2` | 20 samples of adenylate kinase with AP5A from BioEmu 2, trimmed | made for the package | its `README.md` |
 | `ensemble/maob_fad` | contact tables of four MAO-B structures with FAD; the structures are fetched with `waters` | PDB 2C65, 4CRT, 7ZW3, 9FJT | CC0 |

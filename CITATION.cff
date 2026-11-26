@@ -8,6 +8,10 @@ abstract: >-
 authors:
   - family-names: "Steuer"
     given-names: "Jakob"
+    orcid: "https://orcid.org/0000-0003-3437-2075"
+    affiliation: >-
+      FHNW University of Applied Sciences and Arts Northwestern Switzerland, School of Life Sciences,
+      Institute for Chemistry and Bioanalytics, Data Science in the Life Sciences group
 repository-code: "https://github.com/jakob-steuer/bindview"
 version: "0.1.0"
 license: MIT

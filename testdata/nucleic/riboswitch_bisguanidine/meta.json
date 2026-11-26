@@ -2,6 +2,7 @@
   "slug": "riboswitch_bisguanidine",
   "what": "A guanidine-II riboswitch dimer (two chains of 18 nucleotides, the two hairpins) with a bivalent ligand between its two binding pockets: the first frame of a molecular dynamics system, with its hydrogens and without water. The test case for a ligand whose partner is RNA.",
   "source": "https://github.com/jakob-steuer/FHNW-Summer-School-2025-MolSim-Analysis (data/structure.pdb), MIT licence",
+  "reference": "Steuer J, Sinn M, Eble F, Rütschlin S, Böttcher T, Hartig JS, Peter C. Cooperative binding of bivalent ligands yields new insights into the guanidine-II riboswitch. NAR Genom. Bioinform. 2024, 6(3), lqae132. https://doi.org/10.1093/nargab/lqae132",
   "sha256": "c6073a334573bec8dee6cec687d0b179177edefd2fd6ab953613f6c347a86327",
   "ligand": {
     "name": "bis-guanidine",
