@@ -212,6 +212,16 @@ bindview interface testdata/interface_multimer/tnfa_trimer/hTNFA_canonical_trime
     --ipsae -o tnf.svg
 ```
 
+A chain can be named by the protein it is. `chain_of` gives the chain that an mmCIF file assigns to a UniProt accession
+(`_struct_ref`, which entries of the PDB and models of the AlphaFold database have). An accession of no chain or of
+several, the copies of a homodimer, is an error, never a guess; `chains_of` lists them all.
+
+```python
+hb = read_structure("testdata/hb_carbon_monoxide/model.cif.gz")
+alpha, beta = hb.chain_of("P69905"), hb.chain_of("P68871")                     # "A", "B"
+Interface(hb, [alpha, beta], interface_contacts(hb, [alpha], [beta])).render_svg("hb.svg")
+```
+
 A PAE file is AlphaFold 3's `confidences.json`, Boltz's `pae_*.npz` or the AlphaFold database's file; several draws of
 one model (`--pae` repeated, or a list) give the median of each contact. `pae_colors=True` draws the PAE as a glow
 behind each line. `layout="auto"` draws the boxes where their residues lie when they come in several stretches of the

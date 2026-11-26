@@ -136,6 +136,9 @@ class Structure:
     #: (``read_structure(path, model=n)``, :func:`read_models`). ``None`` for a structure that was read
     #: without naming a model: the first model of its file, whatever number that has.
     model: int | None = None
+    #: The accessions of the entries of sequence databases that the file assigns to each chain, by the
+    #: chain's author name (``_struct_ref`` with ``_struct_ref_seq`` of an mmCIF file; :meth:`chains_of`).
+    accessions: dict[str, tuple[str, ...]] = field(default_factory=dict)
 
     def __post_init__(self) -> None:
         if not self._by_residue:
@@ -177,6 +180,42 @@ class Structure:
     def declares_plddt(self) -> bool:
         """Does the file itself say that its B-factor column is a per-atom pLDDT?"""
         return self.plddt_scale is not None
+
+    # -- a chain by the protein it is ----------------------------------------
+    def chains_of(self, accession: str) -> list[str]:
+        """The chains that the file assigns to an entry of a sequence database, by their author names, in
+        the order of the file: a UniProt accession (``"P69905"``), or that of an isoform (``"P27348-2"``)
+        where the file names the isoform.
+
+        Read from ``_struct_ref`` and ``_struct_ref_seq`` of an mmCIF file, which the entries of the PDB
+        and the models of the AlphaFold database have. A file without them assigns no chain to anything: a
+        PDB file, a model of AlphaFold 3 or of Boltz. The copies of one protein (the two chains of a
+        homodimer) are all its chains; a chain that was cut into parts (:meth:`split`) is its parts. A
+        chain that the file names and that has no atom is not among them.
+        """
+        wanted = accession.strip().upper()
+        present = {a.chain for a in self.atoms}
+        return [c for c, names in self.accessions.items() if wanted in names and c in present]
+
+    def chain_of(self, accession: str) -> str:
+        """The one chain that the file assigns to an entry of a sequence database (:meth:`chains_of`): for
+        a caller who knows a protein by its accession and not by the name of its chain in this file.
+
+        Where the file assigns the entry to no chain, or to several (the copies of a homodimer), that is an
+        error which says what the file assigns. A chain is never chosen for the caller: a figure of the
+        wrong chain names real residues at real places and shows no sign of the mistake.
+        """
+        found = self.chains_of(accession)
+        if len(found) == 1:
+            return found[0]
+        what = self.source or "the structure"
+        if found:
+            raise StructureError(f"{what} assigns {accession} to {len(found)} chains ({', '.join(found)}): which "
+                                 f"of them is meant has to be said by its name")
+        assigned = "; ".join(f"chain {c}: {', '.join(names)}" for c, names in self.accessions.items())
+        raise StructureError(f"{what} assigns {accession} to no chain"
+                             + (f" ({assigned})" if assigned else
+                                ": it assigns no entry of a sequence database to any chain (no _struct_ref)"))
 
     # -- a polymer chain as the ligand ---------------------------------------
     def polymer_residues(self, chain: str) -> list[ResidueKey]:
@@ -239,7 +278,11 @@ class Structure:
                 return atom.chain
             return next((name for name, (lo, hi) in spans.items() if lo <= atom.resnum <= hi), chain)
 
-        return replace(self, atoms=[replace(a, chain=named(a)) for a in self.atoms], _by_residue={}, _coords=None)
+        accessions = dict(self.accessions)
+        if chain in accessions:
+            accessions.update({name: accessions[chain] for name in spans})
+        return replace(self, atoms=[replace(a, chain=named(a)) for a in self.atoms], _by_residue={}, _coords=None,
+                       accessions=accessions)
 
     def with_chain_as_ligand(self, chain: str
                              ) -> tuple["Structure", ResidueKey, tuple[ChainResidue, ...], list[str]]:
@@ -645,7 +688,8 @@ def parse_mmcif(text: str, source: str = "", model: "int | None" = None) -> Stru
 def _mmcif_models(text: str, source: str, model: "int | None | str") -> list[Structure]:
     """The models of mmCIF text: the first (``None``), the one numbered ``model``, or all of them
     (``"all"``), each a structure of its own. The text is read once."""
-    cats = _read_categories(text, {"_atom_site", "_chem_comp", "_ma_qa_metric", "_struct_conn"})
+    cats = _read_categories(text, {"_atom_site", "_chem_comp", "_ma_qa_metric", "_struct_conn", "_struct_ref",
+                                   "_struct_ref_seq"})
     site = cats.get("_atom_site")
     if not site or "cartn_x" not in site:
         raise StructureError(f"{source or 'mmCIF'}: no _atom_site coordinates found")
@@ -691,6 +735,7 @@ def _mmcif_models(text: str, source: str, model: "int | None | str") -> list[Str
                 smiles[cid] = smi
     metrics, scale = _qa_metrics(cats.get("_ma_qa_metric"))
     links = _mmcif_links(cats.get("_struct_conn"))
+    accessions = _accessions(cats.get("_struct_ref"), cats.get("_struct_ref_seq"))
 
     def number_of(i: int) -> "int | None":
         """The number the file gives the residue of row ``i``: the author's, else the label's, else none."""
@@ -756,7 +801,7 @@ def _mmcif_models(text: str, source: str, model: "int | None | str") -> list[Str
             raise StructureError(f"{source or 'mmCIF'}: no atoms"
                                  + (f" in model {number}" if number is not None else ""))
         return Structure(atoms=atoms, source=source, chem_comp_smiles=dict(smiles), plddt_scale=scale,
-                         qa_metrics=metrics, links=links, model=number)
+                         qa_metrics=metrics, links=links, model=number, accessions=dict(accessions))
 
     if model is None:
         # The first model: the rows down to the first that belongs to another one.
@@ -842,6 +887,44 @@ def _mmcif_links(table: "dict[str, list[str]] | None") -> tuple[Link, ...]:
             keys.append(ResidueKey(chain[i], _int(number[i]), ic))
         out.append(Link(keys[0], ends[0][3][i], keys[1], ends[1][3][i]))  # type: ignore[index]
     return tuple(out)
+
+
+def _accessions(ref: "dict[str, list[str]] | None", seq: "dict[str, list[str]] | None"
+                ) -> dict[str, tuple[str, ...]]:
+    """The accessions of the entries of sequence databases that the file assigns to each chain.
+
+    ``_struct_ref`` names an entry (``pdbx_db_accession``, and ``pdbx_db_isoform`` where it is an
+    isoform); each row of ``_struct_ref_seq`` aligns a stretch of one of them (``ref_id``) to a chain
+    (``pdbx_strand_id``, the author's name). The rows are joined by ``ref_id`` and not by their places in
+    the two lists: one entry may serve several chains (the copies of a homodimer: one row of the first,
+    two of the second), and one chain several entries (a fused protein).
+    """
+    def column(table: "dict[str, list[str]]", key: str) -> "list[str] | None":
+        values = table.get(key)
+        return values if values is not None and len(values) == max(len(v) for v in table.values()) else None
+
+    def written(value: str) -> bool:
+        return value not in ("?", ".", "")
+
+    if not ref or not seq:
+        return {}
+    entries: dict[str, list[str]] = {}
+    ids, accessions, isoforms = column(ref, "id"), column(ref, "pdbx_db_accession"), column(ref, "pdbx_db_isoform")
+    if ids is not None and accessions is not None:
+        for k, ident in enumerate(ids):
+            names = [accessions[k]] + ([isoforms[k]] if isoforms is not None else [])
+            entries[ident] = [n.upper() for n in names if written(n)]
+    refs, strands, own = column(seq, "ref_id"), column(seq, "pdbx_strand_id"), column(seq, "pdbx_db_accession")
+    out: dict[str, list[str]] = {}
+    for k, strand in enumerate(strands or []):
+        names = entries.get(refs[k], []) if refs is not None else []
+        if not names and own is not None and written(own[k]):
+            names = [own[k].upper()]
+        for chain in (c.strip() for c in strand.split(",")):
+            if written(chain) and names:
+                have = out.setdefault(chain, [])
+                have.extend(n for n in names if n not in have)
+    return {c: tuple(names) for c, names in out.items()}
 
 
 def _pdb_links(lines: Iterable[str]) -> tuple[Link, ...]:

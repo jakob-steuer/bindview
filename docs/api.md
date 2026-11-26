@@ -186,7 +186,7 @@ Detect interactions with PLIP (optional, GPL-2.0). See `bindview.detect`.
 
 A parsed structure: a flat atom list plus lookup tables.
 
-Fields: `atoms`, `source`, `chem_comp_smiles`, `plddt_scale`, `qa_metrics`, `links`, `model`.
+Fields: `atoms`, `source`, `chem_comp_smiles`, `plddt_scale`, `qa_metrics`, `links`, `model`, `accessions`.
 
 | | |
 |---|---|
@@ -196,6 +196,8 @@ Fields: `atoms`, `source`, `chem_comp_smiles`, `plddt_scale`, `qa_metrics`, `lin
 | `.residue_name(key)` | The name of a residue, as the file gives it. |
 | `.find_residue(chain, number, icode='')` | Locate a residue by number; `chain=None` matches any chain if unique. |
 | `.declares_plddt` | Does the file itself say that its B-factor column is a per-atom pLDDT? |
+| `.chains_of(accession)` | The chains that the file assigns to an entry of a sequence database, by their author names, in the order of the file: a UniProt accession (`"P69905"`), or that of an isoform (`"P27348-2"`) where the file names the isoform. |
+| `.chain_of(accession)` | The one chain that the file assigns to an entry of a sequence database (`chains_of`): for a caller who knows a protein by its accession and not by the name of its chain in this file. |
 | `.polymer_residues(chain)` | The residues of `chain` that make up its polymer, in file order. |
 | `.split(chain, parts)` | The structure with stretches of `chain` under chain names of their own. |
 | `.with_chain_as_ligand(chain)` | The structure with the polymer of `chain` turned into one ligand residue. |

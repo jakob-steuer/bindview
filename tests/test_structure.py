@@ -417,3 +417,85 @@ def test_a_pair_selects_a_residue_by_its_number_with_or_without_an_insertion_cod
     for wrong in (("A", "the first"), ("A", 698, "A"), ("A",)):
         with pytest.raises(LigandNotFoundError, match="cannot parse ligand selection"):
             st.select_ligand(wrong)
+
+
+# -- a chain by the protein it is -----------------------------------------------------------------------
+
+def test_a_chain_is_found_by_the_accession_of_its_protein():
+    """Hemoglobin's two chains are two proteins; thrombin's light and heavy chains are one, and hirudin
+    another. The file names the chain by its author name, which is what the figures call it."""
+    hb = read_structure(model_of("hb_carbon_monoxide"))
+    assert (hb.chain_of("P69905"), hb.chain_of(" p68871 ")) == ("A", "B")
+    thrombin = read_structure(model_of("thrombin_hirudin"))
+    assert thrombin.chain_of("P28501") == "H" and thrombin.chains_of("P00734") == ["A", "B"]
+    afdb = read_structure(TESTDATA / "interface_pae" / "afdb_fah" / "model.cif.gz")
+    assert afdb.chain_of("P16930") == "A"
+    # The labels of the Fab's chains are not their names: lysozyme is chain C, whose label_asym_id is A.
+    assert read_structure(model_of("fab_lysozyme")).chain_of("P00698") == "C"
+
+
+def test_an_accession_of_no_chain_or_of_several_is_an_error_that_says_what_the_file_assigns():
+    """Two copies of the receptor and of the coactivator: the accession does not say which is meant, and
+    no chain is chosen in its place."""
+    gr = read_structure(model_of("gr_dexamethasone"))
+    assert gr.chains_of("P04150") == ["A", "D"] and gr.chains_of("Q15596") == ["B", "E"]
+    with pytest.raises(StructureError, match=r"assigns P04150 to 2 chains \(A, D\): which of them is meant has to "
+                                             r"be said by its name"):
+        gr.chain_of("P04150")
+    with pytest.raises(StructureError, match=r"assigns Q04917 to no chain \(chain A: P69905; chain B: P68871\)"):
+        read_structure(model_of("hb_carbon_monoxide")).chain_of("Q04917")
+    with pytest.raises(StructureError, match=r"assigns P69905 to no chain: it assigns no entry of a sequence "
+                                             r"database to any chain \(no _struct_ref\)"):
+        parse_mmcif(MINI_CIF).chain_of("P69905")
+
+
+REFERENCED = """data_made
+_struct_ref.id                 1
+_struct_ref.db_name            UNP
+_struct_ref.pdbx_db_accession  P27348
+_struct_ref.pdbx_db_isoform    P27348-2
+loop_
+_struct_ref_seq.align_id
+_struct_ref_seq.ref_id
+_struct_ref_seq.pdbx_strand_id
+_struct_ref_seq.pdbx_db_accession
+1 1 A P27348
+2 1 B P27348
+3 2 C Q04917
+4 3 C P61981
+loop_
+_atom_site.group_PDB
+_atom_site.id
+_atom_site.type_symbol
+_atom_site.label_atom_id
+_atom_site.label_comp_id
+_atom_site.label_asym_id
+_atom_site.label_seq_id
+_atom_site.Cartn_x
+_atom_site.Cartn_y
+_atom_site.Cartn_z
+_atom_site.auth_seq_id
+_atom_site.auth_asym_id
+ATOM 1 C CA ALA A 1 0.0 0.0 0.0 1 A
+ATOM 2 C CA ALA B 1 5.0 0.0 0.0 1 B
+ATOM 3 C CA ALA C 1 9.0 0.0 0.0 1 C
+"""
+
+
+def test_one_entry_serves_both_chains_of_a_homodimer_and_one_chain_two_entries():
+    """The rows of the two lists are joined by the entry they name, not by their places: a homodimer is
+    one row of ``_struct_ref`` and two of ``_struct_ref_seq``, and joined by place its second chain would be
+    lost. A chain whose entries ``_struct_ref`` does not list (2 and 3) has those of its own row."""
+    st = parse_mmcif(REFERENCED, "made.cif")
+    assert st.accessions == {"A": ("P27348", "P27348-2"), "B": ("P27348", "P27348-2"), "C": ("Q04917", "P61981")}
+    assert st.chains_of("P27348") == st.chains_of("p27348-2") == ["A", "B"]
+    assert st.chain_of("Q04917") == st.chain_of("P61981") == "C"
+    # A chain the file names and that has no atom is not one of the structure's.
+    gone = parse_mmcif(REFERENCED.replace("ATOM 2 C CA ALA B 1 5.0 0.0 0.0 1 B\n", ""))
+    assert gone.chain_of("P27348") == "A"
+
+
+def test_the_parts_of_a_chain_are_of_its_protein():
+    afdb = read_structure(TESTDATA / "interface_pae" / "afdb_fah" / "model.cif.gz")
+    cut = afdb.split("A", {"X": (18, 115), "Y": (128, 419)})
+    assert cut.chains_of("P16930") == ["A", "X", "Y"] and afdb.chains_of("P16930") == ["A"]
