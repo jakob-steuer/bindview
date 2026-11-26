@@ -1,0 +1,50 @@
+# A release on GitHub is published to PyPI. No token is stored: PyPI trusts this workflow (a trusted publisher,
+# set up once on pypi.org for this repository, this file and the environment "pypi"). The package is built and
+# checked in a job of its own; only the job that uploads it may ask GitHub for the identity PyPI checks.
+name: publish
+
+on:
+  release:
+    types: [published]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
+        with:
+          python-version: "3.12"
+      - name: Build
+        run: |
+          pip install build twine
+          python -m build
+      - name: The release is of the version the package says
+        run: |
+          version=$(python -c 'import tomllib; print(tomllib.load(open("pyproject.toml", "rb"))["project"]["version"])')
+          test "v$version" = "$GITHUB_REF_NAME" || { echo "release $GITHUB_REF_NAME, package $version"; exit 1; }
+      - name: The description renders on PyPI, with no path that leads nowhere there
+        run: |
+          python -m twine check --strict dist/*
+          if unzip -p dist/*.whl '*/METADATA' | grep -nE '(src|srcset|href)="(docs|testdata|prototype)/|\]\((docs|testdata|prototype)/'; then
+            exit 1
+          fi
+      - uses: actions/upload-artifact@v7
+        with:
+          name: dist
+          path: dist/
+
+  publish:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: pypi
+      url: https://pypi.org/p/bindview
+    permissions:
+      id-token: write
+    steps:
+      - uses: actions/download-artifact@v8
+        with:
+          name: dist
+          path: dist/
+      - uses: pypa/gh-action-pypi-publish@release/v1
