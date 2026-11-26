@@ -11,9 +11,10 @@ authors:
     orcid: "https://orcid.org/0000-0003-3437-2075"
     affiliation: >-
       FHNW University of Applied Sciences and Arts Northwestern Switzerland, School of Life Sciences,
-      Institute for Chemistry and Bioanalytics, Data Science in the Life Sciences group
+      Institute for Chemistry and Bioanalytics, Data Science in Life Sciences
 repository-code: "https://github.com/jakob-steuer/bindview"
 version: "0.1.0"
+date-released: "2026-11-26"
 license: MIT
 keywords:
   - cheminformatics

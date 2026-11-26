@@ -1,6 +1,6 @@
 # Changelog
 
-## 0.1.0 - unreleased
+## 0.1.0 - 2026-11-26
 
 bindview draws molecular interaction diagrams as SVG, from a structure file and a table of contacts ([manual](docs/manual.md)).
 
