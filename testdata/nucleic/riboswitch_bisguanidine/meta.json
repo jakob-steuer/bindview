@@ -1,0 +1,15 @@
+{
+  "slug": "riboswitch_bisguanidine",
+  "what": "A guanidine-II riboswitch dimer (two chains of 18 nucleotides, the two hairpins) with a bivalent ligand between its two binding pockets: the first frame of a molecular dynamics system, with its hydrogens and without water. The test case for a ligand whose partner is RNA.",
+  "source": "https://github.com/jakob-steuer/FHNW-Summer-School-2025-MolSim-Analysis (data/structure.pdb), MIT licence",
+  "sha256": "c6073a334573bec8dee6cec687d0b179177edefd2fd6ab953613f6c347a86327",
+  "ligand": {
+    "name": "bis-guanidine",
+    "residue_name_in_cif": "BGD",
+    "smiles": "NC(=[NH2+])NCCCCNC(N)=[NH2+]",
+    "smiles_from": "read off the ligand's bonds and its 18 hydrogens in the model: 1,4-diguanidinobutane with both guanidines protonated. Not given by the source.",
+    "residue_name_note": "BGD is the simulation's own name for the ligand. The PDB's chemical component of that name is another molecule."
+  },
+  "contacts": "interactions.tsv: PLIP 3.0.1 through bindview.detect.detect_interactions(receptor='nucleic'). With the receptor left at 'protein' PLIP finds 0 contacts here.",
+  "state": "One guanidinium sits in the pocket of chain B; the other touches only the phosphate of A8 of chain A."
+}

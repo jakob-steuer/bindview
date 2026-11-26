@@ -1,0 +1,24 @@
+{
+ "slug": "u1a_rna",
+ "what": "the U1A protein on an RNA hairpin",
+ "source": {
+  "archive": "RCSB Protein Data Bank",
+  "entry": "1URN",
+  "address": "https://files.rcsb.org/download/1URN.cif.gz",
+  "licence": "CC0 1.0 (the archive's data are in the public domain)",
+  "file": "model.cif.gz",
+  "file_is": "the archive's file, unpacked and packed again (gzip, no time stamp)",
+  "sha256": "4ead501f8ebc449da9b9d88241a6c0ec3a5bf6e0a7c5bac012eec855b218e345",
+  "title": "U1A mutant/RNA complex + glycerol"
+ },
+ "chains": {
+  "P": "an RNA hairpin of 21 nucleotides",
+  "Q": "the hairpin of the second copy",
+  "R": "the hairpin of the third copy",
+  "A": "U1A, its N-terminal RNP domain of 97 residues, on hairpin P",
+  "B": "U1A of the second copy",
+  "C": "U1A of the third copy"
+ },
+ "chain_names": "the authors' (auth_asym_id)",
+ "why_this_case": "A protein on RNA; some nucleotides are modelled in part."
+}

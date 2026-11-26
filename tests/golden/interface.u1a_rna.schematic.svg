@@ -1,0 +1,379 @@
+<svg xmlns="http://www.w3.org/2000/svg" class="bindview" width="333.66" height="604.72" viewBox="0 0 333.66 604.72" font-family="Helvetica, Arial, 'Liberation Sans', sans-serif" role="img">
+ <title>chain A – chain P</title>
+ <rect class="background" width="333.66" height="604.72" fill="#ffffff"/>
+ <g class="diagram" transform="translate(173.32 39.04)">
+  <g class="backdrop">
+   <rect x="-19.75" y="68.75" width="39.5" height="24.5" rx="8.75" fill="#c9ced6" opacity="0.55"/>
+   <g class="lining" data-residues="A:GLU19" data-surface="negative">
+    <title>Lining, charged (−): Glu19</title>
+    <polyline points="-34.21,26.04 -34.16,29 -33.8,31.94 -33.26,34.86 -32.77,37.74 -32.59,40.61 -32.8,43.48 -33.3,46.37 -33.83,49.28 -34.17,52.23" fill="none" stroke="#f4a98a" stroke-width="4.4" stroke-linecap="round" stroke-linejoin="round" opacity="0.62"/>
+   </g>
+   <g class="lining" data-residues="A:ARG52" data-surface="positive">
+    <title>Lining, charged (+): Arg52</title>
+    <polyline points="-34.2,55.19 -33.92,58.14 -33.41,61.07 -32.88,63.96 -32.59,66.83" fill="none" stroke="#a9a6f0" stroke-width="4.4" stroke-linecap="round" stroke-linejoin="round" opacity="0.62"/>
+   </g>
+   <g class="lining" data-residues="A:GLU19" data-surface="negative">
+    <title>Lining, charged (−): Glu19</title>
+    <polyline points="-32.7,69.7 -33.15,72.58 -33.71,75.48 -34.12,78.42 -34.25,81.39 -34.04,84.34 -33.56,87.28 -32.98,90.17 -32.58,93.05" fill="none" stroke="#f4a98a" stroke-width="4.4" stroke-linecap="round" stroke-linejoin="round" opacity="0.62"/>
+   </g>
+   <g class="lining" data-residues="A:ARG52 A:ASN15 A:LYS50" data-surface="polar">
+    <title>Lining, polar: Arg52, Asn15, Lys50</title>
+    <polyline points="-32.58,95.92 -32.98,98.79 -33.56,101.69 -34.03,104.62 -34.24,107.58 -34.12,110.54 -33.72,113.48 -33.16,116.39 -32.7,119.27 -32.59,122.14 -32.87,125.01 -33.41,127.9 -33.91,130.82 -34.2,133.77 -34.17,136.74 -33.84,139.68 -33.31,142.6 -32.81,145.49 -32.59,148.36 -32.77,151.23 -33.25,154.11" fill="none" stroke="#9fdcee" stroke-width="4.4" stroke-linecap="round" stroke-linejoin="round" opacity="0.62"/>
+   </g>
+   <g class="lining" data-residues="A:LYS50 A:ARG52" data-surface="positive">
+    <title>Lining, charged (+): Lys50, Arg52</title>
+    <polyline points="-33.79,157.02 -34.15,159.97 -34.22,162.93 -33.96,165.88 -33.46,168.81 -32.91,171.7 -32.59,174.57 -32.66,177.44 -33.1,180.32 -33.67,183.22 -34.11,186.16 -34.26,189.12" fill="none" stroke="#a9a6f0" stroke-width="4.4" stroke-linecap="round" stroke-linejoin="round" opacity="0.62"/>
+   </g>
+   <g class="lining" data-residues="A:THR89 A:ASP90" data-surface="polar">
+    <title>Lining, polar: Thr89, Asp90</title>
+    <polyline points="-34.08,192.08 -33.63,195.02 -33.05,197.92 -32.63,200.8 -32.59,203.66 -32.95,206.54 -33.51,209.43 -34,212.36 -34.23,215.32 -34.14,218.28 -33.72,221.21 -32.98,224.08 -31.92,226.85 -30.57,229.49 -28.94,231.96 -27.04,234.24 -24.91,236.29 -22.56,238.1" fill="none" stroke="#9fdcee" stroke-width="4.4" stroke-linecap="round" stroke-linejoin="round" opacity="0.62"/>
+   </g>
+   <g class="lining" data-residues="A:LEU49 A:ASP92 A:SER91 A:GLN85 A:TYR86" data-surface="polar">
+    <title>Lining, polar: Leu49, Asp92, Ser91, Gln85, Tyr86</title>
+    <polyline points="-8.66,242.83 -5.67,243.01 -2.67,243.08 0.33,243.09 3.33,243.07 6.33,242.99 9.31,242.76 12.26,242.33 15.14,241.62 17.92,240.61 20.58,239.3 23.08,237.71 25.39,235.85 27.48,233.75 29.33,231.43 30.9,228.92 32.18,226.25 33.16,223.45 33.83,220.57 34.18,217.62 34.19,214.66 33.9,211.71 33.38,208.79 32.86,205.9 32.58,203.03 32.71,200.16 33.18,197.28 33.73,194.37 34.13,191.43 34.24,188.47 34.02,185.52 33.54,182.59 32.96,179.69 32.58,176.81 32.6,173.95 33.01,171.07 33.59,168.17 34.06,165.24 34.25,162.28 34.12,159.32 33.7,156.38 33.13,153.48 32.68,150.6 32.58,147.73" fill="none" stroke="#9fdcee" stroke-width="4.4" stroke-linecap="round" stroke-linejoin="round" opacity="0.62"/>
+   </g>
+   <g class="lining" data-residues="A:LYS88" data-surface="hydrophobic">
+    <title>Lining, hydrophobic: Lys88</title>
+    <polyline points="32.89,144.86 33.43,141.97 33.93,139.04 34.21,136.09 34.16,133.13" fill="none" stroke="#b8dc7a" stroke-width="4.4" stroke-linecap="round" stroke-linejoin="round" opacity="0.62"/>
+   </g>
+   <g class="lining" data-residues="A:LYS88" data-surface="polar">
+    <title>Lining, polar: Lys88</title>
+    <polyline points="33.82,130.18 33.28,127.27 32.79,124.38 32.58,121.51 32.78,118.65" fill="none" stroke="#9fdcee" stroke-width="4.4" stroke-linecap="round" stroke-linejoin="round" opacity="0.62"/>
+   </g>
+   <g class="lining" data-residues="A:TYR13" data-surface="hydrophobic">
+    <title>Lining, hydrophobic: Tyr13</title>
+    <polyline points="33.28,115.76 33.81,112.85 34.16,109.9 34.21,106.94 33.94,103.99 33.44,101.06 32.89,98.17" fill="none" stroke="#b8dc7a" stroke-width="4.4" stroke-linecap="round" stroke-linejoin="round" opacity="0.62"/>
+   </g>
+   <g class="lining" data-residues="A:ASN16" data-surface="polar">
+    <title>Lining, polar: Asn16</title>
+    <polyline points="32.58,95.3 32.68,92.43 33.13,89.55 33.69,86.65 34.12,83.71 34.25,80.75 34.06,77.79 33.6,74.86 33.02,71.96 32.6,69.08 32.58,66.21 32.96,63.34" fill="none" stroke="#9fdcee" stroke-width="4.4" stroke-linecap="round" stroke-linejoin="round" opacity="0.62"/>
+   </g>
+   <g class="lining" data-residues="A:LYS80" data-surface="positive">
+    <title>Lining, charged (+): Lys80</title>
+    <polyline points="33.53,60.44 34.01,57.51 34.24,54.56 34.13,51.6 33.74,48.66 33.18,45.75 32.72,42.87 32.58,40 32.85,37.13 33.38,34.24 33.89,31.32 34.19,28.37" fill="none" stroke="#a9a6f0" stroke-width="4.4" stroke-linecap="round" stroke-linejoin="round" opacity="0.62"/>
+   </g>
+   <g class="lining" data-residues="A:LYS22" data-surface="positive">
+    <title>Lining, charged (+): Lys22</title>
+    <polyline points="-26.46,-18.84 -28.43,-16.63 -30.15,-14.21 -31.59,-11.62 -32.74,-8.89 -33.57,-6.04 -34.08,-3.12 -34.26,-0.16 -34.11,2.8 -33.68,5.74 -33.11,8.65 -32.67,11.53 -32.59,14.39 -32.91,17.27 -33.45,20.16" fill="none" stroke="#a9a6f0" stroke-width="4.4" stroke-linecap="round" stroke-linejoin="round" opacity="0.62"/>
+   </g>
+  </g>
+  <g class="interactions">
+   <g class="interaction hydrophobic" data-distance="3.47" data-ligand-atoms="10/C5" data-ligand-part="base" data-ligand-residue="C10" data-protein-atoms="CD2" data-residue="A:TYR13" data-type="hydrophobic">
+    <title>Hydrophobic contact: Tyr13 CD2 – C 10 of chain P (base: 10/C5), 3.47 Å</title>
+    <line x1="65.45" y1="104.55" x2="15.9" y2="127.6" fill="none" stroke="#5b6472" stroke-width="0.81" stroke-linejoin="round"/>
+   </g>
+   <g class="interaction hbond" data-distance="2.99" data-ligand-atoms="9/N7" data-ligand-part="base" data-ligand-residue="G9" data-protein-atoms="ND2" data-residue="A:ASN15" data-type="hbond">
+    <title>Hydrogen bond: Asn15 ND2 – G 9 of chain P (base: 9/N7), 2.99 Å</title>
+    <polygon points="-15.72,115.6 -20.39,120.64 -22.57,116.14" fill="#c026d3"/>
+    <line x1="-47.15" y1="130.81" x2="-20.61" y2="117.97" fill="none" stroke="#c026d3" stroke-width="1.35" stroke-linejoin="round" stroke-dasharray="4.2 2.6"/>
+   </g>
+   <g class="interaction hbond" data-distance="2.81" data-ligand-atoms="8/N3" data-ligand-part="base" data-ligand-residue="U8" data-protein-atoms="OD1" data-residue="A:ASN16" data-type="hbond">
+    <title>Hydrogen bond: Asn16 OD1 – U 8 of chain P (base: 8/N3), 2.81 Å</title>
+    <polygon points="44.88,68.96 38.05,68.2 39.35,73.03" fill="#c026d3"/>
+    <line x1="39.63" y1="70.37" x2="17.65" y2="76.26" fill="none" stroke="#c026d3" stroke-width="1.35" stroke-linejoin="round" stroke-dasharray="4.2 2.6"/>
+   </g>
+   <g class="interaction hbond" data-distance="3.04" data-ligand-atoms="9/O6" data-ligand-part="base" data-ligand-residue="G9" data-protein-atoms="N" data-residue="A:ASN16" data-type="hbond">
+    <title>Hydrogen bond: Asn16 N – G 9 of chain P (base: 9/O6), 3.04 Å</title>
+    <polygon points="13.38,98.47 17.14,92.72 20.04,96.79" fill="#c026d3"/>
+    <line x1="47.38" y1="74.25" x2="17.81" y2="95.32" fill="none" stroke="#c026d3" stroke-width="1.35" stroke-linejoin="round"/>
+   </g>
+   <g class="interaction hbond" data-distance="2.61" data-ligand-atoms="9/N2,9/N1" data-ligand-part="base" data-ligand-residue="G9" data-protein-atoms="OE2" data-residue="A:GLU19" data-type="hbond">
+    <title>Hydrogen bond: Glu19 OE2 – G 9 of chain P (base: 9/N2), 2.61 Å; Hydrogen bond: Glu19 OE2 – G 9 of chain P (base: 9/N1), 2.97 Å</title>
+    <polygon points="-53.15,56.48 -50.3,62.73 -46.82,59.14" fill="#c026d3"/>
+    <line x1="-49.25" y1="60.27" x2="-10.96" y2="97.38" fill="none" stroke="#c026d3" stroke-width="1.35" stroke-linejoin="round" stroke-dasharray="4.2 2.6"/>
+   </g>
+   <g class="interaction hbond" data-distance="2.78" data-ligand-atoms="7/N3" data-ligand-part="base" data-ligand-residue="U7" data-protein-atoms="OE1" data-residue="A:GLU19" data-type="hbond">
+    <title>Hydrogen bond: Glu19 OE1 – U 7 of chain P (base: 7/N3), 2.78 Å</title>
+    <polygon points="-48.66,47.26 -42.66,50.62 -41.97,45.66" fill="#c026d3"/>
+    <line x1="-43.27" y1="48.01" x2="-18.41" y2="51.45" fill="none" stroke="#c026d3" stroke-width="1.35" stroke-linejoin="round" stroke-dasharray="4.2 2.6"/>
+   </g>
+   <g class="interaction saltbridge" data-distance="2.96" data-ligand-atoms="2/OP1,2/OP2" data-ligand-part="backbone" data-ligand-residue="A2" data-protein-atoms="NZ" data-residue="A:LYS22" data-type="saltbridge">
+    <title>Salt bridge: Lys22 NZ – A 2 of chain P (backbone: 2/OP1, 2/OP2), 2.96 Å</title>
+    <line x1="-44.97" y1="-0.16" x2="-18.7" y2="-0.07" fill="none" stroke="#2563eb" stroke-width="2.36" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0.01 3.7"/>
+   </g>
+   <g class="interaction hbond" data-distance="3.07" data-ligand-atoms="16/OP1" data-ligand-part="backbone" data-ligand-residue="G16" data-protein-atoms="N" data-residue="A:LEU49" data-type="hbond">
+    <title>Hydrogen bond: Leu49 N – G 16 of chain P (backbone: 16/OP1), 3.07 Å</title>
+    <polygon points="4.94,227.2 9.82,232.05 5.24,234.06" fill="#c026d3"/>
+    <line x1="20.06" y1="261.44" x2="7.14" y2="232.18" fill="none" stroke="#c026d3" stroke-width="1.35" stroke-linejoin="round"/>
+   </g>
+   <g class="interaction hbond" data-distance="2.50" data-ligand-atoms="9/O2'" data-ligand-part="backbone" data-ligand-residue="G9" data-protein-atoms="O" data-residue="A:LYS50" data-type="hbond">
+    <title>Hydrogen bond: Lys50 O – G 9 of chain P (backbone: 9/O2'), 2.50 Å</title>
+    <polygon points="-76.08,177.19 -69.66,174.73 -73.03,171.03" fill="#c026d3"/>
+    <line x1="-72.06" y1="173.53" x2="-11.46" y2="118.43" fill="none" stroke="#c026d3" stroke-width="1.35" stroke-linejoin="round"/>
+   </g>
+   <g class="interaction saltbridge" data-distance="3.10" data-ligand-atoms="11/OP1,11/OP2" data-ligand-part="backbone" data-ligand-residue="A11" data-protein-atoms="NZ" data-residue="A:LYS50" data-type="saltbridge">
+    <title>Salt bridge: Lys50 NZ – A 11 of chain P (backbone: 11/OP1, 11/OP2), 3.10 Å</title>
+    <line x1="-72.47" y1="183.58" x2="-17.42" y2="167.19" fill="none" stroke="#2563eb" stroke-width="2.36" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0.01 3.7"/>
+   </g>
+   <g class="interaction hbond" data-distance="2.76" data-ligand-atoms="6/N1" data-ligand-part="base" data-ligand-residue="A6" data-protein-atoms="NH1" data-residue="A:ARG52" data-type="hbond">
+    <title>Hydrogen bond: Arg52 NH1 – A 6 of chain P (base: 6/N1), 2.76 Å</title>
+    <polygon points="-11.38,37.46 -14.4,43.63 -17.78,39.95" fill="#c026d3"/>
+    <line x1="-94.91" y1="114.22" x2="-15.38" y2="41.14" fill="none" stroke="#c026d3" stroke-width="1.35" stroke-linejoin="round" stroke-dasharray="4.2 2.6"/>
+   </g>
+   <g class="interaction hbond" data-distance="3.01" data-ligand-atoms="16/N7,16/O6" data-ligand-part="base" data-ligand-residue="G16" data-protein-atoms="NH2" data-residue="A:ARG52" data-type="hbond">
+    <title>Hydrogen bond: Arg52 NH2 – G 16 of chain P (base: 16/N7), 3.01 Å; Hydrogen bond: Arg52 NH1 – G 16 of chain P (base: 16/O6), 3.23 Å</title>
+    <polygon points="-12.12,205.8 -18.62,203.59 -15.4,199.77" fill="#c026d3"/>
+    <line x1="-94.42" y1="136.53" x2="-16.28" y2="202.3" fill="none" stroke="#c026d3" stroke-width="1.35" stroke-linejoin="round" stroke-dasharray="4.2 2.6"/>
+   </g>
+   <g class="interaction hbond" data-distance="3.17" data-ligand-atoms="9/N1,9/N2" data-ligand-part="base" data-ligand-residue="G9" data-protein-atoms="O" data-residue="A:ARG52" data-type="hbond">
+    <title>Hydrogen bond: Arg52 O – G 9 of chain P (base: 9/N1), 3.17 Å; Hydrogen bond: Arg52 O – G 9 of chain P (base: 9/N2), 3.45 Å</title>
+    <polygon points="-90.68,122.91 -83.96,124.34 -84.77,119.4" fill="#c026d3"/>
+    <line x1="-85.31" y1="122.03" x2="-18.29" y2="111.01" fill="none" stroke="#c026d3" stroke-width="1.35" stroke-linejoin="round"/>
+   </g>
+   <g class="interaction hbond" data-distance="3.07" data-ligand-atoms="8/O4" data-ligand-part="base" data-ligand-residue="U8" data-protein-atoms="NZ" data-residue="A:LYS80" data-type="hbond">
+    <title>Hydrogen bond: Lys80 NZ – U 8 of chain P (base: 8/O4), 3.07 Å</title>
+    <polygon points="11.08,70.4 13.98,64.17 17.43,67.78" fill="#c026d3"/>
+    <line x1="48.9" y1="34.22" x2="15.01" y2="66.64" fill="none" stroke="#c026d3" stroke-width="1.35" stroke-linejoin="round" stroke-dasharray="4.2 2.6"/>
+   </g>
+   <g class="interaction hbond" data-distance="2.97" data-ligand-atoms="10/N4" data-ligand-part="base" data-ligand-residue="C10" data-protein-atoms="OE1" data-residue="A:GLN85" data-type="hbond">
+    <title>Hydrogen bond: Gln85 OE1 – C 10 of chain P (base: 10/N4), 2.97 Å</title>
+    <polygon points="46.13,166.46 42.25,160.79 39.43,164.92" fill="#c026d3"/>
+    <line x1="41.63" y1="163.39" x2="13.68" y2="144.33" fill="none" stroke="#c026d3" stroke-width="1.35" stroke-linejoin="round" stroke-dasharray="4.2 2.6"/>
+   </g>
+   <g class="interaction hbond" data-distance="2.96" data-ligand-atoms="10/N4" data-ligand-part="base" data-ligand-residue="C10" data-protein-atoms="O" data-residue="A:TYR86" data-type="hbond">
+    <title>Hydrogen bond: Tyr86 O – C 10 of chain P (base: 10/N4), 2.96 Å</title>
+    <polygon points="78.92,155.69 73.36,151.65 72.09,156.49" fill="#c026d3"/>
+    <line x1="73.66" y1="154.31" x2="17.69" y2="139.64" fill="none" stroke="#c026d3" stroke-width="1.35" stroke-linejoin="round"/>
+   </g>
+   <g class="interaction hbond" data-distance="3.03" data-ligand-atoms="10/N3,10/O2" data-ligand-part="base" data-ligand-residue="C10" data-protein-atoms="N" data-residue="A:LYS88" data-type="hbond">
+    <title>Hydrogen bond: Lys88 N – C 10 of chain P (base: 10/N3), 3.03 Å; Hydrogen bond: Lys88 N – C 10 of chain P (base: 10/O2), 3.42 Å</title>
+    <polygon points="17.44,129.86 23.66,126.95 23.99,131.94" fill="#c026d3"/>
+    <line x1="45.72" y1="128.01" x2="22.87" y2="129.51" fill="none" stroke="#c026d3" stroke-width="1.35" stroke-linejoin="round"/>
+   </g>
+   <g class="interaction hydrophobic" data-distance="3.48" data-ligand-atoms="10/C5" data-ligand-part="base" data-ligand-residue="C10" data-protein-atoms="CD" data-residue="A:LYS88" data-type="hydrophobic">
+    <title>Hydrophobic contact: Lys88 CD – C 10 of chain P (base: 10/C5), 3.48 Å</title>
+    <line x1="45.72" y1="136.01" x2="18.34" y2="137.8" fill="none" stroke="#5b6472" stroke-width="0.81" stroke-linejoin="round"/>
+   </g>
+   <g class="interaction hbond" data-distance="2.86" data-ligand-atoms="11/N6" data-ligand-part="base" data-ligand-residue="A11" data-protein-atoms="O" data-residue="A:THR89" data-type="hbond">
+    <title>Hydrogen bond: Thr89 O – A 11 of chain P (base: 11/N6), 2.86 Å</title>
+    <polygon points="-49.02,204.64 -42.55,202.33 -45.83,198.55" fill="#c026d3"/>
+    <line x1="-44.92" y1="201.07" x2="-11.85" y2="172.31" fill="none" stroke="#c026d3" stroke-width="1.35" stroke-linejoin="round"/>
+   </g>
+   <g class="interaction hbond" data-distance="3.33" data-ligand-atoms="12/N4" data-ligand-part="base" data-ligand-residue="C12" data-protein-atoms="OG1" data-residue="A:THR89" data-type="hbond">
+    <title>Hydrogen bond: Thr89 OG1 – C 12 of chain P (base: 12/N4), 3.33 Å</title>
+    <polygon points="-46.32,208.94 -39.45,208.71 -41.43,204.12" fill="#c026d3"/>
+    <line x1="-41.32" y1="206.79" x2="-16.24" y2="196" fill="none" stroke="#c026d3" stroke-width="1.35" stroke-linejoin="round" stroke-dasharray="4.2 2.6"/>
+   </g>
+   <g class="interaction hbond" data-distance="2.86" data-ligand-atoms="12/N4" data-ligand-part="base" data-ligand-residue="C12" data-protein-atoms="O" data-residue="A:ASP90" data-type="hbond">
+    <title>Hydrogen bond: Asp90 O – C 12 of chain P (base: 12/N4), 2.86 Å</title>
+    <polygon points="-51.5,241.93 -45.25,239.09 -48.83,235.6" fill="#c026d3"/>
+    <line x1="-47.71" y1="238.03" x2="-10.48" y2="199.77" fill="none" stroke="#c026d3" stroke-width="1.35" stroke-linejoin="round"/>
+   </g>
+   <g class="interaction hbond" data-distance="2.76" data-ligand-atoms="11/N1,11/N6" data-ligand-part="base" data-ligand-residue="A11" data-protein-atoms="OG" data-residue="A:SER91" data-type="hbond">
+    <title>Hydrogen bond: Ser91 OG – A 11 of chain P (base: 11/N1), 2.76 Å; Hydrogen bond: Ser91 OG – A 11 of chain P (base: 11/N6), 3.41 Å</title>
+    <polygon points="12.04,172.22 18.54,174.46 15.31,178.27" fill="#c026d3"/>
+    <line x1="48.55" y1="203.2" x2="16.19" y2="175.74" fill="none" stroke="#c026d3" stroke-width="1.35" stroke-linejoin="round" stroke-dasharray="4.2 2.6"/>
+   </g>
+   <g class="interaction hbond" data-distance="3.03" data-ligand-atoms="12/N3,12/O2" data-ligand-part="base" data-ligand-residue="C12" data-protein-atoms="N" data-residue="A:ASP92" data-type="hbond">
+    <title>Hydrogen bond: Asp92 N – C 12 of chain P (base: 12/N3), 3.03 Å; Hydrogen bond: Asp92 N – C 12 of chain P (base: 12/O2), 3.19 Å</title>
+    <polygon points="10.54,199.75 16.8,202.57 13.23,206.07" fill="#c026d3"/>
+    <line x1="50.53" y1="240.55" x2="14.35" y2="203.64" fill="none" stroke="#c026d3" stroke-width="1.35" stroke-linejoin="round"/>
+   </g>
+  </g>
+  <g class="ligand" data-drawn-as="chain">
+   <g class="backbone">
+    <line x1="0" y1="8.5" x2="0" y2="18.5" fill="none" stroke="#1f2933" stroke-width="1.27" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0.01 3.2" opacity="0.7"/>
+    <line x1="0" y1="35.5" x2="0" y2="45.5" fill="none" stroke="#1f2933" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="0" y1="62.5" x2="0" y2="72.5" fill="none" stroke="#1f2933" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="0" y1="89.5" x2="0" y2="99.5" fill="none" stroke="#1f2933" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="0" y1="116.5" x2="0" y2="126.5" fill="none" stroke="#1f2933" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="0" y1="143.5" x2="0" y2="153.5" fill="none" stroke="#1f2933" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="0" y1="170.5" x2="0" y2="180.5" fill="none" stroke="#1f2933" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="0" y1="197.5" x2="0" y2="207.5" fill="none" stroke="#1f2933" stroke-width="1.27" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0.01 3.2" opacity="0.7"/>
+    <line x1="0" y1="-17.5" x2="0" y2="-8.5" fill="none" stroke="#1f2933" stroke-width="1.27" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0.01 3.2" opacity="0.7"/>
+    <line x1="0" y1="224.5" x2="0" y2="233.5" fill="none" stroke="#1f2933" stroke-width="1.27" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0.01 3.2" opacity="0.7"/>
+   </g>
+   <g class="bonds">
+   </g>
+   <g class="units">
+    <g class="unit" data-atoms="2/P,2/OP1,2/OP2,2/O5',2/C5',2/C4',2/O4',2/C3',2/O3',2/C2',2/O2',2/C1',2/N9,2/C8,2/N7,2/C5,2/C6,2/N6,2/N1,2/C2,2/N3,2/C4" data-class="nucleotide" data-position="1" data-residue="A">
+     <title>A 2 of chain P (numbered as in the structure file)</title>
+     <rect x="-16" y="-8.5" width="32" height="17" rx="5" fill="#ffffff" stroke="#1f2933" stroke-width="1.15" stroke-linecap="round" stroke-linejoin="round"/>
+     <text x="0" y="3.77" font-size="10.5" text-anchor="middle" fill="#1f2933"><tspan font-weight="bold">A</tspan><tspan font-size="8" fill="#667085"> 2</tspan></text>
+    </g>
+    <g class="unit" data-atoms="6/P,6/OP1,6/OP2,6/O5',6/C5',6/C4',6/O4',6/C3',6/O3',6/C2',6/O2',6/C1',6/N9,6/C8,6/N7,6/C5,6/C6,6/N6,6/N1,6/C2,6/N3,6/C4" data-class="nucleotide" data-position="2" data-residue="A">
+     <title>A 6 of chain P (numbered as in the structure file)</title>
+     <rect x="-16" y="18.5" width="32" height="17" rx="5" fill="#ffffff" stroke="#1f2933" stroke-width="1.15" stroke-linecap="round" stroke-linejoin="round"/>
+     <text x="0" y="30.77" font-size="10.5" text-anchor="middle" fill="#1f2933"><tspan font-weight="bold">A</tspan><tspan font-size="8" fill="#667085"> 6</tspan></text>
+    </g>
+    <g class="unit" data-atoms="7/P,7/OP1,7/OP2,7/O5',7/C5',7/C4',7/O4',7/C3',7/O3',7/C2',7/O2',7/C1',7/N1,7/C2,7/O2,7/N3,7/C4,7/O4,7/C5,7/C6" data-class="nucleotide" data-position="3" data-residue="U">
+     <title>U 7 of chain P (numbered as in the structure file)</title>
+     <rect x="-16" y="45.5" width="32" height="17" rx="5" fill="#ffffff" stroke="#1f2933" stroke-width="1.15" stroke-linecap="round" stroke-linejoin="round"/>
+     <text x="0" y="57.77" font-size="10.5" text-anchor="middle" fill="#1f2933"><tspan font-weight="bold">U</tspan><tspan font-size="8" fill="#667085"> 7</tspan></text>
+    </g>
+    <g class="unit" data-atoms="8/P,8/OP1,8/OP2,8/O5',8/C5',8/C4',8/O4',8/C3',8/O3',8/C2',8/O2',8/C1',8/N1,8/C2,8/O2,8/N3,8/C4,8/O4,8/C5,8/C6" data-class="nucleotide" data-position="4" data-residue="U">
+     <title>U 8 of chain P (numbered as in the structure file)</title>
+     <rect x="-16" y="72.5" width="32" height="17" rx="5" fill="#ffffff" stroke="#1f2933" stroke-width="1.15" stroke-linecap="round" stroke-linejoin="round"/>
+     <text x="0" y="84.77" font-size="10.5" text-anchor="middle" fill="#1f2933"><tspan font-weight="bold">U</tspan><tspan font-size="8" fill="#667085"> 8</tspan></text>
+    </g>
+    <g class="unit" data-atoms="9/P,9/OP1,9/OP2,9/O5',9/C5',9/C4',9/O4',9/C3',9/O3',9/C2',9/O2',9/C1',9/N9,9/C8,9/N7,9/C5,9/C6,9/O6,9/N1,9/C2,9/N2,9/N3,9/C4" data-class="nucleotide" data-position="5" data-residue="G">
+     <title>G 9 of chain P (numbered as in the structure file)</title>
+     <rect x="-16" y="99.5" width="32" height="17" rx="5" fill="#ffffff" stroke="#1f2933" stroke-width="1.15" stroke-linecap="round" stroke-linejoin="round"/>
+     <text x="0" y="111.77" font-size="10.5" text-anchor="middle" fill="#1f2933"><tspan font-weight="bold">G</tspan><tspan font-size="8" fill="#667085"> 9</tspan></text>
+    </g>
+    <g class="unit" data-atoms="10/P,10/OP1,10/OP2,10/O5',10/C5',10/C4',10/O4',10/C3',10/O3',10/C2',10/O2',10/C1',10/N1,10/C2,10/O2,10/N3,10/C4,10/N4,10/C5,10/C6" data-class="nucleotide" data-position="6" data-residue="C">
+     <title>C 10 of chain P (numbered as in the structure file)</title>
+     <rect x="-16" y="126.5" width="32" height="17" rx="5" fill="#ffffff" stroke="#1f2933" stroke-width="1.15" stroke-linecap="round" stroke-linejoin="round"/>
+     <text x="0" y="138.77" font-size="10.5" text-anchor="middle" fill="#1f2933"><tspan font-weight="bold">C</tspan><tspan font-size="8" fill="#667085"> 10</tspan></text>
+    </g>
+    <g class="unit" data-atoms="11/P,11/OP1,11/OP2,11/O5',11/C5',11/C4',11/O4',11/C3',11/O3',11/C2',11/O2',11/C1',11/N9,11/C8,11/N7,11/C5,11/C6,11/N6,11/N1,11/C2,11/N3,11/C4" data-class="nucleotide" data-position="7" data-residue="A">
+     <title>A 11 of chain P (numbered as in the structure file)</title>
+     <rect x="-16" y="153.5" width="32" height="17" rx="5" fill="#ffffff" stroke="#1f2933" stroke-width="1.15" stroke-linecap="round" stroke-linejoin="round"/>
+     <text x="0" y="165.77" font-size="10.5" text-anchor="middle" fill="#1f2933"><tspan font-weight="bold">A</tspan><tspan font-size="8" fill="#667085"> 11</tspan></text>
+    </g>
+    <g class="unit" data-atoms="12/P,12/OP1,12/OP2,12/O5',12/C5',12/C4',12/O4',12/C3',12/O3',12/C2',12/O2',12/C1',12/N1,12/C2,12/O2,12/N3,12/C4,12/N4,12/C5,12/C6" data-class="nucleotide" data-position="8" data-residue="C">
+     <title>C 12 of chain P (numbered as in the structure file)</title>
+     <rect x="-16" y="180.5" width="32" height="17" rx="5" fill="#ffffff" stroke="#1f2933" stroke-width="1.15" stroke-linecap="round" stroke-linejoin="round"/>
+     <text x="0" y="192.77" font-size="10.5" text-anchor="middle" fill="#1f2933"><tspan font-weight="bold">C</tspan><tspan font-size="8" fill="#667085"> 12</tspan></text>
+    </g>
+    <g class="unit" data-atoms="16/P,16/OP1,16/OP2,16/O5',16/C5',16/C4',16/O4',16/C3',16/O3',16/C2',16/O2',16/C1',16/N9,16/C8,16/N7,16/C5,16/C6,16/O6,16/N1,16/C2,16/N2,16/N3,16/C4" data-class="nucleotide" data-position="9" data-residue="G">
+     <title>G 16 of chain P (numbered as in the structure file)</title>
+     <rect x="-16" y="207.5" width="32" height="17" rx="5" fill="#ffffff" stroke="#1f2933" stroke-width="1.15" stroke-linecap="round" stroke-linejoin="round"/>
+     <text x="0" y="219.77" font-size="10.5" text-anchor="middle" fill="#1f2933"><tspan font-weight="bold">G</tspan><tspan font-size="8" fill="#667085"> 16</tspan></text>
+    </g>
+   </g>
+   <g class="atoms">
+   </g>
+  </g>
+  <g class="residues">
+   <g class="residue" data-class="hydrophobic" data-form="bubble" data-residue="A:TYR13">
+    <title>Tyr13: hydrophobic contact</title>
+    <path d="M62.73 105.82 L65.9 93.77 A15 15 0 1 1 73.99 111.15 Z" fill="#b8dc7a" stroke="#5b6472" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="80.41" y="96.49" font-size="9.5" text-anchor="middle" font-weight="bold" fill="#1f2933">TYR</text>
+    <text x="80.41" y="105.51" font-size="9.5" text-anchor="middle" fill="#1f2933">13</text>
+   </g>
+   <g class="residue" data-class="polar" data-form="bubble" data-residue="A:ASN15">
+    <title>Asn15: hydrogen bond</title>
+    <path d="M-44.45 129.51 L-47.44 141.6 A15 15 0 1 1 -55.79 124.35 Z" fill="#9fdcee" stroke="#5b6472" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="-62" y="136.9" font-size="9.5" text-anchor="middle" font-weight="bold" fill="#1f2933">ASN</text>
+    <text x="-62" y="145.92" font-size="9.5" text-anchor="middle" fill="#1f2933">15</text>
+   </g>
+   <g class="residue" data-class="polar" data-form="bubble" data-residue="A:ASN16">
+    <title>Asn16: hydrogen bond</title>
+    <path d="M43.31 73.27 L46.24 61.16 A15 15 0 1 1 54.68 78.37 Z" fill="#9fdcee" stroke="#5b6472" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="60.82" y="63.58" font-size="9.5" text-anchor="middle" font-weight="bold" fill="#1f2933">ASN</text>
+    <text x="60.82" y="72.6" font-size="9.5" text-anchor="middle" fill="#1f2933">16</text>
+   </g>
+   <g class="residue" data-class="negative" data-form="bubble" data-residue="A:GLU19">
+    <title>Glu19: hydrogen bond</title>
+    <path d="M-47.94 54.45 L-59.55 58.97 A15 15 0 1 1 -50.26 42.21 Z" fill="#f4a98a" stroke="#5b6472" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="-65" y="43.9" font-size="9.5" text-anchor="middle" font-weight="bold" fill="#1f2933">GLU</text>
+    <text x="-65" y="52.92" font-size="9.5" text-anchor="middle" fill="#1f2933">19</text>
+   </g>
+   <g class="residue" data-class="positive" data-form="bubble" data-residue="A:LYS22">
+    <title>Lys22: salt bridge</title>
+    <path d="M-41.97 -0.15 L-49.97 9.41 A15 15 0 1 1 -49.9 -9.76 Z" fill="#a9a6f0" stroke="#5b6472" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="-61.47" y="-1.32" font-size="9.5" text-anchor="middle" font-weight="bold" fill="#1f2933">LYS</text>
+    <text x="-61.47" y="7.7" font-size="9.5" text-anchor="middle" fill="#1f2933">22</text>
+   </g>
+   <g class="residue" data-class="hydrophobic" data-form="bubble" data-residue="A:LEU49">
+    <title>Leu49: hydrogen bond</title>
+    <path d="M18.84 258.69 L30.83 262.1 A15 15 0 1 1 13.29 269.85 Z" fill="#b8dc7a" stroke="#5b6472" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="26.72" y="275.43" font-size="9.5" text-anchor="middle" font-weight="bold" fill="#1f2933">LEU</text>
+    <text x="26.72" y="284.45" font-size="9.5" text-anchor="middle" fill="#1f2933">49</text>
+   </g>
+   <g class="residue" data-class="positive" data-form="bubble" data-residue="A:LYS50">
+    <title>Lys50: hydrogen bond, salt bridge</title>
+    <path d="M-71.59 178.21 L-73.46 190.53 A15 15 0 1 1 -83.36 174.12 Z" fill="#a9a6f0" stroke="#5b6472" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="-88.29" y="187.19" font-size="9.5" text-anchor="middle" font-weight="bold" fill="#1f2933">LYS</text>
+    <text x="-88.29" y="196.21" font-size="9.5" text-anchor="middle" fill="#1f2933">50</text>
+   </g>
+   <g class="residue" data-class="positive" data-form="bubble" data-residue="A:ARG52">
+    <title>Arg52: hydrogen bond</title>
+    <path d="M-87.4 124.04 L-94.75 134.51 A15.4 15.4 0 1 1 -96.33 114.89 Z" fill="#a9a6f0" stroke="#5b6472" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="-107.35" y="124.55" font-size="9.5" text-anchor="middle" font-weight="bold" fill="#1f2933">ARG</text>
+    <text x="-107.35" y="133.57" font-size="9.5" text-anchor="middle" fill="#1f2933">52</text>
+   </g>
+   <g class="residue" data-class="positive" data-form="bubble" data-residue="A:LYS80">
+    <title>Lys80: hydrogen bond</title>
+    <path d="M46.73 36.29 L45.85 23.86 A15 15 0 1 1 59.11 37.71 Z" fill="#a9a6f0" stroke="#5b6472" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="60.82" y="21.71" font-size="9.5" text-anchor="middle" font-weight="bold" fill="#1f2933">LYS</text>
+    <text x="60.82" y="30.73" font-size="9.5" text-anchor="middle" fill="#1f2933">80</text>
+   </g>
+   <g class="residue" data-class="polar" data-form="bubble" data-residue="A:GLN85">
+    <title>Gln85: hydrogen bond</title>
+    <path d="M43.65 164.77 L55.63 161.34 A15 15 0 1 1 44.82 177.17 Z" fill="#9fdcee" stroke="#5b6472" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="59.76" y="174.66" font-size="9.5" text-anchor="middle" font-weight="bold" fill="#1f2933">GLN</text>
+    <text x="59.76" y="183.68" font-size="9.5" text-anchor="middle" fill="#1f2933">85</text>
+   </g>
+   <g class="residue" data-class="hydrophobic" data-form="bubble" data-residue="A:TYR86">
+    <title>Tyr86: hydrogen bond</title>
+    <path d="M76.02 154.93 L86.15 147.68 A15 15 0 1 1 81.29 166.22 Z" fill="#b8dc7a" stroke="#5b6472" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="94.88" y="158.78" font-size="9.5" text-anchor="middle" font-weight="bold" fill="#1f2933">TYR</text>
+    <text x="94.88" y="167.8" font-size="9.5" text-anchor="middle" fill="#1f2933">86</text>
+   </g>
+   <g class="residue" data-class="positive" data-form="bubble" data-residue="A:LYS88">
+    <title>Lys88: hydrogen bond, hydrophobic contact</title>
+    <path d="M42.73 132.21 L50.05 122.13 A15 15 0 1 1 51.3 141.26 Z" fill="#a9a6f0" stroke="#5b6472" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="62.19" y="129.84" font-size="9.5" text-anchor="middle" font-weight="bold" fill="#1f2933">LYS</text>
+    <text x="62.19" y="138.86" font-size="9.5" text-anchor="middle" fill="#1f2933">88</text>
+   </g>
+   <g class="residue" data-class="polar" data-form="bubble" data-residue="A:THR89">
+    <title>Thr89: hydrogen bond</title>
+    <path d="M-45.12 204.84 L-46.57 217.22 A15 15 0 1 1 -57.02 201.14 Z" fill="#9fdcee" stroke="#5b6472" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="-61.47" y="214.37" font-size="9.5" text-anchor="middle" font-weight="bold" fill="#1f2933">THR</text>
+    <text x="-61.47" y="223.39" font-size="9.5" text-anchor="middle" fill="#1f2933">89</text>
+   </g>
+   <g class="residue" data-class="negative" data-form="bubble" data-residue="A:ASP90">
+    <title>Asp90: hydrogen bond</title>
+    <path d="M-49.41 239.78 L-48.09 252.17 A15 15 0 1 1 -61.83 238.8 Z" fill="#f4a98a" stroke="#5b6472" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="-63.01" y="252.66" font-size="9.5" text-anchor="middle" font-weight="bold" fill="#1f2933">ASP</text>
+    <text x="-63.01" y="261.68" font-size="9.5" text-anchor="middle" fill="#1f2933">90</text>
+   </g>
+   <g class="residue" data-class="polar" data-form="bubble" data-residue="A:SER91">
+    <title>Ser91: hydrogen bond</title>
+    <path d="M46.26 201.26 L58.53 199.1 A15 15 0 1 1 46.13 213.72 Z" fill="#9fdcee" stroke="#5b6472" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="61.13" y="212.78" font-size="9.5" text-anchor="middle" font-weight="bold" fill="#1f2933">SER</text>
+    <text x="61.13" y="221.8" font-size="9.5" text-anchor="middle" fill="#1f2933">91</text>
+   </g>
+   <g class="residue" data-class="negative" data-form="bubble" data-residue="A:ASP92">
+    <title>Asp92: hydrogen bond</title>
+    <path d="M48.43 238.41 L60.85 237.38 A15 15 0 1 1 47.16 250.8 Z" fill="#f4a98a" stroke="#5b6472" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="62.08" y="251.23" font-size="9.5" text-anchor="middle" font-weight="bold" fill="#1f2933">ASP</text>
+    <text x="62.08" y="260.25" font-size="9.5" text-anchor="middle" fill="#1f2933">92</text>
+   </g>
+  </g>
+ </g>
+ <g class="legend" transform="translate(18 345.52)">
+  <circle cx="5.5" cy="9.19" r="5.5" fill="#b8dc7a" stroke="#5b6472" stroke-width="0.8" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="16" y="12.96" font-size="10.5" fill="#667085">Hydrophobic</text>
+  <circle cx="98.44" cy="9.19" r="5.5" fill="#9fdcee" stroke="#5b6472" stroke-width="0.8" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="108.94" y="12.96" font-size="10.5" fill="#667085">Polar</text>
+  <circle cx="156.94" cy="9.19" r="5.5" fill="#a9a6f0" stroke="#5b6472" stroke-width="0.8" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="167.44" y="12.96" font-size="10.5" fill="#667085">Charged (+)</text>
+  <circle cx="5.5" cy="27.56" r="5.5" fill="#f4a98a" stroke="#5b6472" stroke-width="0.8" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="16" y="31.33" font-size="10.5" fill="#667085">Charged (−)</text>
+  <polygon points="116.31,27.56 109.91,30.06 109.91,25.06" fill="#c026d3"/>
+  <line x1="90.31" y1="27.56" x2="110.87" y2="27.56" fill="none" stroke="#c026d3" stroke-width="1.35" stroke-linejoin="round"/>
+  <text x="124.31" y="31.33" font-size="10.5" fill="#667085">H-bond (backbone)</text>
+  <polygon points="26,45.94 19.6,48.44 19.6,43.44" fill="#c026d3"/>
+  <line x1="0" y1="45.94" x2="20.56" y2="45.94" fill="none" stroke="#c026d3" stroke-width="1.35" stroke-linejoin="round" stroke-dasharray="4.2 2.6"/>
+  <text x="34" y="49.71" font-size="10.5" fill="#667085">H-bond (side chain)</text>
+  <line x1="143.61" y1="45.94" x2="169.61" y2="45.94" fill="none" stroke="#2563eb" stroke-width="2.36" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0.01 3.7"/>
+  <text x="177.61" y="49.71" font-size="10.5" fill="#667085">Salt bridge</text>
+  <line x1="0" y1="64.31" x2="26" y2="64.31" fill="none" stroke="#5b6472" stroke-width="0.81" stroke-linejoin="round"/>
+  <text x="34" y="68.08" font-size="10.5" fill="#667085">Hydrophobic contact</text>
+  <circle cx="154.21" cy="64.31" r="6.5" fill="#c9ced6" opacity="0.6"/>
+  <text x="165.71" y="68.08" font-size="10.5" fill="#667085">Solvent exposure</text>
+  <text x="0" y="86.46" font-size="10.5" fill="#667085">Lining:</text>
+  <line x1="51.13" y1="82.69" x2="64.73" y2="82.69" fill="none" stroke="#b8dc7a" stroke-width="4.4" stroke-linecap="round" stroke-linejoin="round" opacity="0.62"/>
+  <text x="71.93" y="86.46" font-size="10.5" fill="#667085">hydrophobic</text>
+  <line x1="149.33" y1="82.69" x2="162.93" y2="82.69" fill="none" stroke="#9fdcee" stroke-width="4.4" stroke-linecap="round" stroke-linejoin="round" opacity="0.62"/>
+  <text x="170.13" y="86.46" font-size="10.5" fill="#667085">polar</text>
+  <line x1="213.67" y1="82.69" x2="227.27" y2="82.69" fill="none" stroke="#a9a6f0" stroke-width="4.4" stroke-linecap="round" stroke-linejoin="round" opacity="0.62"/>
+  <text x="234.47" y="86.46" font-size="10.5" fill="#667085">charged (+)</text>
+  <line x1="2.2" y1="101.06" x2="15.8" y2="101.06" fill="none" stroke="#f4a98a" stroke-width="4.4" stroke-linecap="round" stroke-linejoin="round" opacity="0.62"/>
+  <text x="23" y="104.83" font-size="10.5" fill="#667085">charged (−)</text>
+  <rect x="0.6" y="113.94" width="20.8" height="11" rx="3.5" fill="#ffffff" stroke="#1f2933" stroke-width="1.15" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="27" y="123.21" font-size="10.5" fill="#667085">Residue of chain P, numbered as in the structure file</text>
+ </g>
+ <g class="footnotes">
+  <text x="18" y="487.69" font-size="10.5" fill="#667085">An interface has no centre. The residues of chain P that touch</text>
+  <text x="18" y="502.91" font-size="10.5" fill="#667085">chain A stand in a column, as boxes, in the order of the</text>
+  <text x="18" y="518.14" font-size="10.5" fill="#667085">sequence; a dotted line stands for residues in between that do</text>
+  <text x="18" y="533.36" font-size="10.5" fill="#667085">not; those of chain A around it. A line is a pair of residues, at the</text>
+  <text x="18" y="548.59" font-size="10.5" fill="#667085">shortest of its contacts of one kind.</text>
+  <text x="18" y="563.81" font-size="10.5" fill="#667085">All 9 residues of chain P at the interface are shown, with 29</text>
+  <text x="18" y="579.04" font-size="10.5" fill="#667085">contacts.</text>
+ </g>
+</svg>

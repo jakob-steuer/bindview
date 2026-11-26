@@ -1,0 +1,22 @@
+{
+ "slug": "repressor_dna",
+ "what": "the lambda repressor on its operator DNA",
+ "source": {
+  "archive": "RCSB Protein Data Bank",
+  "entry": "1LMB",
+  "address": "https://files.rcsb.org/download/1LMB.cif.gz",
+  "licence": "CC0 1.0 (the archive's data are in the public domain)",
+  "file": "model.cif.gz",
+  "file_is": "the archive's file, unpacked and packed again (gzip, no time stamp)",
+  "sha256": "93aa47874d804d26a77dbffa8132dbb0753ed131894fd7739c66e18836542f49",
+  "title": "Refined 1.8 Angstrom crystal structure of the lambda repressor-operator complex"
+ },
+ "chains": {
+  "1": "one strand of the operator, DNA of 20 nucleotides",
+  "2": "the other strand",
+  "3": "lambda repressor, N-terminal domain",
+  "4": "the second repressor of the dimer"
+ },
+ "chain_names": "the authors' (auth_asym_id)",
+ "why_this_case": "A protein on DNA: a helix in the major groove."
+}

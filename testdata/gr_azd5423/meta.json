@@ -1,0 +1,22 @@
+{
+ "slug": "gr_azd5423",
+ "what": "the glucocorticoid receptor's ligand-binding domain with the non-steroidal AZD5423",
+ "source": {
+  "archive": "RCSB Protein Data Bank",
+  "entry": "5NFT",
+  "address": "https://files.rcsb.org/download/5NFT.cif.gz",
+  "licence": "CC0 1.0 (the archive's data are in the public domain)",
+  "file": "model.cif.gz",
+  "file_is": "the archive's own file, byte for byte",
+  "sha256": "2c6c24f1896549e164d45f03ab2f55e0c9f53940b863f8bc5fb815c021e28c0b"
+ },
+ "ligand": {
+  "name": "AZD5423",
+  "component": "8W8",
+  "residue_name_in_cif": "8W8",
+  "smiles": "C[C@@H]([C@@H](c1cccc(c1)OC)Oc2ccc3c(c2)cnn3c4ccc(cc4)F)NC(=O)C(F)(F)F",
+  "smiles_from": "the archive's record of the chemical component 8W8",
+  "heavy_atoms": 35
+ },
+ "why_this_case": "A ligand of the same pocket that shares no scaffold with the steroids."
+}

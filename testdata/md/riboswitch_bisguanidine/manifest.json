@@ -1,0 +1,109 @@
+{
+ "what": "Three molecular dynamics simulations of a guanidine-II riboswitch dimer (two RNA hairpins of 18 nucleotides, chains A and B) with a ligand of two guanidinium ends, one for the pocket of each hairpin: what the figures of prototype/md_occupancy need of them. For each simulation a table (the plan that count.py writes: the occupancy of every contact, the frame to draw for the trajectory and for each bound state with its contacts, and the contacts and states against time in bins of 20 ns) and the frames that are drawn, as PDB files.",
+ "what_it_is_not": "Not the trajectories, and not a test case of the library. bindview reads no trajectory: the contacts of every frame were found by ProLIF in an environment of its own, and counting them is sketch code (prototype/md_occupancy), not tested. Only the diagrams that are drawn from these tables are the library's own.",
+ "source": "https://github.com/jakob-steuer/FHNW-Summer-School-2025-MolSim-Analysis, folder data/, MIT licence.",
+ "topology": {
+  "file": "testdata/nucleic/riboswitch_bisguanidine/model.pdb",
+  "is": "data/structure.pdb of the source: the system without water, with its hydrogens",
+  "sha256": "c6073a334573bec8dee6cec687d0b179177edefd2fd6ab953613f6c347a86327"
+ },
+ "ligand": {
+  "residue_name": "BGD",
+  "name": "bis-guanidine",
+  "smiles": "NC(=[NH2+])NCCCCNC(N)=[NH2+]",
+  "smiles_from": "read off the ligand's bonds and its 18 hydrogens in the model: 1,4-diguanidinobutane with both guanidines protonated. Not given by the source. ProLIF reads the same molecule from the topology, with a charge of +2."
+ },
+ "simulations": [
+  {
+   "what": "simulation 1 (0 to 4 µs)",
+   "plan": "simulation_1.json",
+   "frames_drawn": [
+    "simulation_1.frame_00323.pdb"
+   ],
+   "trajectory": "traj.simulation_1.0mus-4mus.dt1ns.xtc",
+   "bytes": 18415832,
+   "sha256": "fb5e5812085af79bee50ae26961dc9f5126e48a980ecc48a3e3751489053275a",
+   "frames": 4001,
+   "a_frame_every": "1 ns",
+   "different_contacts": 32,
+   "share_of_frames_by_occupied_pockets": {
+    "A+B": 0.0237,
+    "B": 0.9763
+   },
+   "figures": {
+    "all": "frame 323 (0.323 µs), 4001 frames"
+   }
+  },
+  {
+   "what": "simulation 4 (6 to 10 µs)",
+   "plan": "simulation_4.json",
+   "frames_drawn": [
+    "simulation_4.frame_00000.pdb",
+    "simulation_4.frame_03467.pdb"
+   ],
+   "trajectory": "traj.simulation_4.6mus-10mus.dt1ns.xtc",
+   "bytes": 18413024,
+   "sha256": "18f42a1e395b222b69766fbebe0af6e151fa466117ba7721c3fe4bb5535da90d",
+   "frames": 4001,
+   "a_frame_every": "1 ns",
+   "different_contacts": 37,
+   "share_of_frames_by_occupied_pockets": {
+    "A+B": 0.2034,
+    "B": 0.7966
+   },
+   "figures": {
+    "all": "frame 0 (5.999 µs), 4001 frames",
+    "A+B": "frame 3467 (9.466 µs), 814 frames",
+    "B": "frame 0 (5.999 µs), 3187 frames"
+   }
+  },
+  {
+   "what": "simulation 7 (3 to 7 µs)",
+   "plan": "simulation_7.json",
+   "frames_drawn": [
+    "simulation_7.frame_00000.pdb",
+    "simulation_7.frame_01021.pdb"
+   ],
+   "trajectory": "traj.simulation_7.3mus-7mus.dt1ns.xtc",
+   "bytes": 18412988,
+   "sha256": "e7f2d026fee9f893c273e131686bfff96d8cbd72b73b2f7c236d81f9f1a7ea35",
+   "frames": 4001,
+   "a_frame_every": "1 ns",
+   "different_contacts": 37,
+   "share_of_frames_by_occupied_pockets": {
+    "A+B": 0.7621,
+    "B": 0.2379
+   },
+   "figures": {
+    "all": "frame 1021 (4.021 µs), 4001 frames",
+    "A+B": "frame 1021 (4.021 µs), 3049 frames",
+    "B": "frame 0 (3.000 µs), 952 frames"
+   }
+  }
+ ],
+ "not_in_the_repository": "trajectory/ (the three trajectories, 55 MB) and contacts/ (simulation_N.contacts.json: every contact of every frame as contacts.py wrote it, 8 MB). With the trajectories fetched from the source into trajectory/ the commands below write everything else again, and the five frames come out byte for byte.",
+ "made_with": {
+  "MDAnalysis": "2.11.0",
+  "ProLIF": "2.2.3",
+  "RDKit": "2026.09.1",
+  "where": "MDAnalysis and ProLIF are no dependencies of bindview: the two scripts that need them (contacts.py, frame.py) run in an environment that has them; count.py and occupancy.py need bindview alone.",
+  "contact_kinds": [
+   "HBDonor",
+   "HBAcceptor",
+   "Cationic",
+   "Anionic",
+   "CationPi",
+   "PiCation",
+   "PiStacking",
+   "Hydrophobic"
+  ],
+  "limits": "ProLIF's own, unchanged"
+ },
+ "how": [
+  "python prototype/md_occupancy/contacts.py TOPOLOGY trajectory/TRAJECTORY BGD contacts/simulation_N.contacts.json",
+  "python prototype/md_occupancy/count.py TOPOLOGY BGD 'SMILES' contacts/simulation_N.contacts.json simulation_N.json 'simulation N (a to b µs)'",
+  "python prototype/md_occupancy/frame.py TOPOLOGY trajectory/TRAJECTORY simulation_N.frame_ FRAME [FRAME ...]      (the frames count.py names)",
+  "python prototype/md_occupancy/occupancy.py      (a page with every figure)"
+ ],
+ "rules": "In the docstring of prototype/md_occupancy/count.py: what one contact is across frames, its occupancy, the frame that is drawn, what a figure holds, when a pocket is occupied, and when a trajectory gets a figure for each state."
+}

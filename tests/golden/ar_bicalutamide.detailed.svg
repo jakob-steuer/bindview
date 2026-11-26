@@ -1,0 +1,296 @@
+<svg xmlns="http://www.w3.org/2000/svg" class="bindview" width="458.98" height="514.34" viewBox="0 0 458.98 514.34" font-family="Helvetica, Arial, 'Liberation Sans', sans-serif" role="img">
+ <title>bicalutamide</title>
+ <rect class="background" width="458.98" height="514.34" fill="#ffffff"/>
+ <g class="confidence" data-buried-fraction="0.994">
+  <text x="18" y="26.26" font-size="11.5" fill="#667085">Ligand buried <tspan fill="#1f2933" font-weight="bold">99 %</tspan></text>
+ </g>
+ <g class="diagram" transform="translate(289.31 236.1)">
+  <g class="interactions">
+   <g class="interaction hbond" data-distance="3.24" data-ligand-atoms="N9" data-protein-atoms="O" data-residue="A:LEU704" data-type="hbond">
+    <title>Hydrogen bond: Leu704 O – N9, 3.24 Å</title>
+    <polygon points="18.5,93.27 18.33,86.4 13.72,88.33" fill="#1a9641"/>
+    <text x="11.16" y="79.19" font-size="9.5" text-anchor="middle" fill="#1a9641">3.24</text>
+    <line x1="16.39" y1="88.25" x2="13.3" y2="80.89" fill="none" stroke="#1a9641" stroke-width="1.35" stroke-linejoin="round" stroke-dasharray="4.2 2.8"/>
+    <line x1="9.01" y1="70.67" x2="3.81" y2="58.29" fill="none" stroke="#1a9641" stroke-width="1.35" stroke-linejoin="round" stroke-dasharray="4.2 2.8"/>
+   </g>
+   <g class="interaction hbond" data-distance="3.67" data-ligand-atoms="N8" data-protein-atoms="NE2" data-residue="A:GLN711" data-type="hbond">
+    <title>Hydrogen bond: Gln711 NE2 – N8, 3.67 Å</title>
+    <polygon points="-134.61,-39.59 -138.68,-45.13 -133.85,-46.42" fill="#1a9641"/>
+    <text x="-140.89" y="-59.61" font-size="9.5" text-anchor="middle" fill="#1a9641">3.67</text>
+    <line x1="-147.17" y1="-86.46" x2="-142.26" y2="-68.13" fill="none" stroke="#1a9641" stroke-width="1.35" stroke-linejoin="round" stroke-dasharray="4.2 2.8"/>
+    <line x1="-139.52" y1="-57.91" x2="-136.02" y2="-44.85" fill="none" stroke="#1a9641" stroke-width="1.35" stroke-linejoin="round" stroke-dasharray="4.2 2.8"/>
+   </g>
+   <g class="interaction halogen" data-distance="3.78" data-ligand-atoms="F7B" data-protein-atoms="O" data-residue="A:MET742" data-type="halogen">
+    <title>Halogen bond: Met742 O – F7B, 3.78 Å</title>
+    <text x="-96" y="103.58" font-size="9.5" text-anchor="middle" fill="#c2185b">3.78</text>
+    <line x1="-99.47" y1="124.22" x2="-96.74" y2="105.28" fill="none" stroke="#c2185b" stroke-width="1.35" stroke-linejoin="round" stroke-dasharray="6.5 2.2 1.3 2.2 1.3 2.2"/>
+    <line x1="-95.26" y1="95.06" x2="-92.54" y2="76.11" fill="none" stroke="#c2185b" stroke-width="1.35" stroke-linejoin="round" stroke-dasharray="6.5 2.2 1.3 2.2 1.3 2.2"/>
+   </g>
+   <g class="interaction hbond" data-distance="3.00" data-ligand-atoms="N8" data-protein-atoms="NH2" data-residue="A:ARG752" data-type="hbond">
+    <title>Hydrogen bond: Arg752 NH2 – N8, 3.00 Å</title>
+    <polygon points="-136.51,-25.79 -137.63,-19.01 -141.93,-21.56" fill="#1a9641"/>
+    <text x="-148.84" y="-1.6" font-size="9.5" text-anchor="middle" fill="#1a9641">3.00</text>
+    <line x1="-161.16" y1="15.76" x2="-151.87" y2="0.1" fill="none" stroke="#1a9641" stroke-width="1.35" stroke-linejoin="round" stroke-dasharray="4.2 2.8"/>
+    <line x1="-145.8" y1="-10.13" x2="-139.29" y2="-21.11" fill="none" stroke="#1a9641" stroke-width="1.35" stroke-linejoin="round" stroke-dasharray="4.2 2.8"/>
+   </g>
+   <g class="interaction water_bridge" data-distance="3.10" data-ligand-atoms="N8" data-protein-atoms="NH1" data-residue="A:ARG752" data-type="water_bridge">
+    <title>Water bridge: Arg752 NH1 – N8, 3.10 Å</title>
+    <polygon points="-139.8,-29.8 -145.02,-25.33 -146.67,-30.06" fill="#1e88e5"/>
+    <text x="-163.36" y="-18.18" font-size="9.5" text-anchor="middle" fill="#1e88e5">H₂O</text>
+    <line x1="-186.92" y1="-13.37" x2="-173.74" y2="-17.97" fill="none" stroke="#1e88e5" stroke-width="1.35" stroke-linejoin="round" stroke-dasharray="2.2 2.2"/>
+    <line x1="-152.98" y1="-25.21" x2="-144.94" y2="-28.01" fill="none" stroke="#1e88e5" stroke-width="1.35" stroke-linejoin="round" stroke-dasharray="2.2 2.2"/>
+   </g>
+  </g>
+  <g class="ligand">
+   <g class="bonds">
+    <line x1="101.24" y1="-77.79" x2="101.24" y2="-47.79" fill="none" stroke="#1f2933" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="96.94" y1="-73.7" x2="96.94" y2="-51.88" fill="none" stroke="#1f2933" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="75.15" y1="-92.78" x2="101.24" y2="-77.79" fill="none" stroke="#1f2933" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="75.12" y1="-115.72" x2="75.15" y2="-92.78" fill="none" stroke="#1f2933" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="49.24" y1="-77.67" x2="75.15" y2="-92.78" fill="none" stroke="#1f2933" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="54.93" y1="-76.01" x2="73.79" y2="-87" fill="none" stroke="#1f2933" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="49.23" y1="-47.68" x2="49.24" y2="-77.67" fill="none" stroke="#1f2933" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="75.33" y1="-32.69" x2="49.23" y2="-47.68" fill="none" stroke="#1f2933" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="73.93" y1="-38.45" x2="54.92" y2="-49.38" fill="none" stroke="#1f2933" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="75.33" y1="-32.69" x2="101.24" y2="-47.79" fill="none" stroke="#1f2933" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="75.42" y1="-10.15" x2="75.33" y2="-32.69" fill="none" stroke="#1f2933" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="98.03" y1="-5.22" x2="82.15" y2="-5.25" fill="none" stroke="#1f2933" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="98.03" y1="-0.92" x2="82.15" y2="-0.95" fill="none" stroke="#1f2933" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="53.56" y1="-1.16" x2="68.74" y2="-1.02" fill="none" stroke="#1f2933" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="53.56" y1="-5.46" x2="68.74" y2="-5.32" fill="none" stroke="#1f2933" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="75.26" y1="27.09" x2="75.4" y2="3.94" fill="none" stroke="#1f2933" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="49.09" y1="42.41" x2="75.26" y2="27.09" fill="none" stroke="#1f2933" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="60.19" y1="61.22" x2="49.09" y2="42.41" fill="none" stroke="#1f2933" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+    <polygon points="48.57,42.12 31.72,67.06 37.13,70.09 49.61,42.7" fill="#1f2933" stroke="#1f2933" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="22.72" y1="27.74" x2="49.09" y2="42.41" fill="none" stroke="#1f2933" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="20.12" y1="5.4" x2="20.57" y2="27.79" fill="none" stroke="#1f2933" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="24.42" y1="5.4" x2="24.87" y2="27.7" fill="none" stroke="#1f2933" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="4.33" y1="38.52" x2="22.72" y2="27.74" fill="none" stroke="#1f2933" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="-28.59" y1="27.53" x2="-9.82" y2="38.53" fill="none" stroke="#1f2933" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="-54.51" y1="42.62" x2="-28.59" y2="27.53" fill="none" stroke="#1f2933" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="-53.14" y1="36.85" x2="-34.29" y2="25.87" fill="none" stroke="#1f2933" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="-28.59" y1="-2.47" x2="-28.59" y2="27.53" fill="none" stroke="#1f2933" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="-54.67" y1="-17.47" x2="-28.59" y2="-2.47" fill="none" stroke="#1f2933" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="-53.28" y1="-11.71" x2="-34.27" y2="-0.78" fill="none" stroke="#1f2933" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="-80.58" y1="-2.37" x2="-54.67" y2="-17.47" fill="none" stroke="#1f2933" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="-106.63" y1="-17.34" x2="-80.58" y2="-2.37" fill="none" stroke="#1f2933" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="-125.58" y1="-28.23" x2="-106.63" y2="-17.34" fill="none" stroke="#1f2933" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="-127.73" y1="-25.25" x2="-108.45" y2="-14.17" fill="none" stroke="#1f2933" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="-125.58" y1="-32.45" x2="-104.81" y2="-20.51" fill="none" stroke="#1f2933" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="-80.58" y1="27.63" x2="-80.58" y2="-2.37" fill="none" stroke="#1f2933" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="-76.28" y1="23.54" x2="-76.28" y2="1.72" fill="none" stroke="#1f2933" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="-80.58" y1="27.63" x2="-54.51" y2="42.62" fill="none" stroke="#1f2933" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="-106.52" y1="42.69" x2="-80.58" y2="27.63" fill="none" stroke="#1f2933" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="-95.55" y1="61.61" x2="-106.52" y2="42.69" fill="none" stroke="#1f2933" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="-117.43" y1="61.67" x2="-106.52" y2="42.69" fill="none" stroke="#1f2933" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="-126.22" y1="31.36" x2="-106.52" y2="42.69" fill="none" stroke="#1f2933" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+   </g>
+   <g class="atoms">
+    <g class="atom" data-atom="F18">
+     <text x="75.11" y="-117.92" font-size="13.5" text-anchor="middle" fill="#2e9e44">F</text>
+    </g>
+    <g class="atom" data-atom="S14">
+     <text x="75.45" y="1.74" font-size="13.5" text-anchor="middle" fill="#a67c00">S</text>
+    </g>
+    <g class="atom" data-atom="O14">
+     <text x="105.48" y="1.79" font-size="13.5" text-anchor="middle" fill="#d6332a">O</text>
+    </g>
+    <g class="atom" data-atom="O15">
+     <text x="46.11" y="1.46" font-size="13.5" text-anchor="middle" fill="#d6332a">O</text>
+    </g>
+    <g class="atom" data-atom="O11">
+     <text x="64.35" y="73.11" font-size="13.5" text-anchor="middle" fill="#d6332a">O</text>
+     <text x="70.2" y="73.11" font-size="13.5" fill="#d6332a">H</text>
+    </g>
+    <g class="atom" data-atom="O10">
+     <text x="22.12" y="3.2" font-size="13.5" text-anchor="middle" fill="#d6332a">O</text>
+    </g>
+    <g class="atom" data-atom="N9">
+     <text x="-2.74" y="47.52" font-size="13.5" text-anchor="middle" fill="#2f5fd0">N</text>
+     <text x="-2.74" y="59.41" font-size="13.5" text-anchor="middle" fill="#2f5fd0">H</text>
+    </g>
+    <g class="atom" data-atom="N8">
+     <text x="-132.65" y="-27.45" font-size="13.5" text-anchor="middle" fill="#2f5fd0">N</text>
+    </g>
+    <g class="atom" data-atom="F7B">
+     <text x="-91.46" y="73.5" font-size="13.5" text-anchor="middle" fill="#2e9e44">F</text>
+    </g>
+    <g class="atom" data-atom="F7C">
+     <text x="-121.48" y="73.56" font-size="13.5" text-anchor="middle" fill="#2e9e44">F</text>
+    </g>
+    <g class="atom" data-atom="F7A">
+     <text x="-132.54" y="32.58" font-size="13.5" text-anchor="middle" fill="#2e9e44">F</text>
+    </g>
+   </g>
+  </g>
+  <g class="contacts">
+   <g class="contact hydrophobic" data-distance="3.96" data-ligand-atoms="C6" data-protein-atoms="CD2" data-residue="A:LEU704" data-type="hydrophobic">
+    <title>Hydrophobic contact: Leu704 CD2 – C6, 3.96 Å</title>
+    <line x1="-30.93" y1="3.59" x2="-32.74" y2="8.25" fill="none" stroke="#c0392b" stroke-width="1.1" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="-33.2" y1="2.11" x2="-36.75" y2="5.63" fill="none" stroke="#c0392b" stroke-width="1.1" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="-43.12" y1="76.18" x2="-44.15" y2="72.32" fill="none" stroke="#c0392b" stroke-width="1.1" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="-41.25" y1="76.09" x2="-40.61" y2="72.14" fill="none" stroke="#c0392b" stroke-width="1.1" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="-39.5" y1="76.77" x2="-37.31" y2="73.42" fill="none" stroke="#c0392b" stroke-width="1.1" stroke-linecap="round" stroke-linejoin="round"/>
+   </g>
+   <g class="contact hydrophobic" data-distance="3.59" data-ligand-atoms="C5" data-protein-atoms="CD2" data-residue="A:LEU707" data-type="hydrophobic">
+    <title>Hydrophobic contact: Leu707 CD2 – C5, 3.59 Å</title>
+    <line x1="-56.14" y1="-23.81" x2="-57.26" y2="-28.68" fill="none" stroke="#c0392b" stroke-width="1.1" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="-53.43" y1="-23.85" x2="-52.47" y2="-28.76" fill="none" stroke="#c0392b" stroke-width="1.1" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="-50.93" y1="-22.79" x2="-48.06" y2="-26.88" fill="none" stroke="#c0392b" stroke-width="1.1" stroke-linecap="round" stroke-linejoin="round"/>
+   </g>
+   <g class="contact hydrophobic" data-distance="3.89" data-ligand-atoms="C17" data-protein-atoms="CD2" data-residue="A:LEU741" data-type="hydrophobic">
+    <title>Hydrophobic contact: Leu741 CD2 – C17, 3.89 Å</title>
+    <line x1="102.64" y1="-84.13" x2="103.71" y2="-89.02" fill="none" stroke="#c0392b" stroke-width="1.1" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="105.1" y1="-83.01" x2="108.08" y2="-87.03" fill="none" stroke="#c0392b" stroke-width="1.1" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="106.9" y1="-80.98" x2="111.25" y2="-83.44" fill="none" stroke="#c0392b" stroke-width="1.1" stroke-linecap="round" stroke-linejoin="round"/>
+   </g>
+   <g class="contact hydrophobic" data-distance="3.74" data-ligand-atoms="C4" data-protein-atoms="CD2" data-residue="A:PHE764" data-type="hydrophobic">
+    <title>Hydrophobic contact: Phe764 CD2 – C4, 3.74 Å</title>
+    <line x1="-83.5" y1="-8.18" x2="-85.74" y2="-12.65" fill="none" stroke="#c0392b" stroke-width="1.1" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="-80.88" y1="-8.86" x2="-81.1" y2="-13.86" fill="none" stroke="#c0392b" stroke-width="1.1" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="-78.2" y1="-8.42" x2="-76.38" y2="-13.07" fill="none" stroke="#c0392b" stroke-width="1.1" stroke-linecap="round" stroke-linejoin="round"/>
+   </g>
+   <g class="contact hydrophobic" data-distance="3.96" data-ligand-atoms="C19" data-protein-atoms="CG2" data-residue="A:ILE898" data-type="hydrophobic">
+    <title>Hydrophobic contact: Ile898 CG2 – C19, 3.96 Å</title>
+    <line x1="43.95" y1="-81.46" x2="39.89" y2="-84.37" fill="none" stroke="#c0392b" stroke-width="1.1" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="45.95" y1="-83.28" x2="43.43" y2="-87.6" fill="none" stroke="#c0392b" stroke-width="1.1" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="48.53" y1="-84.13" x2="47.98" y2="-89.1" fill="none" stroke="#c0392b" stroke-width="1.1" stroke-linecap="round" stroke-linejoin="round"/>
+   </g>
+   <g class="contact hydrophobic" data-distance="3.50" data-ligand-atoms="C20" data-protein-atoms="CG1" data-residue="A:ILE899" data-type="hydrophobic">
+    <title>Hydrophobic contact: Ile899 CG1 – C20, 3.50 Å</title>
+    <line x1="43.12" y1="-45.45" x2="38.43" y2="-43.74" fill="none" stroke="#c0392b" stroke-width="1.1" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="42.75" y1="-48.14" x2="37.76" y2="-48.49" fill="none" stroke="#c0392b" stroke-width="1.1" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="43.5" y1="-50.74" x2="39.09" y2="-53.1" fill="none" stroke="#c0392b" stroke-width="1.1" stroke-linecap="round" stroke-linejoin="round"/>
+   </g>
+  </g>
+  <g class="residues">
+   <g class="residue" data-class="hydrophobic" data-form="fragment" data-residue="A:LEU704">
+    <g class="fragment">
+     <line x1="-15.01" y1="121.69" x2="-3.93" y2="99.73" fill="none" stroke="#6b7a90" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round"/>
+     <line x1="-3.83" y1="101.45" x2="15.44" y2="100.36" fill="none" stroke="#6b7a90" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round"/>
+     <line x1="-4.02" y1="98.01" x2="15.44" y2="96.92" fill="none" stroke="#6b7a90" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round"/>
+     <line x1="-15.01" y1="121.69" x2="-39.57" y2="123.07" fill="none" stroke="#6b7a90" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round"/>
+     <line x1="-39.57" y1="123.07" x2="-53.05" y2="102.49" fill="none" stroke="#6b7a90" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round"/>
+     <line x1="-53.05" y1="102.49" x2="-77.61" y2="103.87" fill="none" stroke="#6b7a90" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round"/>
+     <line x1="-53.05" y1="102.49" x2="-41.96" y2="80.53" fill="none" stroke="#6b7a90" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round"/>
+     <text x="20.63" y="101.76" font-size="9.5" text-anchor="middle" fill="#d6332a">O</text>
+    </g>
+    <text x="-3.66" y="143.34" font-size="12" text-anchor="middle" font-weight="bold" fill="#1f2933">Leu704</text>
+   </g>
+   <g class="residue" data-class="hydrophobic" data-form="eyelash" data-residue="A:LEU707">
+    <polyline points="-18.91,-89.62 -21.11,-87.66 -23.52,-85.97 -26.11,-84.57 -28.84,-83.47 -31.68,-82.7 -34.59,-82.25 -37.53,-82.14 -40.47,-82.37 -43.36,-82.94 -46.16,-83.83 -48.85,-85.04 -51.38,-86.55 -53.71,-88.34 -55.83,-90.39 -57.7,-92.66 -59.3,-95.14 -60.6,-97.78" fill="none" stroke="#c0392b" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="-21.61" y1="-87.28" x2="-18" y2="-82.48" fill="none" stroke="#c0392b" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="-27.85" y1="-83.83" x2="-25.71" y2="-78.22" fill="none" stroke="#c0392b" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="-34.8" y1="-82.23" x2="-34.29" y2="-76.25" fill="none" stroke="#c0392b" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="-41.92" y1="-82.61" x2="-43.07" y2="-76.73" fill="none" stroke="#c0392b" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="-48.66" y1="-84.95" x2="-51.39" y2="-79.6" fill="none" stroke="#c0392b" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="-54.5" y1="-89.04" x2="-58.6" y2="-84.66" fill="none" stroke="#c0392b" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="-58.98" y1="-94.59" x2="-64.13" y2="-91.51" fill="none" stroke="#c0392b" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="-37" y="-103.45" font-size="12" text-anchor="middle" font-weight="bold" fill="#1f2933">Leu707</text>
+   </g>
+   <g class="residue" data-class="polar" data-form="fragment" data-residue="A:GLN711">
+    <g class="fragment">
+     <line x1="-170.62" y1="-174" x2="-153.23" y2="-156.61" fill="none" stroke="#6b7a90" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round"/>
+     <line x1="-153.23" y1="-156.61" x2="-159.6" y2="-132.84" fill="none" stroke="#6b7a90" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round"/>
+     <line x1="-159.6" y1="-132.84" x2="-142.2" y2="-115.45" fill="none" stroke="#6b7a90" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round"/>
+     <line x1="-141.76" y1="-113.79" x2="-123.63" y2="-118.64" fill="none" stroke="#6b7a90" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round"/>
+     <line x1="-142.65" y1="-117.11" x2="-123.63" y2="-122.2" fill="none" stroke="#6b7a90" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round"/>
+     <line x1="-142.2" y1="-115.45" x2="-147.25" y2="-96.6" fill="none" stroke="#6b7a90" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round"/>
+     <text x="-118.44" y="-118.41" font-size="9.5" text-anchor="middle" fill="#d6332a">O</text>
+     <text x="-148.57" y="-88.28" font-size="9.5" text-anchor="middle" fill="#2f5fd0">N</text>
+    </g>
+    <text x="-186.86" y="-185.93" font-size="12" text-anchor="middle" font-weight="bold" fill="#1f2933">Gln711</text>
+   </g>
+   <g class="residue" data-class="hydrophobic" data-form="eyelash" data-residue="A:LEU741">
+    <polyline points="139.55,-93.85 136.72,-93.03 133.82,-92.54 130.88,-92.38 127.94,-92.56 125.04,-93.08 122.22,-93.93 119.52,-95.1 116.97,-96.57 114.6,-98.32 112.45,-100.33 110.54,-102.57 108.91,-105.02 107.57,-107.64 106.53,-110.4 105.82,-113.26 105.44,-116.18 105.4,-119.12" fill="none" stroke="#c0392b" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="136.1" y1="-92.89" x2="137.3" y2="-87.01" fill="none" stroke="#c0392b" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="128.99" y1="-92.46" x2="128.52" y2="-86.48" fill="none" stroke="#c0392b" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="122.02" y1="-94" x2="119.92" y2="-88.38" fill="none" stroke="#c0392b" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="115.76" y1="-97.41" x2="112.19" y2="-92.58" fill="none" stroke="#c0392b" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="110.67" y1="-102.41" x2="105.91" y2="-98.75" fill="none" stroke="#c0392b" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="107.16" y1="-108.61" x2="101.58" y2="-106.41" fill="none" stroke="#c0392b" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="105.5" y1="-115.55" x2="99.53" y2="-114.97" fill="none" stroke="#c0392b" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="131" y="-113.69" font-size="12" text-anchor="middle" font-weight="bold" fill="#1f2933">Leu741</text>
+   </g>
+   <g class="residue" data-class="hydrophobic" data-form="fragment" data-residue="A:MET742">
+    <g class="fragment">
+     <line x1="-106.05" y1="171.82" x2="-115.33" y2="149.04" fill="none" stroke="#6b7a90" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round"/>
+     <line x1="-113.97" y1="150.09" x2="-101.88" y2="134.52" fill="none" stroke="#6b7a90" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round"/>
+     <line x1="-116.69" y1="147.98" x2="-105.44" y2="133.49" fill="none" stroke="#6b7a90" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round"/>
+     <text x="-100.24" y="133.02" font-size="9.5" text-anchor="middle" fill="#d6332a">O</text>
+    </g>
+    <text x="-99.47" y="192.27" font-size="12" text-anchor="middle" font-weight="bold" fill="#1f2933">Met742</text>
+   </g>
+   <g class="residue" data-class="positive" data-form="fragment" data-residue="A:ARG752">
+    <g class="fragment">
+     <line x1="-233.04" y1="109.49" x2="-214.55" y2="93.25" fill="none" stroke="#6b7a90" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round"/>
+     <line x1="-214.55" y1="93.25" x2="-219.37" y2="69.13" fill="none" stroke="#6b7a90" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round"/>
+     <line x1="-219.37" y1="69.13" x2="-200.89" y2="52.89" fill="none" stroke="#6b7a90" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round"/>
+     <line x1="-200.89" y1="52.89" x2="-204.73" y2="33.68" fill="none" stroke="#6b7a90" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round"/>
+     <line x1="-200.78" y1="24.44" x2="-187.23" y2="12.54" fill="none" stroke="#6b7a90" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round"/>
+     <line x1="-187.23" y1="12.54" x2="-191.07" y2="-6.68" fill="none" stroke="#6b7a90" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round"/>
+     <line x1="-187.78" y1="14.16" x2="-168.86" y2="20.57" fill="none" stroke="#6b7a90" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round"/>
+     <line x1="-186.68" y1="10.91" x2="-168.86" y2="16.94" fill="none" stroke="#6b7a90" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round"/>
+     <text x="-205.71" y="32.18" font-size="9.5" text-anchor="middle" fill="#2f5fd0">N</text>
+     <text x="-192.05" y="-8.18" font-size="9.5" text-anchor="middle" fill="#2f5fd0">N</text>
+     <text x="-163.93" y="23.83" font-size="9.5" text-anchor="middle" fill="#2f5fd0">N</text>
+    </g>
+    <text x="-250.97" y="129.55" font-size="12" text-anchor="middle" font-weight="bold" fill="#1f2933">Arg752</text>
+   </g>
+   <g class="residue" data-class="hydrophobic" data-form="eyelash" data-residue="A:PHE764">
+    <polyline points="-60.91,-43.42 -62.61,-40.97 -64.58,-38.73 -66.79,-36.73 -69.22,-34.99 -71.82,-33.55 -74.58,-32.41 -77.45,-31.6 -80.4,-31.13 -83.38,-30.99 -86.35,-31.2 -89.28,-31.75 -92.13,-32.63 -94.86,-33.83 -97.43,-35.33 -99.82,-37.13 -101.98,-39.18 -103.89,-41.47" fill="none" stroke="#c0392b" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="-63.01" y1="-40.47" x2="-58.37" y2="-36.66" fill="none" stroke="#c0392b" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="-68.33" y1="-35.58" x2="-64.92" y2="-30.64" fill="none" stroke="#c0392b" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="-74.78" y1="-32.35" x2="-72.87" y2="-26.66" fill="none" stroke="#c0392b" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="-81.88" y1="-31.02" x2="-81.61" y2="-25.02" fill="none" stroke="#c0392b" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="-89.07" y1="-31.7" x2="-90.47" y2="-25.86" fill="none" stroke="#c0392b" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="-95.8" y1="-34.33" x2="-98.74" y2="-29.11" fill="none" stroke="#c0392b" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="-101.54" y1="-38.72" x2="-105.81" y2="-34.51" fill="none" stroke="#c0392b" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="-83.06" y="-52.63" font-size="12" text-anchor="middle" font-weight="bold" fill="#1f2933">Phe764</text>
+   </g>
+   <g class="residue" data-class="hydrophobic" data-form="eyelash" data-residue="A:ILE898">
+    <polyline points="48.56,-114.49 48.2,-111.68 47.47,-108.95 46.4,-106.33 44.99,-103.88 43.28,-101.63 41.29,-99.61 39.05,-97.88 36.61,-96.45 34,-95.35 31.27,-94.6 28.47,-94.21 25.64,-94.19 22.83,-94.53 20.09,-95.24 17.47,-96.29" fill="none" stroke="#c0392b" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="48.16" y1="-111.49" x2="54.03" y2="-110.27" fill="none" stroke="#c0392b" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="46.12" y1="-105.79" x2="51.44" y2="-103.01" fill="none" stroke="#c0392b" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="42.6" y1="-100.88" x2="46.94" y2="-96.74" fill="none" stroke="#c0392b" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="37.85" y1="-97.13" x2="40.88" y2="-91.95" fill="none" stroke="#c0392b" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="32.26" y1="-94.83" x2="33.74" y2="-89.01" fill="none" stroke="#c0392b" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="26.25" y1="-94.16" x2="26.07" y2="-88.16" fill="none" stroke="#c0392b" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="20.29" y1="-95.18" x2="18.47" y2="-89.46" fill="none" stroke="#c0392b" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="26.88" y="-111.57" font-size="12" text-anchor="middle" font-weight="bold" fill="#1f2933">Ile898</text>
+   </g>
+   <g class="residue" data-class="hydrophobic" data-form="eyelash" data-residue="A:ILE899">
+    <polyline points="16.45,-68.05 18.56,-66.17 20.41,-64.02 21.96,-61.66 23.19,-59.11 24.08,-56.43 24.62,-53.65 24.79,-50.82 24.59,-48 24.02,-45.23 23.1,-42.55 21.84,-40.02 20.27,-37.67 18.4,-35.55 16.27,-33.69 13.91,-32.12" fill="none" stroke="#c0392b" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="18.7" y1="-66.02" x2="23.02" y2="-70.19" fill="none" stroke="#c0392b" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="22.25" y1="-61.13" x2="27.55" y2="-63.94" fill="none" stroke="#c0392b" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="24.32" y1="-55.44" x2="30.19" y2="-56.69" fill="none" stroke="#c0392b" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="24.73" y1="-49.41" x2="30.72" y2="-48.99" fill="none" stroke="#c0392b" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="23.47" y1="-43.49" x2="29.11" y2="-41.44" fill="none" stroke="#c0392b" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="20.63" y1="-38.16" x2="25.48" y2="-34.63" fill="none" stroke="#c0392b" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="16.43" y1="-33.81" x2="20.12" y2="-29.08" fill="none" stroke="#c0392b" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="3.06" y="-46.63" font-size="12" text-anchor="middle" font-weight="bold" fill="#1f2933">Ile899</text>
+   </g>
+  </g>
+ </g>
+ <g class="legend" transform="translate(18 438.36)">
+  <polygon points="26,9.19 19.6,11.69 19.6,6.69" fill="#1a9641"/>
+  <line x1="0" y1="9.19" x2="20.56" y2="9.19" fill="none" stroke="#1a9641" stroke-width="1.35" stroke-linejoin="round" stroke-dasharray="4.2 2.8"/>
+  <text x="34" y="12.96" font-size="10.5" fill="#667085">Hydrogen bond</text>
+  <line x1="123.79" y1="9.19" x2="149.79" y2="9.19" fill="none" stroke="#c2185b" stroke-width="1.35" stroke-linejoin="round" stroke-dasharray="6.5 2.2 1.3 2.2 1.3 2.2"/>
+  <text x="157.79" y="12.96" font-size="10.5" fill="#667085">Halogen bond</text>
+  <line x1="241.16" y1="9.19" x2="267.16" y2="9.19" fill="none" stroke="#1e88e5" stroke-width="1.35" stroke-linejoin="round" stroke-dasharray="2.2 2.2"/>
+  <text x="275.16" y="12.96" font-size="10.5" fill="#667085">Water bridge</text>
+  <polyline points="5.54,27.53 7.54,25.41 10.12,24.04 13,23.56 15.88,24.04 18.46,25.41 20.46,27.53" fill="none" stroke="#c0392b" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
+  <line x1="6.31" y1="26.54" x2="3.34" y2="23.86" fill="none" stroke="#c0392b" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
+  <line x1="8.23" y1="24.93" x2="6.11" y2="21.54" fill="none" stroke="#c0392b" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
+  <line x1="10.52" y1="23.91" x2="9.42" y2="20.07" fill="none" stroke="#c0392b" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
+  <line x1="13" y1="23.56" x2="13" y2="19.56" fill="none" stroke="#c0392b" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
+  <line x1="15.48" y1="23.91" x2="16.58" y2="20.07" fill="none" stroke="#c0392b" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
+  <line x1="17.77" y1="24.93" x2="19.89" y2="21.54" fill="none" stroke="#c0392b" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
+  <line x1="19.69" y1="26.54" x2="22.66" y2="23.86" fill="none" stroke="#c0392b" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="34" y="31.33" font-size="10.5" fill="#667085">Hydrophobic contact</text>
+ </g>
+ <g class="footnotes">
+  <text x="18" y="488.65" font-size="10.5" fill="#667085">Distances in Å.</text>
+ </g>
+</svg>

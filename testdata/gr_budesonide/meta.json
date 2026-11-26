@@ -1,0 +1,22 @@
+{
+ "slug": "gr_budesonide",
+ "what": "the glucocorticoid receptor's ligand-binding domain with budesonide",
+ "source": {
+  "archive": "RCSB Protein Data Bank",
+  "entry": "5NFP",
+  "address": "https://files.rcsb.org/download/5NFP.cif.gz",
+  "licence": "CC0 1.0 (the archive's data are in the public domain)",
+  "file": "model.cif.gz",
+  "file_is": "the archive's own file, byte for byte",
+  "sha256": "2e39381bc72831716e7595b2bd10cd8b6dc9a0ee831c6053466796d66005cd0f"
+ },
+ "ligand": {
+  "name": "budesonide",
+  "component": "8W5",
+  "residue_name_in_cif": "8W5",
+  "smiles": "CCC[C@@H]1O[C@@H]2C[C@H]3[C@@H]4CCC5=CC(=O)C=C[C@@]5([C@H]4[C@H](C[C@@]3([C@@]2(O1)C(=O)CO)C)O)C",
+  "smiles_from": "the archive's record of the chemical component 8W5",
+  "heavy_atoms": 31
+ },
+ "why_this_case": "A member of the series of corticosteroids."
+}

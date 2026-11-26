@@ -1,0 +1,58 @@
+[
+ {
+  "slug": "kit_imatinib",
+  "what": "the kinase domain of c-Kit with imatinib",
+  "ligand": "imatinib",
+  "n_ligand_atoms": 37,
+  "n_interactions": 23,
+  "why_this_case": "The reference case: one drug with hydrogen bonds, ring stacking, a ring over a charged group and hydrophobic contacts at once."
+ },
+ {
+  "slug": "ar_bicalutamide",
+  "what": "the androgen receptor's ligand-binding domain (W741L) with R-bicalutamide",
+  "ligand": "bicalutamide",
+  "n_ligand_atoms": 29,
+  "n_interactions": 11,
+  "why_this_case": "Halogens: a CF3 group and a fluorophenyl in a tight pocket; the second ligand of the androgen receptor's pocket."
+ },
+ {
+  "slug": "ar_r1881",
+  "what": "the androgen receptor's ligand-binding domain with the steroid R1881",
+  "ligand": "metribolone (R1881)",
+  "n_ligand_atoms": 21,
+  "n_interactions": 10,
+  "why_this_case": "A fused steroid in dense hydrophobic packing: nearly every residue wants the same side. With ar_bicalutamide, two unrelated ligands of one pocket."
+ },
+ {
+  "slug": "dhfr_methotrexate",
+  "what": "human dihydrofolate reductase with methotrexate and NADPH",
+  "ligand": "methotrexate",
+  "n_ligand_atoms": 33,
+  "n_interactions": 12,
+  "why_this_case": "Charged groups and aromatic rings: two carboxylates, a pteridine; a cofactor lies beside the ligand."
+ },
+ {
+  "slug": "ca2_celecoxib",
+  "what": "human carbonic anhydrase II with celecoxib on its zinc",
+  "ligand": "celecoxib",
+  "n_ligand_atoms": 26,
+  "n_interactions": 5,
+  "why_this_case": "A ligand on a metal ion that the protein holds: metal coordination, and the ion as a bridge."
+ },
+ {
+  "slug": "hb_carbon_monoxide",
+  "what": "human carbonmonoxy haemoglobin",
+  "ligand": "carbon monoxide",
+  "n_ligand_atoms": 2,
+  "n_interactions": 1,
+  "why_this_case": "A ligand of two atoms, bound to the haem and to no residue: the figure of a ligand without contacts."
+ },
+ {
+  "slug": "egfr_osimertinib",
+  "what": "the kinase domain of EGFR with osimertinib bound to Cys797",
+  "ligand": "osimertinib",
+  "n_ligand_atoms": 37,
+  "n_interactions": 10,
+  "why_this_case": "A covalent ligand: the bond to the cysteine is declared by the file."
+ }
+]

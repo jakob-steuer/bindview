@@ -1,0 +1,263 @@
+<svg xmlns="http://www.w3.org/2000/svg" class="bindview" width="418.31" height="450.4" viewBox="0 0 418.31 450.4" font-family="Helvetica, Arial, 'Liberation Sans', sans-serif" role="img">
+ <title>Ligand interaction diagram</title>
+ <rect class="background" width="418.31" height="450.4" fill="#ffffff"/>
+ <g class="confidence" data-buried-fraction="0.406">
+  <text x="18" y="26.26" font-size="11.5" fill="#667085">Ligand buried <tspan fill="#1f2933" font-weight="bold">41 %</tspan></text>
+ </g>
+ <g class="diagram" transform="translate(230.57 72.37)">
+  <g class="interactions">
+   <g class="interaction hydrophobic" data-distance="3.50" data-ligand-atoms="56/CD2" data-ligand-part="side-chain" data-ligand-residue="Phe56" data-protein-atoms="CE1" data-residue="B:PHE34" data-type="hydrophobic">
+    <title>Hydrophobic contact: Phe34 CE1 – Phe 56 of the ligand (side chain: 56/CD2), 3.50 Å</title>
+    <line x1="30.44" y1="9.73" x2="18.03" y2="16.77" fill="none" stroke="#c0392b" stroke-width="0.81" stroke-linejoin="round"/>
+   </g>
+   <g class="interaction hydrophobic" data-distance="3.95" data-ligand-atoms="64/CD2" data-ligand-part="side-chain" data-ligand-residue="Leu64" data-protein-atoms="CG" data-residue="B:LYS36" data-type="hydrophobic">
+    <title>Hydrophobic contact: Lys36 CG – Leu 64 of the ligand (side chain: 64/CD2), 3.95 Å</title>
+    <line x1="-34.1" y1="239.15" x2="-24.36" y2="240.25" fill="none" stroke="#c0392b" stroke-width="0.81" stroke-linejoin="round"/>
+   </g>
+   <g class="interaction hydrophobic" data-distance="3.87" data-ligand-atoms="56/CZ" data-ligand-part="side-chain" data-ligand-residue="Phe56" data-protein-atoms="CB" data-residue="B:LEU40" data-type="hydrophobic">
+    <title>Hydrophobic contact: Leu40 CB – Phe 56 of the ligand (side chain: 56/CZ), 3.87 Å</title>
+    <line x1="-30.51" y1="42.83" x2="-18.89" y2="36.8" fill="none" stroke="#c0392b" stroke-width="0.81" stroke-linejoin="round"/>
+   </g>
+   <g class="interaction hydrophobic" data-distance="3.69" data-ligand-atoms="59/CD1" data-ligand-part="side-chain" data-ligand-residue="Ile59" data-protein-atoms="CD1" data-residue="B:LEU65" data-type="hydrophobic">
+    <title>Hydrophobic contact: Leu65 CD1 – Ile 59 of the ligand (side chain: 59/CD1), 3.69 Å</title>
+    <line x1="-59.14" y1="108.16" x2="-24.7" y2="108.07" fill="none" stroke="#c0392b" stroke-width="0.81" stroke-linejoin="round"/>
+   </g>
+   <g class="interaction saltbridge" data-distance="3.55" data-ligand-atoms="55/OD1,55/OD2" data-ligand-part="side-chain" data-ligand-residue="Asp55" data-protein-atoms="NE,NH1,NH2" data-residue="B:ARG73" data-type="saltbridge">
+    <title>Salt bridge: Arg73 (+) – Asp 55 of the ligand (side chain: 55/OD1, 55/OD2), 3.55 Å</title>
+    <line x1="-51.26" y1="-2.29" x2="-24.65" y2="-1.1" fill="none" stroke="#7b3fa0" stroke-width="2.36" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0.01 3.7"/>
+   </g>
+   <g class="interaction hbond" data-distance="2.96" data-ligand-atoms="57/N" data-ligand-part="backbone" data-ligand-residue="Glu57" data-protein-atoms="O" data-residue="B:THR74" data-type="hbond">
+    <title>Hydrogen bond: Thr74 O – Glu 57 of the ligand (backbone: 57/N), 2.96 Å</title>
+    <polygon points="88.67,38.15 81.93,36.81 82.81,41.74" fill="#1a9641"/>
+    <text x="56.26" y="47.35" font-size="9.5" text-anchor="middle" fill="#1a9641">2.96</text>
+    <line x1="83.31" y1="39.11" x2="67" y2="42.02" fill="none" stroke="#1a9641" stroke-width="1.35" stroke-linejoin="round" stroke-dasharray="4.2 2.8"/>
+    <line x1="45.52" y1="45.86" x2="23.85" y2="49.74" fill="none" stroke="#1a9641" stroke-width="1.35" stroke-linejoin="round" stroke-dasharray="4.2 2.8"/>
+   </g>
+   <g class="interaction hbond" data-distance="2.62" data-ligand-atoms="63/O3" data-ligand-part="side-chain" data-ligand-residue="Tys63" data-protein-atoms="OH" data-residue="B:TYR76" data-type="hbond">
+    <title>Hydrogen bond: Tyr76 OH – Tys 63 of the ligand (side chain: 63/O3), 2.62 Å</title>
+    <polygon points="24.13,219.53 30.82,217.99 30.1,222.93" fill="#1a9641"/>
+    <text x="38.68" y="225.07" font-size="9.5" text-anchor="middle" fill="#1a9641">2.62</text>
+    <line x1="53.23" y1="223.79" x2="49.42" y2="223.23" fill="none" stroke="#1a9641" stroke-width="1.35" stroke-linejoin="round" stroke-dasharray="4.2 2.8"/>
+   </g>
+   <g class="interaction hbond" data-distance="2.85" data-ligand-atoms="57/OE1" data-ligand-part="side-chain" data-ligand-residue="Glu57" data-protein-atoms="N" data-residue="B:TYR76" data-type="hbond">
+    <title>Hydrogen bond: Tyr76 N – Glu 57 of the ligand (side chain: 57/OE1), 2.85 Å</title>
+    <polygon points="19.9,63.18 26.75,63.59 24.66,68.13" fill="#1a9641"/>
+    <text x="44.98" y="78.16" font-size="9.5" text-anchor="middle" fill="#1a9641">2.85</text>
+    <line x1="70.07" y1="86.33" x2="55.73" y2="79.71" fill="none" stroke="#1a9641" stroke-width="1.35" stroke-linejoin="round" stroke-dasharray="4.2 2.8"/>
+    <line x1="34.24" y1="69.8" x2="24.83" y2="65.46" fill="none" stroke="#1a9641" stroke-width="1.35" stroke-linejoin="round" stroke-dasharray="4.2 2.8"/>
+   </g>
+   <g class="interaction hydrophobic" data-distance="3.96" data-ligand-atoms="60/CG" data-ligand-part="side-chain" data-ligand-residue="Pro60" data-protein-atoms="CE2" data-residue="B:TYR76" data-type="hydrophobic">
+    <title>Hydrophobic contact: Tyr76 CE2 – Pro 60 of the ligand (side chain: 60/CG), 3.96 Å</title>
+    <line x1="65.87" y1="113.1" x2="21.98" y2="127.7" fill="none" stroke="#c0392b" stroke-width="0.81" stroke-linejoin="round"/>
+   </g>
+   <g class="interaction hbond" data-distance="2.94" data-ligand-atoms="63/O2" data-ligand-part="side-chain" data-ligand-residue="Tys63" data-protein-atoms="N" data-residue="B:ILE82" data-type="hbond">
+    <title>Hydrogen bond: Ile82 N – Tys 63 of the ligand (side chain: 63/O2), 2.94 Å</title>
+    <polygon points="-15.93,205.09 -22.79,204.83 -20.8,200.24" fill="#1a9641"/>
+    <text x="-36.64" y="199.5" font-size="9.5" text-anchor="middle" fill="#1a9641">2.94</text>
+    <line x1="-57.35" y1="187.1" x2="-47.38" y2="191.43" fill="none" stroke="#1a9641" stroke-width="1.35" stroke-linejoin="round" stroke-dasharray="4.2 2.8"/>
+    <line x1="-25.89" y1="200.76" x2="-20.92" y2="202.92" fill="none" stroke="#1a9641" stroke-width="1.35" stroke-linejoin="round" stroke-dasharray="4.2 2.8"/>
+   </g>
+   <g class="interaction hydrophobic" data-distance="3.82" data-ligand-atoms="63/CG" data-ligand-part="side-chain" data-ligand-residue="Tys63" data-protein-atoms="CG2" data-residue="B:ILE82" data-type="hydrophobic">
+    <title>Hydrophobic contact: Ile82 CG2 – Tys 63 of the ligand (side chain: 63/CG), 3.82 Å</title>
+    <line x1="-69" y1="163.57" x2="-35.48" y2="190.98" fill="none" stroke="#c0392b" stroke-width="0.81" stroke-linejoin="round"/>
+    <line x1="-25.89" y1="198.82" x2="-17.6" y2="205.61" fill="none" stroke="#c0392b" stroke-width="0.81" stroke-linejoin="round"/>
+   </g>
+   <g class="interaction hydrophobic" data-distance="3.94" data-ligand-atoms="59/CD1" data-ligand-part="side-chain" data-ligand-residue="Ile59" data-protein-atoms="CD1" data-residue="B:ILE82" data-type="hydrophobic">
+    <title>Hydrophobic contact: Ile82 CD1 – Ile 59 of the ligand (side chain: 59/CD1), 3.94 Å</title>
+    <line x1="-68.95" y1="160.35" x2="-14.59" y2="119.08" fill="none" stroke="#c0392b" stroke-width="0.81" stroke-linejoin="round"/>
+   </g>
+  </g>
+  <g class="ligand" data-drawn-as="chain">
+   <g class="backbone">
+    <line x1="0" y1="8.5" x2="0" y2="18.5" fill="none" stroke="#1f2933" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="0" y1="35.5" x2="0" y2="45.5" fill="none" stroke="#1f2933" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="0" y1="62.5" x2="0" y2="72.5" fill="none" stroke="#1f2933" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="0" y1="89.5" x2="0" y2="99.5" fill="none" stroke="#1f2933" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="0" y1="116.5" x2="0" y2="126.5" fill="none" stroke="#1f2933" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="0" y1="143.5" x2="0" y2="153.5" fill="none" stroke="#1f2933" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="0" y1="170.5" x2="0" y2="180.5" fill="none" stroke="#1f2933" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="0" y1="197.5" x2="0" y2="207.5" fill="none" stroke="#1f2933" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="0" y1="224.5" x2="0" y2="234.5" fill="none" stroke="#1f2933" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+   </g>
+   <g class="bonds">
+   </g>
+   <g class="units">
+    <g class="unit" data-atoms="55/N,55/CA,55/C,55/O,55/CB,55/CG,55/OD1,55/OD2" data-class="negative" data-position="1" data-residue="ASP">
+     <title>Asp 55 of the ligand (numbered as in the structure file)</title>
+     <rect x="-22" y="-8.5" width="44" height="17" rx="5" fill="#ffffff" stroke="#1f2933" stroke-width="1.15" stroke-linecap="round" stroke-linejoin="round"/>
+     <text x="0" y="3.77" font-size="10.5" text-anchor="middle" fill="#1f2933"><tspan font-weight="bold">Asp</tspan><tspan font-size="8" fill="#667085"> 55</tspan></text>
+    </g>
+    <g class="unit" data-atoms="56/N,56/CA,56/C,56/O,56/CB,56/CG,56/CD1,56/CD2,56/CE1,56/CE2,56/CZ" data-class="hydrophobic" data-position="2" data-residue="PHE">
+     <title>Phe 56 of the ligand (numbered as in the structure file)</title>
+     <rect x="-22" y="18.5" width="44" height="17" rx="5" fill="#ffffff" stroke="#1f2933" stroke-width="1.15" stroke-linecap="round" stroke-linejoin="round"/>
+     <text x="0" y="30.77" font-size="10.5" text-anchor="middle" fill="#1f2933"><tspan font-weight="bold">Phe</tspan><tspan font-size="8" fill="#667085"> 56</tspan></text>
+    </g>
+    <g class="unit" data-atoms="57/N,57/CA,57/C,57/O,57/CB,57/CG,57/CD,57/OE1,57/OE2" data-class="negative" data-position="3" data-residue="GLU">
+     <title>Glu 57 of the ligand (numbered as in the structure file)</title>
+     <rect x="-22" y="45.5" width="44" height="17" rx="5" fill="#ffffff" stroke="#1f2933" stroke-width="1.15" stroke-linecap="round" stroke-linejoin="round"/>
+     <text x="0" y="57.77" font-size="10.5" text-anchor="middle" fill="#1f2933"><tspan font-weight="bold">Glu</tspan><tspan font-size="8" fill="#667085"> 57</tspan></text>
+    </g>
+    <g class="unit" data-atoms="58/N,58/CA,58/C,58/O,58/CB,58/CG,58/CD,58/OE1,58/OE2" data-class="negative" data-position="4" data-residue="GLU">
+     <title>Glu 58 of the ligand (numbered as in the structure file)</title>
+     <rect x="-22" y="72.5" width="44" height="17" rx="5" fill="#ffffff" stroke="#1f2933" stroke-width="1.15" stroke-linecap="round" stroke-linejoin="round"/>
+     <text x="0" y="84.77" font-size="10.5" text-anchor="middle" fill="#1f2933"><tspan font-weight="bold">Glu</tspan><tspan font-size="8" fill="#667085"> 58</tspan></text>
+    </g>
+    <g class="unit" data-atoms="59/N,59/CA,59/C,59/O,59/CB,59/CG1,59/CG2,59/CD1" data-class="hydrophobic" data-position="5" data-residue="ILE">
+     <title>Ile 59 of the ligand (numbered as in the structure file)</title>
+     <rect x="-22" y="99.5" width="44" height="17" rx="5" fill="#ffffff" stroke="#1f2933" stroke-width="1.15" stroke-linecap="round" stroke-linejoin="round"/>
+     <text x="0" y="111.77" font-size="10.5" text-anchor="middle" fill="#1f2933"><tspan font-weight="bold">Ile</tspan><tspan font-size="8" fill="#667085"> 59</tspan></text>
+    </g>
+    <g class="unit" data-atoms="60/N,60/CA,60/C,60/O,60/CB,60/CG,60/CD" data-class="hydrophobic" data-position="6" data-residue="PRO">
+     <title>Pro 60 of the ligand (numbered as in the structure file)</title>
+     <rect x="-22" y="126.5" width="44" height="17" rx="5" fill="#ffffff" stroke="#1f2933" stroke-width="1.15" stroke-linecap="round" stroke-linejoin="round"/>
+     <text x="0" y="138.77" font-size="10.5" text-anchor="middle" fill="#1f2933"><tspan font-weight="bold">Pro</tspan><tspan font-size="8" fill="#667085"> 60</tspan></text>
+    </g>
+    <g class="unit" data-atoms="61/N,61/CA,61/C,61/O,61/CB,61/CG,61/CD,61/OE1,61/OE2" data-class="negative" data-position="7" data-residue="GLU">
+     <title>Glu 61 of the ligand (numbered as in the structure file)</title>
+     <rect x="-22" y="153.5" width="44" height="17" rx="5" fill="#ffffff" stroke="#1f2933" stroke-width="1.15" stroke-linecap="round" stroke-linejoin="round"/>
+     <text x="0" y="165.77" font-size="10.5" text-anchor="middle" fill="#1f2933"><tspan font-weight="bold">Glu</tspan><tspan font-size="8" fill="#667085"> 61</tspan></text>
+    </g>
+    <g class="unit" data-atoms="62/N,62/CA,62/C,62/O,62/CB,62/CG,62/CD,62/OE1,62/OE2" data-class="negative" data-position="8" data-residue="GLU">
+     <title>Glu 62 of the ligand (numbered as in the structure file)</title>
+     <rect x="-22" y="180.5" width="44" height="17" rx="5" fill="#ffffff" stroke="#1f2933" stroke-width="1.15" stroke-linecap="round" stroke-linejoin="round"/>
+     <text x="0" y="192.77" font-size="10.5" text-anchor="middle" fill="#1f2933"><tspan font-weight="bold">Glu</tspan><tspan font-size="8" fill="#667085"> 62</tspan></text>
+    </g>
+    <g class="unit" data-atoms="63/N,63/CA,63/CB,63/CG,63/CD1,63/CD2,63/CE1,63/CE2,63/CZ,63/OH,63/S,63/O1,63/O2,63/O3,63/C,63/O" data-class="other" data-position="9" data-residue="TYS">
+     <title>Tys 63 of the ligand (numbered as in the structure file)</title>
+     <rect x="-22" y="207.5" width="44" height="17" rx="5" fill="#ffffff" stroke="#1f2933" stroke-width="1.15" stroke-linecap="round" stroke-linejoin="round"/>
+     <text x="0" y="219.77" font-size="10.5" text-anchor="middle" fill="#1f2933"><tspan font-weight="bold">Tys</tspan><tspan font-size="8" fill="#667085"> 63</tspan></text>
+    </g>
+    <g class="unit" data-atoms="64/N,64/CA,64/C,64/O,64/CB,64/CG,64/CD1,64/CD2" data-class="hydrophobic" data-position="10" data-residue="LEU">
+     <title>Leu 64 of the ligand (numbered as in the structure file)</title>
+     <rect x="-22" y="234.5" width="44" height="17" rx="5" fill="#ffffff" stroke="#1f2933" stroke-width="1.15" stroke-linecap="round" stroke-linejoin="round"/>
+     <text x="0" y="246.77" font-size="10.5" text-anchor="middle" fill="#1f2933"><tspan font-weight="bold">Leu</tspan><tspan font-size="8" fill="#667085"> 64</tspan></text>
+    </g>
+    <text x="0" y="-12.5" font-size="8.5" text-anchor="middle" fill="#667085">N</text>
+    <text x="0" y="261.6" font-size="8.5" text-anchor="middle" fill="#667085">C</text>
+   </g>
+   <g class="atoms">
+   </g>
+  </g>
+  <g class="residues">
+   <g class="residue" data-class="hydrophobic" data-form="eyelash" data-residue="B:PHE34">
+    <polyline points="53.59,18.22 50.67,17.8 47.82,17.01 45.11,15.85 42.56,14.35 40.23,12.52 38.16,10.42 36.38,8.06 34.92,5.49 33.81,2.75 33.06,-0.11 32.7,-3.04 32.71,-6 33.11,-8.93 33.89,-11.78 35.03,-14.5" fill="none" stroke="#c0392b" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="50.46" y1="17.76" x2="49.17" y2="23.62" fill="none" stroke="#c0392b" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="44.54" y1="15.55" x2="41.69" y2="20.83" fill="none" stroke="#c0392b" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="39.46" y1="11.8" x2="35.26" y2="16.09" fill="none" stroke="#c0392b" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="35.61" y1="6.8" x2="30.39" y2="9.76" fill="none" stroke="#c0392b" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="33.29" y1="0.92" x2="27.46" y2="2.33" fill="none" stroke="#c0392b" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="32.68" y1="-5.36" x2="26.68" y2="-5.62" fill="none" stroke="#c0392b" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="33.82" y1="-11.58" x2="28.13" y2="-13.47" fill="none" stroke="#c0392b" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="55.35" y="-0.09" font-size="12" text-anchor="middle" font-weight="bold" fill="#1f2933">Phe34</text>
+   </g>
+   <g class="residue" data-class="positive" data-form="eyelash" data-residue="B:LYS36">
+    <polyline points="-47.7,219.22 -45.64,221.22 -43.86,223.47 -42.38,225.94 -41.24,228.57 -40.45,231.33 -40.03,234.17 -39.98,237.04 -40.3,239.89 -40.99,242.68 -42.04,245.36 -43.42,247.87 -45.12,250.18 -47.11,252.26 -49.35,254.05 -51.8,255.55" fill="none" stroke="#c0392b" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="-45.5" y1="221.37" x2="-41.01" y2="217.39" fill="none" stroke="#c0392b" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="-42.11" y1="226.49" x2="-36.7" y2="223.9" fill="none" stroke="#c0392b" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="-40.26" y1="232.34" x2="-34.34" y2="231.34" fill="none" stroke="#c0392b" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="-40.09" y1="238.47" x2="-34.13" y2="239.15" fill="none" stroke="#c0392b" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="-41.62" y1="244.42" x2="-36.08" y2="246.71" fill="none" stroke="#c0392b" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="-44.73" y1="249.71" x2="-40.03" y2="253.44" fill="none" stroke="#c0392b" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="-49.18" y1="253.94" x2="-45.69" y2="258.82" fill="none" stroke="#c0392b" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="-62" y="240.31" font-size="12" text-anchor="middle" font-weight="bold" fill="#1f2933">Lys36</text>
+   </g>
+   <g class="residue" data-class="hydrophobic" data-form="eyelash" data-residue="B:LEU40">
+    <polyline points="-52.91,33.56 -50.04,34.08 -47.27,34.97 -44.63,36.21 -42.18,37.79 -39.96,39.67 -37.99,41.82 -36.33,44.21 -34.99,46.79 -33.99,49.53 -33.36,52.38 -33.11,55.28 -33.23,58.19 -33.73,61.06 -34.6,63.84 -35.83,66.48" fill="none" stroke="#c0392b" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="-49.84" y1="34.13" x2="-48.33" y2="28.33" fill="none" stroke="#c0392b" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="-44.09" y1="36.52" x2="-41.04" y2="31.36" fill="none" stroke="#c0392b" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="-39.22" y1="40.41" x2="-34.87" y2="36.28" fill="none" stroke="#c0392b" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="-35.62" y1="45.48" x2="-30.29" y2="42.72" fill="none" stroke="#c0392b" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="-33.55" y1="51.35" x2="-27.66" y2="50.16" fill="none" stroke="#c0392b" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="-33.17" y1="57.57" x2="-27.19" y2="58.04" fill="none" stroke="#c0392b" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="-34.53" y1="63.64" x2="-28.91" y2="65.75" fill="none" stroke="#c0392b" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="-55.47" y="60.09" font-size="12" text-anchor="middle" font-weight="bold" fill="#1f2933">Leu40</text>
+   </g>
+   <g class="residue" data-class="hydrophobic" data-form="eyelash" data-residue="B:LEU65">
+    <polyline points="-76.05,89.67 -73.74,91.44 -71.68,93.5 -69.91,95.81 -68.45,98.34 -67.34,101.03 -66.58,103.84 -66.19,106.73 -66.18,109.64 -66.55,112.53 -67.3,115.34 -68.4,118.04 -69.84,120.57 -71.6,122.89 -73.65,124.96 -75.95,126.75" fill="none" stroke="#c0392b" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="-73.59" y1="91.58" x2="-69.58" y2="87.11" fill="none" stroke="#c0392b" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="-69.57" y1="96.34" x2="-64.49" y2="93.14" fill="none" stroke="#c0392b" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="-67.02" y1="102.02" x2="-61.26" y2="100.35" fill="none" stroke="#c0392b" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="-66.14" y1="108.18" x2="-60.14" y2="108.16" fill="none" stroke="#c0392b" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="-66.99" y1="114.35" x2="-61.22" y2="115.99" fill="none" stroke="#c0392b" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="-69.51" y1="120.04" x2="-64.41" y2="123.21" fill="none" stroke="#c0392b" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="-73.5" y1="124.82" x2="-69.47" y2="129.27" fill="none" stroke="#c0392b" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="-88.51" y="112.55" font-size="12" text-anchor="middle" font-weight="bold" fill="#1f2933">Leu65</text>
+   </g>
+   <g class="residue" data-class="positive" data-form="fragment" data-residue="B:ARG73">
+    <g class="fragment">
+     <line x1="-174.51" y1="-4.12" x2="-151.83" y2="-13.66" fill="none" stroke="#6b7a90" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round"/>
+     <line x1="-151.83" y1="-13.66" x2="-132.23" y2="1.21" fill="none" stroke="#6b7a90" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round"/>
+     <line x1="-132.23" y1="1.21" x2="-109.56" y2="-8.33" fill="none" stroke="#6b7a90" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round"/>
+     <line x1="-109.56" y1="-8.33" x2="-94.89" y2="2.8" fill="none" stroke="#6b7a90" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round"/>
+     <line x1="-85.03" y1="4.46" x2="-67.29" y2="-3" fill="none" stroke="#6b7a90" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round"/>
+     <line x1="-67.29" y1="-3" x2="-52.62" y2="8.13" fill="none" stroke="#6b7a90" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round"/>
+     <line x1="-65.58" y1="-2.78" x2="-63.09" y2="-22.5" fill="none" stroke="#6b7a90" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round"/>
+     <line x1="-68.99" y1="-3.22" x2="-66.56" y2="-22.5" fill="none" stroke="#6b7a90" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round"/>
+     <text x="-89.96" y="9.95" font-size="9.5" text-anchor="middle" fill="#2f5fd0">N</text>
+     <text x="-47.69" y="15.28" font-size="9.5" text-anchor="middle" fill="#2f5fd0">N</text>
+     <text x="-64.21" y="-24" font-size="9.5" text-anchor="middle" fill="#2f5fd0">N</text>
+    </g>
+    <text x="-195.57" y="9.04" font-size="12" text-anchor="middle" font-weight="bold" fill="#1f2933">Arg73</text>
+   </g>
+   <g class="residue" data-class="polar" data-form="fragment" data-residue="B:THR74">
+    <g class="fragment">
+     <line x1="136.51" y1="31.58" x2="117" y2="46.56" fill="none" stroke="#6b7a90" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round"/>
+     <line x1="117.65" y1="44.97" x2="99.46" y2="37.44" fill="none" stroke="#6b7a90" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round"/>
+     <line x1="116.34" y1="48.15" x2="99.46" y2="41.16" fill="none" stroke="#6b7a90" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round"/>
+     <text x="94.27" y="40.56" font-size="9.5" text-anchor="middle" fill="#d6332a">O</text>
+    </g>
+    <text x="153.4" y="22.93" font-size="12" text-anchor="middle" font-weight="bold" fill="#1f2933">Thr74</text>
+   </g>
+   <g class="residue" data-class="hydrophobic" data-form="fragment" data-residue="B:TYR76">
+    <g class="fragment">
+     <line x1="73.62" y1="93.51" x2="68.34" y2="112.28" fill="none" stroke="#6b7a90" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round"/>
+     <line x1="68.34" y1="112.28" x2="85.51" y2="129.89" fill="none" stroke="#6b7a90" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round"/>
+     <line x1="85.51" y1="129.89" x2="78.85" y2="153.57" fill="none" stroke="#6b7a90" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round"/>
+     <line x1="78.85" y1="153.57" x2="96.03" y2="171.19" fill="none" stroke="#6b7a90" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round"/>
+     <line x1="96.03" y1="171.19" x2="89.36" y2="194.87" fill="none" stroke="#6b7a90" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round"/>
+     <line x1="91.83" y1="173.4" x2="86.94" y2="190.79" fill="none" stroke="#6b7a90" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round"/>
+     <line x1="89.36" y1="194.87" x2="65.52" y2="200.94" fill="none" stroke="#6b7a90" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round"/>
+     <line x1="65.52" y1="200.94" x2="60.24" y2="219.71" fill="none" stroke="#6b7a90" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round"/>
+     <line x1="65.52" y1="200.94" x2="48.35" y2="183.33" fill="none" stroke="#6b7a90" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round"/>
+     <line x1="65.71" y1="196.19" x2="53.09" y2="183.26" fill="none" stroke="#6b7a90" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round"/>
+     <line x1="48.35" y1="183.33" x2="55.01" y2="159.64" fill="none" stroke="#6b7a90" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round"/>
+     <line x1="55.01" y1="159.64" x2="78.85" y2="153.57" fill="none" stroke="#6b7a90" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round"/>
+     <line x1="59.03" y1="162.17" x2="76.53" y2="157.71" fill="none" stroke="#6b7a90" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round"/>
+     <text x="75" y="92.01" font-size="9.5" text-anchor="middle" fill="#2f5fd0">N</text>
+     <text x="58.86" y="228.03" font-size="9.5" text-anchor="middle" fill="#d6332a">O</text>
+    </g>
+    <text x="47.1" y="122" font-size="12" text-anchor="middle" font-weight="bold" fill="#1f2933">Tyr76</text>
+   </g>
+   <g class="residue" data-class="hydrophobic" data-form="fragment" data-residue="B:ILE82">
+    <g class="fragment">
+     <line x1="-64.18" y1="180.03" x2="-71.02" y2="161.93" fill="none" stroke="#6b7a90" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round"/>
+     <text x="-62.33" y="188.35" font-size="9.5" text-anchor="middle" fill="#2f5fd0">N</text>
+    </g>
+    <text x="-76.14" y="152.67" font-size="12" text-anchor="middle" font-weight="bold" fill="#1f2933">Ile82</text>
+   </g>
+  </g>
+ </g>
+ <g class="legend" transform="translate(18 343.97)">
+  <polygon points="26,9.19 19.6,11.69 19.6,6.69" fill="#1a9641"/>
+  <line x1="0" y1="9.19" x2="20.56" y2="9.19" fill="none" stroke="#1a9641" stroke-width="1.35" stroke-linejoin="round" stroke-dasharray="4.2 2.8"/>
+  <text x="34" y="12.96" font-size="10.5" fill="#667085">Hydrogen bond</text>
+  <line x1="123.79" y1="9.19" x2="149.79" y2="9.19" fill="none" stroke="#7b3fa0" stroke-width="2.36" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0.01 3.7"/>
+  <text x="157.79" y="12.96" font-size="10.5" fill="#667085">Salt bridge</text>
+  <polyline points="231.52,9.15 233.52,7.03 236.1,5.66 238.98,5.19 241.86,5.66 244.44,7.03 246.44,9.15" fill="none" stroke="#c0392b" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
+  <line x1="232.29" y1="8.17" x2="229.32" y2="5.49" fill="none" stroke="#c0392b" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
+  <line x1="234.21" y1="6.56" x2="232.09" y2="3.16" fill="none" stroke="#c0392b" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
+  <line x1="236.5" y1="5.54" x2="235.4" y2="1.69" fill="none" stroke="#c0392b" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
+  <line x1="238.98" y1="5.19" x2="238.98" y2="1.19" fill="none" stroke="#c0392b" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
+  <line x1="241.46" y1="5.54" x2="242.56" y2="1.69" fill="none" stroke="#c0392b" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
+  <line x1="243.75" y1="6.56" x2="245.87" y2="3.16" fill="none" stroke="#c0392b" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
+  <line x1="245.67" y1="8.17" x2="248.64" y2="5.49" fill="none" stroke="#c0392b" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="259.98" y="12.96" font-size="10.5" fill="#667085">Hydrophobic contact</text>
+  <rect x="0.6" y="22.06" width="20.8" height="11" rx="3.5" fill="#ffffff" stroke="#1f2933" stroke-width="1.15" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="27" y="31.33" font-size="10.5" fill="#667085">Residue of the ligand, numbered as in the structure file</text>
+ </g>
+ <g class="footnotes">
+  <text x="18" y="394.26" font-size="10.5" fill="#667085">Distances in Å.</text>
+  <text x="18" y="409.48" font-size="10.5" fill="#667085">Residues of the ligand carry the names and numbers of the structure file (chain</text>
+  <text x="18" y="424.71" font-size="10.5" fill="#667085">H).</text>
+ </g>
+</svg>

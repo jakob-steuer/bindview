@@ -1,0 +1,32 @@
+interaction_type	residue_number	residue_name	chain	insertion_code	protein_atom	ligand_atom	distance	angle	ligand_is_donor	protein_atoms	ligand_atoms	water
+hbond	13	GLY	A		N	O5B	3.64	104.02	False			
+hbond	15	SER	A		N	O1P	2.82	157.8	False			
+hbond	35	ALA	A		N	N3A	3.06	138.9	False			
+hbond	36	ARG	A		NH1	O3B	3.88	134.9	False			
+hbond	40	GLY	A		O	O1A	3.6	118.21	True			
+hbond	42	ARG	A		N	O1A	2.83	174.33	False			
+hbond	58	GLY	A		N	O2'	3.6	119.31	False			
+hbond	59	SER	A		N	O4	3.08	161.24	False			
+hbond	60	TYR	A		N	O4	2.73	165.35	False			
+hbond	60	TYR	A		O	N3	2.86	163.78	True			
+hbond	235	VAL	A		N	N1A	2.95	168.63	False			
+hbond	235	VAL	A		O	N6A	3.14	162.22	True			
+hbond	426	THR	A		N	O2P	2.85	159.68	False			
+hbond	426	THR	A		OG1	O3'	3.92	136.16	False			
+hbond	434	GLY	A		O	N1	4.09	125.3	True			
+hbond	436	MET	A		N	O2	2.78	169.97	False			
+hydrophobic	388	TRP	A		CD2	C8M	3.53					
+hydrophobic	398	TYR	A		CB	C9	3.94					
+hydrophobic	398	TYR	A		CD1	C6	3.42					
+pi_stacking	393	TYR	A				5.16	74.24		CG,CD1,CD2,CE1,CE2,CZ	N9A,C8A,N7A,C5A,C4A	
+saltbridge	42	ARG	A				4.26			NE,NH1,NH2	PA,PA,O5B,O2A,O1A,O3P	
+saltbridge	42	ARG	A				4.67			NE,NH1,NH2	P,P,O3P,O1P,O5',O2P	
+water_bridge	14	ILE	A		N	O1A	2.86	113.6	False			A:755
+water_bridge	16	GLY	A		N	O1P	2.91	90.67	False			A:781
+water_bridge	38	ARG	A		O	O3B	2.83	129.33	True			A:906
+water_bridge	41	GLY	A		N	O2B	2.84	116.78	False			A:906
+water_bridge	43	THR	A		OG1	O4'	3.96	97.6	True			A:755
+water_bridge	65	GLN	A		NE2	O2	2.89	94.68	False			A:808
+water_bridge	263	ALA	A		O	O2P	3.26	84.6	True			A:948
+water_bridge	427	GLU	A		OE1	O2P	3.54	96.03	True			A:948
+water_bridge	437	GLU	A		N	O2	2.95	98.03	False			A:877

@@ -1,0 +1,169 @@
+{
+ "what": "The 21 models of an NMR bundle, dihydrofolate reductase with methotrexate (PDB 1AO8), as models of one ligand complex for bindview.Ensemble: models that come in one file.",
+ "what_it_is_not": "Not samples of a prediction, and not the frames of a simulation. The models of an NMR bundle are the structures its authors kept as agreeing with their restraints: how far they lie apart says how closely the measurement pins the complex down, which is not the same as how much the complex moves.",
+ "structures": "Not in the repository. The entry is fetched from the RCSB PDB into a folder of its own, testdata/ensemble/dhfr_mtx/structure/, by scripts/fetch_structures.py --download --only ensemble, and checked against testdata/structures.sha256. It is read and never written.",
+ "fetch": [
+  {
+   "pdb_id": "1AO8",
+   "file": "testdata/ensemble/dhfr_mtx/structure/1ao8.cif.gz",
+   "bytes": 1087633,
+   "sha256": "17ea3856f5a7baf6d14f698eb86bc2022b8c2b790c877dcda23facfa696439d6"
+  }
+ ],
+ "source": "RCSB Protein Data Bank, entry 1AO8; the archive's data are in the public domain (CC0 1.0).",
+ "ligand": "MTX",
+ "name": "methotrexate",
+ "smiles": "CN(CC1=CN=C2C(=N1)C(=NC(=N2)N)N)C3=CC=C(C=C3)C(=O)N[C@@H](CCC(=O)O)C(=O)O",
+ "smiles_from": "written out by hand; the same molecule as the archive's chemical component MTX, its one stereo centre included",
+ "ensemble": "the 21 models of an NMR bundle",
+ "tables": "One a model, written by scripts/ensemble_tables.py in the environment that has PLIP: PLIP through bindview.detect.detect_interactions on each model as it is read. Every row PLIP gives is kept.",
+ "models": [
+  {
+   "id": "model 1",
+   "file": "testdata/ensemble/dhfr_mtx/structure/1ao8.cif.gz",
+   "model": 1,
+   "ligand": "MTX",
+   "table": "model_01.interactions.tsv"
+  },
+  {
+   "id": "model 2",
+   "file": "testdata/ensemble/dhfr_mtx/structure/1ao8.cif.gz",
+   "model": 2,
+   "ligand": "MTX",
+   "table": "model_02.interactions.tsv"
+  },
+  {
+   "id": "model 3",
+   "file": "testdata/ensemble/dhfr_mtx/structure/1ao8.cif.gz",
+   "model": 3,
+   "ligand": "MTX",
+   "table": "model_03.interactions.tsv"
+  },
+  {
+   "id": "model 4",
+   "file": "testdata/ensemble/dhfr_mtx/structure/1ao8.cif.gz",
+   "model": 4,
+   "ligand": "MTX",
+   "table": "model_04.interactions.tsv"
+  },
+  {
+   "id": "model 5",
+   "file": "testdata/ensemble/dhfr_mtx/structure/1ao8.cif.gz",
+   "model": 5,
+   "ligand": "MTX",
+   "table": "model_05.interactions.tsv"
+  },
+  {
+   "id": "model 6",
+   "file": "testdata/ensemble/dhfr_mtx/structure/1ao8.cif.gz",
+   "model": 6,
+   "ligand": "MTX",
+   "table": "model_06.interactions.tsv"
+  },
+  {
+   "id": "model 7",
+   "file": "testdata/ensemble/dhfr_mtx/structure/1ao8.cif.gz",
+   "model": 7,
+   "ligand": "MTX",
+   "table": "model_07.interactions.tsv"
+  },
+  {
+   "id": "model 8",
+   "file": "testdata/ensemble/dhfr_mtx/structure/1ao8.cif.gz",
+   "model": 8,
+   "ligand": "MTX",
+   "table": "model_08.interactions.tsv"
+  },
+  {
+   "id": "model 9",
+   "file": "testdata/ensemble/dhfr_mtx/structure/1ao8.cif.gz",
+   "model": 9,
+   "ligand": "MTX",
+   "table": "model_09.interactions.tsv"
+  },
+  {
+   "id": "model 10",
+   "file": "testdata/ensemble/dhfr_mtx/structure/1ao8.cif.gz",
+   "model": 10,
+   "ligand": "MTX",
+   "table": "model_10.interactions.tsv"
+  },
+  {
+   "id": "model 11",
+   "file": "testdata/ensemble/dhfr_mtx/structure/1ao8.cif.gz",
+   "model": 11,
+   "ligand": "MTX",
+   "table": "model_11.interactions.tsv"
+  },
+  {
+   "id": "model 12",
+   "file": "testdata/ensemble/dhfr_mtx/structure/1ao8.cif.gz",
+   "model": 12,
+   "ligand": "MTX",
+   "table": "model_12.interactions.tsv"
+  },
+  {
+   "id": "model 13",
+   "file": "testdata/ensemble/dhfr_mtx/structure/1ao8.cif.gz",
+   "model": 13,
+   "ligand": "MTX",
+   "table": "model_13.interactions.tsv"
+  },
+  {
+   "id": "model 14",
+   "file": "testdata/ensemble/dhfr_mtx/structure/1ao8.cif.gz",
+   "model": 14,
+   "ligand": "MTX",
+   "table": "model_14.interactions.tsv"
+  },
+  {
+   "id": "model 15",
+   "file": "testdata/ensemble/dhfr_mtx/structure/1ao8.cif.gz",
+   "model": 15,
+   "ligand": "MTX",
+   "table": "model_15.interactions.tsv"
+  },
+  {
+   "id": "model 16",
+   "file": "testdata/ensemble/dhfr_mtx/structure/1ao8.cif.gz",
+   "model": 16,
+   "ligand": "MTX",
+   "table": "model_16.interactions.tsv"
+  },
+  {
+   "id": "model 17",
+   "file": "testdata/ensemble/dhfr_mtx/structure/1ao8.cif.gz",
+   "model": 17,
+   "ligand": "MTX",
+   "table": "model_17.interactions.tsv"
+  },
+  {
+   "id": "model 18",
+   "file": "testdata/ensemble/dhfr_mtx/structure/1ao8.cif.gz",
+   "model": 18,
+   "ligand": "MTX",
+   "table": "model_18.interactions.tsv"
+  },
+  {
+   "id": "model 19",
+   "file": "testdata/ensemble/dhfr_mtx/structure/1ao8.cif.gz",
+   "model": 19,
+   "ligand": "MTX",
+   "table": "model_19.interactions.tsv"
+  },
+  {
+   "id": "model 20",
+   "file": "testdata/ensemble/dhfr_mtx/structure/1ao8.cif.gz",
+   "model": 20,
+   "ligand": "MTX",
+   "table": "model_20.interactions.tsv"
+  },
+  {
+   "id": "model 21",
+   "file": "testdata/ensemble/dhfr_mtx/structure/1ao8.cif.gz",
+   "model": 21,
+   "ligand": "MTX",
+   "table": "model_21.interactions.tsv"
+  }
+ ]
+}

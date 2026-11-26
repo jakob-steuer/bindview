@@ -1,0 +1,123 @@
+{
+ "what": "A predicted multimer with its predicted aligned error: human TNF-alpha as a homotrimer, three chains predicted together.",
+ "kept_how": "In the repository: a prediction can be fetched from no archive. Two of its five draws are here, and the confidence summary of all five. The checksums are in this file.",
+ "terms": "Predicted by the author of bindview; no third party's data. The files are part of this repository, under its licence.",
+ "cases": [
+  {
+   "slug": "tnfa_trimer",
+   "name": "hTNFA_canonical_trimer",
+   "molecule": "human TNF-alpha, the soluble form, as a homotrimer: chains A, B and C, the same 157 residues in each, numbered 1 to 157",
+   "sequence": "VRSSSRTPSDKPVAHVVANPQAEGQLQWLNRRANALLANGVELRDNQLVVPSEGLYLIYSQVLFKGQGCPSTHVLLTHTISRIAVSYQTKVNLLSAIKSPCQRETPEGAEAKPWYEPIYLGGVFQLEKGDRLSAEINRPDYLDFAESGQVYFGIIAL",
+   "sequence_sha256": "788eca607f0924e37a17c50cf53e6f7cd09164eeccf8a2f35e0fd6d904293950",
+   "sequence_from": "the residues of chain A in the model files; chains B and C have the same. The sha256 is of the one-letter string above.",
+   "made_with": "Boltz: five diffusion samples (draws) of one prediction, ranked by the model's own confidence score, model_0 first. The files are in Boltz's output layout and name neither the program nor its version. The settings of the run were not recorded and sampling is random: a new run gives another prediction, not these files.",
+   "draws": {
+    "of_the_prediction": [
+     0,
+     1,
+     2,
+     3,
+     4
+    ],
+    "in_repository": [
+     0,
+     1
+    ]
+   },
+   "in_repository": "Draws 0 and 1 whole (model file, PAE matrix, pLDDT array, confidence summary) and the confidence summary of draws 2, 3 and 4: 11 files, 2218086 bytes.",
+   "why_two_draws": "A PAE matrix is 0.79 MB and does not compress. Draws 0 and 1 are the pair in which the three chains are named in another order, which reading several draws has to get right.",
+   "facts": {
+    "chains": [
+     "A",
+     "B",
+     "C"
+    ],
+    "residues_per_chain": 157,
+    "atoms_per_model": 3675,
+    "tokens": 471,
+    "row_order": "plddt_*.npz times 100 equals the per-residue B-factor of the model file in file order to 0.0005, in both draws",
+    "ranked_first": "model_0 (confidence_score 0.8931, 0.8925, 0.8923, 0.8918, 0.8918)",
+    "chain_names_across_draws": "model_1 names the chains in the opposite order round the axis: CA RMSD on model_0 21.89 as named, 0.98 with B and C exchanged"
+   },
+   "files": [
+    {
+     "name": "hTNFA_canonical_trimer_model_0.cif",
+     "draw": 0,
+     "bytes": 315301,
+     "sha256": "61812997e65f4f943ff12e8903a3e84f428a052b68959547d0cc66b9a9f3c7fa",
+     "what": "the model of draw 0: three chains, pLDDT times 100 in the B-factor column, declared (_ma_qa_metric)"
+    },
+    {
+     "name": "confidence_hTNFA_canonical_trimer_model_0.json",
+     "draw": 0,
+     "bytes": 898,
+     "sha256": "b0de29a5d372f3129475ba14e91ed66422a7e67e47d8981150c4243e7a676c58",
+     "what": "the model-level numbers of draw 0: ipTM, pTM, chain and chain-pair values by chain index"
+    },
+    {
+     "name": "pae_hTNFA_canonical_trimer_model_0.npz",
+     "draw": 0,
+     "bytes": 789248,
+     "sha256": "5374b74c8c4952a762566e2fc3a92b73b9da6a6810ae588d1d774c0019fd6b44",
+     "what": "predicted aligned error of draw 0, 471 x 471, array 'pae'; rows in the order of the model's residues"
+    },
+    {
+     "name": "plddt_hTNFA_canonical_trimer_model_0.npz",
+     "draw": 0,
+     "bytes": 1847,
+     "sha256": "79914e81cc6c90c9c7a8fde947be3504eb22098de3d4fce539c3fddf7dac2c81",
+     "what": "per-residue pLDDT of draw 0 on the 0-1 scale, array 'plddt'"
+    },
+    {
+     "name": "hTNFA_canonical_trimer_model_1.cif",
+     "draw": 1,
+     "bytes": 315231,
+     "sha256": "a62b6160d28219655d822aba8e87d535098546cf7b42fae1f25ed9657a685dbd",
+     "what": "the model of draw 1: three chains, pLDDT times 100 in the B-factor column, declared (_ma_qa_metric)"
+    },
+    {
+     "name": "confidence_hTNFA_canonical_trimer_model_1.json",
+     "draw": 1,
+     "bytes": 898,
+     "sha256": "73adbbba348057eee16908cc0f7e7d20ac3da3e6620fe3516b8b6c3f82e28ef6",
+     "what": "the model-level numbers of draw 1: ipTM, pTM, chain and chain-pair values by chain index"
+    },
+    {
+     "name": "pae_hTNFA_canonical_trimer_model_1.npz",
+     "draw": 1,
+     "bytes": 790129,
+     "sha256": "5baca25a5b6adaf1f72b372696081832bb22b3ac01a3360e8d658951771718ed",
+     "what": "predicted aligned error of draw 1, 471 x 471, array 'pae'; rows in the order of the model's residues"
+    },
+    {
+     "name": "plddt_hTNFA_canonical_trimer_model_1.npz",
+     "draw": 1,
+     "bytes": 1844,
+     "sha256": "bfd07205f641f082aaf4627a248c11d824a240a1f07aea8996c5def38cbd1ed8",
+     "what": "per-residue pLDDT of draw 1 on the 0-1 scale, array 'plddt'"
+    },
+    {
+     "name": "confidence_hTNFA_canonical_trimer_model_2.json",
+     "draw": 2,
+     "bytes": 900,
+     "sha256": "7773ef888480afbb0c18f71c9113ac1cec4c8ecb8e3caeab4dcf5dd5273db0cc",
+     "what": "the model-level numbers of draw 2: ipTM, pTM, chain and chain-pair values by chain index"
+    },
+    {
+     "name": "confidence_hTNFA_canonical_trimer_model_3.json",
+     "draw": 3,
+     "bytes": 893,
+     "sha256": "4ce57e8ae35f2473c3a69e7e90a213ae9ec344c1ce785ea2f0fcf79a3b3234c3",
+     "what": "the model-level numbers of draw 3: ipTM, pTM, chain and chain-pair values by chain index"
+    },
+    {
+     "name": "confidence_hTNFA_canonical_trimer_model_4.json",
+     "draw": 4,
+     "bytes": 897,
+     "sha256": "985b5acbde31117a2182dd1dbae3f836cf60e47cacbf63d9fdfcbe94862eb304",
+     "what": "the model-level numbers of draw 4: ipTM, pTM, chain and chain-pair values by chain index"
+    }
+   ]
+  }
+ ]
+}

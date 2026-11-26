@@ -1,0 +1,220 @@
+<svg xmlns="http://www.w3.org/2000/svg" class="bindview" width="489.18" height="476.16" viewBox="0 0 489.18 476.16" font-family="Helvetica, Arial, 'Liberation Sans', sans-serif" role="img">
+ <title>the N-terminal domain – the catalytic domain</title>
+ <desc>Predicted model: mean pLDDT 99 of the residues around the column, mean pLDDT 99 of the column, contact PAE 1.0 Å.</desc>
+ <rect class="background" width="489.18" height="476.16" fill="#ffffff"/>
+ <g class="confidence" data-contact-pae-max="1.0" data-contact-pae-min="1.0" data-ligand-plddt="98.9" data-pocket-plddt="98.9">
+  <text x="18" y="26.26" font-size="11.5" fill="#667085">Model confidence  residues around pLDDT <tspan fill="#1f2933" font-weight="bold">99</tspan>  ·  column pLDDT <tspan fill="#1f2933" font-weight="bold">99</tspan>  ·  contact PAE <tspan fill="#1f2933" font-weight="bold">1.0 Å</tspan></text>
+ </g>
+ <g class="diagram" transform="translate(244.85 60.99)">
+  <g class="backdrop">
+   <g class="lining" data-residues="X:PRO18 X:ALA35" data-surface="hydrophobic">
+    <title>Lining, hydrophobic: Pro18, Ala35</title>
+    <polyline points="-40.74,-8.89 -41.57,-6.04 -42.08,-3.12 -42.26,-0.16 -42.11,2.81 -41.68,5.74 -41.11,8.65 -40.67,11.53 -40.59,14.4 -40.91,17.27 -41.46,20.16 -41.95,23.09 -42.21,26.04 -42.15,29 -41.8,31.95 -41.26,34.86 -40.77,37.75 -40.59,40.62 -40.8,43.49 -41.31,46.38 -41.83,49.29 -42.17,52.24" fill="none" stroke="#b8dc7a" stroke-width="4.4" stroke-linecap="round" stroke-linejoin="round" opacity="0.62"/>
+   </g>
+   <g class="lining" data-residues="X:TYR19" data-surface="polar">
+    <title>Lining, polar: Tyr19</title>
+    <polyline points="-42.2,55.2 -41.92,58.15 -41.41,61.07 -40.88,63.97 -40.59,66.84 -40.7,69.71 -41.16,72.59 -41.71,75.49 -42.12,78.44 -42.25,81.4" fill="none" stroke="#9fdcee" stroke-width="4.4" stroke-linecap="round" stroke-linejoin="round" opacity="0.62"/>
+   </g>
+   <g class="lining" data-residues="X:TYR19 X:PHE70" data-surface="hydrophobic">
+    <title>Lining, hydrophobic: Tyr19, Phe70</title>
+    <polyline points="-42.04,84.36 -41.56,87.29 -40.98,90.19 -40.58,93.06 -40.58,95.93 -40.98,98.81 -41.56,101.7 -42.04,104.64 -42.24,107.59 -42.12,110.56 -41.71,113.5 -41.16,116.4 -40.7,119.29 -40.59,122.15 -40.88,125.03 -41.41,127.92 -41.92,130.84 -42.2,133.79 -42.17,136.75" fill="none" stroke="#b8dc7a" stroke-width="4.4" stroke-linecap="round" stroke-linejoin="round" opacity="0.62"/>
+   </g>
+   <g class="lining" data-residues="X:ASN68" data-surface="polar">
+    <title>Lining, polar: Asn68</title>
+    <polyline points="-41.81,139.69 -41.13,142.58 -40.13,145.37 -38.83,148.03 -37.25,150.54 -35.4,152.85 -33.3,154.95 -30.98,156.8 -28.47,158.37 -25.8,159.66 -23.01,160.65 -20.12,161.35 -17.18,161.77 -14.19,161.99" fill="none" stroke="#9fdcee" stroke-width="4.4" stroke-linecap="round" stroke-linejoin="round" opacity="0.62"/>
+   </g>
+   <g class="lining" data-residues="X:TRP78 X:MET71" data-surface="hydrophobic">
+    <title>Lining, hydrophobic: Trp78, Met71</title>
+    <polyline points="38.15,149.2 39.59,146.61 40.74,143.87 41.57,141.03 42.08,138.1 42.26,135.14 42.11,132.18 41.67,129.24 41.1,126.34 40.66,123.46 40.58,120.59 40.91,117.72 41.46,114.83 41.96,111.9 42.21,108.95 42.15,105.99 41.8,103.04 41.26,100.13 40.77,97.25 40.58,94.38 40.8,91.51 41.3,88.62 41.83,85.71 42.17,82.76 42.2,79.8 41.92,76.85 41.41,73.92 40.88,71.03 40.58,68.16" fill="none" stroke="#b8dc7a" stroke-width="4.4" stroke-linecap="round" stroke-linejoin="round" opacity="0.62"/>
+   </g>
+   <g class="lining" data-residues="X:ILE40 X:MET115" data-surface="hydrophobic">
+    <title>Lining, hydrophobic: Ile40, Met115</title>
+    <polyline points="41.71,59.51 42.12,56.57 42.25,53.6 42.04,50.65 41.56,47.71 40.98,44.82 40.58,41.94 40.58,39.08 40.98,36.2 41.56,33.3 42.04,30.37 42.24,27.41 42.12,24.45 41.72,21.51 41.16,18.61 40.7,15.72 40.58,12.86 40.87,9.99 41.41,7.1 41.91,4.17 42.2,1.22 42.17,-1.74 41.81,-4.68 41.13,-7.56 40.13,-10.35 38.84,-13.02" fill="none" stroke="#b8dc7a" stroke-width="4.4" stroke-linecap="round" stroke-linejoin="round" opacity="0.62"/>
+   </g>
+  </g>
+  <g class="interactions">
+   <g class="interaction hydrophobic" data-confidence="very_high" data-distance="3.96" data-ligand-atoms="262/CB" data-ligand-part="side-chain" data-ligand-residue="Trp262" data-pae="1.0" data-plddt="98.9" data-protein-atoms="CB" data-residue="X:PRO18" data-type="hydrophobic">
+    <title>Hydrophobic contact: Pro18 CB – Trp 262 of the catalytic domain (side chain: 262/CB), 3.96 Å, contact pLDDT 99, PAE 1.0 Å</title>
+    <line x1="-53.65" y1="6.67" x2="-22.66" y2="18.41" fill="none" stroke="#5b6472" stroke-width="0.81" stroke-linejoin="round"/>
+   </g>
+   <g class="interaction hbond" data-confidence="very_high" data-distance="2.81" data-ligand-atoms="263/N,263/O" data-ligand-part="backbone" data-ligand-residue="Val263" data-pae="1.0" data-plddt="98.9" data-protein-atoms="O" data-residue="X:TYR19" data-type="hbond">
+    <title>Hydrogen bond: Tyr19 O – Val 263 of the catalytic domain (backbone: 263/N), 2.81 Å, contact pLDDT 99, PAE 1.0 Å; Hydrogen bond: Tyr19 N – Val 263 of the catalytic domain (backbone: 263/O), 2.97 Å, contact pLDDT 99, PAE 1.0 Å</title>
+    <polygon points="-53.77,77.06 -46.91,76.83 -48.88,72.24" fill="#c026d3"/>
+    <line x1="-48.77" y1="74.91" x2="-21.69" y2="63.3" fill="none" stroke="#c026d3" stroke-width="1.35" stroke-linejoin="round"/>
+   </g>
+   <g class="interaction hydrophobic" data-confidence="very_high" data-distance="3.56" data-ligand-atoms="226/CZ" data-ligand-part="side-chain" data-ligand-residue="Phe226" data-pae="1.0" data-plddt="98.9" data-protein-atoms="CD2" data-residue="X:TYR19" data-type="hydrophobic">
+    <title>Hydrophobic contact: Tyr19 CD2 – Phe 226 of the catalytic domain (side chain: 226/CZ), 3.56 Å, contact pLDDT 99, PAE 1.0 Å</title>
+    <line x1="-53.39" y1="89.07" x2="-23.13" y2="99.8" fill="none" stroke="#5b6472" stroke-width="0.81" stroke-linejoin="round"/>
+   </g>
+   <g class="interaction hydrophobic" data-confidence="very_high" data-distance="3.86" data-ligand-atoms="262/CZ2" data-ligand-part="side-chain" data-ligand-residue="Trp262" data-pae="1.0" data-plddt="98.9" data-protein-atoms="CB" data-residue="X:ALA35" data-type="hydrophobic">
+    <title>Hydrophobic contact: Ala35 CB – Trp 262 of the catalytic domain (side chain: 262/CZ2), 3.86 Å, contact pLDDT 99, PAE 1.0 Å</title>
+    <line x1="-51.8" y1="38.92" x2="-25.1" y2="32.78" fill="none" stroke="#5b6472" stroke-width="0.81" stroke-linejoin="round"/>
+   </g>
+   <g class="interaction hydrophobic" data-confidence="very_high" data-distance="3.83" data-ligand-atoms="262/CH2" data-ligand-part="side-chain" data-ligand-residue="Trp262" data-pae="1.0" data-plddt="98.9" data-protein-atoms="CD1" data-residue="X:ILE40" data-type="hydrophobic">
+    <title>Hydrophobic contact: Ile40 CD1 – Trp 262 of the catalytic domain (side chain: 262/CH2), 3.83 Å, contact pLDDT 99, PAE 1.0 Å</title>
+    <line x1="53.37" y1="45.4" x2="23.3" y2="35.03" fill="none" stroke="#5b6472" stroke-width="0.81" stroke-linejoin="round"/>
+   </g>
+   <g class="interaction hbond" data-confidence="very_high" data-distance="2.92" data-ligand-atoms="342/O" data-ligand-part="backbone" data-ligand-residue="Pro342" data-pae="1.0" data-plddt="98.9" data-protein-atoms="ND2" data-residue="X:ASN68" data-type="hbond">
+    <title>Hydrogen bond: Asn68 ND2 – Pro 342 of the catalytic domain (backbone: 342/O), 2.92 Å, contact pLDDT 99, PAE 1.0 Å</title>
+    <polygon points="-18.14,145.85 -22.35,151.28 -24.91,146.99" fill="#c026d3"/>
+    <line x1="-42.78" y1="160.59" x2="-22.81" y2="148.64" fill="none" stroke="#c026d3" stroke-width="1.35" stroke-linejoin="round" stroke-dasharray="4.2 2.6"/>
+   </g>
+   <g class="interaction hydrophobic" data-confidence="very_high" data-distance="3.56" data-ligand-atoms="226/CE2" data-ligand-part="side-chain" data-ligand-residue="Phe226" data-pae="1.0" data-plddt="98.9" data-protein-atoms="CE1" data-residue="X:PHE70" data-type="hydrophobic">
+    <title>Hydrophobic contact: Phe70 CE1 – Phe 226 of the catalytic domain (side chain: 226/CE2), 3.56 Å, contact pLDDT 99, PAE 1.0 Å</title>
+    <line x1="-51.81" y1="120.12" x2="-25.04" y2="113.86" fill="none" stroke="#5b6472" stroke-width="0.81" stroke-linejoin="round"/>
+   </g>
+   <g class="interaction hydrophobic" data-confidence="very_high" data-distance="3.54" data-ligand-atoms="205/CG" data-ligand-part="side-chain" data-ligand-residue="Phe205" data-pae="1.0" data-plddt="98.9" data-protein-atoms="CE" data-residue="X:MET71" data-type="hydrophobic">
+    <title>Hydrophobic contact: Met71 CE – Phe 205 of the catalytic domain (side chain: 205/CG), 3.54 Å, contact pLDDT 99, PAE 1.0 Å</title>
+    <line x1="51.69" y1="88.98" x2="25.96" y2="85.01" fill="none" stroke="#5b6472" stroke-width="0.81" stroke-linejoin="round"/>
+   </g>
+   <g class="interaction hydrophobic" data-confidence="very_high" data-distance="3.65" data-ligand-atoms="226/CD1" data-ligand-part="side-chain" data-ligand-residue="Phe226" data-pae="1.0" data-plddt="98.9" data-protein-atoms="CE" data-residue="X:MET71" data-type="hydrophobic">
+    <title>Hydrophobic contact: Met71 CE – Phe 226 of the catalytic domain (side chain: 226/CD1), 3.65 Å, contact pLDDT 99, PAE 1.0 Å</title>
+    <line x1="51.97" y1="95.39" x2="24.92" y2="101.95" fill="none" stroke="#5b6472" stroke-width="0.81" stroke-linejoin="round"/>
+   </g>
+   <g class="interaction hydrophobic" data-confidence="very_high" data-distance="3.77" data-ligand-atoms="226/CD2" data-ligand-part="side-chain" data-ligand-residue="Phe226" data-pae="1.0" data-plddt="98.8" data-protein-atoms="CD2" data-residue="X:TRP78" data-type="hydrophobic">
+    <title>Hydrophobic contact: Trp78 CD2 – Phe 226 of the catalytic domain (side chain: 226/CD2), 3.77 Å, contact pLDDT 99, PAE 1.0 Å</title>
+    <line x1="53.55" y1="137.53" x2="19.13" y2="118.55" fill="none" stroke="#5b6472" stroke-width="0.81" stroke-linejoin="round"/>
+   </g>
+   <g class="interaction hydrophobic" data-confidence="very_high" data-distance="3.42" data-ligand-atoms="262/CZ2" data-ligand-part="side-chain" data-ligand-residue="Trp262" data-pae="1.0" data-plddt="98.9" data-protein-atoms="CE" data-residue="X:MET115" data-type="hydrophobic">
+    <title>Hydrophobic contact: Met115 CE – Trp 262 of the catalytic domain (side chain: 262/CZ2), 3.42 Å, contact pLDDT 99, PAE 1.0 Å</title>
+    <line x1="51.97" y1="14.39" x2="24.92" y2="20.95" fill="none" stroke="#5b6472" stroke-width="0.81" stroke-linejoin="round"/>
+   </g>
+   <g class="interaction hydrophobic" data-confidence="very_high" data-distance="3.61" data-ligand-atoms="261/CB" data-ligand-part="side-chain" data-ligand-residue="Pro261" data-pae="1.0" data-plddt="98.9" data-protein-atoms="CB" data-residue="X:MET115" data-type="hydrophobic">
+    <title>Hydrophobic contact: Met115 CB – Pro 261 of the catalytic domain (side chain: 261/CB), 3.61 Å, contact pLDDT 99, PAE 1.0 Å</title>
+    <line x1="51.69" y1="7.98" x2="25.96" y2="4.01" fill="none" stroke="#5b6472" stroke-width="0.81" stroke-linejoin="round"/>
+   </g>
+  </g>
+  <g class="ligand" data-drawn-as="chain">
+   <g class="backbone">
+    <line x1="0" y1="8.5" x2="0" y2="18.5" fill="none" stroke="#1f2933" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="0" y1="35.5" x2="0" y2="45.5" fill="none" stroke="#1f2933" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+   </g>
+   <g class="bonds">
+   </g>
+   <g class="units">
+    <g class="unit" data-atoms="261/N,261/CA,261/C,261/CB,261/O,261/CG,261/CD" data-class="hydrophobic" data-confidence="very_high" data-position="1" data-residue="PRO">
+     <title>Pro 261 of the catalytic domain (numbered as in the structure file)</title>
+     <rect x="-24" y="-8.5" width="48" height="17" rx="5" fill="#ffffff" stroke="#1f2933" stroke-width="1.15" stroke-linecap="round" stroke-linejoin="round"/>
+     <text x="0" y="3.77" font-size="10.5" text-anchor="middle" fill="#1f2933"><tspan font-weight="bold">Pro</tspan><tspan font-size="8" fill="#667085"> 261</tspan></text>
+    </g>
+    <g class="unit" data-atoms="262/N,262/CA,262/C,262/CB,262/O,262/CG,262/CD1,262/CD2,262/CE2,262/CE3,262/NE1,262/CH2,262/CZ2,262/CZ3" data-class="hydrophobic" data-confidence="very_high" data-position="2" data-residue="TRP">
+     <title>Trp 262 of the catalytic domain (numbered as in the structure file)</title>
+     <rect x="-24" y="18.5" width="48" height="17" rx="5" fill="#ffffff" stroke="#1f2933" stroke-width="1.15" stroke-linecap="round" stroke-linejoin="round"/>
+     <text x="0" y="30.77" font-size="10.5" text-anchor="middle" fill="#1f2933"><tspan font-weight="bold">Trp</tspan><tspan font-size="8" fill="#667085"> 262</tspan></text>
+    </g>
+    <g class="unit" data-atoms="263/N,263/CA,263/C,263/CB,263/O,263/CG1,263/CG2" data-class="hydrophobic" data-confidence="very_high" data-position="3" data-residue="VAL">
+     <title>Val 263 of the catalytic domain (numbered as in the structure file)</title>
+     <rect x="-24" y="45.5" width="48" height="17" rx="5" fill="#ffffff" stroke="#1f2933" stroke-width="1.15" stroke-linecap="round" stroke-linejoin="round"/>
+     <text x="0" y="57.77" font-size="10.5" text-anchor="middle" fill="#1f2933"><tspan font-weight="bold">Val</tspan><tspan font-size="8" fill="#667085"> 263</tspan></text>
+    </g>
+    <g class="unit" data-atoms="205/N,205/CA,205/C,205/CB,205/O,205/CG,205/CD1,205/CD2,205/CE1,205/CE2,205/CZ" data-class="hydrophobic" data-confidence="very_high" data-position="4" data-residue="PHE">
+     <title>Phe 205 of the catalytic domain (numbered as in the structure file)</title>
+     <rect x="-24" y="72.5" width="48" height="17" rx="5" fill="#ffffff" stroke="#1f2933" stroke-width="1.15" stroke-linecap="round" stroke-linejoin="round"/>
+     <text x="0" y="84.77" font-size="10.5" text-anchor="middle" fill="#1f2933"><tspan font-weight="bold">Phe</tspan><tspan font-size="8" fill="#667085"> 205</tspan></text>
+    </g>
+    <g class="unit" data-atoms="226/N,226/CA,226/C,226/CB,226/O,226/CG,226/CD1,226/CD2,226/CE1,226/CE2,226/CZ" data-class="hydrophobic" data-confidence="very_high" data-position="5" data-residue="PHE">
+     <title>Phe 226 of the catalytic domain (numbered as in the structure file)</title>
+     <rect x="-24" y="99.5" width="48" height="17" rx="5" fill="#ffffff" stroke="#1f2933" stroke-width="1.15" stroke-linecap="round" stroke-linejoin="round"/>
+     <text x="0" y="111.77" font-size="10.5" text-anchor="middle" fill="#1f2933"><tspan font-weight="bold">Phe</tspan><tspan font-size="8" fill="#667085"> 226</tspan></text>
+    </g>
+    <g class="unit" data-atoms="342/N,342/CA,342/C,342/CB,342/O,342/CG,342/CD" data-class="hydrophobic" data-confidence="very_high" data-position="6" data-residue="PRO">
+     <title>Pro 342 of the catalytic domain (numbered as in the structure file)</title>
+     <rect x="-24" y="126.5" width="48" height="17" rx="5" fill="#ffffff" stroke="#1f2933" stroke-width="1.15" stroke-linecap="round" stroke-linejoin="round"/>
+     <text x="0" y="138.77" font-size="10.5" text-anchor="middle" fill="#1f2933"><tspan font-weight="bold">Pro</tspan><tspan font-size="8" fill="#667085"> 342</tspan></text>
+    </g>
+   </g>
+   <g class="atoms">
+   </g>
+  </g>
+  <g class="residues">
+   <g class="residue" data-class="hydrophobic" data-confidence="very_high" data-form="bubble" data-plddt="98.9" data-residue="X:PRO18">
+    <title>Pro18: hydrophobic contact; residue pLDDT 99</title>
+    <path d="M-50.79 7.75 L-61.77 13.97 A15.19 15.19 0 1 1 -54.89 -4.18 Z" fill="#b8dc7a" stroke="#5b6472" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="-69.25" y="-0.35" font-size="9.5" text-anchor="middle" font-weight="bold" fill="#1f2933">PRO</text>
+    <text x="-69.25" y="8.67" font-size="9.5" text-anchor="middle" fill="#1f2933">18</text>
+   </g>
+   <g class="residue" data-class="hydrophobic" data-confidence="very_high" data-form="bubble" data-plddt="98.9" data-residue="X:TYR19">
+    <title>Tyr19: hydrogen bond, hydrophobic contact; residue pLDDT 99</title>
+    <path d="M-49.45 82.84 L-57.05 92.71 A15 15 0 1 1 -57.76 73.55 Z" fill="#b8dc7a" stroke="#5b6472" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="-68.94" y="82.46" font-size="9.5" text-anchor="middle" font-weight="bold" fill="#1f2933">TYR</text>
+    <text x="-68.94" y="91.48" font-size="9.5" text-anchor="middle" fill="#1f2933">19</text>
+   </g>
+   <g class="residue" data-class="hydrophobic" data-confidence="very_high" data-form="bubble" data-plddt="98.9" data-residue="X:ALA35">
+    <title>Ala35: hydrophobic contact; residue pLDDT 99</title>
+    <path d="M-48.88 38.25 L-54.48 49.37 A15 15 0 1 1 -58.78 30.69 Z" fill="#b8dc7a" stroke="#5b6472" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="-67.88" y="41.52" font-size="9.5" text-anchor="middle" font-weight="bold" fill="#1f2933">ALA</text>
+    <text x="-67.88" y="50.54" font-size="9.5" text-anchor="middle" fill="#1f2933">35</text>
+   </g>
+   <g class="residue" data-class="hydrophobic" data-confidence="very_high" data-form="bubble" data-plddt="98.9" data-residue="X:ILE40">
+    <title>Ile40: hydrophobic contact; residue pLDDT 99</title>
+    <path d="M50.53 44.42 L61.19 37.96 A15 15 0 1 1 54.94 56.08 Z" fill="#b8dc7a" stroke="#5b6472" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="68.97" y="49.68" font-size="9.5" text-anchor="middle" font-weight="bold" fill="#1f2933">ILE</text>
+    <text x="68.97" y="58.7" font-size="9.5" text-anchor="middle" fill="#1f2933">40</text>
+   </g>
+   <g class="residue" data-class="polar" data-confidence="very_high" data-form="bubble" data-plddt="98.9" data-residue="X:ASN68">
+    <title>Asn68: hydrogen bond; residue pLDDT 99</title>
+    <path d="M-40.2 159.05 L-42.12 171.36 A15 15 0 1 1 -51.96 154.91 Z" fill="#9fdcee" stroke="#5b6472" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="-56.94" y="167.96" font-size="9.5" text-anchor="middle" font-weight="bold" fill="#1f2933">ASN</text>
+    <text x="-56.94" y="176.98" font-size="9.5" text-anchor="middle" fill="#1f2933">68</text>
+   </g>
+   <g class="residue" data-class="hydrophobic" data-confidence="very_high" data-form="bubble" data-plddt="98.9" data-residue="X:PHE70">
+    <title>Phe70: hydrophobic contact; residue pLDDT 99</title>
+    <path d="M-48.89 119.44 L-54.46 130.58 A15 15 0 1 1 -58.83 111.92 Z" fill="#b8dc7a" stroke="#5b6472" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="-67.88" y="122.78" font-size="9.5" text-anchor="middle" font-weight="bold" fill="#1f2933">PHE</text>
+    <text x="-67.88" y="131.8" font-size="9.5" text-anchor="middle" fill="#1f2933">70</text>
+   </g>
+   <g class="residue" data-class="hydrophobic" data-confidence="very_high" data-form="bubble" data-plddt="98.9" data-residue="X:MET71">
+    <title>Met71: hydrophobic contact; residue pLDDT 99</title>
+    <path d="M48.52 92.36 L56.05 82.43 A15 15 0 1 1 56.9 101.58 Z" fill="#b8dc7a" stroke="#5b6472" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="68" y="90.4" font-size="9.5" text-anchor="middle" font-weight="bold" fill="#1f2933">MET</text>
+    <text x="68" y="99.42" font-size="9.5" text-anchor="middle" fill="#1f2933">71</text>
+   </g>
+   <g class="residue" data-class="hydrophobic" data-confidence="very_high" data-form="bubble" data-plddt="98.8" data-residue="X:TRP78">
+    <title>Trp78: hydrophobic contact; residue pLDDT 99</title>
+    <path d="M50.92 136.08 L62.52 131.54 A15 15 0 1 1 53.27 148.32 Z" fill="#b8dc7a" stroke="#5b6472" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="68" y="144.4" font-size="9.5" text-anchor="middle" font-weight="bold" fill="#1f2933">TRP</text>
+    <text x="68" y="153.42" font-size="9.5" text-anchor="middle" fill="#1f2933">78</text>
+   </g>
+   <g class="residue" data-class="hydrophobic" data-confidence="very_high" data-form="bubble" data-plddt="98.9" data-residue="X:MET115">
+    <title>Met115: hydrophobic contact; residue pLDDT 99</title>
+    <path d="M48.52 11.36 L56.05 1.43 A15 15 0 1 1 56.9 20.58 Z" fill="#b8dc7a" stroke="#5b6472" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="68" y="9.4" font-size="9.5" text-anchor="middle" font-weight="bold" fill="#1f2933">MET</text>
+    <text x="68" y="18.42" font-size="9.5" text-anchor="middle" fill="#1f2933">115</text>
+   </g>
+  </g>
+ </g>
+ <g class="legend" transform="translate(18 260.01)">
+  <circle cx="5.5" cy="9.19" r="5.5" fill="#b8dc7a" stroke="#5b6472" stroke-width="0.8" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="16" y="12.96" font-size="10.5" fill="#667085">Hydrophobic</text>
+  <circle cx="98.44" cy="9.19" r="5.5" fill="#9fdcee" stroke="#5b6472" stroke-width="0.8" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="108.94" y="12.96" font-size="10.5" fill="#667085">Polar</text>
+  <polygon points="177.44,9.19 171.04,11.69 171.04,6.69" fill="#c026d3"/>
+  <line x1="151.44" y1="9.19" x2="172" y2="9.19" fill="none" stroke="#c026d3" stroke-width="1.35" stroke-linejoin="round"/>
+  <text x="185.44" y="12.96" font-size="10.5" fill="#667085">H-bond (backbone)</text>
+  <polygon points="319.31,9.19 312.91,11.69 312.91,6.69" fill="#c026d3"/>
+  <line x1="293.31" y1="9.19" x2="313.87" y2="9.19" fill="none" stroke="#c026d3" stroke-width="1.35" stroke-linejoin="round" stroke-dasharray="4.2 2.6"/>
+  <text x="327.31" y="12.96" font-size="10.5" fill="#667085">H-bond (side chain)</text>
+  <line x1="0" y1="27.56" x2="26" y2="27.56" fill="none" stroke="#5b6472" stroke-width="0.81" stroke-linejoin="round"/>
+  <text x="34" y="31.33" font-size="10.5" fill="#667085">Hydrophobic contact</text>
+  <circle cx="154.21" cy="27.56" r="6.5" fill="#c9ced6" opacity="0.6"/>
+  <text x="165.71" y="31.33" font-size="10.5" fill="#667085">Solvent exposure</text>
+  <text x="264.83" y="31.33" font-size="10.5" fill="#667085">Lining:</text>
+  <line x1="315.96" y1="27.56" x2="329.56" y2="27.56" fill="none" stroke="#b8dc7a" stroke-width="4.4" stroke-linecap="round" stroke-linejoin="round" opacity="0.62"/>
+  <text x="336.76" y="31.33" font-size="10.5" fill="#667085">hydrophobic</text>
+  <line x1="2.2" y1="45.94" x2="15.8" y2="45.94" fill="none" stroke="#9fdcee" stroke-width="4.4" stroke-linecap="round" stroke-linejoin="round" opacity="0.62"/>
+  <text x="23" y="49.71" font-size="10.5" fill="#667085">polar</text>
+  <rect x="64.94" y="40.44" width="20.8" height="11" rx="3.5" fill="#ffffff" stroke="#1f2933" stroke-width="1.15" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="91.34" y="49.71" font-size="10.5" fill="#667085">Residue of the catalytic domain, numbered as in the structure file</text>
+ </g>
+ <g class="footnotes">
+  <text x="18" y="328.67" font-size="10.5" fill="#667085">An interface has no centre. The residues of the catalytic domain that touch the N-terminal domain</text>
+  <text x="18" y="343.89" font-size="10.5" fill="#667085">stand in a column, as boxes, ordered along the interface and not by their sequence: neighbours</text>
+  <text x="18" y="359.12" font-size="10.5" fill="#667085">in the column are neighbours in space; those of the N-terminal domain around it. A line is a pair</text>
+  <text x="18" y="374.34" font-size="10.5" fill="#667085">of residues, at the shortest of its contacts of one kind.</text>
+  <text x="18" y="389.57" font-size="10.5" fill="#667085">All 6 residues of the catalytic domain at the interface are shown, with 13 contacts.</text>
+  <text x="18" y="404.79" font-size="10.5" fill="#667085">PAE (predicted aligned error) is the model's expected error, in ångström, in placing one residue</text>
+  <text x="18" y="420.02" font-size="10.5" fill="#667085">of a contact relative to the other: low is confident, about 32 means no idea. It is not pLDDT, which</text>
+  <text x="18" y="435.24" font-size="10.5" fill="#667085">line weight, dashes and ? show.</text>
+  <text x="18" y="450.47" font-size="10.5" fill="#667085">No contact here reaches 5 Å, so none carries a PAE on its line.</text>
+ </g>
+</svg>

@@ -1,0 +1,2 @@
+interaction_type	residue_number	residue_name	chain	insertion_code	protein_atom	ligand_atom	distance	angle	ligand_is_donor	protein_atoms	ligand_atoms	water
+hbond	58	HIS	A		NE2	O	3.3	132.88	True			

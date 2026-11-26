@@ -1,0 +1,21 @@
+{
+ "slug": "thrombin_hirudin",
+ "what": "human alpha-thrombin with a peptide of hirudin's C-terminal tail on its exosite",
+ "source": {
+  "archive": "RCSB Protein Data Bank",
+  "entry": "2UUF",
+  "address": "https://files.rcsb.org/download/2UUF.cif.gz",
+  "licence": "CC0 1.0 (the archive's data are in the public domain)",
+  "file": "model.cif.gz",
+  "file_is": "the archive's file, unpacked and packed again (gzip, no time stamp)",
+  "sha256": "d46edebd0bf7a10f398cc71f211749c80cbaffdad11923ec58784a5d84307ff6"
+ },
+ "chains": {
+  "A": "thrombin, light chain (28 residues in the model)",
+  "B": "thrombin, heavy chain",
+  "H": "the peptide, ten residues of hirudin's tail (DFEEIPEEYL), its tyrosine sulfated (TYS 63)"
+ },
+ "chain_names": "the authors' (auth_asym_id)",
+ "peptide_chain": "H",
+ "why_this_case": "A peptide as the ligand, given as a chain of its own, with a modified residue, beside a second short chain that is not the ligand; residues numbered with insertion codes; two chains of one protein as an interface."
+}

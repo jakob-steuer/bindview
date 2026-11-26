@@ -1,0 +1,535 @@
+{
+ "_about": {
+  "what": "The base pairs and stacks of model.pdb (the first frame of the riboswitch simulation, beside this file) as RNApolis's annotator wrote them: a fixture for bindview.read_rnapolis_pairs and read_rnapolis_stacks, so that the tests need no RNApolis.",
+  "made_with": "RNApolis 0.17.0 (MIT), in an environment of its own: annotator -j basepairs.rnapolis.json model.pdb",
+  "trimmed": "base_pairs whole (20); of stackings the two across the chains and the first two within chain A (the file has 34); the other keys of the annotator's JSON left out. Nothing else is changed."
+ },
+ "base_pairs": [
+  {
+   "nt1": {
+    "label": null,
+    "auth": {
+     "chain": "A",
+     "number": 1,
+     "icode": null,
+     "name": "G"
+    }
+   },
+   "nt2": {
+    "label": null,
+    "auth": {
+     "chain": "A",
+     "number": 18,
+     "icode": null,
+     "name": "C"
+    }
+   },
+   "lw": "cWW",
+   "saenger": "XIX"
+  },
+  {
+   "nt1": {
+    "label": null,
+    "auth": {
+     "chain": "A",
+     "number": 2,
+     "icode": null,
+     "name": "G"
+    }
+   },
+   "nt2": {
+    "label": null,
+    "auth": {
+     "chain": "A",
+     "number": 17,
+     "icode": null,
+     "name": "C"
+    }
+   },
+   "lw": "cWW",
+   "saenger": "XIX"
+  },
+  {
+   "nt1": {
+    "label": null,
+    "auth": {
+     "chain": "A",
+     "number": 3,
+     "icode": null,
+     "name": "U"
+    }
+   },
+   "nt2": {
+    "label": null,
+    "auth": {
+     "chain": "A",
+     "number": 16,
+     "icode": null,
+     "name": "A"
+    }
+   },
+   "lw": "cWW",
+   "saenger": "XX"
+  },
+  {
+   "nt1": {
+    "label": null,
+    "auth": {
+     "chain": "A",
+     "number": 4,
+     "icode": null,
+     "name": "G"
+    }
+   },
+   "nt2": {
+    "label": null,
+    "auth": {
+     "chain": "A",
+     "number": 15,
+     "icode": null,
+     "name": "C"
+    }
+   },
+   "lw": "cWW",
+   "saenger": "XIX"
+  },
+  {
+   "nt1": {
+    "label": null,
+    "auth": {
+     "chain": "A",
+     "number": 5,
+     "icode": null,
+     "name": "G"
+    }
+   },
+   "nt2": {
+    "label": null,
+    "auth": {
+     "chain": "A",
+     "number": 14,
+     "icode": null,
+     "name": "C"
+    }
+   },
+   "lw": "cWW",
+   "saenger": "XIX"
+  },
+  {
+   "nt1": {
+    "label": null,
+    "auth": {
+     "chain": "A",
+     "number": 6,
+     "icode": null,
+     "name": "G"
+    }
+   },
+   "nt2": {
+    "label": null,
+    "auth": {
+     "chain": "A",
+     "number": 13,
+     "icode": null,
+     "name": "C"
+    }
+   },
+   "lw": "cWW",
+   "saenger": "XIX"
+  },
+  {
+   "nt1": {
+    "label": null,
+    "auth": {
+     "chain": "A",
+     "number": 7,
+     "icode": null,
+     "name": "G"
+    }
+   },
+   "nt2": {
+    "label": null,
+    "auth": {
+     "chain": "A",
+     "number": 12,
+     "icode": null,
+     "name": "C"
+    }
+   },
+   "lw": "cWW",
+   "saenger": "XIX"
+  },
+  {
+   "nt1": {
+    "label": null,
+    "auth": {
+     "chain": "A",
+     "number": 8,
+     "icode": null,
+     "name": "A"
+    }
+   },
+   "nt2": {
+    "label": null,
+    "auth": {
+     "chain": "B",
+     "number": 12,
+     "icode": null,
+     "name": "C"
+    }
+   },
+   "lw": "cWS",
+   "saenger": null
+  },
+  {
+   "nt1": {
+    "label": null,
+    "auth": {
+     "chain": "A",
+     "number": 9,
+     "icode": null,
+     "name": "C"
+    }
+   },
+   "nt2": {
+    "label": null,
+    "auth": {
+     "chain": "B",
+     "number": 10,
+     "icode": null,
+     "name": "G"
+    }
+   },
+   "lw": "cWW",
+   "saenger": "XIX"
+  },
+  {
+   "nt1": {
+    "label": null,
+    "auth": {
+     "chain": "A",
+     "number": 10,
+     "icode": null,
+     "name": "G"
+    }
+   },
+   "nt2": {
+    "label": null,
+    "auth": {
+     "chain": "B",
+     "number": 9,
+     "icode": null,
+     "name": "C"
+    }
+   },
+   "lw": "cWW",
+   "saenger": "XIX"
+  },
+  {
+   "nt1": {
+    "label": null,
+    "auth": {
+     "chain": "A",
+     "number": 11,
+     "icode": null,
+     "name": "A"
+    }
+   },
+   "nt2": {
+    "label": null,
+    "auth": {
+     "chain": "A",
+     "number": 12,
+     "icode": null,
+     "name": "C"
+    }
+   },
+   "lw": "cSH",
+   "saenger": null
+  },
+  {
+   "nt1": {
+    "label": null,
+    "auth": {
+     "chain": "A",
+     "number": 12,
+     "icode": null,
+     "name": "C"
+    }
+   },
+   "nt2": {
+    "label": null,
+    "auth": {
+     "chain": "B",
+     "number": 8,
+     "icode": null,
+     "name": "A"
+    }
+   },
+   "lw": "cSW",
+   "saenger": null
+  },
+  {
+   "nt1": {
+    "label": null,
+    "auth": {
+     "chain": "B",
+     "number": 1,
+     "icode": null,
+     "name": "G"
+    }
+   },
+   "nt2": {
+    "label": null,
+    "auth": {
+     "chain": "B",
+     "number": 18,
+     "icode": null,
+     "name": "C"
+    }
+   },
+   "lw": "cWW",
+   "saenger": "XIX"
+  },
+  {
+   "nt1": {
+    "label": null,
+    "auth": {
+     "chain": "B",
+     "number": 2,
+     "icode": null,
+     "name": "G"
+    }
+   },
+   "nt2": {
+    "label": null,
+    "auth": {
+     "chain": "B",
+     "number": 17,
+     "icode": null,
+     "name": "C"
+    }
+   },
+   "lw": "cWW",
+   "saenger": "XIX"
+  },
+  {
+   "nt1": {
+    "label": null,
+    "auth": {
+     "chain": "B",
+     "number": 3,
+     "icode": null,
+     "name": "U"
+    }
+   },
+   "nt2": {
+    "label": null,
+    "auth": {
+     "chain": "B",
+     "number": 16,
+     "icode": null,
+     "name": "A"
+    }
+   },
+   "lw": "cWW",
+   "saenger": "XX"
+  },
+  {
+   "nt1": {
+    "label": null,
+    "auth": {
+     "chain": "B",
+     "number": 4,
+     "icode": null,
+     "name": "G"
+    }
+   },
+   "nt2": {
+    "label": null,
+    "auth": {
+     "chain": "B",
+     "number": 15,
+     "icode": null,
+     "name": "C"
+    }
+   },
+   "lw": "cWW",
+   "saenger": "XIX"
+  },
+  {
+   "nt1": {
+    "label": null,
+    "auth": {
+     "chain": "B",
+     "number": 5,
+     "icode": null,
+     "name": "G"
+    }
+   },
+   "nt2": {
+    "label": null,
+    "auth": {
+     "chain": "B",
+     "number": 14,
+     "icode": null,
+     "name": "C"
+    }
+   },
+   "lw": "cWW",
+   "saenger": "XIX"
+  },
+  {
+   "nt1": {
+    "label": null,
+    "auth": {
+     "chain": "B",
+     "number": 6,
+     "icode": null,
+     "name": "G"
+    }
+   },
+   "nt2": {
+    "label": null,
+    "auth": {
+     "chain": "B",
+     "number": 13,
+     "icode": null,
+     "name": "C"
+    }
+   },
+   "lw": "cWW",
+   "saenger": "XIX"
+  },
+  {
+   "nt1": {
+    "label": null,
+    "auth": {
+     "chain": "B",
+     "number": 7,
+     "icode": null,
+     "name": "G"
+    }
+   },
+   "nt2": {
+    "label": null,
+    "auth": {
+     "chain": "B",
+     "number": 12,
+     "icode": null,
+     "name": "C"
+    }
+   },
+   "lw": "cWW",
+   "saenger": "XIX"
+  },
+  {
+   "nt1": {
+    "label": null,
+    "auth": {
+     "chain": "B",
+     "number": 11,
+     "icode": null,
+     "name": "A"
+    }
+   },
+   "nt2": {
+    "label": null,
+    "auth": {
+     "chain": "B",
+     "number": 12,
+     "icode": null,
+     "name": "C"
+    }
+   },
+   "lw": "cSH",
+   "saenger": null
+  }
+ ],
+ "stackings": [
+  {
+   "nt1": {
+    "label": null,
+    "auth": {
+     "chain": "A",
+     "number": 10,
+     "icode": null,
+     "name": "G"
+    }
+   },
+   "nt2": {
+    "label": null,
+    "auth": {
+     "chain": "B",
+     "number": 10,
+     "icode": null,
+     "name": "G"
+    }
+   },
+   "topology": "inward"
+  },
+  {
+   "nt1": {
+    "label": null,
+    "auth": {
+     "chain": "A",
+     "number": 11,
+     "icode": null,
+     "name": "A"
+    }
+   },
+   "nt2": {
+    "label": null,
+    "auth": {
+     "chain": "B",
+     "number": 11,
+     "icode": null,
+     "name": "A"
+    }
+   },
+   "topology": "inward"
+  },
+  {
+   "nt1": {
+    "label": null,
+    "auth": {
+     "chain": "A",
+     "number": 1,
+     "icode": null,
+     "name": "G"
+    }
+   },
+   "nt2": {
+    "label": null,
+    "auth": {
+     "chain": "A",
+     "number": 2,
+     "icode": null,
+     "name": "G"
+    }
+   },
+   "topology": "upward"
+  },
+  {
+   "nt1": {
+    "label": null,
+    "auth": {
+     "chain": "A",
+     "number": 2,
+     "icode": null,
+     "name": "G"
+    }
+   },
+   "nt2": {
+    "label": null,
+    "auth": {
+     "chain": "A",
+     "number": 3,
+     "icode": null,
+     "name": "U"
+    }
+   },
+   "topology": "upward"
+  }
+ ]
+}

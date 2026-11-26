@@ -1,0 +1,10 @@
+{
+ "key": "ar_ligands",
+ "mode": "difference",
+ "n_ligands": 2,
+ "what": "Two unrelated ligands of the androgen receptor's pocket, a steroid and an anilide: what one contacts and the other does not.",
+ "members_are_existing_cases_at": [
+  "../ar_r1881",
+  "../ar_bicalutamide"
+ ]
+}

@@ -1,0 +1,22 @@
+{
+ "slug": "ar_r1881",
+ "what": "the androgen receptor's ligand-binding domain with the steroid R1881",
+ "source": {
+  "archive": "RCSB Protein Data Bank",
+  "entry": "2AO6",
+  "address": "https://files.rcsb.org/download/2AO6.cif.gz",
+  "licence": "CC0 1.0 (the archive's data are in the public domain)",
+  "file": "model.cif.gz",
+  "file_is": "the archive's own file, byte for byte",
+  "sha256": "551663e45f4d17d2612c96f8b713a391d40a49f6c56dbe0a50761a5b04c37530"
+ },
+ "ligand": {
+  "name": "metribolone (R1881)",
+  "component": "R18",
+  "residue_name_in_cif": "R18",
+  "smiles": "C[C@@]1(CC[C@@H]2[C@@]1(C=CC3=C4CCC(=O)C=C4CC[C@@H]23)C)O",
+  "smiles_from": "the archive's record of the chemical component R18",
+  "heavy_atoms": 21
+ },
+ "why_this_case": "A fused steroid in dense hydrophobic packing: nearly every residue wants the same side. With ar_bicalutamide, two unrelated ligands of one pocket."
+}

@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use bindview, please cite it as below."
+type: software
+title: "bindview"
+abstract: >-
+  Publication-quality figures of molecular interactions, as SVG: small molecules, peptides, RNA, DNA and
+  proteins, from one structure to an ensemble, with the atoms that make each contact and the confidence of the model.
+authors:
+  - family-names: "Steuer"
+    given-names: "Jakob"
+repository-code: "https://github.com/jakob-steuer/bindview"
+version: "0.1.0"
+license: MIT
+keywords:
+  - cheminformatics
+  - structural biology
+  - protein-ligand interactions
+  - interaction diagram
+  - SVG

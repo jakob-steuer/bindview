@@ -1,0 +1,62 @@
+[build-system]
+requires = ["hatchling>=1.27"]
+build-backend = "hatchling.build"
+
+[project]
+name = "bindview"
+version = "0.1.0"
+description = "Publication-quality figures of molecular interactions: small molecules, peptides, RNA, DNA and proteins, from one structure to an ensemble."
+readme = "README.md"
+requires-python = ">=3.12"
+license = "MIT"
+license-files = ["LICENSE", "NOTICE"]
+authors = [{ name = "Jakob Steuer" }]
+keywords = ["cheminformatics", "structural-biology", "protein-ligand", "interaction-diagram", "svg"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Science/Research",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3 :: Only",
+    "Topic :: Scientific/Engineering :: Bio-Informatics",
+    "Topic :: Scientific/Engineering :: Chemistry",
+    "Typing :: Typed",
+]
+# The core is deliberately limited to permissively licensed dependencies
+# (RDKit: BSD-3-Clause, NumPy: BSD-3-Clause). Do not add anything copyleft here.
+dependencies = [
+    "numpy>=2.0",
+    "rdkit>=2026.9.1",
+]
+
+[project.optional-dependencies]
+# Interaction *detection* only. PLIP is GPL-2.0; installing this extra pulls a
+# GPL dependency into your environment. The core never imports it.
+plip = ["plip>=2.3"]
+dev = ["pytest>=7", "mypy>=1.8"]
+
+[project.scripts]
+bindview = "bindview.cli:main"
+
+[project.urls]
+Homepage = "https://github.com/jakob-steuer/bindview"
+Repository = "https://github.com/jakob-steuer/bindview"
+Issues = "https://github.com/jakob-steuer/bindview/issues"
+Changelog = "https://github.com/jakob-steuer/bindview/blob/main/CHANGELOG.md"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/bindview"]
+
+[tool.hatch.build.targets.sdist]
+# A source distribution carries the package and what explains it; the tests, their data and the sketches
+# stay in the repository.
+include = ["/src", "/docs", "/README.md", "/LICENSE", "/NOTICE", "/CHANGELOG.md", "/CITATION.cff", "/pyproject.toml"]
+
+[tool.mypy]
+# RDKit ships partial stubs only.
+ignore_missing_imports = true
+files = ["src/bindview"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"

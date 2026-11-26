@@ -1,0 +1,22 @@
+{
+ "slug": "dhfr_methotrexate",
+ "what": "human dihydrofolate reductase with methotrexate and NADPH",
+ "source": {
+  "archive": "RCSB Protein Data Bank",
+  "entry": "1U72",
+  "address": "https://files.rcsb.org/download/1U72.cif.gz",
+  "licence": "CC0 1.0 (the archive's data are in the public domain)",
+  "file": "model.cif.gz",
+  "file_is": "the archive's own file, byte for byte",
+  "sha256": "d69d970fbeaafbf67ee6af841aa7c369ef91865a04d98133f9d742b4a6c43dfa"
+ },
+ "ligand": {
+  "name": "methotrexate",
+  "component": "MTX",
+  "residue_name_in_cif": "MTX",
+  "smiles": "CN(Cc1cnc2c(n1)c(nc(n2)N)N)c3ccc(cc3)C(=O)N[C@@H](CCC(=O)O)C(=O)O",
+  "smiles_from": "the archive's record of the chemical component MTX",
+  "heavy_atoms": 33
+ },
+ "why_this_case": "Charged groups and aromatic rings: two carboxylates, a pteridine; a cofactor lies beside the ligand."
+}

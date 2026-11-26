@@ -1,0 +1,12 @@
+{
+ "key": "gr_steroids",
+ "mode": "congeneric",
+ "n_ligands": 4,
+ "what": "Four corticosteroids in the glucocorticoid receptor, each from its own crystal structure: one scaffold, different substituents.",
+ "members_are_existing_cases_at": [
+  "../gr_dexamethasone",
+  "../gr_desciclesonide",
+  "../gr_mometasone",
+  "../gr_budesonide"
+ ]
+}

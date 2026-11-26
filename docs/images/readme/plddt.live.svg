@@ -1,0 +1,276 @@
+<svg xmlns="http://www.w3.org/2000/svg" class="bindview lf-live" width="533.84" height="566.26" viewBox="0 0 533.84 566.26" font-family="Helvetica, Arial, 'Liberation Sans', sans-serif" role="img">
+ <title>N-terminal domain – ZP domain</title>
+ <desc>Predicted model: mean pLDDT 66 of the residues around the column, mean pLDDT 63 of the column, contact PAE 3.0–13.0 Å.</desc>
+ <style>svg.bindview{--lf-background:#ffffff;--lf-beyond:#9aa4b2;--lf-bubble-line:#5b6472;--lf-bubble-text:#1f2933;--lf-class-glycine:#ecebd8;--lf-class-hydrophobic:#b8dc7a;--lf-class-metal:#b9bec7;--lf-class-negative:#f4a98a;--lf-class-other:#d9dde3;--lf-class-polar:#9fdcee;--lf-class-positive:#a9a6f0;--lf-class-water:#dfe7f2;--lf-coordination:#8b95a5;--lf-element-B:#c77c5e;--lf-element-Br:#a0522d;--lf-element-Ca:#4f8f4f;--lf-element-Cl:#2e9e44;--lf-element-Co:#c2417a;--lf-element-Cu:#b06a2c;--lf-element-F:#2e9e44;--lf-element-Fe:#b5541a;--lf-element-H:#667085;--lf-element-I:#7b3fbf;--lf-element-K:#7b5fc0;--lf-element-Mg:#3f8f3f;--lf-element-Mn:#8a5fb0;--lf-element-N:#2f5fd0;--lf-element-Na:#7b5fc0;--lf-element-Ni:#3f8a7a;--lf-element-O:#d6332a;--lf-element-P:#d9730d;--lf-element-S:#a67c00;--lf-element-Se:#b8860b;--lf-element-Zn:#5b6f8a;--lf-element-other:#5b6472;--lf-exposure:#c9ced6;--lf-halogen:#c2185b;--lf-hbond:#1a9641;--lf-hydrophobic:#c0392b;--lf-ligand-bond:#1f2933;--lf-ligand-carbon:#1f2933;--lf-metal:#37474f;--lf-panel:#f6f7f9;--lf-panel-border:#d5dae1;--lf-pi-cation:#d97706;--lf-pi-stacking:#00838f;--lf-protein-atom:#4b5768;--lf-protein-bond:#6b7a90;--lf-protein-label:#1f2933;--lf-saltbridge:#7b3fa0;--lf-sch-halogen:#a16207;--lf-sch-hbond:#c026d3;--lf-sch-metal:#4b5563;--lf-sch-pi-cation:#dc2626;--lf-sch-pi-stacking:#16a34a;--lf-sch-saltbridge:#2563eb;--lf-sch-water-bridge:#0891b2;--lf-text:#1f2933;--lf-text-muted:#667085;--lf-warning:#b45309;--lf-water-bridge:#1e88e5;}@media (prefers-color-scheme:dark){svg.bindview:not([data-theme=light]){--lf-background:#0f172a;--lf-beyond:#64748b;--lf-bubble-line:#94a3b8;--lf-bubble-text:#f1f5f9;--lf-class-glycine:#57534e;--lf-class-hydrophobic:#3f6212;--lf-class-metal:#475569;--lf-class-negative:#9a3412;--lf-class-other:#3b4658;--lf-class-polar:#155e75;--lf-class-positive:#3730a3;--lf-class-water:#334155;--lf-coordination:#7c8aa0;--lf-element-B:#e0a58b;--lf-element-Br:#d19a66;--lf-element-Ca:#8fd08f;--lf-element-Cl:#73daca;--lf-element-Co:#f28cb1;--lf-element-Cu:#e0a070;--lf-element-F:#73daca;--lf-element-Fe:#f0a070;--lf-element-H:#94a3b8;--lf-element-I:#bb9af7;--lf-element-K:#b9a3f0;--lf-element-Mg:#86d086;--lf-element-Mn:#c4a3e8;--lf-element-N:#7aa2f7;--lf-element-Na:#b9a3f0;--lf-element-Ni:#7fd0c0;--lf-element-O:#f7768e;--lf-element-P:#ff9e64;--lf-element-S:#e0af68;--lf-element-Se:#e0af68;--lf-element-Zn:#9fb4d0;--lf-element-other:#b6c0cf;--lf-exposure:#3b475c;--lf-halogen:#f472b6;--lf-hbond:#4ade80;--lf-hydrophobic:#f87171;--lf-ligand-bond:#e2e8f0;--lf-ligand-carbon:#e2e8f0;--lf-metal:#cbd5e1;--lf-panel:#172036;--lf-panel-border:#2b3956;--lf-pi-cation:#fb923c;--lf-pi-stacking:#22d3ee;--lf-protein-atom:#a9b6c8;--lf-protein-bond:#8fa0b8;--lf-protein-label:#e2e8f0;--lf-saltbridge:#c084fc;--lf-sch-halogen:#facc15;--lf-sch-hbond:#e879f9;--lf-sch-metal:#cbd5e1;--lf-sch-pi-cation:#f87171;--lf-sch-pi-stacking:#4ade80;--lf-sch-saltbridge:#60a5fa;--lf-sch-water-bridge:#22d3ee;--lf-text:#e2e8f0;--lf-text-muted:#94a3b8;--lf-warning:#fbbf24;--lf-water-bridge:#60a5fa;}}svg.bindview[data-theme=dark]{--lf-background:#0f172a;--lf-beyond:#64748b;--lf-bubble-line:#94a3b8;--lf-bubble-text:#f1f5f9;--lf-class-glycine:#57534e;--lf-class-hydrophobic:#3f6212;--lf-class-metal:#475569;--lf-class-negative:#9a3412;--lf-class-other:#3b4658;--lf-class-polar:#155e75;--lf-class-positive:#3730a3;--lf-class-water:#334155;--lf-coordination:#7c8aa0;--lf-element-B:#e0a58b;--lf-element-Br:#d19a66;--lf-element-Ca:#8fd08f;--lf-element-Cl:#73daca;--lf-element-Co:#f28cb1;--lf-element-Cu:#e0a070;--lf-element-F:#73daca;--lf-element-Fe:#f0a070;--lf-element-H:#94a3b8;--lf-element-I:#bb9af7;--lf-element-K:#b9a3f0;--lf-element-Mg:#86d086;--lf-element-Mn:#c4a3e8;--lf-element-N:#7aa2f7;--lf-element-Na:#b9a3f0;--lf-element-Ni:#7fd0c0;--lf-element-O:#f7768e;--lf-element-P:#ff9e64;--lf-element-S:#e0af68;--lf-element-Se:#e0af68;--lf-element-Zn:#9fb4d0;--lf-element-other:#b6c0cf;--lf-exposure:#3b475c;--lf-halogen:#f472b6;--lf-hbond:#4ade80;--lf-hydrophobic:#f87171;--lf-ligand-bond:#e2e8f0;--lf-ligand-carbon:#e2e8f0;--lf-metal:#cbd5e1;--lf-panel:#172036;--lf-panel-border:#2b3956;--lf-pi-cation:#fb923c;--lf-pi-stacking:#22d3ee;--lf-protein-atom:#a9b6c8;--lf-protein-bond:#8fa0b8;--lf-protein-label:#e2e8f0;--lf-saltbridge:#c084fc;--lf-sch-halogen:#facc15;--lf-sch-hbond:#e879f9;--lf-sch-metal:#cbd5e1;--lf-sch-pi-cation:#f87171;--lf-sch-pi-stacking:#4ade80;--lf-sch-saltbridge:#60a5fa;--lf-sch-water-bridge:#22d3ee;--lf-text:#e2e8f0;--lf-text-muted:#94a3b8;--lf-warning:#fbbf24;--lf-water-bridge:#60a5fa;}</style>
+ <style>svg.bindview.lf-live .lf-part{transition:opacity .12s;cursor:pointer}svg.bindview.lf-live .lf-part:focus:not(:focus-visible){outline:none}svg.bindview.lf-live:has(.lf-part:is(:hover,:focus)) .lf-part:is(.interaction,.contact) :is(line,polyline,path):not(.lf-under){stroke-width:2.6px}svg.bindview.lf-live:is(:has(.lf-t-r127:focus),:not(:has(.lf-part:focus)):has(.lf-t-r127:hover)) .lf-part:not(.lf-o-r127,.lf-p-r127){opacity:0.12}svg.bindview.lf-live:is(:has(.lf-t-r151:focus),:not(:has(.lf-part:focus)):has(.lf-t-r151:hover)) .lf-part:not(.lf-o-r151,.lf-p-r151){opacity:0.12}svg.bindview.lf-live:is(:has(.lf-t-r154:focus),:not(:has(.lf-part:focus)):has(.lf-t-r154:hover)) .lf-part:not(.lf-o-r154,.lf-p-r154){opacity:0.12}svg.bindview.lf-live:is(:has(.lf-t-r192:focus),:not(:has(.lf-part:focus)):has(.lf-t-r192:hover)) .lf-part:not(.lf-o-r192,.lf-p-r192){opacity:0.12}svg.bindview.lf-live:is(:has(.lf-t-r193:focus),:not(:has(.lf-part:focus)):has(.lf-t-r193:hover)) .lf-part:not(.lf-o-r193,.lf-p-r193){opacity:0.12}svg.bindview.lf-live:is(:has(.lf-t-u0:focus),:not(:has(.lf-part:focus)):has(.lf-t-u0:hover)) .lf-part:not(.lf-o-u0,.lf-p-u0){opacity:0.12}svg.bindview.lf-live:is(:has(.lf-t-u1:focus),:not(:has(.lf-part:focus)):has(.lf-t-u1:hover)) .lf-part:not(.lf-o-u1,.lf-p-u1){opacity:0.12}svg.bindview.lf-live:is(:has(.lf-t-u2:focus),:not(:has(.lf-part:focus)):has(.lf-t-u2:hover)) .lf-part:not(.lf-o-u2,.lf-p-u2){opacity:0.12}svg.bindview.lf-live:is(:has(.lf-t-u3:focus),:not(:has(.lf-part:focus)):has(.lf-t-u3:hover)) .lf-part:not(.lf-o-u3,.lf-p-u3){opacity:0.12}svg.lf-live:not(:has(.lf-part:is(:hover,:focus))){--lf-faint:0.12;--lf-shown:inline}svg.lf-live[data-active="127"]:has(.lf-t-r127) .lf-part:not(.lf-o-r127,.lf-p-r127){opacity:var(--lf-faint,1)}svg.lf-live[data-active="151"]:has(.lf-t-r151) .lf-part:not(.lf-o-r151,.lf-p-r151){opacity:var(--lf-faint,1)}svg.lf-live[data-active="154"]:has(.lf-t-r154) .lf-part:not(.lf-o-r154,.lf-p-r154){opacity:var(--lf-faint,1)}svg.lf-live[data-active="192"]:has(.lf-t-r192) .lf-part:not(.lf-o-r192,.lf-p-r192){opacity:var(--lf-faint,1)}svg.lf-live[data-active="193"]:has(.lf-t-r193) .lf-part:not(.lf-o-r193,.lf-p-r193){opacity:var(--lf-faint,1)}svg.lf-live:is([data-active="127"]:has(.lf-t-r127),[data-active="151"]:has(.lf-t-r151),[data-active="154"]:has(.lf-t-r154),[data-active="192"]:has(.lf-t-r192),[data-active="193"]:has(.lf-t-r193)) .lf-part:is(.interaction,.contact) :is(line,polyline,path):not(.lf-under){stroke-width:2.6px}</style>
+ <rect class="background" width="533.84" height="566.26" style="fill:var(--lf-background,#ffffff)"/>
+ <g class="confidence" data-contact-pae-max="13.0" data-contact-pae-min="3.0" data-ligand-plddt="63.0" data-pocket-plddt="65.9">
+  <text x="18" y="26.26" font-size="11.5" style="fill:var(--lf-text-muted,#667085)">Model confidence  residues around pLDDT <tspan style="fill:var(--lf-text,#1f2933)" font-weight="bold">66</tspan>  ·  column pLDDT <tspan style="fill:var(--lf-text,#1f2933)" font-weight="bold">63</tspan>  ·  contact PAE <tspan style="fill:var(--lf-text,#1f2933)" font-weight="bold">3.0–13.0 Å</tspan></text>
+ </g>
+ <g class="diagram" transform="translate(290.82 91.76)">
+  <g class="backdrop">
+   <g class="plddt" opacity="0.5">
+    <line x1="-39.76" y1="190.5" x2="-27.54" y2="191.94" style="fill:none;stroke:var(--lf-plddt-very-low,#ff7d45)" stroke-width="12.3" stroke-linejoin="round"/>
+    <line x1="-15.33" y1="193.37" x2="-27.54" y2="191.94" style="fill:none;stroke:var(--lf-plddt-very-low,#ff7d45)" stroke-width="12.3" stroke-linejoin="round"/>
+    <line x1="-15.33" y1="193.37" x2="-7.98" y2="183.51" style="fill:none;stroke:var(--lf-plddt-very-low,#ff7d45)" stroke-width="12.3" stroke-linejoin="round"/>
+    <line x1="-0.63" y1="173.65" x2="-7.98" y2="183.51" style="fill:none;stroke:var(--lf-plddt-very-low,#ff7d45)" stroke-width="12.3" stroke-linejoin="round"/>
+    <line x1="-0.63" y1="173.65" x2="11.59" y2="175.08" style="fill:none;stroke:var(--lf-plddt-very-low,#ff7d45)" stroke-width="12.3" stroke-linejoin="round"/>
+    <line x1="23.81" y1="176.52" x2="11.59" y2="175.08" style="fill:none;stroke:var(--lf-plddt-very-low,#ff7d45)" stroke-width="12.3" stroke-linejoin="round"/>
+    <line x1="23.81" y1="176.52" x2="31.16" y2="166.66" style="fill:none;stroke:var(--lf-plddt-very-low,#ff7d45)" stroke-width="12.3" stroke-linejoin="round"/>
+    <line x1="38.51" y1="156.8" x2="31.16" y2="166.66" style="fill:none;stroke:var(--lf-plddt-very-low,#ff7d45)" stroke-width="12.3" stroke-linejoin="round"/>
+    <line x1="38.51" y1="156.8" x2="33.64" y2="145.5" style="fill:none;stroke:var(--lf-plddt-very-low,#ff7d45)" stroke-width="12.3" stroke-linejoin="round"/>
+    <line x1="28.78" y1="134.2" x2="33.64" y2="145.5" style="fill:none;stroke:var(--lf-plddt-very-low,#ff7d45)" stroke-width="12.3" stroke-linejoin="round"/>
+    <line x1="28.78" y1="134.2" x2="36.13" y2="124.34" style="fill:none;stroke:var(--lf-plddt-very-low,#ff7d45)" stroke-width="12.3" stroke-linejoin="round"/>
+    <line x1="43.48" y1="114.48" x2="36.13" y2="124.34" style="fill:none;stroke:var(--lf-plddt-very-low,#ff7d45)" stroke-width="12.3" stroke-linejoin="round"/>
+    <line x1="28.78" y1="134.2" x2="16.56" y2="132.77" style="fill:none;stroke:var(--lf-plddt-very-low,#ff7d45)" stroke-width="12.3" stroke-linejoin="round"/>
+    <line x1="4.34" y1="131.33" x2="16.56" y2="132.77" style="fill:none;stroke:var(--lf-plddt-very-low,#ff7d45)" stroke-width="12.3" stroke-linejoin="round"/>
+    <line x1="4.34" y1="131.33" x2="-3.01" y2="141.19" style="fill:none;stroke:var(--lf-plddt-very-low,#ff7d45)" stroke-width="12.3" stroke-linejoin="round"/>
+    <line x1="-10.36" y1="151.06" x2="-3.01" y2="141.19" style="fill:none;stroke:var(--lf-plddt-very-low,#ff7d45)" stroke-width="12.3" stroke-linejoin="round"/>
+    <line x1="-10.36" y1="151.06" x2="-5.49" y2="162.35" style="fill:none;stroke:var(--lf-plddt-very-low,#ff7d45)" stroke-width="12.3" stroke-linejoin="round"/>
+    <line x1="-0.63" y1="173.65" x2="-5.49" y2="162.35" style="fill:none;stroke:var(--lf-plddt-very-low,#ff7d45)" stroke-width="12.3" stroke-linejoin="round"/>
+    <circle cx="-39.76" cy="190.5" r="6.15" style="fill:var(--lf-plddt-very-low,#ff7d45)"/>
+    <circle cx="-15.33" cy="193.37" r="6.15" style="fill:var(--lf-plddt-very-low,#ff7d45)"/>
+    <circle cx="-0.63" cy="173.65" r="6.15" style="fill:var(--lf-plddt-very-low,#ff7d45)"/>
+    <circle cx="23.81" cy="176.52" r="6.15" style="fill:var(--lf-plddt-very-low,#ff7d45)"/>
+    <circle cx="38.51" cy="156.8" r="6.15" style="fill:var(--lf-plddt-very-low,#ff7d45)"/>
+    <circle cx="28.78" cy="134.2" r="6.15" style="fill:var(--lf-plddt-very-low,#ff7d45)"/>
+    <circle cx="43.48" cy="114.48" r="6.15" style="fill:var(--lf-plddt-very-low,#ff7d45)"/>
+    <circle cx="4.34" cy="131.33" r="6.15" style="fill:var(--lf-plddt-very-low,#ff7d45)"/>
+    <circle cx="-10.36" cy="151.06" r="6.15" style="fill:var(--lf-plddt-very-low,#ff7d45)"/>
+   </g>
+   <g class="plddt" opacity="0.5">
+    <line x1="-183.79" y1="51.02" x2="-175.2" y2="42.22" style="fill:none;stroke:var(--lf-plddt-low,#ffdb13)" stroke-width="12.3" stroke-linejoin="round"/>
+    <line x1="-166.62" y1="33.41" x2="-175.2" y2="42.22" style="fill:none;stroke:var(--lf-plddt-low,#ffdb13)" stroke-width="12.3" stroke-linejoin="round"/>
+    <line x1="-166.62" y1="33.41" x2="-154.7" y2="36.43" style="fill:none;stroke:var(--lf-plddt-low,#ffdb13)" stroke-width="12.3" stroke-linejoin="round"/>
+    <line x1="-142.78" y1="39.46" x2="-154.7" y2="36.43" style="fill:none;stroke:var(--lf-plddt-low,#ffdb13)" stroke-width="12.3" stroke-linejoin="round"/>
+    <line x1="-142.78" y1="39.46" x2="-134.19" y2="30.65" style="fill:none;stroke:var(--lf-plddt-low,#ffdb13)" stroke-width="12.3" stroke-linejoin="round"/>
+    <line x1="-125.61" y1="21.85" x2="-134.19" y2="30.65" style="fill:none;stroke:var(--lf-plddt-low,#ffdb13)" stroke-width="12.3" stroke-linejoin="round"/>
+    <line x1="-125.61" y1="21.85" x2="-128.95" y2="10.01" style="fill:none;stroke:var(--lf-plddt-low,#ffdb13)" stroke-width="12.3" stroke-linejoin="round"/>
+    <line x1="-132.28" y1="-1.83" x2="-128.95" y2="10.01" style="fill:none;stroke:var(--lf-plddt-low,#ffdb13)" stroke-width="12.3" stroke-linejoin="round"/>
+    <line x1="-125.61" y1="21.85" x2="-113.69" y2="24.87" style="fill:none;stroke:var(--lf-plddt-low,#ffdb13)" stroke-width="12.3" stroke-linejoin="round"/>
+    <line x1="-101.77" y1="27.9" x2="-113.69" y2="24.87" style="fill:none;stroke:var(--lf-plddt-low,#ffdb13)" stroke-width="12.3" stroke-linejoin="round"/>
+    <circle cx="-183.79" cy="51.02" r="6.15" style="fill:var(--lf-plddt-low,#ffdb13)"/>
+    <circle cx="-166.62" cy="33.41" r="6.15" style="fill:var(--lf-plddt-low,#ffdb13)"/>
+    <circle cx="-142.78" cy="39.46" r="6.15" style="fill:var(--lf-plddt-low,#ffdb13)"/>
+    <circle cx="-125.61" cy="21.85" r="6.15" style="fill:var(--lf-plddt-low,#ffdb13)"/>
+    <circle cx="-132.28" cy="-1.83" r="6.15" style="fill:var(--lf-plddt-low,#ffdb13)"/>
+    <circle cx="-101.77" cy="27.9" r="6.15" style="fill:var(--lf-plddt-low,#ffdb13)"/>
+   </g>
+   <g class="plddt" opacity="0.5">
+    <line x1="127.57" y1="128.08" x2="115.27" y2="128.08" style="fill:none;stroke:var(--lf-plddt-low,#ffdb13)" stroke-width="12.3" stroke-linejoin="round"/>
+    <line x1="102.97" y1="128.08" x2="115.27" y2="128.08" style="fill:none;stroke:var(--lf-plddt-low,#ffdb13)" stroke-width="12.3" stroke-linejoin="round"/>
+    <line x1="102.97" y1="128.08" x2="96.82" y2="117.43" style="fill:none;stroke:var(--lf-plddt-low,#ffdb13)" stroke-width="12.3" stroke-linejoin="round"/>
+    <line x1="90.67" y1="106.78" x2="96.82" y2="117.43" style="fill:none;stroke:var(--lf-plddt-low,#ffdb13)" stroke-width="12.3" stroke-linejoin="round"/>
+    <circle cx="127.57" cy="128.08" r="6.15" style="fill:var(--lf-plddt-low,#ffdb13)"/>
+    <circle cx="102.97" cy="128.08" r="6.15" style="fill:var(--lf-plddt-low,#ffdb13)"/>
+    <circle cx="90.67" cy="106.78" r="6.15" style="fill:var(--lf-plddt-low,#ffdb13)"/>
+   </g>
+   <g class="plddt" opacity="0.5">
+    <line x1="76.95" y1="-30.03" x2="87.46" y2="-23.64" style="fill:none;stroke:var(--lf-plddt-low,#ffdb13)" stroke-width="12.3" stroke-linejoin="round"/>
+    <line x1="97.97" y1="-17.25" x2="87.46" y2="-23.64" style="fill:none;stroke:var(--lf-plddt-low,#ffdb13)" stroke-width="12.3" stroke-linejoin="round"/>
+    <line x1="97.97" y1="-17.25" x2="97.69" y2="-4.96" style="fill:none;stroke:var(--lf-plddt-low,#ffdb13)" stroke-width="12.3" stroke-linejoin="round"/>
+    <line x1="97.41" y1="7.34" x2="97.69" y2="-4.96" style="fill:none;stroke:var(--lf-plddt-low,#ffdb13)" stroke-width="12.3" stroke-linejoin="round"/>
+    <circle cx="76.95" cy="-30.03" r="6.15" style="fill:var(--lf-plddt-low,#ffdb13)"/>
+    <circle cx="97.97" cy="-17.25" r="6.15" style="fill:var(--lf-plddt-low,#ffdb13)"/>
+    <circle cx="97.41" cy="7.34" r="6.15" style="fill:var(--lf-plddt-low,#ffdb13)"/>
+   </g>
+  </g>
+  <g class="interactions">
+   <g class="interaction hbond lf-part lf-t-r127 lf-o-r127 lf-o-u3" data-confidence="very_low" data-distance="2.82" data-ligand-atoms="124/N" data-ligand-part="backbone" data-ligand-residue="His124" data-pae="3.0" data-plddt="48.3" data-protein-atoms="OH" data-residue="Z:TYR127" data-residue-number="127" data-type="hbond" tabindex="-1">
+    <title>Hydrogen bond: Tyr127 OH – His 124 of N-terminal domain (backbone: 124/N), 2.82 Å, contact pLDDT 48, PAE 3.0 Å</title>
+    <polygon points="39.22,110.81 36,104.73 32.74,108.52" style="fill:var(--lf-hbond,#1a9641)"/>
+    <text x="28.16" y="104.69" font-size="9.5" text-anchor="middle" style="fill:var(--lf-hbond,#1a9641)">2.82</text>
+    <line x1="35.1" y1="107.25" x2="34.09" y2="106.39" style="fill:none;stroke:var(--lf-hbond,#1a9641)" stroke-width="1.35" stroke-linejoin="round" stroke-dasharray="4.2 2.8"/>
+    <line x1="22.23" y1="96.17" x2="17.11" y2="91.75" style="fill:none;stroke:var(--lf-hbond,#1a9641)" stroke-width="1.35" stroke-linejoin="round" stroke-dasharray="4.2 2.8"/>
+   </g>
+   <g class="interaction hydrophobic lf-part lf-t-r127 lf-o-r127 lf-o-u3" data-confidence="very_low" data-distance="3.78" data-ligand-atoms="124/CB" data-ligand-part="side-chain" data-ligand-residue="His124" data-pae="3.0" data-plddt="48.3" data-protein-atoms="CE2" data-residue="Z:TYR127" data-residue-number="127" data-type="hydrophobic" tabindex="-1">
+    <title>Hydrophobic contact: Tyr127 CE2 – His 124 of N-terminal domain (side chain: 124/CB), 3.78 Å, contact pLDDT 48, PAE 3.0 Å</title>
+    <line x1="-38.84" y1="188.07" x2="-2.71" y2="92.2" style="fill:none;stroke:var(--lf-hydrophobic,#c0392b)" stroke-width="0.81" stroke-linejoin="round"/>
+   </g>
+   <g class="interaction hydrophobic lf-part lf-t-r151 lf-o-r151 lf-o-u1" data-confidence="very_low" data-distance="3.39" data-ligand-atoms="34/CG" data-ligand-part="side-chain" data-ligand-residue="Pro34" data-pae="10.0" data-plddt="40.0" data-protein-atoms="CD2" data-residue="Z:PHE151" data-residue-number="151" data-type="hydrophobic" tabindex="-1">
+    <title>Hydrophobic contact: Phe151 CD2 – Pro 34 of N-terminal domain (side chain: 34/CG), 3.39 Å, contact pLDDT 40, PAE 10.0 Å</title>
+    <text x="-59.85" y="55.74" font-size="9.5" font-weight="bold" style="fill:var(--lf-text,#1f2933)">PAE 10</text>
+    <line x1="-69" y1="67.2" x2="-52.25" y2="57.44" style="fill:none;stroke:var(--lf-hydrophobic,#c0392b)" stroke-width="0.81" stroke-linejoin="round"/>
+    <line x1="-34.71" y1="47.22" x2="-17.96" y2="37.46" style="fill:none;stroke:var(--lf-hydrophobic,#c0392b)" stroke-width="0.81" stroke-linejoin="round"/>
+   </g>
+   <g class="interaction hbond lf-part lf-t-r154 lf-o-r154 lf-o-u0" data-confidence="low" data-distance="3.45" data-ligand-atoms="32/O" data-ligand-part="backbone" data-ligand-residue="Cys32" data-pae="8.0" data-plddt="55.0" data-protein-atoms="NE2" data-residue="Z:GLN154" data-residue-number="154" data-type="hbond" tabindex="-1">
+    <title>Hydrogen bond: Gln154 NE2 – Cys 32 of N-terminal domain (backbone: 32/O), 3.45 Å, contact pLDDT 55, PAE 8.0 Å</title>
+    <polygon points="-23.21,6.36 -28.72,10.47 -30.04,5.64" style="fill:var(--lf-hbond,#1a9641)"/>
+    <text x="-83.9" y="19.83" font-size="9.5" style="fill:var(--lf-hbond,#1a9641)">3.45</text>
+    <text x="-62.77" y="19.83" font-size="9.5" style="fill:var(--lf-text,#1f2933)">PAE 8</text>
+    <line x1="-96.53" y1="26.47" x2="-78.51" y2="21.53" style="fill:none;stroke:var(--lf-hbond,#1a9641)" stroke-width="1.35" stroke-linejoin="round" stroke-dasharray="4.2 2.8"/>
+    <line x1="-41.23" y1="11.31" x2="-28.45" y2="7.8" style="fill:none;stroke:var(--lf-hbond,#1a9641)" stroke-width="1.35" stroke-linejoin="round" stroke-dasharray="4.2 2.8"/>
+   </g>
+   <g class="interaction hbond lf-part lf-t-r192 lf-o-r192 lf-o-u2" data-confidence="low" data-distance="2.83" data-ligand-atoms="35/N" data-ligand-part="backbone" data-ligand-residue="Lys35" data-pae="9.0" data-plddt="61.1" data-protein-atoms="O" data-residue="Z:GLY192" data-residue-number="192" data-type="hbond" tabindex="-1">
+    <title>Hydrogen bond: Gly192 O – Lys 35 of N-terminal domain (backbone: 35/N), 2.83 Å, contact pLDDT 61, PAE 9.0 Å</title>
+    <polygon points="85.78,103.94 81.51,98.56 78.99,102.88" style="fill:var(--lf-hbond,#1a9641)"/>
+    <text x="27.82" y="87.59" font-size="9.5" style="fill:var(--lf-hbond,#1a9641)">2.83</text>
+    <text x="48.95" y="87.59" font-size="9.5" style="fill:var(--lf-text,#1f2933)">PAE 9</text>
+    <line x1="81.08" y1="101.2" x2="60.63" y2="89.29" style="fill:none;stroke:var(--lf-hbond,#1a9641)" stroke-width="1.35" stroke-linejoin="round" stroke-dasharray="4.2 2.8"/>
+    <line x1="43.07" y1="79.07" x2="17.92" y2="64.43" style="fill:none;stroke:var(--lf-hbond,#1a9641)" stroke-width="1.35" stroke-linejoin="round" stroke-dasharray="4.2 2.8"/>
+   </g>
+   <g class="interaction hbond lf-part lf-t-r193 lf-o-r193 lf-o-u2" data-confidence="low" data-distance="2.89" data-ligand-atoms="35/NZ" data-ligand-part="side-chain" data-ligand-residue="Lys35" data-pae="10.0" data-plddt="61.1" data-protein-atoms="O" data-residue="Z:LEU193" data-residue-number="193" data-type="hbond" tabindex="-1">
+    <title>Hydrogen bond: Leu193 O – Lys 35 of N-terminal domain (side chain: 35/NZ), 2.89 Å, contact pLDDT 61, PAE 10.0 Å</title>
+    <polygon points="92.3,9.79 85.45,10.3 87.61,14.81" style="fill:var(--lf-hbond,#1a9641)"/>
+    <text x="29.13" y="30.55" font-size="9.5" style="fill:var(--lf-hbond,#1a9641)">2.89</text>
+    <text x="50.26" y="30.55" font-size="9.5" font-weight="bold" style="fill:var(--lf-text,#1f2933)">PAE 10</text>
+    <line x1="87.4" y1="12.14" x2="66.74" y2="22.03" style="fill:none;stroke:var(--lf-hbond,#1a9641)" stroke-width="1.35" stroke-linejoin="round" stroke-dasharray="4.2 2.8"/>
+    <line x1="45.4" y1="32.25" x2="19.83" y2="44.5" style="fill:none;stroke:var(--lf-hbond,#1a9641)" stroke-width="1.35" stroke-linejoin="round" stroke-dasharray="4.2 2.8"/>
+   </g>
+   <g class="interaction hydrophobic lf-part lf-t-r193 lf-o-r193 lf-o-u1" data-confidence="low" data-distance="3.93" data-ligand-atoms="34/CB" data-ligand-part="side-chain" data-ligand-residue="Pro34" data-pae="13.0" data-plddt="63.3" data-protein-atoms="CD2" data-residue="Z:LEU193" data-residue-number="193" data-type="hydrophobic" tabindex="-1">
+    <title>Hydrophobic contact: Leu193 CD2 – Pro 34 of N-terminal domain (side chain: 34/CB), 3.93 Å, contact pLDDT 63, PAE 13.0 Å</title>
+    <text x="28.55" y="-2.88" font-size="9.5" font-weight="bold" style="fill:var(--lf-text,#1f2933)">PAE 13</text>
+    <line x1="74.86" y1="-28.49" x2="51.82" y2="-11.4" style="fill:none;stroke:var(--lf-hydrophobic,#c0392b)" stroke-width="0.81" stroke-linejoin="round"/>
+    <line x1="38.03" y1="-1.18" x2="14.98" y2="15.9" style="fill:none;stroke:var(--lf-hydrophobic,#c0392b)" stroke-width="0.81" stroke-linejoin="round"/>
+   </g>
+  </g>
+  <g class="ligand" data-drawn-as="chain">
+   <g class="backbone">
+    <line x1="0" y1="8.5" x2="0" y2="18.5" style="fill:none;stroke:var(--lf-ligand-bond,#1f2933)" stroke-width="1.27" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0.01 3.2" opacity="0.7"/>
+    <line x1="0" y1="35.5" x2="0" y2="45.5" style="fill:none;stroke:var(--lf-ligand-bond,#1f2933)" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="0" y1="62.5" x2="0" y2="72.5" style="fill:none;stroke:var(--lf-ligand-bond,#1f2933)" stroke-width="1.27" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0.01 3.2" opacity="0.7"/>
+    <line x1="0" y1="-17.5" x2="0" y2="-8.5" style="fill:none;stroke:var(--lf-ligand-bond,#1f2933)" stroke-width="1.27" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0.01 3.2" opacity="0.7"/>
+   </g>
+   <g class="bonds">
+   </g>
+   <g class="units">
+    <g class="unit lf-part lf-t-u0 lf-o-u0 lf-p-r154" data-atoms="32/N,32/CA,32/C,32/CB,32/O,32/SG" data-class="hydrophobic" data-confidence="confident" data-position="1" data-residue="CYS" tabindex="0">
+     <title>Cys 32 of N-terminal domain (numbered as in the structure file)</title>
+     <rect x="-22.5" y="-8.5" width="45" height="17" rx="5" style="fill:var(--lf-plddt-confident,#65cbf3);stroke:var(--lf-ligand-bond,#1f2933)" stroke-width="1.15" stroke-linecap="round" stroke-linejoin="round"/>
+     <text x="0" y="3.77" font-size="10.5" text-anchor="middle" style="fill:var(--lf-plddt-text-confident,#1f2933)"><tspan font-weight="bold">Cys</tspan><tspan font-size="8" style="fill:var(--lf-plddt-text-confident,#1f2933)"> 32</tspan></text>
+    </g>
+    <g class="unit lf-part lf-t-u1 lf-o-u1 lf-p-r151 lf-p-r193" data-atoms="34/N,34/CA,34/C,34/CB,34/O,34/CG,34/CD" data-class="hydrophobic" data-confidence="low" data-position="2" data-residue="PRO" tabindex="0">
+     <title>Pro 34 of N-terminal domain (numbered as in the structure file)</title>
+     <rect x="-22.5" y="18.5" width="45" height="17" rx="5" style="fill:var(--lf-plddt-low,#ffdb13);stroke:var(--lf-ligand-bond,#1f2933)" stroke-width="1.15" stroke-linecap="round" stroke-linejoin="round"/>
+     <text x="0" y="30.77" font-size="10.5" text-anchor="middle" style="fill:var(--lf-plddt-text-low,#1f2933)"><tspan font-weight="bold">Pro</tspan><tspan font-size="8" style="fill:var(--lf-plddt-text-low,#1f2933)"> 34</tspan></text>
+    </g>
+    <g class="unit lf-part lf-t-u2 lf-o-u2 lf-p-r192 lf-p-r193" data-atoms="35/N,35/CA,35/C,35/CB,35/O,35/CG,35/CD,35/CE,35/NZ" data-class="positive" data-confidence="low" data-position="3" data-residue="LYS" tabindex="0">
+     <title>Lys 35 of N-terminal domain (numbered as in the structure file)</title>
+     <rect x="-22.5" y="45.5" width="45" height="17" rx="5" style="fill:var(--lf-plddt-low,#ffdb13);stroke:var(--lf-ligand-bond,#1f2933)" stroke-width="1.15" stroke-linecap="round" stroke-linejoin="round"/>
+     <text x="0" y="57.77" font-size="10.5" text-anchor="middle" style="fill:var(--lf-plddt-text-low,#1f2933)"><tspan font-weight="bold">Lys</tspan><tspan font-size="8" style="fill:var(--lf-plddt-text-low,#1f2933)"> 35</tspan></text>
+    </g>
+    <g class="unit lf-part lf-t-u3 lf-o-u3 lf-p-r127" data-atoms="124/N,124/CA,124/C,124/CB,124/O,124/CG,124/CD2,124/ND1,124/CE1,124/NE2" data-class="polar" data-confidence="low" data-position="4" data-residue="HIS" tabindex="0">
+     <title>His 124 of N-terminal domain (numbered as in the structure file)</title>
+     <rect x="-22.5" y="72.5" width="45" height="17" rx="5" style="fill:var(--lf-plddt-low,#ffdb13);stroke:var(--lf-ligand-bond,#1f2933)" stroke-width="1.15" stroke-linecap="round" stroke-linejoin="round"/>
+     <text x="0" y="84.77" font-size="10.5" text-anchor="middle" style="fill:var(--lf-plddt-text-low,#1f2933)"><tspan font-weight="bold">His</tspan><tspan font-size="8" style="fill:var(--lf-plddt-text-low,#1f2933)"> 124</tspan></text>
+    </g>
+    <text x="0" y="99.6" font-size="8.5" text-anchor="middle" style="fill:var(--lf-text-muted,#667085)">C</text>
+   </g>
+   <g class="atoms">
+   </g>
+  </g>
+  <g class="residues">
+   <g class="residue lf-part lf-t-r127 lf-o-r127 lf-p-u3" data-class="hydrophobic" data-confidence="very_low" data-form="fragment" data-plddt="48.3" data-residue="Z:TYR127" data-residue-number="127" tabindex="0">
+    <title>Tyr127: residue pLDDT 48</title>
+    <g class="fragment">
+     <line x1="-39.76" y1="190.5" x2="-15.33" y2="193.37" style="fill:none;stroke:var(--lf-protein-bond,#6b7a90)" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round"/>
+     <line x1="-15.33" y1="193.37" x2="-0.63" y2="173.65" style="fill:none;stroke:var(--lf-protein-bond,#6b7a90)" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round"/>
+     <line x1="-0.63" y1="173.65" x2="23.81" y2="176.52" style="fill:none;stroke:var(--lf-protein-bond,#6b7a90)" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round"/>
+     <line x1="23.81" y1="176.52" x2="38.51" y2="156.8" style="fill:none;stroke:var(--lf-protein-bond,#6b7a90)" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round"/>
+     <line x1="23" y1="171.84" x2="33.8" y2="157.36" style="fill:none;stroke:var(--lf-protein-bond,#6b7a90)" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round"/>
+     <line x1="38.51" y1="156.8" x2="28.78" y2="134.2" style="fill:none;stroke:var(--lf-protein-bond,#6b7a90)" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round"/>
+     <line x1="28.78" y1="134.2" x2="39.82" y2="119.39" style="fill:none;stroke:var(--lf-protein-bond,#6b7a90)" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round"/>
+     <line x1="28.78" y1="134.2" x2="4.34" y2="131.33" style="fill:none;stroke:var(--lf-protein-bond,#6b7a90)" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round"/>
+     <line x1="25.13" y1="137.24" x2="7.19" y2="135.13" style="fill:none;stroke:var(--lf-protein-bond,#6b7a90)" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round"/>
+     <line x1="4.34" y1="131.33" x2="-10.36" y2="151.06" style="fill:none;stroke:var(--lf-protein-bond,#6b7a90)" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round"/>
+     <line x1="-10.36" y1="151.06" x2="-0.63" y2="173.65" style="fill:none;stroke:var(--lf-protein-bond,#6b7a90)" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round"/>
+     <line x1="-5.9" y1="152.7" x2="1.24" y2="169.29" style="fill:none;stroke:var(--lf-protein-bond,#6b7a90)" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round"/>
+     <text x="43.48" y="117.89" font-size="9.5" text-anchor="middle" style="fill:var(--lf-element-O,#d6332a)">O</text>
+    </g>
+    <rect x="-87.02" y="180.69" width="45.09" height="13.82" rx="3" style="fill:var(--lf-plddt-very-low,#ff7d45)"/>
+    <text x="-64.47" y="191.91" font-size="12" text-anchor="middle" font-weight="bold" style="fill:var(--lf-plddt-text-very-low,#1f2933)">Tyr127</text>
+   </g>
+   <g class="residue lf-part lf-t-r151 lf-o-r151 lf-p-u1" data-class="hydrophobic" data-confidence="very_low" data-form="eyelash" data-plddt="40.0" data-residue="Z:PHE151" data-residue-number="151" tabindex="0">
+    <title>Phe151: residue pLDDT 40</title>
+    <rect x="-121.68" y="76.87" width="48.42" height="13.82" rx="3" style="fill:var(--lf-plddt-very-low,#ff7d45)"/>
+    <polyline points="-95.76,57.89 -92.8,58.25 -89.9,58.96 -87.11,59.99 -84.44,61.34 -81.96,62.98 -79.67,64.9 -77.62,67.06 -75.84,69.45 -74.33,72.03 -73.14,74.76 -72.26,77.61 -71.72,80.54 -71.52,83.52 -71.66,86.5 -72.15,89.44 -72.96,92.31 -74.1,95.06" style="fill:none;stroke:var(--lf-hydrophobic,#c0392b)" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="-92.17" y1="58.38" x2="-90.95" y2="52.5" style="fill:none;stroke:var(--lf-hydrophobic,#c0392b)" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="-85.38" y1="60.82" x2="-82.58" y2="55.51" style="fill:none;stroke:var(--lf-hydrophobic,#c0392b)" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="-79.52" y1="65.04" x2="-75.37" y2="60.71" style="fill:none;stroke:var(--lf-hydrophobic,#c0392b)" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="-75.05" y1="70.72" x2="-69.86" y2="67.7" style="fill:none;stroke:var(--lf-hydrophobic,#c0392b)" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="-72.32" y1="77.4" x2="-66.5" y2="75.93" style="fill:none;stroke:var(--lf-hydrophobic,#c0392b)" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="-71.53" y1="84.59" x2="-65.54" y2="84.77" style="fill:none;stroke:var(--lf-hydrophobic,#c0392b)" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="-72.76" y1="91.7" x2="-67.05" y2="93.53" style="fill:none;stroke:var(--lf-hydrophobic,#c0392b)" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="-97.47" y="88.09" font-size="12" text-anchor="middle" font-weight="bold" style="fill:var(--lf-plddt-text-very-low,#1f2933)">Phe151</text>
+   </g>
+   <g class="residue lf-part lf-t-r154 lf-o-r154 lf-p-u0" data-class="polar" data-confidence="low" data-form="fragment" data-plddt="55.0" data-residue="Z:GLN154" data-residue-number="154" tabindex="0">
+    <title>Gln154: residue pLDDT 55</title>
+    <g class="fragment">
+     <line x1="-183.79" y1="51.02" x2="-166.62" y2="33.41" style="fill:none;stroke:var(--lf-protein-bond,#6b7a90)" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round"/>
+     <line x1="-166.62" y1="33.41" x2="-142.78" y2="39.46" style="fill:none;stroke:var(--lf-protein-bond,#6b7a90)" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round"/>
+     <line x1="-142.78" y1="39.46" x2="-125.61" y2="21.85" style="fill:none;stroke:var(--lf-protein-bond,#6b7a90)" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round"/>
+     <line x1="-123.95" y1="21.38" x2="-129.11" y2="3.08" style="fill:none;stroke:var(--lf-protein-bond,#6b7a90)" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round"/>
+     <line x1="-127.27" y1="22.31" x2="-132.69" y2="3.08" style="fill:none;stroke:var(--lf-protein-bond,#6b7a90)" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round"/>
+     <line x1="-125.61" y1="21.85" x2="-106.7" y2="26.65" style="fill:none;stroke:var(--lf-protein-bond,#6b7a90)" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round"/>
+     <text x="-132.28" y="1.58" font-size="9.5" text-anchor="middle" style="fill:var(--lf-element-O,#d6332a)">O</text>
+     <text x="-101.77" y="31.31" font-size="9.5" text-anchor="middle" style="fill:var(--lf-element-N,#2f5fd0)">N</text>
+    </g>
+    <rect x="-222.93" y="60.46" width="46.42" height="13.82" rx="3" style="fill:var(--lf-plddt-low,#ffdb13)"/>
+    <text x="-199.72" y="71.68" font-size="12" text-anchor="middle" font-weight="bold" style="fill:var(--lf-plddt-text-low,#1f2933)">Gln154</text>
+   </g>
+   <g class="residue lf-part lf-t-r192 lf-o-r192 lf-p-u2" data-class="glycine" data-confidence="low" data-form="fragment" data-plddt="63.5" data-residue="Z:GLY192" data-residue-number="192" tabindex="0">
+    <title>Gly192: residue pLDDT 64</title>
+    <g class="fragment">
+     <line x1="127.57" y1="128.08" x2="102.97" y2="128.08" style="fill:none;stroke:var(--lf-protein-bond,#6b7a90)" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round"/>
+     <line x1="104.46" y1="127.22" x2="95.49" y2="111.69" style="fill:none;stroke:var(--lf-protein-bond,#6b7a90)" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round"/>
+     <line x1="101.48" y1="128.94" x2="91.52" y2="111.69" style="fill:none;stroke:var(--lf-protein-bond,#6b7a90)" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round"/>
+     <text x="90.67" y="110.19" font-size="9.5" text-anchor="middle" style="fill:var(--lf-element-O,#d6332a)">O</text>
+    </g>
+    <rect x="129.37" y="121.18" width="45.76" height="13.82" rx="3" style="fill:var(--lf-plddt-low,#ffdb13)"/>
+    <text x="152.25" y="132.39" font-size="12" text-anchor="middle" font-weight="bold" style="fill:var(--lf-plddt-text-low,#1f2933)">Gly192</text>
+   </g>
+   <g class="residue lf-part lf-t-r193 lf-o-r193 lf-p-u1 lf-p-u2" data-class="hydrophobic" data-confidence="low" data-form="fragment" data-plddt="64.6" data-residue="Z:LEU193" data-residue-number="193" tabindex="0">
+    <title>Leu193: residue pLDDT 65</title>
+    <g class="fragment">
+     <line x1="76.95" y1="-30.03" x2="97.97" y2="-17.25" style="fill:none;stroke:var(--lf-protein-bond,#6b7a90)" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round"/>
+     <line x1="96.25" y1="-17.29" x2="95.8" y2="2.43" style="fill:none;stroke:var(--lf-protein-bond,#6b7a90)" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round"/>
+     <line x1="99.69" y1="-17.21" x2="99.24" y2="2.43" style="fill:none;stroke:var(--lf-protein-bond,#6b7a90)" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round"/>
+     <text x="97.41" y="10.75" font-size="9.5" text-anchor="middle" style="fill:var(--lf-element-O,#d6332a)">O</text>
+    </g>
+    <rect x="31.25" y="-50.21" width="47.75" height="13.82" rx="3" style="fill:var(--lf-plddt-low,#ffdb13)"/>
+    <text x="55.13" y="-39" font-size="12" text-anchor="middle" font-weight="bold" style="fill:var(--lf-plddt-text-low,#1f2933)">Leu193</text>
+   </g>
+  </g>
+ </g>
+ <g class="legend" transform="translate(18 301.28)">
+  <polygon points="26,9.19 19.6,11.69 19.6,6.69" style="fill:var(--lf-hbond,#1a9641)"/>
+  <line x1="0" y1="9.19" x2="20.56" y2="9.19" style="fill:none;stroke:var(--lf-hbond,#1a9641)" stroke-width="1.35" stroke-linejoin="round" stroke-dasharray="4.2 2.8"/>
+  <text x="34" y="12.96" font-size="10.5" style="fill:var(--lf-text-muted,#667085)">Hydrogen bond</text>
+  <polyline points="129.33,9.15 131.33,7.03 133.91,5.66 136.79,5.19 139.67,5.66 142.25,7.03 144.25,9.15" style="fill:none;stroke:var(--lf-hydrophobic,#c0392b)" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
+  <line x1="130.1" y1="8.17" x2="127.13" y2="5.49" style="fill:none;stroke:var(--lf-hydrophobic,#c0392b)" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
+  <line x1="132.02" y1="6.56" x2="129.9" y2="3.16" style="fill:none;stroke:var(--lf-hydrophobic,#c0392b)" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
+  <line x1="134.31" y1="5.54" x2="133.21" y2="1.69" style="fill:none;stroke:var(--lf-hydrophobic,#c0392b)" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
+  <line x1="136.79" y1="5.19" x2="136.79" y2="1.19" style="fill:none;stroke:var(--lf-hydrophobic,#c0392b)" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
+  <line x1="139.27" y1="5.54" x2="140.37" y2="1.69" style="fill:none;stroke:var(--lf-hydrophobic,#c0392b)" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
+  <line x1="141.56" y1="6.56" x2="143.68" y2="3.16" style="fill:none;stroke:var(--lf-hydrophobic,#c0392b)" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
+  <line x1="143.48" y1="8.17" x2="146.45" y2="5.49" style="fill:none;stroke:var(--lf-hydrophobic,#c0392b)" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="157.79" y="12.96" font-size="10.5" style="fill:var(--lf-text-muted,#667085)">Hydrophobic contact</text>
+  <rect x="0.6" y="22.06" width="20.8" height="11" rx="3.5" style="fill:var(--lf-background,#ffffff);stroke:var(--lf-ligand-bond,#1f2933)" stroke-width="1.15" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="27" y="31.33" font-size="10.5" style="fill:var(--lf-text-muted,#667085)">Residue of N-terminal domain, numbered as in the structure file</text>
+  <text x="0" y="49.35" font-size="9.5" style="fill:var(--lf-text,#1f2933)">PAE 7</text>
+  <text x="32.93" y="49.35" font-size="9.5" font-weight="bold" style="fill:var(--lf-text,#1f2933)">PAE 11</text>
+  <text x="70.67" y="49.71" font-size="10.5" style="fill:var(--lf-text-muted,#667085)">Predicted aligned error (PAE) of a contact in Å: written from 5 Å, bold from 10 Å. Not pLDDT</text>
+  <text x="0" y="68.08" font-size="10.5" style="fill:var(--lf-text-muted,#667085)">pLDDT:</text>
+  <circle cx="59.67" cy="64.31" r="5.5" style="fill:var(--lf-plddt-very-high,#0053d6);stroke:var(--lf-bubble-line,#5b6472)" stroke-width="0.8" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="70.17" y="68.08" font-size="10.5" style="fill:var(--lf-text-muted,#667085)">≥ 90</text>
+  <circle cx="114.03" cy="64.31" r="5.5" style="fill:var(--lf-plddt-confident,#65cbf3);stroke:var(--lf-bubble-line,#5b6472)" stroke-width="0.8" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="124.53" y="68.08" font-size="10.5" style="fill:var(--lf-text-muted,#667085)">70–90</text>
+  <circle cx="177.22" cy="64.31" r="5.5" style="fill:var(--lf-plddt-low,#ffdb13);stroke:var(--lf-bubble-line,#5b6472)" stroke-width="0.8" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="187.72" y="68.08" font-size="10.5" style="fill:var(--lf-text-muted,#667085)">50–70</text>
+  <circle cx="240.41" cy="64.31" r="5.5" style="fill:var(--lf-plddt-very-low,#ff7d45);stroke:var(--lf-bubble-line,#5b6472)" stroke-width="0.8" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="250.91" y="68.08" font-size="10.5" style="fill:var(--lf-text-muted,#667085)">&lt; 50</text>
+ </g>
+ <g class="footnotes">
+  <text x="18" y="388.32" font-size="10.5" style="fill:var(--lf-text-muted,#667085)">Distances in Å.</text>
+  <text x="18" y="403.55" font-size="10.5" style="fill:var(--lf-text-muted,#667085)">Colour follows the model's pLDDT, in AlphaFold's four bands: a residue has the colour of its own value,</text>
+  <text x="18" y="418.77" font-size="10.5" style="fill:var(--lf-text-muted,#667085)">on either side. No line is drawn weaker for it: a contact is as sure as the less sure of its two ends.</text>
+  <text x="18" y="434" font-size="10.5" style="fill:var(--lf-text-muted,#667085)">An interface has no centre. The residues of N-terminal domain that touch ZP domain stand in a column,</text>
+  <text x="18" y="449.22" font-size="10.5" style="fill:var(--lf-text-muted,#667085)">as boxes, in the order of the sequence; a dotted line stands for residues in between that do not; those</text>
+  <text x="18" y="464.45" font-size="10.5" style="fill:var(--lf-text-muted,#667085)">of ZP domain around it. A line is a pair of residues, at the shortest of its contacts of one kind.</text>
+  <text x="18" y="479.67" font-size="10.5" style="fill:var(--lf-text-muted,#667085)">All 4 residues of N-terminal domain at the interface are shown, with 7 contacts.</text>
+  <text x="18" y="494.9" font-size="10.5" style="fill:var(--lf-text-muted,#667085)">PAE (predicted aligned error) is the model's expected error, in ångström, in placing one residue of a</text>
+  <text x="18" y="510.12" font-size="10.5" style="fill:var(--lf-text-muted,#667085)">contact relative to the other: low is confident, about 32 means no idea. It is not pLDDT, which line</text>
+  <text x="18" y="525.35" font-size="10.5" style="fill:var(--lf-text-muted,#667085)">weight, dashes and ? show.</text>
+  <text x="18" y="540.57" font-size="10.5" style="fill:var(--lf-text-muted,#667085)">5 of the 6 residue pairs in contact have a PAE of 5 Å or more, written on their lines.</text>
+ </g>
+</svg>

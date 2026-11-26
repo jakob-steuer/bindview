@@ -1,0 +1,365 @@
+<svg xmlns="http://www.w3.org/2000/svg" class="bindview" width="662.64" height="375.34" viewBox="0 0 662.64 375.34" font-family="Helvetica, Arial, 'Liberation Sans', sans-serif" role="img">
+ <title>imatinib</title>
+ <rect class="background" width="662.64" height="375.34" fill="#ffffff"/>
+ <g class="diagram" transform="translate(276.57 165.2)">
+  <g class="backdrop">
+   <g class="lining" data-residues="A:HIS790" data-surface="hydrophobic">
+    <title>Lining, hydrophobic: His790</title>
+    <polyline points="-207.33,68.93 -204.4,68.95 -201.5,68.53 -198.67,67.71 -195.93,66.57 -193.26,65.22 -190.64,63.77 -188.02,62.31 -185.38,60.96 -182.67,59.96 -179.92,59.54 -177.17,59.84 -174.46,60.76 -171.81,62.07 -169.19,63.53" fill="none" stroke="#b8dc7a" stroke-width="4.4" stroke-linecap="round" stroke-linejoin="round" opacity="0.62"/>
+   </g>
+   <g class="lining" data-residues="A:GLU640" data-surface="hydrophobic">
+    <title>Lining, hydrophobic: Glu640</title>
+    <polyline points="-73.66,58.5 -70.82,57.77 -68,56.9 -65.28,55.74 -62.74,54.25 -60.41,52.44 -58.32,50.36 -56.51,48.03 -55,45.49 -53.82,42.78 -52.98,39.95 -52.46,37.03 -52.2,34.06 -52.1,31.06 -52.07,28.06" fill="none" stroke="#b8dc7a" stroke-width="4.4" stroke-linecap="round" stroke-linejoin="round" opacity="0.62"/>
+   </g>
+   <g class="lining" data-residues="A:GLU640" data-surface="negative">
+    <title>Lining, charged (−): Glu640</title>
+    <polyline points="-39.56,33.64 -37.27,35.5 -34.77,37.06 -32.09,38.29 -29.27,39.17 -26.37,39.68 -23.42,39.81 -20.48,39.57 -17.6,38.95 -14.81,37.97 -12.18,36.64 -9.74,34.98 -7.53,33.02 -5.59,30.8 -3.94,28.35" fill="none" stroke="#f4a98a" stroke-width="4.4" stroke-linecap="round" stroke-linejoin="round" opacity="0.62"/>
+   </g>
+   <g class="lining" data-residues="A:VAL654" data-surface="hydrophobic">
+    <title>Lining, hydrophobic: Val654</title>
+    <polyline points="15.02,24.59 17.71,25.87 20.49,26.93 23.35,27.69 26.27,28.11 29.22,28.15 32.15,27.82 35.01,27.12 37.77,26.06 40.37,24.67 42.78,22.97 44.98,20.99 47.04,18.88 49.09,16.94" fill="none" stroke="#b8dc7a" stroke-width="4.4" stroke-linecap="round" stroke-linejoin="round" opacity="0.62"/>
+   </g>
+   <g class="lining" data-residues="A:PHE811" data-surface="hydrophobic">
+    <title>Lining, hydrophobic: Phe811</title>
+    <polyline points="103.25,19.86 104.26,17.42 105.7,15.75 107.57,15.25 109.67,15.96 111.77,17.58 113.83,19.62 115.94,21.69 118.22,23.57 120.71,25.17 123.37,26.44 126.17,27.37 129.07,27.94 132.02,28.13 134.96,27.94" fill="none" stroke="#b8dc7a" stroke-width="4.4" stroke-linecap="round" stroke-linejoin="round" opacity="0.62"/>
+   </g>
+   <g class="lining" data-residues="A:LEU799 A:LEU595" data-surface="hydrophobic">
+    <title>Lining, hydrophobic: Leu799, Leu595</title>
+    <polyline points="159.99,23.01 160.21,25.83 160.26,28.82 160.32,31.82 160.47,34.81 160.82,37.76 161.43,40.66 162.37,43.47 163.64,46.12 165.25,48.6 167.16,50.85 169.33,52.85 171.73,54.57 174.33,55.97 177.08,57.03 179.93,57.82 182.76,58.52 185.43,59.46 187.83,60.85 189.99,62.71 192.05,64.8 194.18,66.86" fill="none" stroke="#b8dc7a" stroke-width="4.4" stroke-linecap="round" stroke-linejoin="round" opacity="0.62"/>
+   </g>
+   <g class="lining" data-residues="A:CYS673" data-surface="polar">
+    <title>Lining, polar: Cys673</title>
+    <polyline points="257.25,23.99 256.71,21.2 256.68,18.42 257.18,15.63 257.97,12.81 258.72,9.95 259.19,7.03 259.31,4.08 259.04,1.14 258.4,-1.74 257.4,-4.52 256.06,-7.15 254.41,-9.59 252.46,-11.82 250.27,-13.81" fill="none" stroke="#9fdcee" stroke-width="4.4" stroke-linecap="round" stroke-linejoin="round" opacity="0.62"/>
+   </g>
+   <g class="lining" data-residues="A:VAL603" data-surface="hydrophobic">
+    <title>Lining, hydrophobic: Val603</title>
+    <polyline points="181.21,-42.22 180.78,-45.14 179.98,-47.98 178.83,-50.7 177.35,-53.25 175.56,-55.6 173.5,-57.71 171.2,-59.6 168.75,-61.3 166.21,-62.88 163.62,-64.41 161.02,-65.91 158.42,-67.41 155.82,-68.91" fill="none" stroke="#b8dc7a" stroke-width="4.4" stroke-linecap="round" stroke-linejoin="round" opacity="0.62"/>
+   </g>
+   <g class="lining" data-residues="A:THR670" data-surface="polar">
+    <title>Lining, polar: Thr670</title>
+    <polyline points="122.62,-76.63 120,-75.28 117.57,-73.6 115.35,-71.64 113.29,-69.53 111.25,-67.48 109.02,-65.78 106.53,-64.61 103.84,-64.05 101.15,-64.12 98.64,-64.89 96.35,-66.29 94.16,-68.11 91.91,-69.98" fill="none" stroke="#9fdcee" stroke-width="4.4" stroke-linecap="round" stroke-linejoin="round" opacity="0.62"/>
+   </g>
+   <g class="lining" data-residues="A:THR670" data-surface="hydrophobic">
+    <title>Lining, hydrophobic: Thr670</title>
+    <polyline points="89.47,-71.63 86.83,-72.9 84.03,-73.75 81.13,-74.15 78.2,-74.09 75.31,-73.6 72.49,-72.74 69.72,-71.72 66.96,-70.8" fill="none" stroke="#b8dc7a" stroke-width="4.4" stroke-linecap="round" stroke-linejoin="round" opacity="0.62"/>
+   </g>
+   <g class="lining" data-residues="A:LYS623" data-surface="positive">
+    <title>Lining, charged (+): Lys623</title>
+    <polyline points="64.15,-70.26 61.28,-70.14 58.34,-70.28 55.38,-70.48 52.43,-70.66 49.56,-70.99 46.82,-71.7" fill="none" stroke="#a9a6f0" stroke-width="4.4" stroke-linecap="round" stroke-linejoin="round" opacity="0.62"/>
+   </g>
+   <g class="lining" data-residues="A:VAL668 A:LYS623" data-surface="hydrophobic">
+    <title>Lining, hydrophobic: Val668, Lys623</title>
+    <polyline points="44.22,-72.86 41.68,-74.3 39.09,-75.74 36.4,-76.95 33.58,-77.83 30.68,-78.35 27.73,-78.49 24.79,-78.26 21.89,-77.67 19.08,-76.76" fill="none" stroke="#b8dc7a" stroke-width="4.4" stroke-linecap="round" stroke-linejoin="round" opacity="0.62"/>
+   </g>
+   <g class="lining" data-residues="A:LYS623" data-surface="positive">
+    <title>Lining, charged (+): Lys623</title>
+    <polyline points="16.35,-75.57 13.68,-74.21 11.06,-72.76 8.46,-71.26 5.86,-69.76 3.26,-68.26 0.66,-66.76 -1.94,-65.25 -4.53,-63.74" fill="none" stroke="#a9a6f0" stroke-width="4.4" stroke-linecap="round" stroke-linejoin="round" opacity="0.62"/>
+   </g>
+   <g class="lining" data-residues="A:LEU644" data-surface="hydrophobic">
+    <title>Lining, hydrophobic: Leu644</title>
+    <polyline points="-7.11,-62.2 -9.62,-60.58 -12.02,-58.81 -14.23,-56.84 -16.2,-54.64 -17.89,-52.22 -19.28,-49.61 -20.32,-46.84 -21.01,-43.97 -21.32,-41.04 -21.24,-38.09 -20.79,-35.17 -20.04,-32.31 -19.23,-29.5 -18.72,-26.76" fill="none" stroke="#b8dc7a" stroke-width="4.4" stroke-linecap="round" stroke-linejoin="round" opacity="0.62"/>
+   </g>
+   <g class="lining" data-residues="A:LYS623" data-surface="positive">
+    <title>Lining, charged (+): Lys623</title>
+    <polyline points="-26.22,-38.73 -26.43,-41.7 -26.89,-44.63 -27.67,-47.48 -28.79,-50.21 -30.25,-52.77 -32.02,-55.13 -34.08,-57.26 -36.37,-59.12 -38.88,-60.68 -41.56,-61.9 -44.38,-62.78 -47.29,-63.29 -50.24,-63.43 -53.18,-63.2" fill="none" stroke="#a9a6f0" stroke-width="4.4" stroke-linecap="round" stroke-linejoin="round" opacity="0.62"/>
+   </g>
+   <g class="lining" data-residues="A:ASP810" data-surface="polar">
+    <title>Lining, polar: Asp810</title>
+    <polyline points="-61.5,-60.33 -63.96,-58.7 -66.2,-56.78 -68.19,-54.6 -69.9,-52.19 -71.29,-49.58 -72.34,-46.83 -73.04,-43.95 -73.43,-41.01 -73.6,-38.03 -73.64,-35.03 -73.64,-32.03 -73.63,-29.03 -73.74,-26.09" fill="none" stroke="#9fdcee" stroke-width="4.4" stroke-linecap="round" stroke-linejoin="round" opacity="0.62"/>
+   </g>
+   <g class="lining" data-residues="A:LEU644 A:ASP810" data-surface="hydrophobic">
+    <title>Lining, hydrophobic: Leu644, Asp810</title>
+    <polyline points="-74.14,-23.43 -75.12,-21.43 -76.71,-20.48 -78.72,-20.78 -80.83,-22.12 -82.88,-24.08 -84.94,-26.19 -87.13,-28.17 -89.54,-29.88 -92.14,-31.27 -94.9,-32.32 -97.76,-33.02 -100.69,-33.35 -103.64,-33.3 -106.56,-32.89 -109.42,-32.13 -112.19,-31.07 -114.89,-29.79 -117.53,-28.37 -120.14,-26.89 -122.74,-25.4 -125.34,-23.89 -127.94,-22.39 -130.53,-20.89 -133.13,-19.38 -135.72,-17.86 -138.27,-16.29" fill="none" stroke="#b8dc7a" stroke-width="4.4" stroke-linecap="round" stroke-linejoin="round" opacity="0.62"/>
+   </g>
+   <g class="lining" data-residues="A:ASP810" data-surface="negative">
+    <title>Lining, charged (−): Asp810</title>
+    <polyline points="-160.57,5.03 -160.98,2.09 -161.72,-0.75 -162.84,-3.46 -164.34,-5.97 -166.21,-8.24 -168.37,-10.24 -170.75,-12.02 -173.26,-13.63 -175.84,-15.17 -178.44,-16.67 -181.04,-18.17 -183.64,-19.67 -186.24,-21.17 -188.84,-22.67 -191.45,-24.15 -194.09,-25.57 -196.78,-26.86 -199.55,-27.9 -202.4,-28.61 -205.31,-28.89 -208.23,-28.74 -211.11,-28.16 -213.9,-27.21" fill="none" stroke="#f4a98a" stroke-width="4.4" stroke-linecap="round" stroke-linejoin="round" opacity="0.62"/>
+   </g>
+  </g>
+  <g class="interactions">
+   <g class="interaction hbond" data-distance="2.95" data-ligand-atoms="N13" data-protein-atoms="OG1" data-residue="A:THR670" data-type="hbond">
+    <title>Hydrogen bond: Thr670 OG1 – N13, 2.95 Å</title>
+    <polygon points="108.95,-67.06 104.24,-62.05 108.88,-60.19" fill="#c026d3"/>
+    <line x1="106.92" y1="-62.01" x2="82.87" y2="-2.21" fill="none" stroke="#c026d3" stroke-width="1.35" stroke-linejoin="round" stroke-dasharray="4.2 2.6"/>
+   </g>
+   <g class="interaction hbond" data-distance="2.85" data-ligand-atoms="N3" data-protein-atoms="N" data-residue="A:CYS673" data-type="hbond">
+    <title>Hydrogen bond: Cys673 N – N3, 2.85 Å</title>
+    <polygon points="243.52,4.67 249.92,2.17 249.92,7.17" fill="#c026d3"/>
+    <line x1="291.02" y1="4.67" x2="248.96" y2="4.67" fill="none" stroke="#c026d3" stroke-width="1.35" stroke-linejoin="round"/>
+   </g>
+   <g class="interaction water_bridge" data-distance="3.21" data-ligand-atoms="N10" data-protein-atoms="NZ" data-residue="A:LYS623" data-type="water_bridge">
+    <title>Water bridge: Lys623 NZ – N10, 3.21 Å</title>
+    <polygon points="99.79,-44.55 93.11,-46.15 95.96,-50.25" fill="#0891b2"/>
+    <text x="61.83" y="-67.56" font-size="9.5" text-anchor="middle" fill="#0891b2">H₂O</text>
+    <line x1="23.86" y1="-97.39" x2="54.48" y2="-76.08" fill="none" stroke="#0891b2" stroke-width="1.35" stroke-linejoin="round" stroke-dasharray="2.2 2.2"/>
+    <line x1="69.17" y1="-65.86" x2="95.32" y2="-47.65" fill="none" stroke="#0891b2" stroke-width="1.35" stroke-linejoin="round" stroke-dasharray="2.2 2.2"/>
+   </g>
+   <g class="interaction water_bridge" data-distance="3.21" data-ligand-atoms="O29" data-protein-atoms="NZ" data-residue="A:LYS623" data-type="water_bridge">
+    <title>Water bridge: Lys623 NZ – O29, 3.21 Å</title>
+    <polygon points="-44.66,-45.9 -42.22,-52.32 -38.51,-48.97" fill="#0891b2"/>
+    <text x="-22.7" y="-66.82" font-size="9.5" text-anchor="middle" fill="#0891b2">H₂O</text>
+    <line x1="-0.74" y1="-94.57" x2="-18.08" y2="-75.34" fill="none" stroke="#0891b2" stroke-width="1.35" stroke-linejoin="round" stroke-dasharray="2.2 2.2"/>
+    <line x1="-27.31" y1="-65.12" x2="-41.01" y2="-49.93" fill="none" stroke="#0891b2" stroke-width="1.35" stroke-linejoin="round" stroke-dasharray="2.2 2.2"/>
+   </g>
+   <g class="interaction pi_cation" data-distance="4.16" data-ligand-atoms="C14,C19,C18,C17,C16,C15" data-protein-atoms="NZ" data-residue="A:LYS623" data-type="pi_cation">
+    <title>π–cation: Lys623 NZ – ring C14-C19-C18-C17-C16-C15, 4.16 Å</title>
+    <line x1="13.82" y1="-90.69" x2="27.3" y2="-28.68" fill="none" stroke="#dc2626" stroke-width="1.35" stroke-linejoin="round"/>
+    <circle cx="28.07" cy="-25.16" r="2.5" fill="#dc2626"/>
+    <circle cx="13.82" cy="-90.69" r="2.3" fill="#dc2626"/>
+   </g>
+   <g class="interaction hbond" data-distance="2.86" data-ligand-atoms="N21" data-protein-atoms="OE1" data-residue="A:GLU640" data-type="hbond">
+    <title>Hydrogen bond: Glu640 OE1 – N21, 2.86 Å</title>
+    <polygon points="-19.54,59.02 -17.56,52.44 -22.54,52.84" fill="#c026d3"/>
+    <line x1="-19.97" y1="53.6" x2="-22.33" y2="24.17" fill="none" stroke="#c026d3" stroke-width="1.35" stroke-linejoin="round" stroke-dasharray="4.2 2.6"/>
+   </g>
+   <g class="interaction pi_cation" data-distance="5.64" data-ligand-atoms="N48" data-protein-atoms="CG,ND1,CD2,CE1,NE2" data-residue="A:HIS790" data-type="pi_cation">
+    <title>π–cation: His790 ring – N48, 5.64 Å</title>
+    <line x1="-192.3" y1="79.19" x2="-181.8" y2="42.28" fill="none" stroke="#dc2626" stroke-width="1.35" stroke-linejoin="round"/>
+    <circle cx="-192.3" cy="79.19" r="2.3" fill="#dc2626"/>
+   </g>
+   <g class="interaction hbond" data-distance="3.08" data-ligand-atoms="O29" data-protein-atoms="N" data-residue="A:ASP810" data-type="hbond">
+    <title>Hydrogen bond: Asp810 N – O29, 3.08 Å</title>
+    <polygon points="-57.75,-41.24 -64.45,-39.69 -63.73,-44.64" fill="#c026d3"/>
+    <line x1="-142.67" y1="-53.62" x2="-63.14" y2="-42.03" fill="none" stroke="#c026d3" stroke-width="1.35" stroke-linejoin="round"/>
+   </g>
+   <g class="interaction saltbridge" data-distance="5.32" data-ligand-atoms="N51" data-protein-atoms="OD1,OD2" data-residue="A:ASP810" data-type="saltbridge">
+    <title>Salt bridge: Asp810 (−) – N51, 5.32 Å</title>
+    <line x1="-171.64" y1="-45.39" x2="-225.93" y2="0.18" fill="none" stroke="#2563eb" stroke-width="2.36" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0.01 3.7"/>
+   </g>
+   <g class="interaction saltbridge" data-distance="5.39" data-ligand-atoms="N48" data-protein-atoms="OD1,OD2" data-residue="A:ASP810" data-type="saltbridge">
+    <title>Salt bridge: Asp810 (−) – N48, 5.39 Å</title>
+    <line x1="-162.67" y1="-39.91" x2="-178.06" y2="27.65" fill="none" stroke="#2563eb" stroke-width="2.36" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0.01 3.7"/>
+   </g>
+   <g class="interaction pi_stacking" data-distance="4.84" data-ligand-atoms="C7,C12,C11,N10,C9,N8" data-protein-atoms="CG,CD1,CD2,CE1,CE2,CZ" data-residue="A:PHE811" data-type="pi_stacking">
+    <title>π–π stacking: Phe811 ring – ring C7-C12-C11-N10-C9-N8, 4.84 Å</title>
+    <line x1="106.11" y1="53.27" x2="130.87" y2="-21.82" fill="none" stroke="#16a34a" stroke-width="1.35" stroke-linejoin="round"/>
+    <circle cx="132" cy="-25.24" r="2.5" fill="#16a34a"/>
+    <circle cx="106.11" cy="53.27" r="2.3" fill="#16a34a"/>
+   </g>
+  </g>
+  <g class="ligand">
+   <g class="bonds">
+    <line x1="184.01" y1="34.72" x2="210" y2="49.7" fill="none" stroke="#1f2933" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="183.98" y1="4.72" x2="184.01" y2="34.72" fill="none" stroke="#1f2933" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="188.29" y1="8.8" x2="188.3" y2="30.63" fill="none" stroke="#1f2933" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="209.95" y1="-10.3" x2="183.98" y2="4.72" fill="none" stroke="#1f2933" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="228.87" y1="0.6" x2="209.95" y2="-10.3" fill="none" stroke="#1f2933" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="228.87" y1="5.56" x2="211.35" y2="-4.54" fill="none" stroke="#1f2933" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="235.97" y1="34.68" x2="235.95" y2="11.72" fill="none" stroke="#1f2933" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="235.97" y1="34.68" x2="210" y2="49.7" fill="none" stroke="#1f2933" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="230.28" y1="33" x2="211.38" y2="43.93" fill="none" stroke="#1f2933" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="157.99" y1="-10.26" x2="183.98" y2="4.72" fill="none" stroke="#1f2933" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="157.97" y1="-40.26" x2="157.99" y2="-10.26" fill="none" stroke="#1f2933" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="131.97" y1="-55.24" x2="157.97" y2="-40.26" fill="none" stroke="#1f2933" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="133.36" y1="-49.48" x2="152.28" y2="-38.58" fill="none" stroke="#1f2933" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="113.08" y1="-44.31" x2="131.97" y2="-55.24" fill="none" stroke="#1f2933" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="106.03" y1="-10.22" x2="106.01" y2="-33.18" fill="none" stroke="#1f2933" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="110.32" y1="-14.31" x2="110.31" y2="-33.18" fill="none" stroke="#1f2933" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="124.95" y1="0.68" x2="106.03" y2="-10.22" fill="none" stroke="#1f2933" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="139.09" y1="0.67" x2="157.99" y2="-10.26" fill="none" stroke="#1f2933" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="135.61" y1="-2.29" x2="152.3" y2="-11.94" fill="none" stroke="#1f2933" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="87.13" y1="0.71" x2="106.03" y2="-10.22" fill="none" stroke="#1f2933" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="54.06" y1="-10.18" x2="72.98" y2="0.72" fill="none" stroke="#1f2933" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="54.04" y1="-40.18" x2="54.06" y2="-10.18" fill="none" stroke="#1f2933" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="49.74" y1="-36.09" x2="49.76" y2="-14.26" fill="none" stroke="#1f2933" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="28.04" y1="-55.16" x2="54.04" y2="-40.18" fill="none" stroke="#1f2933" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="2.07" y1="-40.14" x2="28.04" y2="-55.16" fill="none" stroke="#1f2933" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="7.76" y1="-38.47" x2="26.66" y2="-49.39" fill="none" stroke="#1f2933" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="2.1" y1="-10.14" x2="2.07" y2="-40.14" fill="none" stroke="#1f2933" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="28.09" y1="4.84" x2="2.1" y2="-10.14" fill="none" stroke="#1f2933" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="26.7" y1="-0.92" x2="7.78" y2="-11.82" fill="none" stroke="#1f2933" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="28.09" y1="4.84" x2="54.06" y2="-10.18" fill="none" stroke="#1f2933" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="-16.8" y1="0.79" x2="2.1" y2="-10.14" fill="none" stroke="#1f2933" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="-49.87" y1="-10.09" x2="-30.94" y2="0.81" fill="none" stroke="#1f2933" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="-75.83" y1="4.93" x2="-49.87" y2="-10.09" fill="none" stroke="#1f2933" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="-101.83" y1="-10.05" x2="-75.83" y2="4.93" fill="none" stroke="#1f2933" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="-127.8" y1="4.97" x2="-101.83" y2="-10.05" fill="none" stroke="#1f2933" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="-122.11" y1="6.64" x2="-103.21" y2="-4.28" fill="none" stroke="#1f2933" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="-127.77" y1="34.97" x2="-127.8" y2="4.97" fill="none" stroke="#1f2933" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="-101.78" y1="49.95" x2="-127.77" y2="34.97" fill="none" stroke="#1f2933" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="-103.17" y1="44.18" x2="-122.09" y2="33.28" fill="none" stroke="#1f2933" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="-75.81" y1="34.93" x2="-101.78" y2="49.95" fill="none" stroke="#1f2933" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="-75.81" y1="34.93" x2="-75.83" y2="4.93" fill="none" stroke="#1f2933" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="-80.11" y1="30.85" x2="-80.13" y2="9.01" fill="none" stroke="#1f2933" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="-153.74" y1="49.99" x2="-127.77" y2="34.97" fill="none" stroke="#1f2933" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="-172.66" y1="39.09" x2="-153.74" y2="49.99" fill="none" stroke="#1f2933" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="-179.76" y1="5.01" x2="-179.74" y2="27.96" fill="none" stroke="#1f2933" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="-205.76" y1="-9.97" x2="-179.76" y2="5.01" fill="none" stroke="#1f2933" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="-224.65" y1="0.96" x2="-205.76" y2="-9.97" fill="none" stroke="#1f2933" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="-257.72" y1="-9.93" x2="-238.8" y2="0.97" fill="none" stroke="#1f2933" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="-231.7" y1="35.05" x2="-231.72" y2="12.09" fill="none" stroke="#1f2933" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="-205.71" y1="50.03" x2="-186.81" y2="39.1" fill="none" stroke="#1f2933" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="-205.71" y1="50.03" x2="-231.7" y2="35.05" fill="none" stroke="#1f2933" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="-52.03" y1="-33.05" x2="-52.02" y2="-10.09" fill="none" stroke="#1f2933" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="-47.73" y1="-33.05" x2="-47.72" y2="-10.1" fill="none" stroke="#1f2933" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="80.01" y1="-55.2" x2="54.04" y2="-40.18" fill="none" stroke="#1f2933" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+   </g>
+   <g class="atoms">
+    <g class="atom" data-atom="N3">
+     <text x="235.95" y="9.52" font-size="13.5" text-anchor="middle" fill="#2f5fd0">N</text>
+    </g>
+    <g class="atom" data-atom="N10">
+     <text x="106" y="-35.38" font-size="13.5" text-anchor="middle" fill="#2f5fd0">N</text>
+    </g>
+    <g class="atom" data-atom="N8">
+     <text x="132.02" y="9.6" font-size="13.5" text-anchor="middle" fill="#2f5fd0">N</text>
+    </g>
+    <g class="atom" data-atom="N13">
+     <text x="80.06" y="9.65" font-size="13.5" text-anchor="middle" fill="#2f5fd0">N</text>
+     <text x="80.06" y="21.54" font-size="13.5" text-anchor="middle" fill="#2f5fd0">H</text>
+    </g>
+    <g class="atom" data-atom="N21">
+     <text x="-23.87" y="9.73" font-size="13.5" text-anchor="middle" fill="#2f5fd0">N</text>
+     <text x="-23.87" y="21.62" font-size="13.5" text-anchor="middle" fill="#2f5fd0">H</text>
+    </g>
+    <g class="atom" data-atom="N48">
+     <text x="-179.74" y="39.86" font-size="13.5" text-anchor="middle" fill="#2f5fd0">N</text>
+    </g>
+    <g class="atom" data-atom="N51">
+     <text x="-231.73" y="9.89" font-size="13.5" text-anchor="middle" fill="#2f5fd0">N</text>
+    </g>
+    <g class="atom" data-atom="O29">
+     <text x="-49.89" y="-35.25" font-size="13.5" text-anchor="middle" fill="#d6332a">O</text>
+    </g>
+   </g>
+  </g>
+  <g class="contacts">
+   <g class="contact hydrophobic" data-distance="3.35" data-ligand-atoms="C19" data-protein-atoms="CG2" data-residue="A:THR670" data-type="hydrophobic">
+    <title>Hydrophobic contact: Thr670 CG2 – C19, 3.35 Å</title>
+    <line x1="53.78" y1="-46.67" x2="53.58" y2="-51.67" fill="none" stroke="#c0392b" stroke-width="1.1" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="56.45" y1="-46.22" x2="58.3" y2="-50.86" fill="none" stroke="#c0392b" stroke-width="1.1" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="77.29" y1="-93.49" x2="77.45" y2="-89.49" fill="none" stroke="#c0392b" stroke-width="1.1" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="75.44" y1="-93.81" x2="73.96" y2="-90.09" fill="none" stroke="#c0392b" stroke-width="1.1" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="73.88" y1="-94.85" x2="71.01" y2="-92.06" fill="none" stroke="#c0392b" stroke-width="1.1" stroke-linecap="round" stroke-linejoin="round"/>
+   </g>
+  </g>
+  <g class="residues">
+   <g class="residue" data-class="polar" data-form="fragment" data-residue="A:THR670">
+    <g class="fragment">
+     <line x1="116.42" y1="-114.43" x2="101.51" y2="-94.86" fill="none" stroke="#6b7a90" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round"/>
+     <line x1="101.51" y1="-94.86" x2="108.95" y2="-77.08" fill="none" stroke="#6b7a90" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round"/>
+     <line x1="101.51" y1="-94.86" x2="77.11" y2="-97.99" fill="none" stroke="#6b7a90" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round"/>
+     <text x="111" y="-68.76" font-size="9.5" text-anchor="middle" fill="#d6332a">O</text>
+    </g>
+    <text x="129.23" y="-126.95" font-size="12" text-anchor="middle" font-weight="bold" fill="#1f2933">Thr670</text>
+   </g>
+   <g class="residue" data-class="hydrophobic" data-form="fragment" data-residue="A:CYS673">
+    <g class="fragment">
+     <line x1="301.38" y1="4.67" x2="321.05" y2="4.67" fill="none" stroke="#6b7a90" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round"/>
+     <text x="296.45" y="8.08" font-size="9.5" text-anchor="middle" fill="#2f5fd0">N</text>
+    </g>
+    <text x="347.06" y="8.98" font-size="12" text-anchor="middle" font-weight="bold" fill="#1f2933">Cys673</text>
+   </g>
+   <g class="residue" data-class="hydrophobic" data-form="bubble" data-residue="A:LEU595">
+    <title>Leu595: hydrophobic contact</title>
+    <path d="M172.08 88.03 L179.69 97.89 A15 15 0 1 1 160.98 93.71 Z" fill="#b8dc7a" stroke="#5b6472" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="167.82" y="105.96" font-size="9.5" text-anchor="middle" font-weight="bold" fill="#1f2933">LEU</text>
+    <text x="167.82" y="114.98" font-size="9.5" text-anchor="middle" fill="#1f2933">595</text>
+   </g>
+   <g class="residue" data-class="hydrophobic" data-form="bubble" data-residue="A:VAL603">
+    <title>Val603: hydrophobic contact</title>
+    <path d="M191.84 -82.75 L189.31 -94.95 A15 15 0 1 1 204.3 -83 Z" fill="#b8dc7a" stroke="#5b6472" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="204" y="-99.1" font-size="9.5" text-anchor="middle" font-weight="bold" fill="#1f2933">VAL</text>
+    <text x="204" y="-90.08" font-size="9.5" text-anchor="middle" fill="#1f2933">603</text>
+   </g>
+   <g class="residue" data-class="positive" data-form="bubble" data-residue="A:LYS623">
+    <title>Lys623: hydrophobic contact, π–cation, water bridge</title>
+    <path d="M15.33 -87.97 L4.02 -93.2 A15 15 0 1 1 22.55 -98.13 Z" fill="#a9a6f0" stroke="#5b6472" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="10.32" y="-107.92" font-size="9.5" text-anchor="middle" font-weight="bold" fill="#1f2933">LYS</text>
+    <text x="10.32" y="-98.9" font-size="9.5" text-anchor="middle" fill="#1f2933">623</text>
+   </g>
+   <g class="residue" data-class="negative" data-form="bubble" data-residue="A:GLU640">
+    <title>Glu640: hydrogen bond, hydrophobic contact</title>
+    <path d="M-27.86 58.52 L-15.6 60.7 A15 15 0 1 1 -32.26 70.18 Z" fill="#f4a98a" stroke="#5b6472" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="-18.22" y="74.37" font-size="9.5" text-anchor="middle" font-weight="bold" fill="#1f2933">GLU</text>
+    <text x="-18.22" y="83.39" font-size="9.5" text-anchor="middle" fill="#1f2933">640</text>
+   </g>
+   <g class="residue" data-class="hydrophobic" data-form="bubble" data-residue="A:LEU644">
+    <title>Leu644: hydrophobic contact</title>
+    <path d="M-78.3 -53.69 L-90.6 -51.69 A15 15 0 1 1 -78 -66.15 Z" fill="#b8dc7a" stroke="#5b6472" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="-93" y="-67.6" font-size="9.5" text-anchor="middle" font-weight="bold" fill="#1f2933">LEU</text>
+    <text x="-93" y="-58.58" font-size="9.5" text-anchor="middle" fill="#1f2933">644</text>
+   </g>
+   <g class="residue" data-class="hydrophobic" data-form="bubble" data-residue="A:VAL654">
+    <title>Val654: hydrophobic contact</title>
+    <path d="M40.54 57.77 L51.69 63.32 A15 15 0 1 1 33.03 67.71 Z" fill="#b8dc7a" stroke="#5b6472" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="45" y="75.65" font-size="9.5" text-anchor="middle" font-weight="bold" fill="#1f2933">VAL</text>
+    <text x="45" y="84.67" font-size="9.5" text-anchor="middle" fill="#1f2933">654</text>
+   </g>
+   <g class="residue" data-class="hydrophobic" data-form="bubble" data-residue="A:VAL668">
+    <title>Val668: hydrophobic contact</title>
+    <path d="M40.54 -108.27 L33.03 -118.21 A15 15 0 1 1 51.69 -113.82 Z" fill="#b8dc7a" stroke="#5b6472" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="45" y="-128.35" font-size="9.5" text-anchor="middle" font-weight="bold" fill="#1f2933">VAL</text>
+    <text x="45" y="-119.33" font-size="9.5" text-anchor="middle" fill="#1f2933">668</text>
+   </g>
+   <g class="residue" data-class="polar" data-form="bubble" data-residue="A:HIS790">
+    <title>His790: π–cation</title>
+    <path d="M-191.48 76.3 L-184.44 86.58 A15 15 0 1 1 -202.87 81.34 Z" fill="#9fdcee" stroke="#5b6472" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="-196.81" y="93.96" font-size="9.5" text-anchor="middle" font-weight="bold" fill="#1f2933">HIS</text>
+    <text x="-196.81" y="102.98" font-size="9.5" text-anchor="middle" fill="#1f2933">790</text>
+   </g>
+   <g class="residue" data-class="hydrophobic" data-form="bubble" data-residue="A:LEU799">
+    <title>Leu799: hydrophobic contact</title>
+    <path d="M148.64 66.84 L151.53 78.96 A15 15 0 1 1 136.2 67.46 Z" fill="#b8dc7a" stroke="#5b6472" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="136.94" y="81.34" font-size="9.5" text-anchor="middle" font-weight="bold" fill="#1f2933">LEU</text>
+    <text x="136.94" y="90.36" font-size="9.5" text-anchor="middle" fill="#1f2933">799</text>
+   </g>
+   <g class="residue" data-class="negative" data-form="bubble" data-residue="A:ASP810">
+    <title>Asp810: hydrogen bond, hydrophobic contact, salt bridge</title>
+    <path d="M-151.27 -38.1 L-163.23 -41.61 A15 15 0 1 1 -145.63 -49.21 Z" fill="#f4a98a" stroke="#5b6472" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="-159" y="-57.1" font-size="9.5" text-anchor="middle" font-weight="bold" fill="#1f2933">ASP</text>
+    <text x="-159" y="-48.08" font-size="9.5" text-anchor="middle" fill="#1f2933">810</text>
+   </g>
+   <g class="residue" data-class="hydrophobic" data-form="bubble" data-residue="A:PHE811">
+    <title>Phe811: π–π stacking</title>
+    <path d="M107.05 50.42 L113.66 60.98 A15 15 0 1 1 95.45 54.98 Z" fill="#b8dc7a" stroke="#5b6472" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="100.94" y="67.84" font-size="9.5" text-anchor="middle" font-weight="bold" fill="#1f2933">PHE</text>
+    <text x="100.94" y="76.86" font-size="9.5" text-anchor="middle" fill="#1f2933">811</text>
+   </g>
+  </g>
+ </g>
+ <g class="legend" transform="translate(18 302.21)">
+  <circle cx="5.5" cy="9.19" r="5.5" fill="#b8dc7a" stroke="#5b6472" stroke-width="0.8" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="16" y="12.96" font-size="10.5" fill="#667085">Hydrophobic</text>
+  <circle cx="98.44" cy="9.19" r="5.5" fill="#9fdcee" stroke="#5b6472" stroke-width="0.8" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="108.94" y="12.96" font-size="10.5" fill="#667085">Polar</text>
+  <circle cx="156.94" cy="9.19" r="5.5" fill="#a9a6f0" stroke="#5b6472" stroke-width="0.8" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="167.44" y="12.96" font-size="10.5" fill="#667085">Charged (+)</text>
+  <circle cx="247.25" cy="9.19" r="5.5" fill="#f4a98a" stroke="#5b6472" stroke-width="0.8" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="257.75" y="12.96" font-size="10.5" fill="#667085">Charged (−)</text>
+  <polygon points="358.07,9.19 351.67,11.69 351.67,6.69" fill="#c026d3"/>
+  <line x1="332.07" y1="9.19" x2="352.63" y2="9.19" fill="none" stroke="#c026d3" stroke-width="1.35" stroke-linejoin="round"/>
+  <text x="366.07" y="12.96" font-size="10.5" fill="#667085">H-bond (backbone)</text>
+  <polygon points="499.94,9.19 493.54,11.69 493.54,6.69" fill="#c026d3"/>
+  <line x1="473.94" y1="9.19" x2="494.5" y2="9.19" fill="none" stroke="#c026d3" stroke-width="1.35" stroke-linejoin="round" stroke-dasharray="4.2 2.6"/>
+  <text x="507.94" y="12.96" font-size="10.5" fill="#667085">H-bond (side chain)</text>
+  <line x1="0" y1="27.56" x2="26" y2="27.56" fill="none" stroke="#2563eb" stroke-width="2.36" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0.01 3.7"/>
+  <text x="34" y="31.33" font-size="10.5" fill="#667085">Salt bridge</text>
+  <line x1="102.19" y1="27.56" x2="128.19" y2="27.56" fill="none" stroke="#16a34a" stroke-width="1.35" stroke-linejoin="round"/>
+  <circle cx="128.19" cy="27.56" r="2.4" fill="#16a34a"/>
+  <text x="136.19" y="31.33" font-size="10.5" fill="#667085">π–π stacking</text>
+  <line x1="212.99" y1="27.56" x2="238.99" y2="27.56" fill="none" stroke="#dc2626" stroke-width="1.35" stroke-linejoin="round"/>
+  <circle cx="238.99" cy="27.56" r="2.4" fill="#dc2626"/>
+  <text x="246.99" y="31.33" font-size="10.5" fill="#667085">π–cation</text>
+  <line x1="304.61" y1="27.56" x2="330.61" y2="27.56" fill="none" stroke="#0891b2" stroke-width="1.35" stroke-linejoin="round" stroke-dasharray="2.2 2.2"/>
+  <text x="338.61" y="31.33" font-size="10.5" fill="#667085">Water bridge</text>
+  <polyline points="422.25,27.53 424.25,25.41 426.83,24.04 429.71,23.56 432.59,24.04 435.17,25.41 437.17,27.53" fill="none" stroke="#c0392b" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
+  <line x1="423.02" y1="26.54" x2="420.05" y2="23.86" fill="none" stroke="#c0392b" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
+  <line x1="424.94" y1="24.93" x2="422.82" y2="21.54" fill="none" stroke="#c0392b" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
+  <line x1="427.23" y1="23.91" x2="426.13" y2="20.07" fill="none" stroke="#c0392b" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
+  <line x1="429.71" y1="23.56" x2="429.71" y2="19.56" fill="none" stroke="#c0392b" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
+  <line x1="432.19" y1="23.91" x2="433.29" y2="20.07" fill="none" stroke="#c0392b" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
+  <line x1="434.48" y1="24.93" x2="436.6" y2="21.54" fill="none" stroke="#c0392b" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
+  <line x1="436.4" y1="26.54" x2="439.37" y2="23.86" fill="none" stroke="#c0392b" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="450.71" y="31.33" font-size="10.5" fill="#667085">Hydrophobic contact</text>
+  <text x="0" y="49.71" font-size="10.5" fill="#667085">Pocket lining:</text>
+  <line x1="82.64" y1="45.94" x2="96.24" y2="45.94" fill="none" stroke="#b8dc7a" stroke-width="4.4" stroke-linecap="round" stroke-linejoin="round" opacity="0.62"/>
+  <text x="103.44" y="49.71" font-size="10.5" fill="#667085">hydrophobic</text>
+  <line x1="180.84" y1="45.94" x2="194.44" y2="45.94" fill="none" stroke="#9fdcee" stroke-width="4.4" stroke-linecap="round" stroke-linejoin="round" opacity="0.62"/>
+  <text x="201.64" y="49.71" font-size="10.5" fill="#667085">polar</text>
+  <line x1="245.18" y1="45.94" x2="258.78" y2="45.94" fill="none" stroke="#a9a6f0" stroke-width="4.4" stroke-linecap="round" stroke-linejoin="round" opacity="0.62"/>
+  <text x="265.98" y="49.71" font-size="10.5" fill="#667085">charged (+)</text>
+  <line x1="340.16" y1="45.94" x2="353.76" y2="45.94" fill="none" stroke="#f4a98a" stroke-width="4.4" stroke-linecap="round" stroke-linejoin="round" opacity="0.62"/>
+  <text x="360.96" y="49.71" font-size="10.5" fill="#667085">charged (−)</text>
+ </g>
+</svg>

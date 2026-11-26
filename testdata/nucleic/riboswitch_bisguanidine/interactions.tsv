@@ -1,0 +1,10 @@
+interaction_type	residue_number	residue_name	chain	insertion_code	protein_atom	ligand_atom	distance	angle	ligand_is_donor	protein_atoms	ligand_atoms	water
+hbond	8	A	A		O2P	N2	4.03	100.82	False			
+hbond	8	A	B		O1P	N4	2.89	161.05	True			
+hbond	10	G	B		N7	N5	2.93	150.76	True			
+pi_cation	7	G	B				3.45			C5,C6,N1,C2,N3,C4	N5,N3,N4	
+pi_cation	7	G	B				3.79			N9,C8,N7,C5,C4	N5,N3,N4	
+pi_cation	8	A	B				5.82			N9,C8,N7,C5,C4	N5,N3,N4	
+saltbridge	8	A	A				5.3			P	N2,N1,N6	
+saltbridge	8	A	B				4.86			P	N5,N3,N4	
+saltbridge	9	C	B				4.76			P	N5,N3,N4	

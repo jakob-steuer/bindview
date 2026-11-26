@@ -1,0 +1,22 @@
+{
+ "slug": "gr_azd9567",
+ "what": "the glucocorticoid receptor's ligand-binding domain with the non-steroidal AZD9567",
+ "source": {
+  "archive": "RCSB Protein Data Bank",
+  "entry": "6EL9",
+  "address": "https://files.rcsb.org/download/6EL9.cif.gz",
+  "licence": "CC0 1.0 (the archive's data are in the public domain)",
+  "file": "model.cif.gz",
+  "file_is": "the archive's own file, byte for byte",
+  "sha256": "ac3413f09e631d6fb644c098970305ac3734e00f9237c2183b77013b674efdd2"
+ },
+ "ligand": {
+  "name": "AZD9567",
+  "component": "B9W",
+  "residue_name_in_cif": "B9W",
+  "smiles": "CC(C)[C@@H]([C@@H](c1ccccc1)Oc2ccc3c(c2)cnn3C4=CN(C(=O)C=C4)C)NC(=O)C(C)(F)F",
+  "smiles_from": "the archive's record of the chemical component B9W",
+  "heavy_atoms": 36
+ },
+ "why_this_case": "A ligand of the same pocket that shares no scaffold with the steroids."
+}

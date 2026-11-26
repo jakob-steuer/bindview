@@ -1,0 +1,25 @@
+# The tests of a clone of the repository. What is fetched and not kept is not there, and PLIP is not installed:
+# the tests that need either are skipped and say why. The stored figures were made on another platform
+# (tests/golden/VERSIONS.json): here they are held to what they contain, not to their bytes.
+name: tests
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  tests:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
+        with:
+          python-version: "3.12"
+      - name: Install
+        run: pip install -e ".[dev]" "rdkit==2026.9.1" "numpy>=2,<3"
+      - name: Types
+        run: mypy
+      - name: Tests
+        run: pytest

@@ -1,0 +1,40 @@
+{
+ "slug": "afdb_tectb",
+ "what": "the AlphaFold model of human beta-tectorin (TECTB), one chain, cut between its two domains",
+ "source": {
+  "archive": "AlphaFold Protein Structure Database",
+  "entry": "AF-Q96PL2-F1",
+  "version": 6,
+  "uniprot": "Q96PL2",
+  "address": "https://alphafold.ebi.ac.uk/files/AF-Q96PL2-F1-model_v6.cif",
+  "pae_address": "https://alphafold.ebi.ac.uk/files/AF-Q96PL2-F1-predicted_aligned_error_v6.json",
+  "licence": "CC BY 4.0",
+  "cite": "Jumper et al., Nature 596, 583 (2021); Varadi et al., Nucleic Acids Res. 52, D368 (2024)",
+  "file": "model.cif.gz",
+  "pae_file": "predicted_aligned_error.json.gz",
+  "file_is": "the database's files, packed (gzip, no time stamp)",
+  "sha256_as_served": {
+   "model": "a8efb8247f5dd32009352b6a5f47c4d114496fd56c1772438ec7027c810050e4",
+   "pae": "29471dc5be38b740f4dc601441af88dcfd70ddc1c6de229ce6143caa6cc02907"
+  }
+ },
+ "chain": "A",
+ "participants": [
+  {
+   "name": "N-terminal domain",
+   "residues": [
+    28,
+    124
+   ]
+  },
+  {
+   "name": "ZP domain",
+   "residues": [
+    126,
+    269
+   ]
+  }
+ ],
+ "participants_from": "the first and the last residue of the two domains that TED (The Encyclopedia of Domains, CC BY 4.0) assigns to this entry",
+ "why_this_case": "A mixed case: within one interface the predicted aligned error runs from confident to no idea."
+}

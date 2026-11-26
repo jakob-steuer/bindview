@@ -1,0 +1,11 @@
+{
+ "key": "gr_diverse",
+ "mode": "diverse",
+ "n_ligands": 3,
+ "what": "A steroid and two non-steroidal ligands of the glucocorticoid receptor's pocket: no common scaffold.",
+ "members_are_existing_cases_at": [
+  "../gr_dexamethasone",
+  "../gr_azd9567",
+  "../gr_azd5423"
+ ]
+}

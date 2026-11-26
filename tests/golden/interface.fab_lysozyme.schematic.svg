@@ -1,0 +1,360 @@
+<svg xmlns="http://www.w3.org/2000/svg" class="bindview" width="333.07" height="636.85" viewBox="0 0 333.07 636.85" font-family="Helvetica, Arial, 'Liberation Sans', sans-serif" role="img">
+ <title>chains H, L – chain C</title>
+ <rect class="background" width="333.07" height="636.85" fill="#ffffff"/>
+ <g class="diagram" transform="translate(160.21 79.95)">
+  <g class="backdrop">
+   <g class="lining" data-residues="L:TYR50" data-surface="hydrophobic">
+    <title>Lining, hydrophobic: Tyr50(L)</title>
+    <polyline points="-42.21,55.03 -41.95,57.98 -41.44,60.89 -40.9,63.78 -40.58,66.64 -40.67,69.5 -41.11,72.38 -41.68,75.27 -42.11,78.2 -42.26,81.16" fill="none" stroke="#b8dc7a" stroke-width="4.4" stroke-linecap="round" stroke-linejoin="round" opacity="0.62"/>
+   </g>
+   <g class="lining" data-residues="H:TYR350" data-surface="polar">
+    <title>Lining, polar: Tyr350(H)</title>
+    <polyline points="-42.08,84.11 -41.62,87.04 -41.05,89.93 -40.63,92.8 -40.58,95.66 -40.94,98.53 -41.5,101.42 -41.99,104.34 -42.23,107.29" fill="none" stroke="#9fdcee" stroke-width="4.4" stroke-linecap="round" stroke-linejoin="round" opacity="0.62"/>
+   </g>
+   <g class="lining" data-residues="H:ASP399" data-surface="negative">
+    <title>Lining, charged (−): Asp399(H)</title>
+    <polyline points="-42.14,110.24 -41.76,113.18 -41.22,116.08 -40.74,118.95 -40.58,121.82 -40.83,124.68 -41.34,127.56 -41.86,130.47 -42.18,133.41" fill="none" stroke="#f4a98a" stroke-width="4.4" stroke-linecap="round" stroke-linejoin="round" opacity="0.62"/>
+   </g>
+   <g class="lining" data-residues="H:SER354 H:SER352" data-surface="polar">
+    <title>Lining, polar: Ser354(H), Ser352(H)</title>
+    <polyline points="-42.19,136.37 -41.9,139.31 -41.38,142.22 -40.86,145.11 -40.58,147.97 -40.71,150.83 -41.18,153.71 -41.73,156.61 -42.13,159.54 -42.24,162.5 -42.03,165.44 -41.54,168.37 -40.97,171.26 -40.58,174.13 -40.59,176.99 -40.99,179.86" fill="none" stroke="#9fdcee" stroke-width="4.4" stroke-linecap="round" stroke-linejoin="round" opacity="0.62"/>
+   </g>
+   <g class="lining" data-residues="H:TYR353" data-surface="hydrophobic">
+    <title>Lining, hydrophobic: Tyr353(H)</title>
+    <polyline points="-41.57,182.75 -42.04,185.67 -42.25,188.62 -42.12,191.58 -41.71,194.51 -41.16,197.41 -40.7,200.28 -40.58,203.14 -40.87,206.01" fill="none" stroke="#b8dc7a" stroke-width="4.4" stroke-linecap="round" stroke-linejoin="round" opacity="0.62"/>
+   </g>
+   <g class="lining" data-residues="H:TYR353" data-surface="polar">
+    <title>Lining, polar: Tyr353(H)</title>
+    <polyline points="-41.4,208.89 -41.91,211.81 -42.2,214.75 -42.17,217.7 -41.84,220.64 -41.32,223.55 -40.81,226.43 -40.58,229.3" fill="none" stroke="#9fdcee" stroke-width="4.4" stroke-linecap="round" stroke-linejoin="round" opacity="0.62"/>
+   </g>
+   <g class="lining" data-residues="H:TYR353" data-surface="hydrophobic">
+    <title>Lining, hydrophobic: Tyr353(H)</title>
+    <polyline points="-40.76,232.16 -41.24,235.04 -41.78,237.94 -42.15,240.88 -42.22,243.83 -41.98,246.78 -41.48,249.7 -40.93,252.58 -40.58,255.45 -40.64,258.31 -41.08,261.18 -41.65,264.08 -42.1,267.01 -42.27,269.96 -42.11,272.91 -41.66,275.84 -41.09,278.74 -40.66,281.61 -40.58,284.47 -40.92,287.34" fill="none" stroke="#b8dc7a" stroke-width="4.4" stroke-linecap="round" stroke-linejoin="round" opacity="0.62"/>
+   </g>
+   <g class="lining" data-residues="H:SER356" data-surface="polar">
+    <title>Lining, polar: Ser356(H)</title>
+    <polyline points="40.58,201.33 40.94,198.46 41.51,195.58 41.99,192.65 42.23,189.71 42.14,186.75 41.76,183.82 41.22,180.91 40.74,178.04 40.58,175.18 40.83,172.32 41.34,169.44 41.86,166.53 42.18,163.58 42.19,160.63 41.89,157.69 41.38,154.77 40.85,151.89" fill="none" stroke="#9fdcee" stroke-width="4.4" stroke-linecap="round" stroke-linejoin="round" opacity="0.62"/>
+   </g>
+   <g class="lining" data-residues="H:TYR333" data-surface="hydrophobic">
+    <title>Lining, hydrophobic: Tyr333(H)</title>
+    <polyline points="40.71,146.17 41.17,143.3 41.73,140.4 42.13,137.46 42.24,134.51 42.03,131.56 41.55,128.63 40.97,125.75 40.58,122.88 40.58,120.02" fill="none" stroke="#b8dc7a" stroke-width="4.4" stroke-linecap="round" stroke-linejoin="round" opacity="0.62"/>
+   </g>
+   <g class="lining" data-residues="H:TYR333" data-surface="polar">
+    <title>Lining, polar: Tyr333(H)</title>
+    <polyline points="40.99,117.15 41.57,114.26 42.04,111.34 42.25,108.39 42.12,105.43" fill="none" stroke="#9fdcee" stroke-width="4.4" stroke-linecap="round" stroke-linejoin="round" opacity="0.62"/>
+   </g>
+   <g class="lining" data-residues="H:ASP332" data-surface="negative">
+    <title>Lining, charged (−): Asp332(H)</title>
+    <polyline points="41.71,102.5 41.15,99.6 40.7,96.73 40.58,93.87 40.87,91" fill="none" stroke="#f4a98a" stroke-width="4.4" stroke-linecap="round" stroke-linejoin="round" opacity="0.62"/>
+   </g>
+   <g class="lining" data-residues="H:TRP398" data-surface="hydrophobic">
+    <title>Lining, hydrophobic: Trp398(H)</title>
+    <polyline points="41.4,88.12 41.91,85.21 42.2,82.26 42.17,79.31 41.85,76.37 41.32,73.46 40.81,70.58 40.58,67.72 40.75,64.86" fill="none" stroke="#b8dc7a" stroke-width="4.4" stroke-linecap="round" stroke-linejoin="round" opacity="0.62"/>
+   </g>
+   <g class="lining" data-residues="L:GLN53 L:TYR96" data-surface="polar">
+    <title>Lining, polar: Gln53(L), Tyr96(L)</title>
+    <polyline points="41.78,59.08 42.15,56.14 42.22,53.19 41.98,50.24 41.49,47.32 40.93,44.44 40.58,41.57 40.64,38.71 41.07,35.84 41.64,32.95 42.09,30.02 42.27,27.07 42.11,24.11 41.67,21.18 41.09,18.29 40.65,15.42 40.58,12.56 40.91,9.69 41.46,6.81 41.96,3.89 42.22,0.94 42.16,-2.01 41.77,-4.94 41.06,-7.81 40.04,-10.58 38.72,-13.23 37.12,-15.71" fill="none" stroke="#9fdcee" stroke-width="4.4" stroke-linecap="round" stroke-linejoin="round" opacity="0.62"/>
+   </g>
+   <g class="lining" data-residues="L:ASN31 L:ASN92 H:TYR350" data-surface="polar">
+    <title>Lining, polar: Asn31(L), Asn92(L), Tyr350(H)</title>
+    <polyline points="-9.92,-27.09 -12.91,-27.05 -15.89,-26.9 -18.85,-26.59 -21.76,-26.02 -24.59,-25.15 -27.31,-23.99 -29.89,-22.53 -32.29,-20.8 -34.48,-18.82 -36.45,-16.61 -38.16,-14.2 -39.6,-11.61 -40.74,-8.89 -41.57,-6.05 -42.08,-3.13 -42.26,-0.18 -42.11,2.77 -41.68,5.71 -41.12,8.6 -40.67,11.48 -40.58,14.34 -40.9,17.2 -41.44,20.09 -41.94,23 -42.21,25.95 -42.16,28.9 -41.81,31.84 -41.28,34.75 -40.79,37.63 -40.58,40.49 -40.78,43.35 -41.28,46.23 -41.81,49.14 -42.16,52.08" fill="none" stroke="#9fdcee" stroke-width="4.4" stroke-linecap="round" stroke-linejoin="round" opacity="0.62"/>
+   </g>
+  </g>
+  <g class="interactions">
+   <g class="interaction saltbridge" data-distance="2.74" data-ligand-atoms="697/NZ" data-ligand-part="side-chain" data-ligand-residue="Lys697" data-protein-atoms="OD1,OD2" data-residue="H:ASP332" data-type="saltbridge">
+    <title>Salt bridge: Asp332 (−) – Lys 697 of chain C (side chain: 697/NZ), 2.74 Å</title>
+    <line x1="91.56" y1="94.27" x2="25.99" y2="104.1" fill="none" stroke="#2563eb" stroke-width="2.36" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0.01 3.7"/>
+   </g>
+   <g class="interaction hbond" data-distance="2.72" data-ligand-atoms="697/O" data-ligand-part="backbone" data-ligand-residue="Lys697" data-protein-atoms="OH" data-residue="H:TYR333" data-type="hbond">
+    <title>Hydrogen bond: Tyr333 OH – Lys 697 of chain C (backbone: 697/O), 2.72 Å</title>
+    <polygon points="26.69,108.41 33.41,106.99 32.6,111.92" fill="#c026d3"/>
+    <line x1="51.54" y1="112.52" x2="32.06" y2="109.3" fill="none" stroke="#c026d3" stroke-width="1.35" stroke-linejoin="round" stroke-dasharray="4.2 2.6"/>
+   </g>
+   <g class="interaction hydrophobic" data-distance="3.75" data-ligand-atoms="697/CG" data-ligand-part="side-chain" data-ligand-residue="Lys697" data-protein-atoms="CE2" data-residue="H:TYR333" data-type="hydrophobic">
+    <title>Hydrophobic contact: Tyr333 CE2 – Lys 697 of chain C (side chain: 697/CG), 3.75 Å</title>
+    <line x1="51.54" y1="120.52" x2="23.46" y2="115.88" fill="none" stroke="#5b6472" stroke-width="0.81" stroke-linejoin="round"/>
+   </g>
+   <g class="interaction hbond" data-distance="2.64" data-ligand-atoms="700/O" data-ligand-part="backbone" data-ligand-residue="Ser700" data-protein-atoms="OH" data-residue="H:TYR350" data-type="hbond">
+    <title>Hydrogen bond: Tyr350 OH – Ser 700 of chain C (backbone: 700/O), 2.64 Å</title>
+    <polygon points="-15.94,123.86 -22.61,122.24 -19.75,118.14" fill="#c026d3"/>
+    <line x1="-67.78" y1="87.62" x2="-20.39" y2="120.74" fill="none" stroke="#c026d3" stroke-width="1.35" stroke-linejoin="round" stroke-dasharray="4.2 2.6"/>
+   </g>
+   <g class="interaction hbond" data-distance="2.87" data-ligand-atoms="621/NH1,621/NH2" data-ligand-part="side-chain" data-ligand-residue="Arg621" data-protein-atoms="OH" data-residue="H:TYR350" data-type="hbond">
+    <title>Hydrogen bond: Tyr350 OH – Arg 621 of chain C (side chain: 621/NH1), 2.87 Å; Hydrogen bond: Tyr350 OH – Arg 621 of chain C (side chain: 621/NH2), 3.22 Å</title>
+    <polygon points="-67.08,67.33 -60.31,66.18 -62.88,61.89" fill="#c026d3"/>
+    <line x1="-62.42" y1="64.53" x2="-18.07" y2="37.86" fill="none" stroke="#c026d3" stroke-width="1.35" stroke-linejoin="round" stroke-dasharray="4.2 2.6"/>
+   </g>
+   <g class="interaction hbond" data-distance="2.73" data-ligand-atoms="701/OD1" data-ligand-part="side-chain" data-ligand-residue="Asp701" data-protein-atoms="OG" data-residue="H:SER352" data-type="hbond">
+    <title>Hydrogen bond: Ser352 OG – Asp 701 of chain C (side chain: 701/OD1), 2.73 Å</title>
+    <polygon points="-24.14,169.1 -29.58,173.3 -30.99,168.5" fill="#c026d3"/>
+    <line x1="-70.99" y1="182.86" x2="-29.36" y2="170.63" fill="none" stroke="#c026d3" stroke-width="1.35" stroke-linejoin="round" stroke-dasharray="4.2 2.6"/>
+   </g>
+   <g class="interaction hbond" data-distance="3.39" data-ligand-atoms="703/ND2" data-ligand-part="side-chain" data-ligand-residue="Asn703" data-protein-atoms="OH" data-residue="H:TYR353" data-type="hbond">
+    <title>Hydrogen bond: Tyr353 OH – Asn 703 of chain C (side chain: 703/ND2), 3.39 Å</title>
+    <polygon points="-78.88,227.01 -72.2,228.6 -72.89,223.65" fill="#c026d3"/>
+    <line x1="-73.49" y1="226.26" x2="-26.09" y2="219.64" fill="none" stroke="#c026d3" stroke-width="1.35" stroke-linejoin="round" stroke-dasharray="4.2 2.6"/>
+   </g>
+   <g class="interaction hydrophobic" data-distance="3.55" data-ligand-atoms="675/CD2" data-ligand-part="side-chain" data-ligand-residue="Leu675" data-protein-atoms="CB" data-residue="H:TYR353" data-type="hydrophobic">
+    <title>Hydrophobic contact: Tyr353 CB – Leu 675 of chain C (side chain: 675/CD2), 3.55 Å</title>
+    <line x1="-80.13" y1="236.74" x2="-21.98" y2="260.88" fill="none" stroke="#5b6472" stroke-width="0.81" stroke-linejoin="round"/>
+   </g>
+   <g class="interaction hydrophobic" data-distance="3.61" data-ligand-atoms="663/CH2" data-ligand-part="side-chain" data-ligand-residue="Trp663" data-protein-atoms="CE2" data-residue="H:TYR353" data-type="hydrophobic">
+    <title>Hydrophobic contact: Tyr353 CE2 – Trp 663 of chain C (side chain: 663/CH2), 3.61 Å</title>
+    <line x1="-78.88" y1="232.14" x2="-26.1" y2="239.4" fill="none" stroke="#5b6472" stroke-width="0.81" stroke-linejoin="round"/>
+   </g>
+   <g class="interaction hydrophobic" data-distance="3.80" data-ligand-atoms="662/CZ3" data-ligand-part="side-chain" data-ligand-residue="Trp662" data-protein-atoms="CE1" data-residue="H:TYR353" data-type="hydrophobic">
+    <title>Hydrophobic contact: Tyr353 CE1 – Trp 662 of chain C (side chain: 662/CZ3), 3.80 Å</title>
+    <line x1="-82.02" y1="240.21" x2="-16.01" y2="285.91" fill="none" stroke="#5b6472" stroke-width="0.81" stroke-linejoin="round"/>
+   </g>
+   <g class="interaction hydrophobic" data-distance="3.81" data-ligand-atoms="701/CB" data-ligand-part="side-chain" data-ligand-residue="Asp701" data-protein-atoms="CE2" data-residue="H:TYR353" data-type="hydrophobic">
+    <title>Hydrophobic contact: Tyr353 CE2 – Asp 701 of chain C (side chain: 701/CB), 3.81 Å</title>
+    <line x1="-82.03" y1="218.96" x2="-15.97" y2="173.09" fill="none" stroke="#5b6472" stroke-width="0.81" stroke-linejoin="round"/>
+   </g>
+   <g class="interaction hbond" data-distance="2.60" data-ligand-atoms="701/OD1,701/OD2" data-ligand-part="side-chain" data-ligand-residue="Asp701" data-protein-atoms="OG" data-residue="H:SER354" data-type="hbond">
+    <title>Hydrogen bond: Ser354 OG – Asp 701 of chain C (side chain: 701/OD1), 2.60 Å; Hydrogen bond: Ser354 OG – Asp 701 of chain C (side chain: 701/OD2), 3.36 Å; Hydrogen bond: Ser354 N – Asp 701 of chain C (side chain: 701/OD1), 3.40 Å</title>
+    <polygon points="-25.79,157.58 -32.52,158.96 -31.67,154.03" fill="#c026d3"/>
+    <line x1="-51.62" y1="153.15" x2="-31.15" y2="156.66" fill="none" stroke="#c026d3" stroke-width="1.35" stroke-linejoin="round" stroke-dasharray="4.2 2.6"/>
+   </g>
+   <g class="interaction hbond" data-distance="2.93" data-ligand-atoms="702/N" data-ligand-part="backbone" data-ligand-residue="Gly702" data-protein-atoms="OG" data-residue="H:SER356" data-type="hbond">
+    <title>Hydrogen bond: Ser356 OG – Gly 702 of chain C (backbone: 702/N), 2.93 Å</title>
+    <polygon points="51.62,179.27 44.87,178 45.79,182.91" fill="#c026d3"/>
+    <line x1="46.27" y1="180.27" x2="25.6" y2="184.17" fill="none" stroke="#c026d3" stroke-width="1.35" stroke-linejoin="round" stroke-dasharray="4.2 2.6"/>
+   </g>
+   <g class="interaction hbond" data-distance="3.29" data-ligand-atoms="701/OD1" data-ligand-part="side-chain" data-ligand-residue="Asp701" data-protein-atoms="OG" data-residue="H:SER356" data-type="hbond">
+    <title>Hydrogen bond: Ser356 OG – Asp 701 of chain C (side chain: 701/OD1), 3.29 Å</title>
+    <polygon points="25.5,167.04 32.26,165.82 31.29,170.73" fill="#c026d3"/>
+    <line x1="51.65" y1="172.2" x2="30.84" y2="168.09" fill="none" stroke="#c026d3" stroke-width="1.35" stroke-linejoin="round" stroke-dasharray="4.2 2.6"/>
+   </g>
+   <g class="interaction hydrophobic" data-distance="3.65" data-ligand-atoms="697/CG" data-ligand-part="side-chain" data-ligand-residue="Lys697" data-protein-atoms="CZ3" data-residue="H:TRP398" data-type="hydrophobic">
+    <title>Hydrophobic contact: Trp398 CZ3 – Lys 697 of chain C (side chain: 697/CG), 3.65 Å</title>
+    <line x1="54.09" y1="82.86" x2="20.99" y2="98.24" fill="none" stroke="#5b6472" stroke-width="0.81" stroke-linejoin="round"/>
+   </g>
+   <g class="interaction saltbridge" data-distance="2.86" data-ligand-atoms="697/NZ" data-ligand-part="side-chain" data-ligand-residue="Lys697" data-protein-atoms="OD1,OD2" data-residue="H:ASP399" data-type="saltbridge">
+    <title>Salt bridge: Asp399 (−) – Lys 697 of chain C (side chain: 697/NZ), 2.86 Å</title>
+    <line x1="-78.79" y1="115.57" x2="-26.41" y2="110.54" fill="none" stroke="#2563eb" stroke-width="2.36" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0.01 3.7"/>
+   </g>
+   <g class="interaction hbond" data-distance="3.32" data-ligand-atoms="615/O" data-ligand-part="backbone" data-ligand-residue="His615" data-protein-atoms="ND2" data-residue="L:ASN31" data-type="hbond">
+    <title>Hydrogen bond: Asn31 ND2 – His 615 of chain C (backbone: 615/O), 3.32 Å</title>
+    <polygon points="-13.67,-11.2 -20.2,-13.32 -17.03,-17.19" fill="#c026d3"/>
+    <line x1="-38.49" y1="-31.54" x2="-17.87" y2="-14.65" fill="none" stroke="#c026d3" stroke-width="1.35" stroke-linejoin="round" stroke-dasharray="4.2 2.6"/>
+   </g>
+   <g class="interaction hydrophobic" data-distance="3.70" data-ligand-atoms="696/CD" data-ligand-part="side-chain" data-ligand-residue="Lys696" data-protein-atoms="CE1" data-residue="L:TYR50" data-type="hydrophobic">
+    <title>Hydrophobic contact: Tyr50 CE1 – Lys 696 of chain C (side chain: 696/CD), 3.70 Å</title>
+    <line x1="-53.79" y1="48.21" x2="-17.91" y2="70.08" fill="none" stroke="#5b6472" stroke-width="0.81" stroke-linejoin="round"/>
+   </g>
+   <g class="interaction hbond" data-distance="2.90" data-ligand-atoms="693/OD1,693/ND2" data-ligand-part="side-chain" data-ligand-residue="Asn693" data-protein-atoms="NE2" data-residue="L:GLN53" data-type="hbond">
+    <title>Hydrogen bond: Gln53 NE2 – Asn 693 of chain C (side chain: 693/OD1), 2.90 Å; Hydrogen bond: Gln53 OE1 – Asn 693 of chain C (side chain: 693/ND2), 3.23 Å</title>
+    <polygon points="23.78,46.48 29.13,42.16 30.64,46.93" fill="#c026d3"/>
+    <line x1="53.02" y1="37.23" x2="28.97" y2="44.84" fill="none" stroke="#c026d3" stroke-width="1.35" stroke-linejoin="round" stroke-dasharray="4.2 2.6"/>
+   </g>
+   <g class="interaction hbond" data-distance="2.84" data-ligand-atoms="621/N" data-ligand-part="backbone" data-ligand-residue="Arg621" data-protein-atoms="O" data-residue="L:ASN92" data-type="hbond">
+    <title>Hydrogen bond: Asn92 O – Arg 621 of chain C (backbone: 621/N), 2.84 Å</title>
+    <polygon points="-53.83,3.33 -48.98,8.19 -46.97,3.62" fill="#c026d3"/>
+    <line x1="-48.85" y1="5.52" x2="-21.48" y2="17.56" fill="none" stroke="#c026d3" stroke-width="1.35" stroke-linejoin="round"/>
+   </g>
+   <g class="interaction hbond" data-distance="3.23" data-ligand-atoms="621/NH1" data-ligand-part="side-chain" data-ligand-residue="Arg621" data-protein-atoms="OH" data-residue="L:TYR96" data-type="hbond">
+    <title>Hydrogen bond: Tyr96 OH – Arg 621 of chain C (side chain: 621/NH1), 3.23 Å</title>
+    <polygon points="53.55,-2.53 46.74,-1.63 49.15,2.75" fill="#c026d3"/>
+    <line x1="48.79" y1="0.09" x2="19.13" y2="16.45" fill="none" stroke="#c026d3" stroke-width="1.35" stroke-linejoin="round" stroke-dasharray="4.2 2.6"/>
+   </g>
+  </g>
+  <g class="ligand" data-drawn-as="chain">
+   <g class="backbone">
+    <line x1="0" y1="89.5" x2="0" y2="99.5" fill="none" stroke="#1f2933" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="0" y1="143.5" x2="0" y2="153.5" fill="none" stroke="#1f2933" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="0" y1="170.5" x2="0" y2="180.5" fill="none" stroke="#1f2933" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="0" y1="197.5" x2="0" y2="207.5" fill="none" stroke="#1f2933" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+   </g>
+   <g class="bonds">
+   </g>
+   <g class="units">
+    <g class="unit" data-atoms="615/N,615/CA,615/C,615/O,615/CB,615/CG,615/ND1,615/CD2,615/CE1,615/NE2" data-class="polar" data-position="1" data-residue="HIS">
+     <title>His 615 of chain C (numbered as in the structure file)</title>
+     <rect x="-24" y="-8.5" width="48" height="17" rx="5" fill="#ffffff" stroke="#1f2933" stroke-width="1.15" stroke-linecap="round" stroke-linejoin="round"/>
+     <text x="0" y="3.77" font-size="10.5" text-anchor="middle" fill="#1f2933"><tspan font-weight="bold">His</tspan><tspan font-size="8" fill="#667085"> 615</tspan></text>
+    </g>
+    <g class="unit" data-atoms="621/N,621/CA,621/C,621/O,621/CB,621/CG,621/CD,621/NE,621/CZ,621/NH1,621/NH2" data-class="positive" data-position="2" data-residue="ARG">
+     <title>Arg 621 of chain C (numbered as in the structure file)</title>
+     <rect x="-24" y="18.5" width="48" height="17" rx="5" fill="#ffffff" stroke="#1f2933" stroke-width="1.15" stroke-linecap="round" stroke-linejoin="round"/>
+     <text x="0" y="30.77" font-size="10.5" text-anchor="middle" fill="#1f2933"><tspan font-weight="bold">Arg</tspan><tspan font-size="8" fill="#667085"> 621</tspan></text>
+    </g>
+    <g class="unit" data-atoms="693/N,693/CA,693/C,693/O,693/CB,693/CG,693/OD1,693/ND2" data-class="polar" data-position="3" data-residue="ASN">
+     <title>Asn 693 of chain C (numbered as in the structure file)</title>
+     <rect x="-24" y="45.5" width="48" height="17" rx="5" fill="#ffffff" stroke="#1f2933" stroke-width="1.15" stroke-linecap="round" stroke-linejoin="round"/>
+     <text x="0" y="57.77" font-size="10.5" text-anchor="middle" fill="#1f2933"><tspan font-weight="bold">Asn</tspan><tspan font-size="8" fill="#667085"> 693</tspan></text>
+    </g>
+    <g class="unit" data-atoms="696/N,696/CA,696/C,696/O,696/CB,696/CG,696/CD,696/CE,696/NZ" data-class="positive" data-position="4" data-residue="LYS">
+     <title>Lys 696 of chain C (numbered as in the structure file)</title>
+     <rect x="-24" y="72.5" width="48" height="17" rx="5" fill="#ffffff" stroke="#1f2933" stroke-width="1.15" stroke-linecap="round" stroke-linejoin="round"/>
+     <text x="0" y="84.77" font-size="10.5" text-anchor="middle" fill="#1f2933"><tspan font-weight="bold">Lys</tspan><tspan font-size="8" fill="#667085"> 696</tspan></text>
+    </g>
+    <g class="unit" data-atoms="697/N,697/CA,697/C,697/O,697/CB,697/CG,697/CD,697/CE,697/NZ" data-class="positive" data-position="5" data-residue="LYS">
+     <title>Lys 697 of chain C (numbered as in the structure file)</title>
+     <rect x="-24" y="99.5" width="48" height="17" rx="5" fill="#ffffff" stroke="#1f2933" stroke-width="1.15" stroke-linecap="round" stroke-linejoin="round"/>
+     <text x="0" y="111.77" font-size="10.5" text-anchor="middle" fill="#1f2933"><tspan font-weight="bold">Lys</tspan><tspan font-size="8" fill="#667085"> 697</tspan></text>
+    </g>
+    <g class="unit" data-atoms="700/N,700/CA,700/C,700/O,700/CB,700/OG" data-class="polar" data-position="6" data-residue="SER">
+     <title>Ser 700 of chain C (numbered as in the structure file)</title>
+     <rect x="-24" y="126.5" width="48" height="17" rx="5" fill="#ffffff" stroke="#1f2933" stroke-width="1.15" stroke-linecap="round" stroke-linejoin="round"/>
+     <text x="0" y="138.77" font-size="10.5" text-anchor="middle" fill="#1f2933"><tspan font-weight="bold">Ser</tspan><tspan font-size="8" fill="#667085"> 700</tspan></text>
+    </g>
+    <g class="unit" data-atoms="701/N,701/CA,701/C,701/O,701/CB,701/CG,701/OD1,701/OD2" data-class="negative" data-position="7" data-residue="ASP">
+     <title>Asp 701 of chain C (numbered as in the structure file)</title>
+     <rect x="-24" y="153.5" width="48" height="17" rx="5" fill="#ffffff" stroke="#1f2933" stroke-width="1.15" stroke-linecap="round" stroke-linejoin="round"/>
+     <text x="0" y="165.77" font-size="10.5" text-anchor="middle" fill="#1f2933"><tspan font-weight="bold">Asp</tspan><tspan font-size="8" fill="#667085"> 701</tspan></text>
+    </g>
+    <g class="unit" data-atoms="702/N,702/CA,702/C,702/O" data-class="glycine" data-position="8" data-residue="GLY">
+     <title>Gly 702 of chain C (numbered as in the structure file)</title>
+     <rect x="-24" y="180.5" width="48" height="17" rx="5" fill="#ffffff" stroke="#1f2933" stroke-width="1.15" stroke-linecap="round" stroke-linejoin="round"/>
+     <text x="0" y="192.77" font-size="10.5" text-anchor="middle" fill="#1f2933"><tspan font-weight="bold">Gly</tspan><tspan font-size="8" fill="#667085"> 702</tspan></text>
+    </g>
+    <g class="unit" data-atoms="703/N,703/CA,703/C,703/O,703/CB,703/CG,703/OD1,703/ND2" data-class="polar" data-position="9" data-residue="ASN">
+     <title>Asn 703 of chain C (numbered as in the structure file)</title>
+     <rect x="-24" y="207.5" width="48" height="17" rx="5" fill="#ffffff" stroke="#1f2933" stroke-width="1.15" stroke-linecap="round" stroke-linejoin="round"/>
+     <text x="0" y="219.77" font-size="10.5" text-anchor="middle" fill="#1f2933"><tspan font-weight="bold">Asn</tspan><tspan font-size="8" fill="#667085"> 703</tspan></text>
+    </g>
+    <g class="unit" data-atoms="663/N,663/CA,663/C,663/O,663/CB,663/CG,663/CD1,663/CD2,663/NE1,663/CE2,663/CE3,663/CZ2,663/CZ3,663/CH2" data-class="hydrophobic" data-position="10" data-residue="TRP">
+     <title>Trp 663 of chain C (numbered as in the structure file)</title>
+     <rect x="-24" y="234.5" width="48" height="17" rx="5" fill="#ffffff" stroke="#1f2933" stroke-width="1.15" stroke-linecap="round" stroke-linejoin="round"/>
+     <text x="0" y="246.77" font-size="10.5" text-anchor="middle" fill="#1f2933"><tspan font-weight="bold">Trp</tspan><tspan font-size="8" fill="#667085"> 663</tspan></text>
+    </g>
+    <g class="unit" data-atoms="675/N,675/CA,675/C,675/O,675/CB,675/CG,675/CD1,675/CD2" data-class="hydrophobic" data-position="11" data-residue="LEU">
+     <title>Leu 675 of chain C (numbered as in the structure file)</title>
+     <rect x="-24" y="261.5" width="48" height="17" rx="5" fill="#ffffff" stroke="#1f2933" stroke-width="1.15" stroke-linecap="round" stroke-linejoin="round"/>
+     <text x="0" y="273.77" font-size="10.5" text-anchor="middle" fill="#1f2933"><tspan font-weight="bold">Leu</tspan><tspan font-size="8" fill="#667085"> 675</tspan></text>
+    </g>
+    <g class="unit" data-atoms="662/N,662/CA,662/C,662/O,662/CB,662/CG,662/CD1,662/CD2,662/NE1,662/CE2,662/CE3,662/CZ2,662/CZ3,662/CH2" data-class="hydrophobic" data-position="12" data-residue="TRP">
+     <title>Trp 662 of chain C (numbered as in the structure file)</title>
+     <rect x="-24" y="288.5" width="48" height="17" rx="5" fill="#ffffff" stroke="#1f2933" stroke-width="1.15" stroke-linecap="round" stroke-linejoin="round"/>
+     <text x="0" y="300.77" font-size="10.5" text-anchor="middle" fill="#1f2933"><tspan font-weight="bold">Trp</tspan><tspan font-size="8" fill="#667085"> 662</tspan></text>
+    </g>
+   </g>
+   <g class="atoms">
+   </g>
+  </g>
+  <g class="residues">
+   <g class="residue" data-class="negative" data-form="bubble" data-residue="H:ASP332">
+    <title>Asp332(H): salt bridge</title>
+    <path d="M87.96 94.81 L95.33 82.62 A17.14 17.14 0 1 1 98.58 104.29 Z" fill="#f4a98a" stroke="#5b6472" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="110" y="90.4" font-size="9.5" text-anchor="middle" font-weight="bold" fill="#1f2933">ASP</text>
+    <text x="110" y="99.42" font-size="9.5" text-anchor="middle" fill="#1f2933">H:332</text>
+   </g>
+   <g class="residue" data-class="hydrophobic" data-form="bubble" data-residue="H:TYR333">
+    <title>Tyr333(H): hydrogen bond, hydrophobic contact</title>
+    <path d="M47.95 115.93 L58.71 106.6 A17.14 17.14 0 1 1 55.14 128.22 Z" fill="#b8dc7a" stroke="#5b6472" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="69.94" y="118.46" font-size="9.5" text-anchor="middle" font-weight="bold" fill="#1f2933">TYR</text>
+    <text x="69.94" y="127.48" font-size="9.5" text-anchor="middle" fill="#1f2933">H:333</text>
+   </g>
+   <g class="residue" data-class="hydrophobic" data-form="bubble" data-residue="H:TYR350">
+    <title>Tyr350(H): hydrogen bond</title>
+    <path d="M-60.8 78.03 L-70.42 88.53 A17.14 17.14 0 1 1 -69.35 66.64 Z" fill="#b8dc7a" stroke="#5b6472" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="-83.06" y="75.84" font-size="9.5" text-anchor="middle" font-weight="bold" fill="#1f2933">TYR</text>
+    <text x="-83.06" y="84.86" font-size="9.5" text-anchor="middle" fill="#1f2933">H:350</text>
+   </g>
+   <g class="residue" data-class="polar" data-form="bubble" data-residue="H:SER352">
+    <title>Ser352(H): hydrogen bond</title>
+    <path d="M-67.49 181.84 L-73.14 194.91 A17.14 17.14 0 1 1 -79.31 173.89 Z" fill="#9fdcee" stroke="#5b6472" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="-88.88" y="187.02" font-size="9.5" text-anchor="middle" font-weight="bold" fill="#1f2933">SER</text>
+    <text x="-88.88" y="196.04" font-size="9.5" text-anchor="middle" fill="#1f2933">H:352</text>
+   </g>
+   <g class="residue" data-class="hydrophobic" data-form="bubble" data-residue="H:TYR353">
+    <title>Tyr353(H): hydrogen bond, hydrophobic contact</title>
+    <path d="M-75.14 231.42 L-85.1 241.59 A17.14 17.14 0 1 1 -83.31 219.75 Z" fill="#b8dc7a" stroke="#5b6472" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="-97.35" y="228.49" font-size="9.5" text-anchor="middle" font-weight="bold" fill="#1f2933">TYR</text>
+    <text x="-97.35" y="237.51" font-size="9.5" text-anchor="middle" fill="#1f2933">H:353</text>
+   </g>
+   <g class="residue" data-class="polar" data-form="bubble" data-residue="H:SER354">
+    <title>Ser354(H): hydrogen bond</title>
+    <path d="M-48.03 153.77 L-58.85 163.03 A17.14 17.14 0 1 1 -55.15 141.43 Z" fill="#9fdcee" stroke="#5b6472" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="-70" y="148.9" font-size="9.5" text-anchor="middle" font-weight="bold" fill="#1f2933">SER</text>
+    <text x="-70" y="157.92" font-size="9.5" text-anchor="middle" fill="#1f2933">H:354</text>
+   </g>
+   <g class="residue" data-class="polar" data-form="bubble" data-residue="H:SER356">
+    <title>Ser356(H): hydrogen bond</title>
+    <path d="M47.65 175.71 L56.8 164.8 A17.14 17.14 0 1 1 56.7 186.71 Z" fill="#9fdcee" stroke="#5b6472" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="69.94" y="174.71" font-size="9.5" text-anchor="middle" font-weight="bold" fill="#1f2933">SER</text>
+    <text x="69.94" y="183.73" font-size="9.5" text-anchor="middle" fill="#1f2933">H:356</text>
+   </g>
+   <g class="residue" data-class="hydrophobic" data-form="bubble" data-residue="H:TRP398">
+    <title>Trp398(H): hydrophobic contact</title>
+    <path d="M50.79 84.39 L54.42 70.62 A17.14 17.14 0 1 1 63.66 90.49 Z" fill="#b8dc7a" stroke="#5b6472" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="71" y="73.9" font-size="9.5" text-anchor="middle" font-weight="bold" fill="#1f2933">TRP</text>
+    <text x="71" y="82.92" font-size="9.5" text-anchor="middle" fill="#1f2933">H:398</text>
+   </g>
+   <g class="residue" data-class="negative" data-form="bubble" data-residue="H:ASP399">
+    <title>Asp399(H): salt bridge</title>
+    <path d="M-75.16 115.22 L-83.17 126.99 A17.14 17.14 0 1 1 -85.27 105.18 Z" fill="#f4a98a" stroke="#5b6472" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="-97.35" y="116.25" font-size="9.5" text-anchor="middle" font-weight="bold" fill="#1f2933">ASP</text>
+    <text x="-97.35" y="125.27" font-size="9.5" text-anchor="middle" fill="#1f2933">H:399</text>
+   </g>
+   <g class="residue" data-class="polar" data-form="bubble" data-residue="L:ASN31">
+    <title>Asn31(L): hydrogen bond</title>
+    <path d="M-36.17 -29.64 L-48.4 -27.27 A15 15 0 1 1 -36.25 -42.1 Z" fill="#9fdcee" stroke="#5b6472" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="-51.25" y="-43.1" font-size="9.5" text-anchor="middle" font-weight="bold" fill="#1f2933">ASN</text>
+    <text x="-51.25" y="-34.08" font-size="9.5" text-anchor="middle" fill="#1f2933">L:31</text>
+   </g>
+   <g class="residue" data-class="hydrophobic" data-form="bubble" data-residue="L:TYR50">
+    <title>Tyr50(L): hydrophobic contact</title>
+    <path d="M-51.23 49.77 L-63.02 53.81 A15 15 0 1 1 -53.04 37.44 Z" fill="#b8dc7a" stroke="#5b6472" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="-67.88" y="38.52" font-size="9.5" text-anchor="middle" font-weight="bold" fill="#1f2933">TYR</text>
+    <text x="-67.88" y="47.54" font-size="9.5" text-anchor="middle" fill="#1f2933">L:50</text>
+   </g>
+   <g class="residue" data-class="polar" data-form="bubble" data-residue="L:GLN53">
+    <title>Gln53(L): hydrogen bond</title>
+    <path d="M50.16 38.13 L54.86 26.59 A15 15 0 1 1 60.64 44.87 Z" fill="#9fdcee" stroke="#5b6472" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="68.75" y="31.15" font-size="9.5" text-anchor="middle" font-weight="bold" fill="#1f2933">GLN</text>
+    <text x="68.75" y="40.17" font-size="9.5" text-anchor="middle" fill="#1f2933">L:53</text>
+   </g>
+   <g class="residue" data-class="polar" data-form="bubble" data-residue="L:ASN92">
+    <title>Asn92(L): hydrogen bond</title>
+    <path d="M-51.09 4.54 L-62.23 10.11 A15 15 0 1 1 -54.52 -7.44 Z" fill="#9fdcee" stroke="#5b6472" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="-68.94" y="-4.41" font-size="9.5" text-anchor="middle" font-weight="bold" fill="#1f2933">ASN</text>
+    <text x="-68.94" y="4.61" font-size="9.5" text-anchor="middle" fill="#1f2933">L:92</text>
+   </g>
+   <g class="residue" data-class="hydrophobic" data-form="bubble" data-residue="L:TYR96">
+    <title>Tyr96(L): hydrogen bond</title>
+    <path d="M50.92 -1.08 L53.27 -13.32 A15 15 0 1 1 62.52 3.46 Z" fill="#b8dc7a" stroke="#5b6472" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="68" y="-11.6" font-size="9.5" text-anchor="middle" font-weight="bold" fill="#1f2933">TYR</text>
+    <text x="68" y="-2.58" font-size="9.5" text-anchor="middle" fill="#1f2933">L:96</text>
+   </g>
+  </g>
+ </g>
+ <g class="legend" transform="translate(18 396.02)">
+  <circle cx="5.5" cy="9.19" r="5.5" fill="#b8dc7a" stroke="#5b6472" stroke-width="0.8" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="16" y="12.96" font-size="10.5" fill="#667085">Hydrophobic</text>
+  <circle cx="98.44" cy="9.19" r="5.5" fill="#9fdcee" stroke="#5b6472" stroke-width="0.8" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="108.94" y="12.96" font-size="10.5" fill="#667085">Polar</text>
+  <circle cx="156.94" cy="9.19" r="5.5" fill="#f4a98a" stroke="#5b6472" stroke-width="0.8" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="167.44" y="12.96" font-size="10.5" fill="#667085">Charged (−)</text>
+  <polygon points="26,27.56 19.6,30.06 19.6,25.06" fill="#c026d3"/>
+  <line x1="0" y1="27.56" x2="20.56" y2="27.56" fill="none" stroke="#c026d3" stroke-width="1.35" stroke-linejoin="round"/>
+  <text x="34" y="31.33" font-size="10.5" fill="#667085">H-bond (backbone)</text>
+  <polygon points="167.87,27.56 161.47,30.06 161.47,25.06" fill="#c026d3"/>
+  <line x1="141.87" y1="27.56" x2="162.43" y2="27.56" fill="none" stroke="#c026d3" stroke-width="1.35" stroke-linejoin="round" stroke-dasharray="4.2 2.6"/>
+  <text x="175.87" y="31.33" font-size="10.5" fill="#667085">H-bond (side chain)</text>
+  <line x1="0" y1="45.94" x2="26" y2="45.94" fill="none" stroke="#2563eb" stroke-width="2.36" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0.01 3.7"/>
+  <text x="34" y="49.71" font-size="10.5" fill="#667085">Salt bridge</text>
+  <line x1="102.19" y1="45.94" x2="128.19" y2="45.94" fill="none" stroke="#5b6472" stroke-width="0.81" stroke-linejoin="round"/>
+  <text x="136.19" y="49.71" font-size="10.5" fill="#667085">Hydrophobic contact</text>
+  <circle cx="6.5" cy="64.31" r="6.5" fill="#c9ced6" opacity="0.6"/>
+  <text x="18" y="68.08" font-size="10.5" fill="#667085">Solvent exposure</text>
+  <text x="117.12" y="68.08" font-size="10.5" fill="#667085">Lining:</text>
+  <line x1="168.26" y1="64.31" x2="181.86" y2="64.31" fill="none" stroke="#b8dc7a" stroke-width="4.4" stroke-linecap="round" stroke-linejoin="round" opacity="0.62"/>
+  <text x="189.06" y="68.08" font-size="10.5" fill="#667085">hydrophobic</text>
+  <line x1="2.2" y1="82.69" x2="15.8" y2="82.69" fill="none" stroke="#9fdcee" stroke-width="4.4" stroke-linecap="round" stroke-linejoin="round" opacity="0.62"/>
+  <text x="23" y="86.46" font-size="10.5" fill="#667085">polar</text>
+  <line x1="66.54" y1="82.69" x2="80.14" y2="82.69" fill="none" stroke="#f4a98a" stroke-width="4.4" stroke-linecap="round" stroke-linejoin="round" opacity="0.62"/>
+  <text x="87.34" y="86.46" font-size="10.5" fill="#667085">charged (−)</text>
+  <rect x="0.6" y="95.56" width="20.8" height="11" rx="3.5" fill="#ffffff" stroke="#1f2933" stroke-width="1.15" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="27" y="104.83" font-size="10.5" fill="#667085">Residue of chain C, numbered as in the structure file</text>
+ </g>
+ <g class="footnotes">
+  <text x="18" y="519.81" font-size="10.5" fill="#667085">An interface has no centre. The residues of chain C that touch</text>
+  <text x="18" y="535.04" font-size="10.5" fill="#667085">chains H, L stand in a column, as boxes, ordered along the</text>
+  <text x="18" y="550.26" font-size="10.5" fill="#667085">interface and not by their sequence: neighbours in the column</text>
+  <text x="18" y="565.49" font-size="10.5" fill="#667085">are neighbours in space; those of chains H, L around it. A line is</text>
+  <text x="18" y="580.71" font-size="10.5" fill="#667085">a pair of residues, at the shortest of its contacts of one kind.</text>
+  <text x="18" y="595.94" font-size="10.5" fill="#667085">All 12 residues of chain C at the interface are shown, with 25</text>
+  <text x="18" y="611.16" font-size="10.5" fill="#667085">contacts.</text>
+ </g>
+</svg>

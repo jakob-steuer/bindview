@@ -1,0 +1,623 @@
+{
+  "purpose": "Water hold-out validation for bindview's predicted-solvent-site feature: strip HOH, predict, measure recovery and false positives.",
+  "source": "RCSB Protein Data Bank (files.rcsb.org), gzipped mmCIF; the archive's data are in the public domain (CC0 1.0).",
+  "selection_criteria": {
+    "method": "X-RAY DIFFRACTION",
+    "resolution_A": [
+      1.0,
+      2.0
+    ],
+    "nonpolymer_entity_count": ">= 1",
+    "uniprot_accessions": {
+      "ESR1": "P03372",
+      "AR": "P10275",
+      "PTGS2": "P35354",
+      "NR3C1": "P04150",
+      "ACHE": "P22303",
+      "MAOB": "P27338",
+      "CA2": "P00918",
+      "TTR": "P02766"
+    },
+    "per_target": 4,
+    "sampling": "Candidates sorted by resolution ascending, then sampled evenly across the range - NOT the sharpest N. Ordered waters are easier to place at 1.0 A than at 2.0 A, so a best-resolution set would overstate recovery."
+  },
+  "entries": [
+    {
+      "pdb_id": "7BAA",
+      "gene": "ESR1",
+      "uniprot": "P03372",
+      "file": "ESR1_7BAA.cif",
+      "n_waters": 343,
+      "het_components": [
+        "MG",
+        "T5Z",
+        "TPO"
+      ],
+      "gz_bytes": 77480,
+      "ligand": "T5Z",
+      "ligand_heavy_atoms": 19,
+      "ligand_is_cofactor": false,
+      "other_ligands": []
+    },
+    {
+      "pdb_id": "8BZG",
+      "gene": "ESR1",
+      "uniprot": "P03372",
+      "file": "ESR1_8BZG.cif",
+      "n_waters": 283,
+      "het_components": [
+        "MG",
+        "SJC",
+        "TPO"
+      ],
+      "gz_bytes": 114648,
+      "ligand": "SJC",
+      "ligand_heavy_atoms": 47,
+      "ligand_is_cofactor": false,
+      "other_ligands": []
+    },
+    {
+      "pdb_id": "3CBM",
+      "gene": "ESR1",
+      "uniprot": "P03372",
+      "file": "ESR1_3CBM.cif",
+      "n_waters": 155,
+      "het_components": [
+        "BME",
+        "MLZ",
+        "SAH"
+      ],
+      "gz_bytes": 72727,
+      "ligand": "SAH",
+      "ligand_heavy_atoms": 26,
+      "ligand_is_cofactor": true,
+      "other_ligands": []
+    },
+    {
+      "pdb_id": "6OWC",
+      "gene": "ESR1",
+      "uniprot": "P03372",
+      "file": "ESR1_6OWC.cif",
+      "n_waters": 284,
+      "het_components": [
+        "EDO",
+        "ND1"
+      ],
+      "gz_bytes": 120620,
+      "ligand": "ND1",
+      "ligand_heavy_atoms": 41,
+      "ligand_is_cofactor": false,
+      "other_ligands": []
+    },
+    {
+      "pdb_id": "8E1A",
+      "gene": "AR",
+      "uniprot": "P10275",
+      "file": "AR_8E1A.cif",
+      "n_waters": 257,
+      "het_components": [
+        "3E0",
+        "EDO"
+      ],
+      "gz_bytes": 138835,
+      "ligand": "3E0",
+      "ligand_heavy_atoms": 20,
+      "ligand_is_cofactor": false,
+      "other_ligands": []
+    },
+    {
+      "pdb_id": "2AX8",
+      "gene": "AR",
+      "uniprot": "P10275",
+      "file": "AR_2AX8.cif",
+      "n_waters": 189,
+      "het_components": [
+        "FHM"
+      ],
+      "gz_bytes": 68374,
+      "ligand": "FHM",
+      "ligand_heavy_atoms": 28,
+      "ligand_is_cofactor": false,
+      "other_ligands": []
+    },
+    {
+      "pdb_id": "2AO6",
+      "gene": "AR",
+      "uniprot": "P10275",
+      "file": "AR_2AO6.cif",
+      "n_waters": 152,
+      "het_components": [
+        "R18"
+      ],
+      "gz_bytes": 70372,
+      "ligand": "R18",
+      "ligand_heavy_atoms": 21,
+      "ligand_is_cofactor": false,
+      "other_ligands": []
+    },
+    {
+      "pdb_id": "4OKW",
+      "gene": "AR",
+      "uniprot": "P10275",
+      "file": "AR_4OKW.cif",
+      "n_waters": 91,
+      "het_components": [
+        "198"
+      ],
+      "gz_bytes": 68697,
+      "ligand": "198",
+      "ligand_heavy_atoms": 29,
+      "ligand_is_cofactor": false,
+      "other_ligands": []
+    },
+    {
+      "pdb_id": "4UDD",
+      "gene": "NR3C1",
+      "uniprot": "P04150",
+      "file": "NR3C1_4UDD.cif",
+      "n_waters": 250,
+      "het_components": [
+        "CPS",
+        "CV7",
+        "EDO"
+      ],
+      "gz_bytes": 83441,
+      "ligand": "CPS",
+      "ligand_heavy_atoms": 36,
+      "ligand_is_cofactor": false,
+      "ligand_is_a_detergent": true,
+      "ligand_note": "CPS is CHAPS, a detergent on the surface of the receptor: the rule of ligand_choice picked it as the largest non-cofactor het group. The receptor's own ligand is the steroid CV7 (other_ligands). The validation was run on CPS and is reported so.",
+      "other_ligands": [
+        "CV7"
+      ]
+    },
+    {
+      "pdb_id": "4M0E",
+      "gene": "ACHE",
+      "uniprot": "P22303",
+      "file": "ACHE_4M0E.cif",
+      "n_waters": 1254,
+      "het_components": [
+        "1YL",
+        "EDO",
+        "FUC",
+        "NAG",
+        "NO3"
+      ],
+      "gz_bytes": 264310,
+      "ligand": "1YL",
+      "ligand_heavy_atoms": 21,
+      "ligand_is_cofactor": false,
+      "other_ligands": []
+    },
+    {
+      "pdb_id": "9FJT",
+      "gene": "MAOB",
+      "uniprot": "P27338",
+      "file": "MAOB_9FJT.cif",
+      "n_waters": 973,
+      "het_components": [
+        "A1IDI",
+        "C15",
+        "FAD"
+      ],
+      "gz_bytes": 253663,
+      "ligand": "A1IDI",
+      "ligand_heavy_atoms": 32,
+      "ligand_is_cofactor": false,
+      "other_ligands": [
+        "FAD"
+      ]
+    },
+    {
+      "pdb_id": "2C65",
+      "gene": "MAOB",
+      "uniprot": "P27338",
+      "file": "MAOB_2C65.cif",
+      "n_waters": 839,
+      "het_components": [
+        "4CR",
+        "FAD"
+      ],
+      "gz_bytes": 232746,
+      "ligand": "4CR",
+      "ligand_heavy_atoms": 21,
+      "ligand_is_cofactor": false,
+      "other_ligands": [
+        "FAD"
+      ]
+    },
+    {
+      "pdb_id": "4CRT",
+      "gene": "MAOB",
+      "uniprot": "P27338",
+      "file": "MAOB_4CRT.cif",
+      "n_waters": 619,
+      "het_components": [
+        "ASS",
+        "FAD"
+      ],
+      "gz_bytes": 227799,
+      "ligand": "ASS",
+      "ligand_heavy_atoms": 19,
+      "ligand_is_cofactor": false,
+      "other_ligands": [
+        "FAD"
+      ]
+    },
+    {
+      "pdb_id": "7ZW3",
+      "gene": "MAOB",
+      "uniprot": "P27338",
+      "file": "MAOB_7ZW3.cif",
+      "n_waters": 686,
+      "het_components": [
+        "AI0",
+        "C15",
+        "FAD"
+      ],
+      "gz_bytes": 244294,
+      "ligand": "AI0",
+      "ligand_heavy_atoms": 21,
+      "ligand_is_cofactor": false,
+      "other_ligands": [
+        "FAD"
+      ]
+    },
+    {
+      "pdb_id": "4MTY",
+      "gene": "CA2",
+      "uniprot": "P00918",
+      "file": "CA2_4MTY.cif",
+      "n_waters": 398,
+      "het_components": [
+        "GOL",
+        "HG",
+        "HGB",
+        "SBW",
+        "ZN"
+      ],
+      "gz_bytes": 141415,
+      "ligand": "SBW",
+      "ligand_heavy_atoms": 21,
+      "ligand_is_cofactor": false,
+      "other_ligands": []
+    },
+    {
+      "pdb_id": "6RSZ",
+      "gene": "CA2",
+      "uniprot": "P00918",
+      "file": "CA2_6RSZ.cif",
+      "n_waters": 261,
+      "het_components": [
+        "BE7",
+        "BGC",
+        "HG",
+        "KJ5",
+        "ZN"
+      ],
+      "gz_bytes": 182482,
+      "ligand": "KJ5",
+      "ligand_heavy_atoms": 16,
+      "ligand_is_cofactor": false,
+      "other_ligands": [
+        "BE7"
+      ]
+    },
+    {
+      "pdb_id": "30XX",
+      "gene": "CA2",
+      "uniprot": "P00918",
+      "file": "CA2_30XX.cif",
+      "n_waters": 231,
+      "het_components": [
+        "A1J8Y",
+        "GOL",
+        "ZN"
+      ],
+      "gz_bytes": 135591,
+      "ligand": "A1J8Y",
+      "ligand_heavy_atoms": 25,
+      "ligand_is_cofactor": false,
+      "other_ligands": []
+    },
+    {
+      "pdb_id": "6YH8",
+      "gene": "CA2",
+      "uniprot": "P00918",
+      "file": "CA2_6YH8.cif",
+      "n_waters": 295,
+      "het_components": [
+        "BCN",
+        "DMS",
+        "OQT",
+        "ZN"
+      ],
+      "gz_bytes": 150105,
+      "ligand": "OQT",
+      "ligand_heavy_atoms": 24,
+      "ligand_is_cofactor": false,
+      "other_ligands": []
+    },
+    {
+      "pdb_id": "1F86",
+      "gene": "TTR",
+      "uniprot": "P02766",
+      "file": "TTR_1F86.cif",
+      "n_waters": 251,
+      "het_components": [
+        "T44"
+      ],
+      "gz_bytes": 68058,
+      "ligand": "T44",
+      "ligand_heavy_atoms": 19,
+      "ligand_is_cofactor": false,
+      "other_ligands": []
+    },
+    {
+      "pdb_id": "4HJU",
+      "gene": "TTR",
+      "uniprot": "P02766",
+      "file": "TTR_4HJU.cif",
+      "n_waters": 129,
+      "het_components": [
+        "16L"
+      ],
+      "gz_bytes": 120124,
+      "ligand": "16L",
+      "ligand_heavy_atoms": 22,
+      "ligand_is_cofactor": false,
+      "other_ligands": []
+    },
+    {
+      "pdb_id": "2QGD",
+      "gene": "TTR",
+      "uniprot": "P02766",
+      "file": "TTR_2QGD.cif",
+      "n_waters": 142,
+      "het_components": [
+        "MR5"
+      ],
+      "gz_bytes": 115027,
+      "ligand": "MR5",
+      "ligand_heavy_atoms": 18,
+      "ligand_is_cofactor": false,
+      "other_ligands": []
+    },
+    {
+      "pdb_id": "8YQD",
+      "gene": "TTR",
+      "uniprot": "P02766",
+      "file": "TTR_8YQD.cif",
+      "n_waters": 112,
+      "het_components": [
+        "3MI"
+      ],
+      "gz_bytes": 110229,
+      "ligand": "3MI",
+      "ligand_heavy_atoms": 20,
+      "ligand_is_cofactor": false,
+      "other_ligands": []
+    },
+    {
+      "pdb_id": "6NTO",
+      "gene": "ACHE",
+      "uniprot": "P22303",
+      "file": "ACHE_6NTO.cif",
+      "n_waters": 1232,
+      "gz_bytes": 261553,
+      "resolution_window_A": [
+        1.0,
+        2.5
+      ],
+      "ligand": "L2Y",
+      "ligand_heavy_atoms": 11,
+      "ligand_is_cofactor": false,
+      "other_ligands": [
+        "L2Y"
+      ]
+    },
+    {
+      "pdb_id": "6WVP",
+      "gene": "ACHE",
+      "uniprot": "P22303",
+      "file": "ACHE_6WVP.cif",
+      "n_waters": 741,
+      "gz_bytes": 466409,
+      "resolution_window_A": [
+        1.0,
+        2.5
+      ],
+      "ligand": "WW2",
+      "ligand_heavy_atoms": 10,
+      "ligand_is_cofactor": false,
+      "other_ligands": [
+        "WW2"
+      ]
+    },
+    {
+      "pdb_id": "1NHZ",
+      "gene": "NR3C1",
+      "uniprot": "P04150",
+      "file": "NR3C1_1NHZ.cif",
+      "n_waters": 128,
+      "gz_bytes": 68914,
+      "resolution_window_A": [
+        1.0,
+        2.5
+      ],
+      "ligand": "486",
+      "ligand_heavy_atoms": 32,
+      "ligand_is_cofactor": false,
+      "other_ligands": []
+    },
+    {
+      "pdb_id": "5F19",
+      "gene": "PTGS2",
+      "uniprot": "P35354",
+      "file": "PTGS2_5F19.cif",
+      "n_waters": 701,
+      "gz_bytes": 498091,
+      "resolution_window_A": [
+        1.0,
+        2.5
+      ],
+      "ligand": "COH",
+      "ligand_heavy_atoms": 43,
+      "ligand_is_cofactor": true,
+      "other_ligands": []
+    },
+    {
+      "pdb_id": "5IKR",
+      "gene": "PTGS2",
+      "uniprot": "P35354",
+      "file": "PTGS2_5IKR.cif",
+      "n_waters": 491,
+      "gz_bytes": 688269,
+      "resolution_window_A": [
+        1.0,
+        2.5
+      ],
+      "ligand": "ID8",
+      "ligand_heavy_atoms": 18,
+      "ligand_is_cofactor": false,
+      "other_ligands": [
+        "ID8"
+      ]
+    },
+    {
+      "pdb_id": "5IKQ",
+      "gene": "PTGS2",
+      "uniprot": "P35354",
+      "file": "PTGS2_5IKQ.cif",
+      "n_waters": 416,
+      "gz_bytes": 678255,
+      "resolution_window_A": [
+        1.0,
+        2.5
+      ],
+      "ligand": "JMS",
+      "ligand_heavy_atoms": 19,
+      "ligand_is_cofactor": false,
+      "other_ligands": [
+        "JMS"
+      ]
+    },
+    {
+      "pdb_id": "5IKT",
+      "gene": "PTGS2",
+      "uniprot": "P35354",
+      "file": "PTGS2_5IKT.cif",
+      "n_waters": 421,
+      "gz_bytes": 446252,
+      "resolution_window_A": [
+        1.0,
+        2.5
+      ],
+      "ligand": "TLF",
+      "ligand_heavy_atoms": 18,
+      "ligand_is_cofactor": false,
+      "other_ligands": [
+        "TLF"
+      ]
+    }
+  ],
+  "dropped": [
+    {
+      "pdb_id": "4HN5",
+      "gene": "NR3C1",
+      "uniprot": "P04150",
+      "file": "NR3C1_4HN5.cif",
+      "n_waters": 162,
+      "het_components": [
+        "ZN"
+      ],
+      "gz_bytes": 68202,
+      "drop_reason": "no het group with >= 10 heavy atoms after excluding ions, additives and modified residues"
+    },
+    {
+      "pdb_id": "5CBY",
+      "gene": "NR3C1",
+      "uniprot": "P04150",
+      "file": "NR3C1_5CBY.cif",
+      "n_waters": 138,
+      "het_components": [
+        "ZN"
+      ],
+      "gz_bytes": 69435,
+      "drop_reason": "no het group with >= 10 heavy atoms after excluding ions, additives and modified residues"
+    },
+    {
+      "pdb_id": "6X6E",
+      "gene": "NR3C1",
+      "uniprot": "P04150",
+      "file": "NR3C1_6X6E.cif",
+      "n_waters": 30,
+      "het_components": [
+        "5CM",
+        "ZN"
+      ],
+      "gz_bytes": 139642,
+      "drop_reason": "no het group with >= 10 heavy atoms after excluding ions, additives and modified residues"
+    },
+    {
+      "pdb_id": "5E69",
+      "gene": "NR3C1",
+      "uniprot": "P04150",
+      "file": "NR3C1_5E69.cif",
+      "n_waters": 96,
+      "gz_bytes": 67621,
+      "resolution_window_A": [
+        1.0,
+        2.5
+      ],
+      "drop_reason": "no drug-like ligand, or no waters"
+    },
+    {
+      "pdb_id": "6CFN",
+      "gene": "NR3C1",
+      "uniprot": "P04150",
+      "file": "NR3C1_6CFN.cif",
+      "n_waters": 26,
+      "gz_bytes": 259152,
+      "resolution_window_A": [
+        1.0,
+        2.5
+      ],
+      "drop_reason": "no drug-like ligand, or no waters"
+    },
+    {
+      "pdb_id": "7E3D",
+      "gene": "ACHE",
+      "uniprot": "P22303",
+      "file": "ACHE_7E3D.cif",
+      "n_waters": 108,
+      "gz_bytes": 227769,
+      "resolution_window_A": [
+        1.0,
+        2.5
+      ],
+      "ligand": "PE8",
+      "ligand_heavy_atoms": 25,
+      "ligand_is_cofactor": false,
+      "other_ligands": [],
+      "drop_reason": "only additives (PEG/ions/buffers) once PEG oligomers were excluded"
+    }
+  ],
+  "ligand_filter": {
+    "min_heavy_atoms": 10,
+    "excluded_classes": "ions, cryoprotectants/buffers/detergents, modified residues",
+    "cofactors": "kept and flagged - an ordered cofactor in a pocket validates water prediction as well as a drug does",
+    "why": "RCSB's nonpolymer_entity_count counts zinc and ethylene glycol, so the search filter alone admits entries with no ligand at all."
+  },
+  "top_up": {
+    "targets": [
+      "ACHE",
+      "NR3C1",
+      "PTGS2"
+    ],
+    "widened_resolution_A": 2.5,
+    "why": "few sub-2.0 A ligand-bound entries exist for these"
+  },
+  "ligand_choice": "Largest non-cofactor het group with >= 10 heavy atoms; cofactor only if nothing else qualifies. Prevents several entries of one protein all validating on its shared cofactor. PEG oligomers are excluded as cryoprotectant; haem and its analogues count as cofactors."
+}

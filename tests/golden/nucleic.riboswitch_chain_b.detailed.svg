@@ -1,0 +1,382 @@
+<svg xmlns="http://www.w3.org/2000/svg" class="bindview" width="369.95" height="654.18" viewBox="0 0 369.95 654.18" font-family="Helvetica, Arial, 'Liberation Sans', sans-serif" role="img">
+ <title>Ligand interaction diagram</title>
+ <rect class="background" width="369.95" height="654.18" fill="#ffffff"/>
+ <g class="confidence" data-buried-fraction="0.118">
+  <text x="18" y="26.26" font-size="11.5" fill="#667085">Ligand buried <tspan fill="#1f2933" font-weight="bold">12 %</tspan></text>
+ </g>
+ <g class="diagram" transform="translate(199.24 60.15)">
+  <g class="interactions">
+   <g class="interaction hbond" data-distance="2.72" data-ligand-atoms="12/O2'" data-ligand-part="backbone" data-ligand-residue="C12" data-protein-atoms="N1" data-residue="A:A8" data-type="hbond">
+    <title>Hydrogen bond: A8 N1 – C 12 of the ligand (backbone: 12/O2'), 2.72 Å</title>
+    <polygon points="45.3,326.58 41.65,320.76 38.67,324.78" fill="#1a9641"/>
+    <text x="30.5" y="319.02" font-size="9.5" text-anchor="middle" fill="#1a9641">2.72</text>
+    <line x1="40.93" y1="323.34" x2="37.39" y2="320.72" fill="none" stroke="#1a9641" stroke-width="1.35" stroke-linejoin="round" stroke-dasharray="4.2 2.8"/>
+    <line x1="23.6" y1="310.5" x2="15.69" y2="304.63" fill="none" stroke="#1a9641" stroke-width="1.35" stroke-linejoin="round" stroke-dasharray="4.2 2.8"/>
+   </g>
+   <g class="interaction hbond" data-distance="2.91" data-ligand-atoms="13/O4'" data-ligand-part="backbone" data-ligand-residue="C13" data-protein-atoms="N6" data-residue="A:A8" data-type="hbond">
+    <title>Hydrogen bond: A8 N6 – C 13 of the ligand (backbone: 13/O4'), 2.91 Å</title>
+    <polygon points="14.38,315.17 18.52,309.69 21.14,313.95" fill="#1a9641"/>
+    <text x="34.09" y="306.47" font-size="9.5" text-anchor="middle" fill="#1a9641">2.91</text>
+    <line x1="53.8" y1="290.95" x2="42.41" y2="297.95" fill="none" stroke="#1a9641" stroke-width="1.35" stroke-linejoin="round" stroke-dasharray="4.2 2.8"/>
+    <line x1="25.77" y1="308.17" x2="19.01" y2="312.32" fill="none" stroke="#1a9641" stroke-width="1.35" stroke-linejoin="round" stroke-dasharray="4.2 2.8"/>
+   </g>
+   <g class="interaction hbond" data-distance="3.11" data-ligand-atoms="12/O2" data-ligand-part="base" data-ligand-residue="C12" data-protein-atoms="N6" data-residue="A:A8" data-type="hbond">
+    <title>Hydrogen bond: A8 N6 – C 12 of the ligand (base: 12/O2), 3.11 Å</title>
+    <polygon points="18.7,296.88 24.41,293.06 25.49,297.94" fill="#1a9641"/>
+    <text x="35.91" y="296.49" font-size="9.5" text-anchor="middle" fill="#1a9641">3.11</text>
+    <line x1="53.13" y1="289.28" x2="46.66" y2="290.71" fill="none" stroke="#1a9641" stroke-width="1.35" stroke-linejoin="round" stroke-dasharray="4.2 2.8"/>
+    <line x1="25.17" y1="295.45" x2="24.01" y2="295.7" fill="none" stroke="#1a9641" stroke-width="1.35" stroke-linejoin="round" stroke-dasharray="4.2 2.8"/>
+   </g>
+   <g class="interaction hbond" data-distance="2.80" data-ligand-atoms="10/O6" data-ligand-part="base" data-ligand-residue="G10" data-protein-atoms="N4" data-residue="A:C9" data-type="hbond">
+    <title>Hydrogen bond: C9 N4 – G 10 of the ligand (base: 10/O6), 2.80 Å</title>
+    <polygon points="7.66,231.83 11.56,226.17 14.36,230.31" fill="#1a9641"/>
+    <text x="34.79" y="216.9" font-size="9.5" text-anchor="middle" fill="#1a9641">2.80</text>
+    <line x1="52.88" y1="201.27" x2="42.35" y2="208.38" fill="none" stroke="#1a9641" stroke-width="1.35" stroke-linejoin="round" stroke-dasharray="4.2 2.8"/>
+    <line x1="27.23" y1="218.6" x2="12.17" y2="228.78" fill="none" stroke="#1a9641" stroke-width="1.35" stroke-linejoin="round" stroke-dasharray="4.2 2.8"/>
+   </g>
+   <g class="interaction hbond" data-distance="2.86" data-ligand-atoms="10/N2" data-ligand-part="base" data-ligand-residue="G10" data-protein-atoms="O2" data-residue="A:C9" data-type="hbond">
+    <title>Hydrogen bond: C9 O2 – G 10 of the ligand (base: 10/N2), 2.86 Å</title>
+    <polygon points="73.6,278.29 68.91,273.27 66.75,277.78" fill="#1a9641"/>
+    <text x="44.68" y="267.83" font-size="9.5" text-anchor="middle" fill="#1a9641">2.86</text>
+    <line x1="68.69" y1="275.94" x2="55.34" y2="269.53" fill="none" stroke="#1a9641" stroke-width="1.35" stroke-linejoin="round" stroke-dasharray="4.2 2.8"/>
+    <line x1="34.02" y1="259.31" x2="15.76" y2="250.55" fill="none" stroke="#1a9641" stroke-width="1.35" stroke-linejoin="round" stroke-dasharray="4.2 2.8"/>
+   </g>
+   <g class="interaction hbond" data-distance="2.87" data-ligand-atoms="10/N1,10/N2" data-ligand-part="base" data-ligand-residue="G10" data-protein-atoms="N3" data-residue="A:C9" data-type="hbond">
+    <title>Hydrogen bond: C9 N3 – G 10 of the ligand (base: 10/N1), 2.87 Å; Hydrogen bond: C9 N3 – G 10 of the ligand (base: 10/N2), 3.47 Å</title>
+    <polygon points="62.66,240.24 55.98,238.65 56.67,243.6" fill="#1a9641"/>
+    <text x="40.4" y="246.76" font-size="9.5" text-anchor="middle" fill="#1a9641">2.87</text>
+    <line x1="57.28" y1="240.99" x2="51.15" y2="241.85" fill="none" stroke="#1a9641" stroke-width="1.35" stroke-linejoin="round" stroke-dasharray="4.2 2.8"/>
+    <line x1="29.66" y1="244.85" x2="18.14" y2="246.46" fill="none" stroke="#1a9641" stroke-width="1.35" stroke-linejoin="round" stroke-dasharray="4.2 2.8"/>
+   </g>
+   <g class="interaction hbond" data-distance="2.81" data-ligand-atoms="9/N4" data-ligand-part="base" data-ligand-residue="C9" data-protein-atoms="O6" data-residue="A:G10" data-type="hbond">
+    <title>Hydrogen bond: G10 O6 – C 9 of the ligand (base: 9/N4), 2.81 Å</title>
+    <polygon points="-51.67,185.87 -46.93,190.84 -44.81,186.31" fill="#1a9641"/>
+    <text x="-31" y="198.93" font-size="9.5" text-anchor="middle" fill="#1a9641">2.81</text>
+    <line x1="-46.74" y1="188.17" x2="-41.74" y2="190.5" fill="none" stroke="#1a9641" stroke-width="1.35" stroke-linejoin="round" stroke-dasharray="4.2 2.8"/>
+    <line x1="-20.26" y1="200.54" x2="-10.33" y2="205.18" fill="none" stroke="#1a9641" stroke-width="1.35" stroke-linejoin="round" stroke-dasharray="4.2 2.8"/>
+   </g>
+   <g class="interaction hbond" data-distance="2.87" data-ligand-atoms="9/N3" data-ligand-part="base" data-ligand-residue="C9" data-protein-atoms="N1" data-residue="A:G10" data-type="hbond">
+    <title>Hydrogen bond: G10 N1 – C 9 of the ligand (base: 9/N3), 2.87 Å</title>
+    <polygon points="-18.35,218.79 -24.3,222.23 -25.05,217.29" fill="#1a9641"/>
+    <text x="-38.04" y="225.2" font-size="9.5" text-anchor="middle" fill="#1a9641">2.87</text>
+    <line x1="-57.73" y1="224.79" x2="-48.78" y2="223.43" fill="none" stroke="#1a9641" stroke-width="1.35" stroke-linejoin="round" stroke-dasharray="4.2 2.8"/>
+    <line x1="-27.29" y1="220.16" x2="-23.72" y2="219.61" fill="none" stroke="#1a9641" stroke-width="1.35" stroke-linejoin="round" stroke-dasharray="4.2 2.8"/>
+   </g>
+   <g class="interaction hbond" data-distance="3.47" data-ligand-atoms="9/N3,9/O2" data-ligand-part="base" data-ligand-residue="C9" data-protein-atoms="N2" data-residue="A:G10" data-type="hbond">
+    <title>Hydrogen bond: G10 N2 – C 9 of the ligand (base: 9/N3), 3.47 Å; Hydrogen bond: G10 N2 – C 9 of the ligand (base: 9/O2), 2.86 Å</title>
+    <polygon points="-7.86,227.18 -11.82,232.79 -14.58,228.62" fill="#1a9641"/>
+    <text x="-36.36" y="249.38" font-size="9.5" text-anchor="middle" fill="#1a9641">3.47</text>
+    <line x1="-64.85" y1="264.77" x2="-44.1" y2="251.08" fill="none" stroke="#1a9641" stroke-width="1.35" stroke-linejoin="round" stroke-dasharray="4.2 2.8"/>
+    <line x1="-28.61" y1="240.86" x2="-12.4" y2="230.18" fill="none" stroke="#1a9641" stroke-width="1.35" stroke-linejoin="round" stroke-dasharray="4.2 2.8"/>
+   </g>
+   <g class="interaction hbond" data-distance="3.10" data-ligand-atoms="11/N3" data-ligand-part="base" data-ligand-residue="A11" data-protein-atoms="N6" data-residue="A:A11" data-type="hbond">
+    <title>Hydrogen bond: A11 N6 – A 11 of the ligand (base: 11/N3), 3.10 Å</title>
+    <polygon points="-18.7,270.29 -24.37,274.16 -25.49,269.28" fill="#1a9641"/>
+    <text x="-32.19" y="276.8" font-size="9.5" text-anchor="middle" fill="#1a9641">3.10</text>
+    <line x1="-45.68" y1="276.48" x2="-42.93" y2="275.85" fill="none" stroke="#1a9641" stroke-width="1.35" stroke-linejoin="round" stroke-dasharray="4.2 2.8"/>
+   </g>
+   <g class="interaction hbond" data-distance="3.11" data-ligand-atoms="11/N6" data-ligand-part="base" data-ligand-residue="A11" data-protein-atoms="N3" data-residue="A:A11" data-type="hbond">
+    <title>Hydrogen bond: A11 N3 – A 11 of the ligand (base: 11/N6), 3.11 Å</title>
+    <polygon points="-90.42,333.97 -83.71,332.51 -86.47,328.35" fill="#1a9641"/>
+    <text x="-42.34" y="305.49" font-size="9.5" text-anchor="middle" fill="#1a9641">3.11</text>
+    <line x1="-85.89" y1="330.96" x2="-50.04" y2="307.19" fill="none" stroke="#1a9641" stroke-width="1.35" stroke-linejoin="round" stroke-dasharray="4.2 2.8"/>
+    <line x1="-34.63" y1="296.97" x2="-10.28" y2="280.82" fill="none" stroke="#1a9641" stroke-width="1.35" stroke-linejoin="round" stroke-dasharray="4.2 2.8"/>
+   </g>
+   <g class="interaction hbond" data-distance="2.71" data-ligand-atoms="8/N1" data-ligand-part="base" data-ligand-residue="A8" data-protein-atoms="O2'" data-residue="A:C12" data-type="hbond">
+    <title>Hydrogen bond: C12 O2' – A 8 of the ligand (base: 8/N1), 2.71 Å</title>
+    <polygon points="-13.94,179.86 -20.81,180 -19.08,175.31" fill="#1a9641"/>
+    <text x="-39.68" y="173.79" font-size="9.5" text-anchor="middle" fill="#1a9641">2.71</text>
+    <line x1="-65.42" y1="160.9" x2="-50.42" y2="166.42" fill="none" stroke="#1a9641" stroke-width="1.35" stroke-linejoin="round" stroke-dasharray="4.2 2.8"/>
+    <line x1="-28.93" y1="174.34" x2="-19.04" y2="177.98" fill="none" stroke="#1a9641" stroke-width="1.35" stroke-linejoin="round" stroke-dasharray="4.2 2.8"/>
+   </g>
+   <g class="interaction hbond" data-distance="3.12" data-ligand-atoms="8/N6" data-ligand-part="base" data-ligand-residue="A8" data-protein-atoms="O2" data-residue="A:C12" data-type="hbond">
+    <title>Hydrogen bond: C12 O2 – A 8 of the ligand (base: 8/N6), 3.12 Å</title>
+    <polygon points="-46.69,139.19 -44.38,145.67 -40.6,142.39" fill="#1a9641"/>
+    <text x="-32.92" y="158.47" font-size="9.5" text-anchor="middle" fill="#1a9641">3.12</text>
+    <line x1="-43.12" y1="143.3" x2="-37.35" y2="149.95" fill="none" stroke="#1a9641" stroke-width="1.35" stroke-linejoin="round" stroke-dasharray="4.2 2.8"/>
+    <line x1="-28.48" y1="160.17" x2="-12.26" y2="178.87" fill="none" stroke="#1a9641" stroke-width="1.35" stroke-linejoin="round" stroke-dasharray="4.2 2.8"/>
+   </g>
+   <g class="interaction hbond" data-distance="2.91" data-ligand-atoms="8/N6" data-ligand-part="base" data-ligand-residue="A8" data-protein-atoms="O4'" data-residue="A:C13" data-type="hbond">
+    <title>Hydrogen bond: C13 O4' – A 8 of the ligand (base: 8/N6), 2.91 Å</title>
+    <polygon points="54.82,179.19 48.08,177.86 48.96,182.78" fill="#1a9641"/>
+    <text x="36.52" y="185.88" font-size="9.5" text-anchor="middle" fill="#1a9641">2.91</text>
+    <line x1="49.47" y1="180.15" x2="47.26" y2="180.54" fill="none" stroke="#1a9641" stroke-width="1.35" stroke-linejoin="round" stroke-dasharray="4.2 2.8"/>
+    <line x1="25.78" y1="184.39" x2="18.22" y2="185.74" fill="none" stroke="#1a9641" stroke-width="1.35" stroke-linejoin="round" stroke-dasharray="4.2 2.8"/>
+   </g>
+  </g>
+  <g class="ligand" data-drawn-as="chain">
+   <g class="backbone">
+    <line x1="0" y1="8.5" x2="0" y2="18.5" fill="none" stroke="#1f2933" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="0" y1="35.5" x2="0" y2="45.5" fill="none" stroke="#1f2933" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="0" y1="62.5" x2="0" y2="72.5" fill="none" stroke="#1f2933" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="0" y1="89.5" x2="0" y2="99.5" fill="none" stroke="#1f2933" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="0" y1="116.5" x2="0" y2="126.5" fill="none" stroke="#1f2933" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="0" y1="143.5" x2="0" y2="153.5" fill="none" stroke="#1f2933" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="0" y1="170.5" x2="0" y2="180.5" fill="none" stroke="#1f2933" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="0" y1="197.5" x2="0" y2="207.5" fill="none" stroke="#1f2933" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="0" y1="224.5" x2="0" y2="234.5" fill="none" stroke="#1f2933" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="0" y1="251.5" x2="0" y2="261.5" fill="none" stroke="#1f2933" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="0" y1="278.5" x2="0" y2="288.5" fill="none" stroke="#1f2933" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="0" y1="305.5" x2="0" y2="315.5" fill="none" stroke="#1f2933" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="0" y1="332.5" x2="0" y2="342.5" fill="none" stroke="#1f2933" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="0" y1="359.5" x2="0" y2="369.5" fill="none" stroke="#1f2933" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="0" y1="386.5" x2="0" y2="396.5" fill="none" stroke="#1f2933" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="0" y1="413.5" x2="0" y2="423.5" fill="none" stroke="#1f2933" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="0" y1="440.5" x2="0" y2="450.5" fill="none" stroke="#1f2933" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+   </g>
+   <g class="bonds">
+   </g>
+   <g class="units">
+    <g class="unit" data-atoms="1/O5',1/C5',1/C4',1/O4',1/C1',1/N9,1/C8,1/N7,1/C5,1/C6,1/O6,1/N1,1/C2,1/N2,1/N3,1/C4,1/C3',1/C2',1/O2',1/O3'" data-class="nucleotide" data-position="1" data-residue="G">
+     <title>G 1 of the ligand (numbered as in the structure file)</title>
+     <rect x="-16" y="-8.5" width="32" height="17" rx="5" fill="#ffffff" stroke="#1f2933" stroke-width="1.15" stroke-linecap="round" stroke-linejoin="round"/>
+     <text x="0" y="3.77" font-size="10.5" text-anchor="middle" fill="#1f2933"><tspan font-weight="bold">G</tspan><tspan font-size="8" fill="#667085"> 1</tspan></text>
+    </g>
+    <g class="unit" data-atoms="2/P,2/O1P,2/O2P,2/O5',2/C5',2/C4',2/O4',2/C1',2/N9,2/C8,2/N7,2/C5,2/C6,2/O6,2/N1,2/C2,2/N2,2/N3,2/C4,2/C3',2/C2',2/O2',2/O3'" data-class="nucleotide" data-position="2" data-residue="G">
+     <title>G 2 of the ligand (numbered as in the structure file)</title>
+     <rect x="-16" y="18.5" width="32" height="17" rx="5" fill="#ffffff" stroke="#1f2933" stroke-width="1.15" stroke-linecap="round" stroke-linejoin="round"/>
+     <text x="0" y="30.77" font-size="10.5" text-anchor="middle" fill="#1f2933"><tspan font-weight="bold">G</tspan><tspan font-size="8" fill="#667085"> 2</tspan></text>
+    </g>
+    <g class="unit" data-atoms="3/P,3/O1P,3/O2P,3/O5',3/C5',3/C4',3/O4',3/C1',3/N1,3/C6,3/C5,3/C4,3/O4,3/N3,3/C2,3/O2,3/C3',3/C2',3/O2',3/O3'" data-class="nucleotide" data-position="3" data-residue="U">
+     <title>U 3 of the ligand (numbered as in the structure file)</title>
+     <rect x="-16" y="45.5" width="32" height="17" rx="5" fill="#ffffff" stroke="#1f2933" stroke-width="1.15" stroke-linecap="round" stroke-linejoin="round"/>
+     <text x="0" y="57.77" font-size="10.5" text-anchor="middle" fill="#1f2933"><tspan font-weight="bold">U</tspan><tspan font-size="8" fill="#667085"> 3</tspan></text>
+    </g>
+    <g class="unit" data-atoms="4/P,4/O1P,4/O2P,4/O5',4/C5',4/C4',4/O4',4/C1',4/N9,4/C8,4/N7,4/C5,4/C6,4/O6,4/N1,4/C2,4/N2,4/N3,4/C4,4/C3',4/C2',4/O2',4/O3'" data-class="nucleotide" data-position="4" data-residue="G">
+     <title>G 4 of the ligand (numbered as in the structure file)</title>
+     <rect x="-16" y="72.5" width="32" height="17" rx="5" fill="#ffffff" stroke="#1f2933" stroke-width="1.15" stroke-linecap="round" stroke-linejoin="round"/>
+     <text x="0" y="84.77" font-size="10.5" text-anchor="middle" fill="#1f2933"><tspan font-weight="bold">G</tspan><tspan font-size="8" fill="#667085"> 4</tspan></text>
+    </g>
+    <g class="unit" data-atoms="5/P,5/O1P,5/O2P,5/O5',5/C5',5/C4',5/O4',5/C1',5/N9,5/C8,5/N7,5/C5,5/C6,5/O6,5/N1,5/C2,5/N2,5/N3,5/C4,5/C3',5/C2',5/O2',5/O3'" data-class="nucleotide" data-position="5" data-residue="G">
+     <title>G 5 of the ligand (numbered as in the structure file)</title>
+     <rect x="-16" y="99.5" width="32" height="17" rx="5" fill="#ffffff" stroke="#1f2933" stroke-width="1.15" stroke-linecap="round" stroke-linejoin="round"/>
+     <text x="0" y="111.77" font-size="10.5" text-anchor="middle" fill="#1f2933"><tspan font-weight="bold">G</tspan><tspan font-size="8" fill="#667085"> 5</tspan></text>
+    </g>
+    <g class="unit" data-atoms="6/P,6/O1P,6/O2P,6/O5',6/C5',6/C4',6/O4',6/C1',6/N9,6/C8,6/N7,6/C5,6/C6,6/O6,6/N1,6/C2,6/N2,6/N3,6/C4,6/C3',6/C2',6/O2',6/O3'" data-class="nucleotide" data-position="6" data-residue="G">
+     <title>G 6 of the ligand (numbered as in the structure file)</title>
+     <rect x="-16" y="126.5" width="32" height="17" rx="5" fill="#ffffff" stroke="#1f2933" stroke-width="1.15" stroke-linecap="round" stroke-linejoin="round"/>
+     <text x="0" y="138.77" font-size="10.5" text-anchor="middle" fill="#1f2933"><tspan font-weight="bold">G</tspan><tspan font-size="8" fill="#667085"> 6</tspan></text>
+    </g>
+    <g class="unit" data-atoms="7/P,7/O1P,7/O2P,7/O5',7/C5',7/C4',7/O4',7/C1',7/N9,7/C8,7/N7,7/C5,7/C6,7/O6,7/N1,7/C2,7/N2,7/N3,7/C4,7/C3',7/C2',7/O2',7/O3'" data-class="nucleotide" data-position="7" data-residue="G">
+     <title>G 7 of the ligand (numbered as in the structure file)</title>
+     <rect x="-16" y="153.5" width="32" height="17" rx="5" fill="#ffffff" stroke="#1f2933" stroke-width="1.15" stroke-linecap="round" stroke-linejoin="round"/>
+     <text x="0" y="165.77" font-size="10.5" text-anchor="middle" fill="#1f2933"><tspan font-weight="bold">G</tspan><tspan font-size="8" fill="#667085"> 7</tspan></text>
+    </g>
+    <g class="unit" data-atoms="8/P,8/O1P,8/O2P,8/O5',8/C5',8/C4',8/O4',8/C1',8/N9,8/C8,8/N7,8/C5,8/C6,8/N6,8/N1,8/C2,8/N3,8/C4,8/C3',8/C2',8/O2',8/O3'" data-class="nucleotide" data-position="8" data-residue="A">
+     <title>A 8 of the ligand (numbered as in the structure file)</title>
+     <rect x="-16" y="180.5" width="32" height="17" rx="5" fill="#ffffff" stroke="#1f2933" stroke-width="1.15" stroke-linecap="round" stroke-linejoin="round"/>
+     <text x="0" y="192.77" font-size="10.5" text-anchor="middle" fill="#1f2933"><tspan font-weight="bold">A</tspan><tspan font-size="8" fill="#667085"> 8</tspan></text>
+    </g>
+    <g class="unit" data-atoms="9/P,9/O1P,9/O2P,9/O5',9/C5',9/C4',9/O4',9/C1',9/N1,9/C6,9/C5,9/C4,9/N4,9/N3,9/C2,9/O2,9/C3',9/C2',9/O2',9/O3'" data-class="nucleotide" data-position="9" data-residue="C">
+     <title>C 9 of the ligand (numbered as in the structure file)</title>
+     <rect x="-16" y="207.5" width="32" height="17" rx="5" fill="#ffffff" stroke="#1f2933" stroke-width="1.15" stroke-linecap="round" stroke-linejoin="round"/>
+     <text x="0" y="219.77" font-size="10.5" text-anchor="middle" fill="#1f2933"><tspan font-weight="bold">C</tspan><tspan font-size="8" fill="#667085"> 9</tspan></text>
+    </g>
+    <g class="unit" data-atoms="10/P,10/O1P,10/O2P,10/O5',10/C5',10/C4',10/O4',10/C1',10/N9,10/C8,10/N7,10/C5,10/C6,10/O6,10/N1,10/C2,10/N2,10/N3,10/C4,10/C3',10/C2',10/O2',10/O3'" data-class="nucleotide" data-position="10" data-residue="G">
+     <title>G 10 of the ligand (numbered as in the structure file)</title>
+     <rect x="-16" y="234.5" width="32" height="17" rx="5" fill="#ffffff" stroke="#1f2933" stroke-width="1.15" stroke-linecap="round" stroke-linejoin="round"/>
+     <text x="0" y="246.77" font-size="10.5" text-anchor="middle" fill="#1f2933"><tspan font-weight="bold">G</tspan><tspan font-size="8" fill="#667085"> 10</tspan></text>
+    </g>
+    <g class="unit" data-atoms="11/P,11/O1P,11/O2P,11/O5',11/C5',11/C4',11/O4',11/C1',11/N9,11/C8,11/N7,11/C5,11/C6,11/N6,11/N1,11/C2,11/N3,11/C4,11/C3',11/C2',11/O2',11/O3'" data-class="nucleotide" data-position="11" data-residue="A">
+     <title>A 11 of the ligand (numbered as in the structure file)</title>
+     <rect x="-16" y="261.5" width="32" height="17" rx="5" fill="#ffffff" stroke="#1f2933" stroke-width="1.15" stroke-linecap="round" stroke-linejoin="round"/>
+     <text x="0" y="273.77" font-size="10.5" text-anchor="middle" fill="#1f2933"><tspan font-weight="bold">A</tspan><tspan font-size="8" fill="#667085"> 11</tspan></text>
+    </g>
+    <g class="unit" data-atoms="12/P,12/O1P,12/O2P,12/O5',12/C5',12/C4',12/O4',12/C1',12/N1,12/C6,12/C5,12/C4,12/N4,12/N3,12/C2,12/O2,12/C3',12/C2',12/O2',12/O3'" data-class="nucleotide" data-position="12" data-residue="C">
+     <title>C 12 of the ligand (numbered as in the structure file)</title>
+     <rect x="-16" y="288.5" width="32" height="17" rx="5" fill="#ffffff" stroke="#1f2933" stroke-width="1.15" stroke-linecap="round" stroke-linejoin="round"/>
+     <text x="0" y="300.77" font-size="10.5" text-anchor="middle" fill="#1f2933"><tspan font-weight="bold">C</tspan><tspan font-size="8" fill="#667085"> 12</tspan></text>
+    </g>
+    <g class="unit" data-atoms="13/P,13/O1P,13/O2P,13/O5',13/C5',13/C4',13/O4',13/C1',13/N1,13/C6,13/C5,13/C4,13/N4,13/N3,13/C2,13/O2,13/C3',13/C2',13/O2',13/O3'" data-class="nucleotide" data-position="13" data-residue="C">
+     <title>C 13 of the ligand (numbered as in the structure file)</title>
+     <rect x="-16" y="315.5" width="32" height="17" rx="5" fill="#ffffff" stroke="#1f2933" stroke-width="1.15" stroke-linecap="round" stroke-linejoin="round"/>
+     <text x="0" y="327.77" font-size="10.5" text-anchor="middle" fill="#1f2933"><tspan font-weight="bold">C</tspan><tspan font-size="8" fill="#667085"> 13</tspan></text>
+    </g>
+    <g class="unit" data-atoms="14/P,14/O1P,14/O2P,14/O5',14/C5',14/C4',14/O4',14/C1',14/N1,14/C6,14/C5,14/C4,14/N4,14/N3,14/C2,14/O2,14/C3',14/C2',14/O2',14/O3'" data-class="nucleotide" data-position="14" data-residue="C">
+     <title>C 14 of the ligand (numbered as in the structure file)</title>
+     <rect x="-16" y="342.5" width="32" height="17" rx="5" fill="#ffffff" stroke="#1f2933" stroke-width="1.15" stroke-linecap="round" stroke-linejoin="round"/>
+     <text x="0" y="354.77" font-size="10.5" text-anchor="middle" fill="#1f2933"><tspan font-weight="bold">C</tspan><tspan font-size="8" fill="#667085"> 14</tspan></text>
+    </g>
+    <g class="unit" data-atoms="15/P,15/O1P,15/O2P,15/O5',15/C5',15/C4',15/O4',15/C1',15/N1,15/C6,15/C5,15/C4,15/N4,15/N3,15/C2,15/O2,15/C3',15/C2',15/O2',15/O3'" data-class="nucleotide" data-position="15" data-residue="C">
+     <title>C 15 of the ligand (numbered as in the structure file)</title>
+     <rect x="-16" y="369.5" width="32" height="17" rx="5" fill="#ffffff" stroke="#1f2933" stroke-width="1.15" stroke-linecap="round" stroke-linejoin="round"/>
+     <text x="0" y="381.77" font-size="10.5" text-anchor="middle" fill="#1f2933"><tspan font-weight="bold">C</tspan><tspan font-size="8" fill="#667085"> 15</tspan></text>
+    </g>
+    <g class="unit" data-atoms="16/P,16/O1P,16/O2P,16/O5',16/C5',16/C4',16/O4',16/C1',16/N9,16/C8,16/N7,16/C5,16/C6,16/N6,16/N1,16/C2,16/N3,16/C4,16/C3',16/C2',16/O2',16/O3'" data-class="nucleotide" data-position="16" data-residue="A">
+     <title>A 16 of the ligand (numbered as in the structure file)</title>
+     <rect x="-16" y="396.5" width="32" height="17" rx="5" fill="#ffffff" stroke="#1f2933" stroke-width="1.15" stroke-linecap="round" stroke-linejoin="round"/>
+     <text x="0" y="408.77" font-size="10.5" text-anchor="middle" fill="#1f2933"><tspan font-weight="bold">A</tspan><tspan font-size="8" fill="#667085"> 16</tspan></text>
+    </g>
+    <g class="unit" data-atoms="17/P,17/O1P,17/O2P,17/O5',17/C5',17/C4',17/O4',17/C1',17/N1,17/C6,17/C5,17/C4,17/N4,17/N3,17/C2,17/O2,17/C3',17/C2',17/O2',17/O3'" data-class="nucleotide" data-position="17" data-residue="C">
+     <title>C 17 of the ligand (numbered as in the structure file)</title>
+     <rect x="-16" y="423.5" width="32" height="17" rx="5" fill="#ffffff" stroke="#1f2933" stroke-width="1.15" stroke-linecap="round" stroke-linejoin="round"/>
+     <text x="0" y="435.77" font-size="10.5" text-anchor="middle" fill="#1f2933"><tspan font-weight="bold">C</tspan><tspan font-size="8" fill="#667085"> 17</tspan></text>
+    </g>
+    <g class="unit" data-atoms="18/P,18/O1P,18/O2P,18/O5',18/C5',18/C4',18/O4',18/C1',18/N1,18/C6,18/C5,18/C4,18/N4,18/N3,18/C2,18/O2,18/C3',18/C2',18/O2',18/O3'" data-class="nucleotide" data-position="18" data-residue="C">
+     <title>C 18 of the ligand (numbered as in the structure file)</title>
+     <rect x="-16" y="450.5" width="32" height="17" rx="5" fill="#ffffff" stroke="#1f2933" stroke-width="1.15" stroke-linecap="round" stroke-linejoin="round"/>
+     <text x="0" y="462.77" font-size="10.5" text-anchor="middle" fill="#1f2933"><tspan font-weight="bold">C</tspan><tspan font-size="8" fill="#667085"> 18</tspan></text>
+    </g>
+    <text x="0" y="-12.5" font-size="8.5" text-anchor="middle" fill="#667085">5′</text>
+    <text x="0" y="477.6" font-size="8.5" text-anchor="middle" fill="#667085">3′</text>
+   </g>
+   <g class="atoms">
+   </g>
+  </g>
+  <g class="residues">
+   <g class="residue" data-class="nucleotide" data-form="fragment" data-residue="A:A8">
+    <g class="fragment">
+     <line x1="136.91" y1="359.75" x2="125.99" y2="344.79" fill="none" stroke="#6b7a90" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round"/>
+     <line x1="123.99" y1="334.97" x2="129.96" y2="316.47" fill="none" stroke="#6b7a90" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round"/>
+     <line x1="129.96" y1="316.47" x2="114.95" y2="305.62" fill="none" stroke="#6b7a90" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round"/>
+     <line x1="125.29" y1="317.34" x2="110.94" y2="306.96" fill="none" stroke="#6b7a90" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round"/>
+     <line x1="105.1" y1="305.65" x2="90.15" y2="316.56" fill="none" stroke="#6b7a90" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round"/>
+     <line x1="90.15" y1="316.56" x2="66.08" y2="311.49" fill="none" stroke="#6b7a90" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round"/>
+     <line x1="86.25" y1="319.25" x2="68.57" y2="315.53" fill="none" stroke="#6b7a90" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round"/>
+     <line x1="66.08" y1="311.49" x2="60.04" y2="293.02" fill="none" stroke="#6b7a90" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round"/>
+     <line x1="66.08" y1="311.49" x2="54.06" y2="324.9" fill="none" stroke="#6b7a90" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round"/>
+     <line x1="51.27" y1="334.72" x2="57.31" y2="353.19" fill="none" stroke="#6b7a90" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round"/>
+     <line x1="54.59" y1="333.81" x2="59.56" y2="349.01" fill="none" stroke="#6b7a90" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round"/>
+     <line x1="57.31" y1="353.19" x2="76.46" y2="357.22" fill="none" stroke="#6b7a90" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round"/>
+     <line x1="85.79" y1="353.34" x2="97.81" y2="339.93" fill="none" stroke="#6b7a90" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round"/>
+     <line x1="81.17" y1="353.34" x2="93.06" y2="340.07" fill="none" stroke="#6b7a90" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round"/>
+     <line x1="97.81" y1="339.93" x2="117.48" y2="339.89" fill="none" stroke="#6b7a90" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round"/>
+     <line x1="97.81" y1="339.93" x2="90.15" y2="316.56" fill="none" stroke="#6b7a90" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round"/>
+     <text x="122.41" y="343.29" font-size="9.5" text-anchor="middle" fill="#2f5fd0">N</text>
+     <text x="110.02" y="305.46" font-size="9.5" text-anchor="middle" fill="#2f5fd0">N</text>
+     <text x="58.43" y="291.52" font-size="9.5" text-anchor="middle" fill="#2f5fd0">N</text>
+     <text x="49.66" y="333.22" font-size="9.5" text-anchor="middle" fill="#2f5fd0">N</text>
+     <text x="81.39" y="361.66" font-size="9.5" text-anchor="middle" fill="#2f5fd0">N</text>
+    </g>
+    <text x="145.05" y="375.21" font-size="12" text-anchor="middle" font-weight="bold" fill="#1f2933">A8</text>
+   </g>
+   <g class="residue" data-class="nucleotide" data-form="fragment" data-residue="A:C9">
+    <g class="fragment">
+     <line x1="126.34" y1="268.42" x2="113.93" y2="255.78" fill="none" stroke="#6b7a90" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round"/>
+     <line x1="104.17" y1="252.15" x2="85.28" y2="257.03" fill="none" stroke="#6b7a90" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round"/>
+     <line x1="83.63" y1="256.57" x2="78.29" y2="275.83" fill="none" stroke="#6b7a90" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round"/>
+     <line x1="86.94" y1="257.49" x2="81.86" y2="275.83" fill="none" stroke="#6b7a90" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round"/>
+     <line x1="85.28" y1="257.03" x2="72.87" y2="244.4" fill="none" stroke="#6b7a90" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round"/>
+     <line x1="69.4" y1="234.58" x2="74.62" y2="215.78" fill="none" stroke="#6b7a90" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round"/>
+     <line x1="72.97" y1="234.58" x2="77.06" y2="219.85" fill="none" stroke="#6b7a90" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round"/>
+     <line x1="74.62" y1="215.78" x2="62.2" y2="203.15" fill="none" stroke="#6b7a90" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round"/>
+     <line x1="74.62" y1="215.78" x2="98.43" y2="209.62" fill="none" stroke="#6b7a90" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round"/>
+     <line x1="98.43" y1="209.62" x2="115.67" y2="227.17" fill="none" stroke="#6b7a90" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round"/>
+     <line x1="98.27" y1="214.36" x2="110.93" y2="227.25" fill="none" stroke="#6b7a90" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round"/>
+     <line x1="115.67" y1="227.17" x2="110.46" y2="245.96" fill="none" stroke="#6b7a90" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round"/>
+     <text x="109.1" y="254.28" font-size="9.5" text-anchor="middle" fill="#2f5fd0">N</text>
+     <text x="78.71" y="284.15" font-size="9.5" text-anchor="middle" fill="#d6332a">O</text>
+     <text x="68.04" y="242.9" font-size="9.5" text-anchor="middle" fill="#2f5fd0">N</text>
+     <text x="57.37" y="201.65" font-size="9.5" text-anchor="middle" fill="#2f5fd0">N</text>
+    </g>
+    <text x="136.31" y="282.87" font-size="12" text-anchor="middle" font-weight="bold" fill="#1f2933">C9</text>
+   </g>
+   <g class="residue" data-class="nucleotide" data-form="fragment" data-residue="A:G10">
+    <g class="fragment">
+     <line x1="-155.31" y1="223.32" x2="-139.73" y2="213" fill="none" stroke="#6b7a90" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round"/>
+     <line x1="-134.59" y1="204.83" x2="-133.73" y2="185.16" fill="none" stroke="#6b7a90" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round"/>
+     <line x1="-133.73" y1="185.16" x2="-114.96" y2="179.95" fill="none" stroke="#6b7a90" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round"/>
+     <line x1="-129.66" y1="187.6" x2="-114.86" y2="183.49" fill="none" stroke="#6b7a90" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round"/>
+     <line x1="-106.78" y1="183.49" x2="-96.45" y2="199.09" fill="none" stroke="#6b7a90" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round"/>
+     <line x1="-96.45" y1="199.09" x2="-72.12" y2="202.73" fill="none" stroke="#6b7a90" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round"/>
+     <line x1="-70.77" y1="203.8" x2="-58.51" y2="188.38" fill="none" stroke="#6b7a90" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round"/>
+     <line x1="-73.46" y1="201.66" x2="-62" y2="187.24" fill="none" stroke="#6b7a90" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round"/>
+     <line x1="-72.12" y1="202.73" x2="-65.03" y2="220.7" fill="none" stroke="#6b7a90" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round"/>
+     <line x1="-67" y1="230.52" x2="-78.4" y2="244.87" fill="none" stroke="#6b7a90" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round"/>
+     <line x1="-78.4" y1="244.87" x2="-71.32" y2="262.84" fill="none" stroke="#6b7a90" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round"/>
+     <line x1="-78.4" y1="244.87" x2="-97.81" y2="241.97" fill="none" stroke="#6b7a90" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round"/>
+     <line x1="-81.13" y1="240.98" x2="-97.81" y2="238.49" fill="none" stroke="#6b7a90" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round"/>
+     <line x1="-104.67" y1="236.33" x2="-111.76" y2="218.35" fill="none" stroke="#6b7a90" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round"/>
+     <line x1="-111.76" y1="218.35" x2="-129.87" y2="211.58" fill="none" stroke="#6b7a90" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round"/>
+     <line x1="-111.76" y1="218.35" x2="-96.45" y2="199.09" fill="none" stroke="#6b7a90" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round"/>
+     <line x1="-107.03" y1="217.93" x2="-95.79" y2="203.79" fill="none" stroke="#6b7a90" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round"/>
+     <text x="-134.8" y="213.15" font-size="9.5" text-anchor="middle" fill="#2f5fd0">N</text>
+     <text x="-110.03" y="181.99" font-size="9.5" text-anchor="middle" fill="#2f5fd0">N</text>
+     <text x="-56.81" y="186.88" font-size="9.5" text-anchor="middle" fill="#d6332a">O</text>
+     <text x="-63.1" y="229.02" font-size="9.5" text-anchor="middle" fill="#2f5fd0">N</text>
+     <text x="-69.38" y="271.16" font-size="9.5" text-anchor="middle" fill="#2f5fd0">N</text>
+     <text x="-102.74" y="244.65" font-size="9.5" text-anchor="middle" fill="#2f5fd0">N</text>
+    </g>
+    <text x="-169.9" y="237.29" font-size="12" text-anchor="middle" font-weight="bold" fill="#1f2933">G10</text>
+   </g>
+   <g class="residue" data-class="nucleotide" data-form="fragment" data-residue="A:A11">
+    <g class="fragment">
+     <line x1="-148.09" y1="320.82" x2="-132.98" y2="310.06" fill="none" stroke="#6b7a90" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round"/>
+     <line x1="-128" y1="301.65" x2="-127.8" y2="281.96" fill="none" stroke="#6b7a90" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round"/>
+     <line x1="-127.8" y1="281.96" x2="-109.26" y2="276.14" fill="none" stroke="#6b7a90" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round"/>
+     <line x1="-123.65" y1="284.26" x2="-108.49" y2="279.5" fill="none" stroke="#6b7a90" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round"/>
+     <line x1="-100.84" y1="279.5" x2="-90.07" y2="294.64" fill="none" stroke="#6b7a90" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round"/>
+     <line x1="-90.07" y1="294.64" x2="-65.63" y2="297.45" fill="none" stroke="#6b7a90" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round"/>
+     <line x1="-87.22" y1="298.43" x2="-69.27" y2="300.5" fill="none" stroke="#6b7a90" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round"/>
+     <line x1="-65.63" y1="297.45" x2="-54.62" y2="282.61" fill="none" stroke="#6b7a90" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round"/>
+     <line x1="-65.63" y1="297.45" x2="-57.98" y2="315.11" fill="none" stroke="#6b7a90" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round"/>
+     <line x1="-59.49" y1="324.94" x2="-70.51" y2="339.78" fill="none" stroke="#6b7a90" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round"/>
+     <line x1="-60.78" y1="320.9" x2="-71.32" y2="335.11" fill="none" stroke="#6b7a90" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round"/>
+     <line x1="-70.51" y1="339.78" x2="-90.02" y2="337.53" fill="none" stroke="#6b7a90" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round"/>
+     <line x1="-97.07" y1="332.05" x2="-104.73" y2="314.39" fill="none" stroke="#6b7a90" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round"/>
+     <line x1="-93.33" y1="332.05" x2="-100.27" y2="316.02" fill="none" stroke="#6b7a90" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round"/>
+     <line x1="-104.73" y1="314.39" x2="-123.12" y2="308.21" fill="none" stroke="#6b7a90" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round"/>
+     <line x1="-104.73" y1="314.39" x2="-90.07" y2="294.64" fill="none" stroke="#6b7a90" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round"/>
+     <text x="-128.05" y="309.97" font-size="9.5" text-anchor="middle" fill="#2f5fd0">N</text>
+     <text x="-104.33" y="278" font-size="9.5" text-anchor="middle" fill="#2f5fd0">N</text>
+     <text x="-50.97" y="281.11" font-size="9.5" text-anchor="middle" fill="#2f5fd0">N</text>
+     <text x="-55.85" y="323.44" font-size="9.5" text-anchor="middle" fill="#2f5fd0">N</text>
+     <text x="-94.95" y="340.38" font-size="9.5" text-anchor="middle" fill="#2f5fd0">N</text>
+    </g>
+    <text x="-162.06" y="335.07" font-size="12" text-anchor="middle" font-weight="bold" fill="#1f2933">A11</text>
+   </g>
+   <g class="residue" data-class="nucleotide" data-form="fragment" data-residue="A:C12">
+    <g class="fragment">
+     <line x1="-132.89" y1="145.15" x2="-125.17" y2="127.52" fill="none" stroke="#6b7a90" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round"/>
+     <line x1="-117.82" y1="123.13" x2="-98.54" y2="125.03" fill="none" stroke="#6b7a90" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round"/>
+     <line x1="-98.54" y1="125.03" x2="-86.56" y2="111.56" fill="none" stroke="#6b7a90" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round"/>
+     <line x1="-77.26" y1="107.67" x2="-58.1" y2="111.62" fill="none" stroke="#6b7a90" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round"/>
+     <line x1="-59.73" y1="112.16" x2="-53.79" y2="130.06" fill="none" stroke="#6b7a90" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round"/>
+     <line x1="-56.46" y1="111.08" x2="-50.17" y2="130.06" fill="none" stroke="#6b7a90" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round"/>
+     <line x1="-58.1" y1="111.62" x2="-46.12" y2="98.15" fill="none" stroke="#6b7a90" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round"/>
+     <line x1="-43.38" y1="88.33" x2="-49.49" y2="69.89" fill="none" stroke="#6b7a90" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round"/>
+     <line x1="-46.68" y1="89.3" x2="-51.73" y2="74.07" fill="none" stroke="#6b7a90" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round"/>
+     <line x1="-49.49" y1="69.89" x2="-37.51" y2="56.42" fill="none" stroke="#6b7a90" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round"/>
+     <line x1="-49.49" y1="69.89" x2="-73.59" y2="64.92" fill="none" stroke="#6b7a90" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round"/>
+     <line x1="-73.59" y1="64.92" x2="-89.94" y2="83.3" fill="none" stroke="#6b7a90" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round"/>
+     <line x1="-73.19" y1="69.65" x2="-85.19" y2="83.15" fill="none" stroke="#6b7a90" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round"/>
+     <line x1="-98.54" y1="125.03" x2="-93.28" y2="149.07" fill="none" stroke="#6b7a90" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round"/>
+     <line x1="-93.28" y1="149.07" x2="-75.94" y2="156.66" fill="none" stroke="#6b7a90" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round"/>
+     <line x1="-93.28" y1="149.07" x2="-114.5" y2="161.5" fill="none" stroke="#6b7a90" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round"/>
+     <line x1="-114.5" y1="161.5" x2="-132.89" y2="145.15" fill="none" stroke="#6b7a90" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round"/>
+     <line x1="-89.94" y1="83.3" x2="-83.82" y2="101.74" fill="none" stroke="#6b7a90" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round"/>
+     <text x="-123.02" y="126.02" font-size="9.5" text-anchor="middle" fill="#d6332a">O</text>
+     <text x="-82.19" y="110.06" font-size="9.5" text-anchor="middle" fill="#2f5fd0">N</text>
+     <text x="-50.35" y="138.38" font-size="9.5" text-anchor="middle" fill="#d6332a">O</text>
+     <text x="-41.75" y="96.65" font-size="9.5" text-anchor="middle" fill="#2f5fd0">N</text>
+     <text x="-33.15" y="54.92" font-size="9.5" text-anchor="middle" fill="#2f5fd0">N</text>
+     <text x="-70.74" y="162.34" font-size="9.5" text-anchor="middle" fill="#d6332a">O</text>
+    </g>
+    <text x="-82.01" y="133.66" font-size="12" text-anchor="middle" font-weight="bold" fill="#1f2933">C12</text>
+   </g>
+   <g class="residue" data-class="nucleotide" data-form="fragment" data-residue="A:C13">
+    <g class="fragment">
+     <line x1="49.37" y1="156.21" x2="57.96" y2="173.28" fill="none" stroke="#6b7a90" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round"/>
+     <line x1="65.62" y1="177.39" x2="84.74" y2="174.46" fill="none" stroke="#6b7a90" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round"/>
+     <line x1="84.74" y1="174.46" x2="88.71" y2="150.19" fill="none" stroke="#6b7a90" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round"/>
+     <line x1="88.71" y1="150.19" x2="66.85" y2="138.91" fill="none" stroke="#6b7a90" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round"/>
+     <line x1="66.85" y1="138.91" x2="49.37" y2="156.21" fill="none" stroke="#6b7a90" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round"/>
+     <text x="60.43" y="181.6" font-size="9.5" text-anchor="middle" fill="#d6332a">O</text>
+    </g>
+    <text x="96.4" y="190.55" font-size="12" text-anchor="middle" font-weight="bold" fill="#1f2933">C13</text>
+   </g>
+  </g>
+ </g>
+ <g class="legend" transform="translate(18 547.76)">
+  <polygon points="26,9.19 19.6,11.69 19.6,6.69" fill="#1a9641"/>
+  <line x1="0" y1="9.19" x2="20.56" y2="9.19" fill="none" stroke="#1a9641" stroke-width="1.35" stroke-linejoin="round" stroke-dasharray="4.2 2.8"/>
+  <text x="34" y="12.96" font-size="10.5" fill="#667085">Hydrogen bond</text>
+  <rect x="0.6" y="22.06" width="20.8" height="11" rx="3.5" fill="#ffffff" stroke="#1f2933" stroke-width="1.15" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="27" y="31.33" font-size="10.5" fill="#667085">Residue of the ligand, numbered as in the structure file</text>
+ </g>
+ <g class="footnotes">
+  <text x="18" y="598.04" font-size="10.5" fill="#667085">Distances in Å.</text>
+  <text x="18" y="613.27" font-size="10.5" fill="#667085">Residues of the ligand carry the names and numbers of the structure</text>
+  <text x="18" y="628.5" font-size="10.5" fill="#667085">file (chain B).</text>
+ </g>
+</svg>

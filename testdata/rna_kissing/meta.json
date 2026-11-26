@@ -1,0 +1,20 @@
+{
+ "slug": "rna_kissing",
+ "what": "the kissing complex of the HIV-1 dimerisation initiation site",
+ "source": {
+  "archive": "RCSB Protein Data Bank",
+  "entry": "1XPF",
+  "address": "https://files.rcsb.org/download/1XPF.cif.gz",
+  "licence": "CC0 1.0 (the archive's data are in the public domain)",
+  "file": "model.cif.gz",
+  "file_is": "the archive's file, unpacked and packed again (gzip, no time stamp)",
+  "sha256": "deba389e4b5526e7b4eb3d9e30a06edc68c9798e59db7d3f1660de8901d9e0de",
+  "title": "HIV-1 subtype A genomic RNA Dimerization Initiation Site"
+ },
+ "chains": {
+  "A": "a hairpin of 23 nucleotides, CUUGCUGAGGUGCACACAGCAAG",
+  "B": "the second hairpin"
+ },
+ "chain_names": "the authors' (auth_asym_id)",
+ "why_this_case": "Two strands of RNA paired with each other, with the archive's own annotation of the base pairs."
+}

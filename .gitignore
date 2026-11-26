@@ -1,0 +1,24 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+.venv*/
+.DS_Store
+
+# Structures that are listed in the repository and fetched (scripts/fetch_structures.py); the lists are kept.
+testdata/astex/
+testdata/waters/*
+!testdata/waters/manifest.json
+testdata/ensemble/*/structure/
+
+# Trajectories of a riboswitch and their contacts frame by frame (testdata/md/*/manifest.json names the source).
+testdata/md/*/trajectory/
+testdata/md/*/contacts/
+
+# The pages that the sketches in prototype/ write.
+prototype/*/*.html

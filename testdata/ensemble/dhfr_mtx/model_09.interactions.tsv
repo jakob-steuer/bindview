@@ -1,0 +1,8 @@
+interaction_type	residue_number	residue_name	chain	insertion_code	protein_atom	ligand_atom	distance	angle	ligand_is_donor	protein_atoms	ligand_atoms	water
+hbond	4	LEU	A		O	NA4	3.65	156.19	True			
+hbond	116	THR	A		OG1	NA2	3.88	107.14	True			
+hydrophobic	27	LEU	A		CD2	C12	3.24					
+hydrophobic	50	PRO	A		CG	C12	3.7					
+saltbridge	26	ASP	A				3.76			OD1,OD2	N3,NA2,N1	
+saltbridge	28	HIS	A				4.74			ND1,NE2	OE1,OE2	
+saltbridge	57	ARG	A				3.82			NE,NH1,NH2	O2,O1	

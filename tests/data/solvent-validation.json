@@ -1,0 +1,6015 @@
+{
+ "protocol": {
+  "cuts": [
+   1.0,
+   1.5,
+   2.0
+  ],
+  "bridge": 3.5,
+  "min_heavy_atoms": 6,
+  "random_draws": 200,
+  "high_resolution": 2.0
+ },
+ "numpy": "2.5.4",
+ "tuned": false,
+ "parameters": {
+  "spacing": 0.5,
+  "reach": 3.5,
+  "polar_contact": 2.6,
+  "hbond_max": 3.3,
+  "min_enclosure": 0.6,
+  "ray_length": 8.0,
+  "n_rays": 30,
+  "separation": 2.6,
+  "cone_one": 100.0,
+  "cone_many": 65.0,
+  "max_sites": 6
+ },
+ "files": 85,
+ "development": {
+  "structures": 43,
+  "ligands": 43,
+  "bridging_waters": 83,
+  "predicted": 127,
+  "chance_sites": 125.435,
+  "recovered_1.0": 46,
+  "invented_1.0": 74,
+  "reachable_1.0": 74,
+  "chance_recovered_1.0": 24.215,
+  "chance_invented_1.0": 93.0,
+  "recovered_1.5": 58,
+  "invented_1.5": 55,
+  "reachable_1.5": 78,
+  "chance_recovered_1.5": 35.06,
+  "chance_invented_1.5": 69.575,
+  "recovered_2.0": 62,
+  "invented_2.0": 41,
+  "reachable_2.0": 78,
+  "chance_recovered_2.0": 42.4,
+  "chance_invented_2.0": 51.795,
+  "recall_1.0": 0.554,
+  "invented_share_1.0": 0.583,
+  "reachable_share_1.0": 0.892,
+  "chance_recall_1.0": 0.292,
+  "chance_invented_share_1.0": 0.741,
+  "recall_1.5": 0.699,
+  "invented_share_1.5": 0.433,
+  "reachable_share_1.5": 0.94,
+  "chance_recall_1.5": 0.422,
+  "chance_invented_share_1.5": 0.555,
+  "recall_2.0": 0.747,
+  "invented_share_2.0": 0.323,
+  "reachable_share_2.0": 0.94,
+  "chance_recall_2.0": 0.511,
+  "chance_invented_share_2.0": 0.413
+ },
+ "held_out": {
+  "structures": 42,
+  "ligands": 42,
+  "bridging_waters": 73,
+  "predicted": 118,
+  "chance_sites": 117.165,
+  "recovered_1.0": 46,
+  "invented_1.0": 67,
+  "reachable_1.0": 64,
+  "chance_recovered_1.0": 20.205,
+  "chance_invented_1.0": 89.935,
+  "recovered_1.5": 52,
+  "invented_1.5": 54,
+  "reachable_1.5": 67,
+  "chance_recovered_1.5": 30.13,
+  "chance_invented_1.5": 68.325,
+  "recovered_2.0": 57,
+  "invented_2.0": 35,
+  "reachable_2.0": 67,
+  "chance_recovered_2.0": 37.16,
+  "chance_invented_2.0": 51.61,
+  "recall_1.0": 0.63,
+  "invented_share_1.0": 0.568,
+  "reachable_share_1.0": 0.877,
+  "chance_recall_1.0": 0.277,
+  "chance_invented_share_1.0": 0.768,
+  "recall_1.5": 0.712,
+  "invented_share_1.5": 0.458,
+  "reachable_share_1.5": 0.918,
+  "chance_recall_1.5": 0.413,
+  "chance_invented_share_1.5": 0.583,
+  "recall_2.0": 0.781,
+  "invented_share_2.0": 0.297,
+  "reachable_share_2.0": 0.918,
+  "chance_recall_2.0": 0.509,
+  "chance_invented_share_2.0": 0.44
+ },
+ "held_out_high_resolution": {
+  "structures": 23,
+  "ligands": 23,
+  "bridging_waters": 43,
+  "predicted": 64,
+  "chance_sites": 63.79,
+  "recovered_1.0": 27,
+  "invented_1.0": 34,
+  "reachable_1.0": 37,
+  "chance_recovered_1.0": 10.695,
+  "chance_invented_1.0": 48.55,
+  "recovered_1.5": 32,
+  "invented_1.5": 24,
+  "reachable_1.5": 40,
+  "chance_recovered_1.5": 16.11,
+  "chance_invented_1.5": 35.505,
+  "recovered_2.0": 35,
+  "invented_2.0": 15,
+  "reachable_2.0": 40,
+  "chance_recovered_2.0": 20.575,
+  "chance_invented_2.0": 26.19,
+  "recall_1.0": 0.628,
+  "invented_share_1.0": 0.531,
+  "reachable_share_1.0": 0.86,
+  "chance_recall_1.0": 0.249,
+  "chance_invented_share_1.0": 0.761,
+  "recall_1.5": 0.744,
+  "invented_share_1.5": 0.375,
+  "reachable_share_1.5": 0.93,
+  "chance_recall_1.5": 0.375,
+  "chance_invented_share_1.5": 0.557,
+  "recall_2.0": 0.814,
+  "invented_share_2.0": 0.234,
+  "reachable_share_2.0": 0.93,
+  "chance_recall_2.0": 0.478,
+  "chance_invented_share_2.0": 0.411
+ },
+ "all": {
+  "structures": 85,
+  "ligands": 85,
+  "bridging_waters": 156,
+  "predicted": 245,
+  "chance_sites": 242.6,
+  "recovered_1.0": 92,
+  "invented_1.0": 141,
+  "reachable_1.0": 138,
+  "chance_recovered_1.0": 44.42,
+  "chance_invented_1.0": 182.935,
+  "recovered_1.5": 110,
+  "invented_1.5": 109,
+  "reachable_1.5": 145,
+  "chance_recovered_1.5": 65.19,
+  "chance_invented_1.5": 137.9,
+  "recovered_2.0": 119,
+  "invented_2.0": 76,
+  "reachable_2.0": 145,
+  "chance_recovered_2.0": 79.56,
+  "chance_invented_2.0": 103.405,
+  "recall_1.0": 0.59,
+  "invented_share_1.0": 0.576,
+  "reachable_share_1.0": 0.885,
+  "chance_recall_1.0": 0.285,
+  "chance_invented_share_1.0": 0.754,
+  "recall_1.5": 0.705,
+  "invented_share_1.5": 0.445,
+  "reachable_share_1.5": 0.929,
+  "chance_recall_1.5": 0.418,
+  "chance_invented_share_1.5": 0.568,
+  "recall_2.0": 0.763,
+  "invented_share_2.0": 0.31,
+  "reachable_share_2.0": 0.929,
+  "chance_recall_2.0": 0.51,
+  "chance_invented_share_2.0": 0.426
+ },
+ "free_and_complete": {
+  "structures": 85,
+  "ligands": 85,
+  "bridging_waters": 156,
+  "predicted": 245,
+  "chance_sites": 242.6,
+  "recovered_1.0": 92,
+  "invented_1.0": 141,
+  "reachable_1.0": 138,
+  "chance_recovered_1.0": 44.42,
+  "chance_invented_1.0": 182.935,
+  "recovered_1.5": 110,
+  "invented_1.5": 109,
+  "reachable_1.5": 145,
+  "chance_recovered_1.5": 65.19,
+  "chance_invented_1.5": 137.9,
+  "recovered_2.0": 119,
+  "invented_2.0": 76,
+  "reachable_2.0": 145,
+  "chance_recovered_2.0": 79.56,
+  "chance_invented_2.0": 103.405,
+  "recall_1.0": 0.59,
+  "invented_share_1.0": 0.576,
+  "reachable_share_1.0": 0.885,
+  "chance_recall_1.0": 0.285,
+  "chance_invented_share_1.0": 0.754,
+  "recall_1.5": 0.705,
+  "invented_share_1.5": 0.445,
+  "reachable_share_1.5": 0.929,
+  "chance_recall_1.5": 0.418,
+  "chance_invented_share_1.5": 0.568,
+  "recall_2.0": 0.763,
+  "invented_share_2.0": 0.31,
+  "reachable_share_2.0": 0.929,
+  "chance_recall_2.0": 0.51,
+  "chance_invented_share_2.0": 0.426
+ },
+ "intervals": {
+  "held_out": {
+   "recall_1.5": [
+    0.6,
+    0.812
+   ],
+   "invented_share_1.5": [
+    0.347,
+    0.566
+   ],
+   "recall_above_chance_1.5": [
+    0.159,
+    0.438
+   ],
+   "invented_share_below_chance_1.5": [
+    0.027,
+    0.227
+   ]
+  },
+  "all": {
+   "recall_1.5": [
+    0.639,
+    0.772
+   ],
+   "invented_share_1.5": [
+    0.371,
+    0.513
+   ],
+   "recall_above_chance_1.5": [
+    0.21,
+    0.368
+   ],
+   "invented_share_below_chance_1.5": [
+    0.064,
+    0.182
+   ]
+  }
+ },
+ "development_sites": {
+  "by_enclosure": {
+   "0.6 to 0.7": {
+    "sites": 33,
+    "water": 10,
+    "bridging_water": 7
+   },
+   "0.7 to 0.8": {
+    "sites": 31,
+    "water": 15,
+    "bridging_water": 11
+   },
+   "0.8 to 0.9": {
+    "sites": 27,
+    "water": 16,
+    "bridging_water": 12
+   },
+   "0.9 to 1.0": {
+    "sites": 36,
+    "water": 31,
+    "bridging_water": 28
+   }
+  },
+  "by_partners": {
+   "2": {
+    "sites": 47,
+    "water": 22,
+    "bridging_water": 12
+   },
+   "3": {
+    "sites": 41,
+    "water": 22,
+    "bridging_water": 18
+   },
+   "4": {
+    "sites": 32,
+    "water": 22,
+    "bridging_water": 22
+   },
+   "5": {
+    "sites": 5,
+    "water": 4,
+    "bridging_water": 4
+   },
+   "6": {
+    "sites": 2,
+    "water": 2,
+    "bridging_water": 2
+   }
+  },
+  "by_rank": {
+   "1": {
+    "sites": 39,
+    "water": 27,
+    "bridging_water": 25
+   },
+   "2": {
+    "sites": 32,
+    "water": 15,
+    "bridging_water": 14
+   },
+   "3": {
+    "sites": 26,
+    "water": 17,
+    "bridging_water": 9
+   },
+   "4": {
+    "sites": 15,
+    "water": 6,
+    "bridging_water": 5
+   },
+   "5": {
+    "sites": 9,
+    "water": 4,
+    "bridging_water": 3
+   },
+   "6": {
+    "sites": 6,
+    "water": 3,
+    "bridging_water": 2
+   }
+  }
+ },
+ "by_resolution": {
+  "up to 1.5 Å": {
+   "structures": 7,
+   "ligands": 7,
+   "bridging_waters": 12,
+   "predicted": 19,
+   "chance_sites": 18.46,
+   "recovered_1.0": 8,
+   "invented_1.0": 9,
+   "reachable_1.0": 11,
+   "chance_recovered_1.0": 6.615,
+   "chance_invented_1.0": 10.09,
+   "recovered_1.5": 8,
+   "invented_1.5": 7,
+   "reachable_1.5": 12,
+   "chance_recovered_1.5": 7.78,
+   "chance_invented_1.5": 6.3,
+   "recovered_2.0": 9,
+   "invented_2.0": 3,
+   "reachable_2.0": 12,
+   "chance_recovered_2.0": 8.57,
+   "chance_invented_2.0": 3.605,
+   "recall_1.0": 0.667,
+   "invented_share_1.0": 0.474,
+   "reachable_share_1.0": 0.917,
+   "chance_recall_1.0": 0.551,
+   "chance_invented_share_1.0": 0.547,
+   "recall_1.5": 0.667,
+   "invented_share_1.5": 0.368,
+   "reachable_share_1.5": 1.0,
+   "chance_recall_1.5": 0.648,
+   "chance_invented_share_1.5": 0.341,
+   "recall_2.0": 0.75,
+   "invented_share_2.0": 0.158,
+   "reachable_share_2.0": 1.0,
+   "chance_recall_2.0": 0.714,
+   "chance_invented_share_2.0": 0.195
+  },
+  "above 1.5, up to 2.0 Å": {
+   "structures": 41,
+   "ligands": 41,
+   "bridging_waters": 81,
+   "predicted": 124,
+   "chance_sites": 123.77,
+   "recovered_1.0": 49,
+   "invented_1.0": 70,
+   "reachable_1.0": 74,
+   "chance_recovered_1.0": 20.055,
+   "chance_invented_1.0": 94.705,
+   "recovered_1.5": 60,
+   "invented_1.5": 50,
+   "reachable_1.5": 77,
+   "chance_recovered_1.5": 29.395,
+   "chance_invented_1.5": 70.9,
+   "recovered_2.0": 64,
+   "invented_2.0": 36,
+   "reachable_2.0": 77,
+   "chance_recovered_2.0": 36.875,
+   "chance_invented_2.0": 52.645,
+   "recall_1.0": 0.605,
+   "invented_share_1.0": 0.565,
+   "reachable_share_1.0": 0.914,
+   "chance_recall_1.0": 0.248,
+   "chance_invented_share_1.0": 0.765,
+   "recall_1.5": 0.741,
+   "invented_share_1.5": 0.403,
+   "reachable_share_1.5": 0.951,
+   "chance_recall_1.5": 0.363,
+   "chance_invented_share_1.5": 0.573,
+   "recall_2.0": 0.79,
+   "invented_share_2.0": 0.29,
+   "reachable_share_2.0": 0.951,
+   "chance_recall_2.0": 0.455,
+   "chance_invented_share_2.0": 0.425
+  },
+  "above 2.0 Å": {
+   "structures": 37,
+   "ligands": 37,
+   "bridging_waters": 63,
+   "predicted": 102,
+   "chance_sites": 100.37,
+   "recovered_1.0": 35,
+   "invented_1.0": 62,
+   "reachable_1.0": 53,
+   "chance_recovered_1.0": 17.75,
+   "chance_invented_1.0": 78.14,
+   "recovered_1.5": 42,
+   "invented_1.5": 52,
+   "reachable_1.5": 56,
+   "chance_recovered_1.5": 28.015,
+   "chance_invented_1.5": 60.7,
+   "recovered_2.0": 46,
+   "invented_2.0": 37,
+   "reachable_2.0": 56,
+   "chance_recovered_2.0": 34.115,
+   "chance_invented_2.0": 47.155,
+   "recall_1.0": 0.556,
+   "invented_share_1.0": 0.608,
+   "reachable_share_1.0": 0.841,
+   "chance_recall_1.0": 0.282,
+   "chance_invented_share_1.0": 0.779,
+   "recall_1.5": 0.667,
+   "invented_share_1.5": 0.51,
+   "reachable_share_1.5": 0.889,
+   "chance_recall_1.5": 0.445,
+   "chance_invented_share_1.5": 0.605,
+   "recall_2.0": 0.73,
+   "invented_share_2.0": 0.363,
+   "reachable_share_2.0": 0.889,
+   "chance_recall_2.0": 0.542,
+   "chance_invented_share_2.0": 0.47
+  }
+ },
+ "per_ligand": [
+  {
+   "structure": "1g9v",
+   "ligand": "A:RQ3:801",
+   "bridging_waters": 3,
+   "predicted": 6,
+   "chance_sites": 6.0,
+   "recovered_1.0": 1,
+   "invented_1.0": 5,
+   "reachable_1.0": 3,
+   "chance_recovered_1.0": 0.375,
+   "chance_invented_1.0": 5.555,
+   "recovered_1.5": 2,
+   "invented_1.5": 4,
+   "reachable_1.5": 3,
+   "chance_recovered_1.5": 0.685,
+   "chance_invented_1.5": 5.015,
+   "recovered_2.0": 2,
+   "invented_2.0": 4,
+   "reachable_2.0": 3,
+   "chance_recovered_2.0": 1.005,
+   "chance_invented_2.0": 4.115,
+   "sites": [
+    {
+     "rank": 1,
+     "partners": 4,
+     "enclosure": 0.667,
+     "nearest_water": 4.72,
+     "water": false,
+     "bridging_water": false
+    },
+    {
+     "rank": 2,
+     "partners": 3,
+     "enclosure": 0.8,
+     "nearest_water": 2.08,
+     "water": false,
+     "bridging_water": false
+    },
+    {
+     "rank": 3,
+     "partners": 3,
+     "enclosure": 0.867,
+     "nearest_water": 0.33,
+     "water": true,
+     "bridging_water": true
+    },
+    {
+     "rank": 4,
+     "partners": 2,
+     "enclosure": 0.767,
+     "nearest_water": 1.37,
+     "water": true,
+     "bridging_water": true
+    },
+    {
+     "rank": 5,
+     "partners": 2,
+     "enclosure": 0.6,
+     "nearest_water": 4.02,
+     "water": false,
+     "bridging_water": false
+    },
+    {
+     "rank": 6,
+     "partners": 2,
+     "enclosure": 0.6,
+     "nearest_water": 2.12,
+     "water": false,
+     "bridging_water": false
+    }
+   ],
+   "attached": false,
+   "complete": true,
+   "buried_fraction": 0.707,
+   "burial_warning": false,
+   "half": "development",
+   "resolution": 1.85
+  },
+  {
+   "structure": "1gkc",
+   "ligand": "A:NFH:1448",
+   "bridging_waters": 2,
+   "predicted": 2,
+   "chance_sites": 2.0,
+   "recovered_1.0": 2,
+   "invented_1.0": 0,
+   "reachable_1.0": 2,
+   "chance_recovered_1.0": 0.275,
+   "chance_invented_1.0": 1.725,
+   "recovered_1.5": 2,
+   "invented_1.5": 0,
+   "reachable_1.5": 2,
+   "chance_recovered_1.5": 0.51,
+   "chance_invented_1.5": 1.49,
+   "recovered_2.0": 2,
+   "invented_2.0": 0,
+   "reachable_2.0": 2,
+   "chance_recovered_2.0": 0.635,
+   "chance_invented_2.0": 1.365,
+   "sites": [
+    {
+     "rank": 1,
+     "partners": 3,
+     "enclosure": 0.8,
+     "nearest_water": 0.5,
+     "water": true,
+     "bridging_water": true
+    },
+    {
+     "rank": 2,
+     "partners": 2,
+     "enclosure": 0.6,
+     "nearest_water": 0.4,
+     "water": true,
+     "bridging_water": true
+    }
+   ],
+   "attached": false,
+   "complete": true,
+   "buried_fraction": 0.74,
+   "burial_warning": false,
+   "half": "held_out",
+   "resolution": 2.3
+  },
+  {
+   "structure": "1gm8",
+   "ligand": "B:SOX:1559",
+   "bridging_waters": 3,
+   "predicted": 6,
+   "chance_sites": 6.0,
+   "recovered_1.0": 1,
+   "invented_1.0": 5,
+   "reachable_1.0": 3,
+   "chance_recovered_1.0": 0.335,
+   "chance_invented_1.0": 5.255,
+   "recovered_1.5": 2,
+   "invented_1.5": 3,
+   "reachable_1.5": 3,
+   "chance_recovered_1.5": 0.645,
+   "chance_invented_1.5": 4.235,
+   "recovered_2.0": 2,
+   "invented_2.0": 2,
+   "reachable_2.0": 3,
+   "chance_recovered_2.0": 0.895,
+   "chance_invented_2.0": 3.265,
+   "sites": [
+    {
+     "rank": 1,
+     "partners": 4,
+     "enclosure": 0.8,
+     "nearest_water": 4.53,
+     "water": false,
+     "bridging_water": false
+    },
+    {
+     "rank": 2,
+     "partners": 4,
+     "enclosure": 0.767,
+     "nearest_water": 1.8,
+     "water": false,
+     "bridging_water": false
+    },
+    {
+     "rank": 3,
+     "partners": 2,
+     "enclosure": 0.833,
+     "nearest_water": 1.06,
+     "water": true,
+     "bridging_water": false
+    },
+    {
+     "rank": 4,
+     "partners": 2,
+     "enclosure": 0.6,
+     "nearest_water": 1.22,
+     "water": true,
+     "bridging_water": true
+    },
+    {
+     "rank": 5,
+     "partners": 2,
+     "enclosure": 0.733,
+     "nearest_water": 2.87,
+     "water": false,
+     "bridging_water": false
+    },
+    {
+     "rank": 6,
+     "partners": 2,
+     "enclosure": 0.867,
+     "nearest_water": 0.91,
+     "water": true,
+     "bridging_water": true
+    }
+   ],
+   "attached": false,
+   "complete": true,
+   "buried_fraction": 0.706,
+   "burial_warning": false,
+   "half": "development",
+   "resolution": 2.0
+  },
+  {
+   "structure": "1gpk",
+   "ligand": "A:HUP:1540",
+   "bridging_waters": 1,
+   "predicted": 3,
+   "chance_sites": 3.0,
+   "recovered_1.0": 1,
+   "invented_1.0": 2,
+   "reachable_1.0": 1,
+   "chance_recovered_1.0": 0.73,
+   "chance_invented_1.0": 1.925,
+   "recovered_1.5": 1,
+   "invented_1.5": 2,
+   "reachable_1.5": 1,
+   "chance_recovered_1.5": 0.73,
+   "chance_invented_1.5": 0.92,
+   "recovered_2.0": 1,
+   "invented_2.0": 0,
+   "reachable_2.0": 1,
+   "chance_recovered_2.0": 0.73,
+   "chance_invented_2.0": 0.095,
+   "sites": [
+    {
+     "rank": 1,
+     "partners": 5,
+     "enclosure": 0.933,
+     "nearest_water": 0.28,
+     "water": true,
+     "bridging_water": true
+    },
+    {
+     "rank": 2,
+     "partners": 2,
+     "enclosure": 0.667,
+     "nearest_water": 1.51,
+     "water": false,
+     "bridging_water": false
+    },
+    {
+     "rank": 3,
+     "partners": 2,
+     "enclosure": 0.9,
+     "nearest_water": 1.93,
+     "water": false,
+     "bridging_water": false
+    }
+   ],
+   "attached": false,
+   "complete": true,
+   "buried_fraction": 0.969,
+   "burial_warning": false,
+   "half": "held_out",
+   "resolution": 2.1
+  },
+  {
+   "structure": "1hnn",
+   "ligand": "A:SKF:3001",
+   "bridging_waters": 2,
+   "predicted": 2,
+   "chance_sites": 2.0,
+   "recovered_1.0": 2,
+   "invented_1.0": 0,
+   "reachable_1.0": 2,
+   "chance_recovered_1.0": 1.415,
+   "chance_invented_1.0": 0.585,
+   "recovered_1.5": 2,
+   "invented_1.5": 0,
+   "reachable_1.5": 2,
+   "chance_recovered_1.5": 1.88,
+   "chance_invented_1.5": 0.12,
+   "recovered_2.0": 2,
+   "invented_2.0": 0,
+   "reachable_2.0": 2,
+   "chance_recovered_2.0": 2.0,
+   "chance_invented_2.0": 0.0,
+   "sites": [
+    {
+     "rank": 1,
+     "partners": 4,
+     "enclosure": 0.967,
+     "nearest_water": 0.47,
+     "water": true,
+     "bridging_water": true
+    },
+    {
+     "rank": 2,
+     "partners": 4,
+     "enclosure": 0.933,
+     "nearest_water": 0.56,
+     "water": true,
+     "bridging_water": true
+    }
+   ],
+   "attached": false,
+   "complete": true,
+   "buried_fraction": 0.997,
+   "burial_warning": false,
+   "half": "development",
+   "resolution": 2.4
+  },
+  {
+   "structure": "1hp0",
+   "ligand": "A:AD3:1315",
+   "bridging_waters": 1,
+   "predicted": 3,
+   "chance_sites": 3.0,
+   "recovered_1.0": 0,
+   "invented_1.0": 3,
+   "reachable_1.0": 0,
+   "chance_recovered_1.0": 0.0,
+   "chance_invented_1.0": 2.68,
+   "recovered_1.5": 0,
+   "invented_1.5": 2,
+   "reachable_1.5": 0,
+   "chance_recovered_1.5": 0.0,
+   "chance_invented_1.5": 2.3,
+   "recovered_2.0": 0,
+   "invented_2.0": 2,
+   "reachable_2.0": 0,
+   "chance_recovered_2.0": 0.0,
+   "chance_invented_2.0": 1.995,
+   "sites": [
+    {
+     "rank": 1,
+     "partners": 3,
+     "enclosure": 0.767,
+     "nearest_water": 6.83,
+     "water": false,
+     "bridging_water": false
+    },
+    {
+     "rank": 2,
+     "partners": 2,
+     "enclosure": 0.6,
+     "nearest_water": 2.19,
+     "water": false,
+     "bridging_water": false
+    },
+    {
+     "rank": 3,
+     "partners": 2,
+     "enclosure": 0.6,
+     "nearest_water": 1.01,
+     "water": true,
+     "bridging_water": false
+    }
+   ],
+   "attached": false,
+   "complete": true,
+   "buried_fraction": 0.962,
+   "burial_warning": false,
+   "half": "held_out",
+   "resolution": 2.1
+  },
+  {
+   "structure": "1hq2",
+   "ligand": "A:PH2:181",
+   "bridging_waters": 4,
+   "predicted": 4,
+   "chance_sites": 4.0,
+   "recovered_1.0": 1,
+   "invented_1.0": 3,
+   "reachable_1.0": 3,
+   "chance_recovered_1.0": 1.51,
+   "chance_invented_1.0": 2.34,
+   "recovered_1.5": 1,
+   "invented_1.5": 3,
+   "reachable_1.5": 4,
+   "chance_recovered_1.5": 2.12,
+   "chance_invented_1.5": 1.065,
+   "recovered_2.0": 2,
+   "invented_2.0": 1,
+   "reachable_2.0": 4,
+   "chance_recovered_2.0": 2.48,
+   "chance_invented_2.0": 0.445,
+   "sites": [
+    {
+     "rank": 1,
+     "partners": 4,
+     "enclosure": 0.933,
+     "nearest_water": 0.69,
+     "water": true,
+     "bridging_water": true
+    },
+    {
+     "rank": 2,
+     "partners": 4,
+     "enclosure": 0.733,
+     "nearest_water": 2.38,
+     "water": false,
+     "bridging_water": false
+    },
+    {
+     "rank": 3,
+     "partners": 3,
+     "enclosure": 0.933,
+     "nearest_water": 1.67,
+     "water": false,
+     "bridging_water": false
+    },
+    {
+     "rank": 4,
+     "partners": 2,
+     "enclosure": 0.867,
+     "nearest_water": 1.67,
+     "water": false,
+     "bridging_water": false
+    }
+   ],
+   "attached": false,
+   "complete": true,
+   "buried_fraction": 0.981,
+   "burial_warning": false,
+   "half": "development",
+   "resolution": 1.25
+  },
+  {
+   "structure": "1hvy",
+   "ligand": "A:D16:414",
+   "bridging_waters": 6,
+   "predicted": 6,
+   "chance_sites": 6.0,
+   "recovered_1.0": 3,
+   "invented_1.0": 3,
+   "reachable_1.0": 5,
+   "chance_recovered_1.0": 0.355,
+   "chance_invented_1.0": 5.175,
+   "recovered_1.5": 6,
+   "invented_1.5": 0,
+   "reachable_1.5": 6,
+   "chance_recovered_1.5": 0.875,
+   "chance_invented_1.5": 4.235,
+   "recovered_2.0": 6,
+   "invented_2.0": 0,
+   "reachable_2.0": 6,
+   "chance_recovered_2.0": 1.37,
+   "chance_invented_2.0": 3.34,
+   "sites": [
+    {
+     "rank": 1,
+     "partners": 4,
+     "enclosure": 0.8,
+     "nearest_water": 1.33,
+     "water": true,
+     "bridging_water": true
+    },
+    {
+     "rank": 2,
+     "partners": 3,
+     "enclosure": 0.867,
+     "nearest_water": 1.19,
+     "water": true,
+     "bridging_water": true
+    },
+    {
+     "rank": 3,
+     "partners": 3,
+     "enclosure": 0.8,
+     "nearest_water": 1.48,
+     "water": true,
+     "bridging_water": true
+    },
+    {
+     "rank": 4,
+     "partners": 3,
+     "enclosure": 0.8,
+     "nearest_water": 0.45,
+     "water": true,
+     "bridging_water": true
+    },
+    {
+     "rank": 5,
+     "partners": 3,
+     "enclosure": 0.6,
+     "nearest_water": 0.62,
+     "water": true,
+     "bridging_water": true
+    },
+    {
+     "rank": 6,
+     "partners": 2,
+     "enclosure": 0.6,
+     "nearest_water": 0.76,
+     "water": true,
+     "bridging_water": true
+    }
+   ],
+   "attached": false,
+   "complete": true,
+   "buried_fraction": 0.804,
+   "burial_warning": false,
+   "half": "held_out",
+   "resolution": 1.9
+  },
+  {
+   "structure": "1hwi",
+   "ligand": "A:115:2",
+   "bridging_waters": 2,
+   "predicted": 3,
+   "chance_sites": 3.0,
+   "recovered_1.0": 1,
+   "invented_1.0": 2,
+   "reachable_1.0": 2,
+   "chance_recovered_1.0": 0.51,
+   "chance_invented_1.0": 2.49,
+   "recovered_1.5": 1,
+   "invented_1.5": 2,
+   "reachable_1.5": 2,
+   "chance_recovered_1.5": 0.925,
+   "chance_invented_1.5": 2.075,
+   "recovered_2.0": 2,
+   "invented_2.0": 1,
+   "reachable_2.0": 2,
+   "chance_recovered_2.0": 1.07,
+   "chance_invented_2.0": 1.92,
+   "sites": [
+    {
+     "rank": 1,
+     "partners": 4,
+     "enclosure": 0.9,
+     "nearest_water": 0.67,
+     "water": true,
+     "bridging_water": true
+    },
+    {
+     "rank": 2,
+     "partners": 4,
+     "enclosure": 0.667,
+     "nearest_water": 1.95,
+     "water": false,
+     "bridging_water": false
+    },
+    {
+     "rank": 3,
+     "partners": 2,
+     "enclosure": 0.6,
+     "nearest_water": 2.72,
+     "water": false,
+     "bridging_water": false
+    }
+   ],
+   "attached": false,
+   "complete": true,
+   "buried_fraction": 0.811,
+   "burial_warning": false,
+   "half": "development",
+   "resolution": 2.3
+  },
+  {
+   "structure": "1hww",
+   "ligand": "A:SWA:1103",
+   "bridging_waters": 0,
+   "predicted": 0,
+   "chance_sites": 0.0,
+   "recovered_1.0": 0,
+   "invented_1.0": 0,
+   "reachable_1.0": 0,
+   "chance_recovered_1.0": 0.0,
+   "chance_invented_1.0": 0.0,
+   "recovered_1.5": 0,
+   "invented_1.5": 0,
+   "reachable_1.5": 0,
+   "chance_recovered_1.5": 0.0,
+   "chance_invented_1.5": 0.0,
+   "recovered_2.0": 0,
+   "invented_2.0": 0,
+   "reachable_2.0": 0,
+   "chance_recovered_2.0": 0.0,
+   "chance_invented_2.0": 0.0,
+   "sites": [],
+   "attached": false,
+   "complete": true,
+   "buried_fraction": 0.943,
+   "burial_warning": false,
+   "half": "held_out",
+   "resolution": 1.87
+  },
+  {
+   "structure": "1ia1",
+   "ligand": "A:TQ3:194",
+   "bridging_waters": 1,
+   "predicted": 1,
+   "chance_sites": 1.0,
+   "recovered_1.0": 1,
+   "invented_1.0": 0,
+   "reachable_1.0": 1,
+   "chance_recovered_1.0": 1.0,
+   "chance_invented_1.0": 0.0,
+   "recovered_1.5": 1,
+   "invented_1.5": 0,
+   "reachable_1.5": 1,
+   "chance_recovered_1.5": 1.0,
+   "chance_invented_1.5": 0.0,
+   "recovered_2.0": 1,
+   "invented_2.0": 0,
+   "reachable_2.0": 1,
+   "chance_recovered_2.0": 1.0,
+   "chance_invented_2.0": 0.0,
+   "sites": [
+    {
+     "rank": 1,
+     "partners": 5,
+     "enclosure": 0.9,
+     "nearest_water": 0.67,
+     "water": true,
+     "bridging_water": true
+    }
+   ],
+   "attached": false,
+   "complete": true,
+   "buried_fraction": 0.893,
+   "burial_warning": false,
+   "half": "development",
+   "resolution": 1.7
+  },
+  {
+   "structure": "1ig3",
+   "ligand": "A:VIB:502",
+   "bridging_waters": 2,
+   "predicted": 6,
+   "chance_sites": 6.0,
+   "recovered_1.0": 0,
+   "invented_1.0": 6,
+   "reachable_1.0": 2,
+   "chance_recovered_1.0": 0.345,
+   "chance_invented_1.0": 5.1,
+   "recovered_1.5": 0,
+   "invented_1.5": 5,
+   "reachable_1.5": 2,
+   "chance_recovered_1.5": 0.82,
+   "chance_invented_1.5": 3.48,
+   "recovered_2.0": 1,
+   "invented_2.0": 2,
+   "reachable_2.0": 2,
+   "chance_recovered_2.0": 1.245,
+   "chance_invented_2.0": 2.0,
+   "sites": [
+    {
+     "rank": 1,
+     "partners": 5,
+     "enclosure": 0.833,
+     "nearest_water": 3.23,
+     "water": false,
+     "bridging_water": false
+    },
+    {
+     "rank": 2,
+     "partners": 4,
+     "enclosure": 0.667,
+     "nearest_water": 3.6,
+     "water": false,
+     "bridging_water": false
+    },
+    {
+     "rank": 3,
+     "partners": 3,
+     "enclosure": 0.633,
+     "nearest_water": 1.95,
+     "water": false,
+     "bridging_water": false
+    },
+    {
+     "rank": 4,
+     "partners": 3,
+     "enclosure": 0.6,
+     "nearest_water": 1.82,
+     "water": false,
+     "bridging_water": false
+    },
+    {
+     "rank": 5,
+     "partners": 2,
+     "enclosure": 0.633,
+     "nearest_water": 1.38,
+     "water": true,
+     "bridging_water": false
+    },
+    {
+     "rank": 6,
+     "partners": 2,
+     "enclosure": 0.7,
+     "nearest_water": 1.92,
+     "water": false,
+     "bridging_water": false
+    }
+   ],
+   "attached": false,
+   "complete": true,
+   "buried_fraction": 0.924,
+   "burial_warning": false,
+   "half": "held_out",
+   "resolution": 1.9
+  },
+  {
+   "structure": "1j3j",
+   "ligand": "A:CP6:609",
+   "bridging_waters": 1,
+   "predicted": 0,
+   "chance_sites": 0.0,
+   "recovered_1.0": 0,
+   "invented_1.0": 0,
+   "reachable_1.0": 0,
+   "chance_recovered_1.0": 0.0,
+   "chance_invented_1.0": 0.0,
+   "recovered_1.5": 0,
+   "invented_1.5": 0,
+   "reachable_1.5": 0,
+   "chance_recovered_1.5": 0.0,
+   "chance_invented_1.5": 0.0,
+   "recovered_2.0": 0,
+   "invented_2.0": 0,
+   "reachable_2.0": 0,
+   "chance_recovered_2.0": 0.0,
+   "chance_invented_2.0": 0.0,
+   "sites": [],
+   "attached": false,
+   "complete": true,
+   "buried_fraction": 0.918,
+   "burial_warning": false,
+   "half": "development",
+   "resolution": 2.3
+  },
+  {
+   "structure": "1jd0",
+   "ligand": "A:AZM:1400",
+   "bridging_waters": 1,
+   "predicted": 4,
+   "chance_sites": 4.0,
+   "recovered_1.0": 1,
+   "invented_1.0": 3,
+   "reachable_1.0": 1,
+   "chance_recovered_1.0": 0.125,
+   "chance_invented_1.0": 3.8,
+   "recovered_1.5": 1,
+   "invented_1.5": 2,
+   "reachable_1.5": 1,
+   "chance_recovered_1.5": 0.21,
+   "chance_invented_1.5": 3.28,
+   "recovered_2.0": 1,
+   "invented_2.0": 1,
+   "reachable_2.0": 1,
+   "chance_recovered_2.0": 0.345,
+   "chance_invented_2.0": 2.33,
+   "sites": [
+    {
+     "rank": 1,
+     "partners": 4,
+     "enclosure": 0.733,
+     "nearest_water": 0.99,
+     "water": true,
+     "bridging_water": true
+    },
+    {
+     "rank": 2,
+     "partners": 3,
+     "enclosure": 0.6,
+     "nearest_water": 1.5,
+     "water": true,
+     "bridging_water": false
+    },
+    {
+     "rank": 3,
+     "partners": 3,
+     "enclosure": 0.6,
+     "nearest_water": 1.6,
+     "water": false,
+     "bridging_water": false
+    },
+    {
+     "rank": 4,
+     "partners": 2,
+     "enclosure": 0.667,
+     "nearest_water": 4.75,
+     "water": false,
+     "bridging_water": false
+    }
+   ],
+   "attached": false,
+   "complete": true,
+   "buried_fraction": 0.838,
+   "burial_warning": false,
+   "half": "held_out",
+   "resolution": 1.5
+  },
+  {
+   "structure": "1jje",
+   "ligand": "A:BYS:250",
+   "bridging_waters": 0,
+   "predicted": 2,
+   "chance_sites": 2.0,
+   "recovered_1.0": 0,
+   "invented_1.0": 2,
+   "reachable_1.0": 0,
+   "chance_recovered_1.0": 0.0,
+   "chance_invented_1.0": 1.925,
+   "recovered_1.5": 0,
+   "invented_1.5": 2,
+   "reachable_1.5": 0,
+   "chance_recovered_1.5": 0.0,
+   "chance_invented_1.5": 1.665,
+   "recovered_2.0": 0,
+   "invented_2.0": 1,
+   "reachable_2.0": 0,
+   "chance_recovered_2.0": 0.0,
+   "chance_invented_2.0": 1.245,
+   "sites": [
+    {
+     "rank": 1,
+     "partners": 2,
+     "enclosure": 0.767,
+     "nearest_water": 1.74,
+     "water": false,
+     "bridging_water": false
+    },
+    {
+     "rank": 2,
+     "partners": 2,
+     "enclosure": 0.667,
+     "nearest_water": 2.72,
+     "water": false,
+     "bridging_water": false
+    }
+   ],
+   "attached": false,
+   "complete": true,
+   "buried_fraction": 0.787,
+   "burial_warning": false,
+   "half": "development",
+   "resolution": 1.8
+  },
+  {
+   "structure": "1jla",
+   "ligand": "A:TNK:999",
+   "bridging_waters": 0,
+   "predicted": 2,
+   "chance_sites": 2.0,
+   "recovered_1.0": 0,
+   "invented_1.0": 2,
+   "reachable_1.0": 0,
+   "chance_recovered_1.0": 0.0,
+   "chance_invented_1.0": 2.0,
+   "recovered_1.5": 0,
+   "invented_1.5": 2,
+   "reachable_1.5": 0,
+   "chance_recovered_1.5": 0.0,
+   "chance_invented_1.5": 2.0,
+   "recovered_2.0": 0,
+   "invented_2.0": 2,
+   "reachable_2.0": 0,
+   "chance_recovered_2.0": 0.0,
+   "chance_invented_2.0": 2.0,
+   "sites": [
+    {
+     "rank": 1,
+     "partners": 4,
+     "enclosure": 0.8,
+     "nearest_water": 10.54,
+     "water": false,
+     "bridging_water": false
+    },
+    {
+     "rank": 2,
+     "partners": 3,
+     "enclosure": 0.833,
+     "nearest_water": 9.16,
+     "water": false,
+     "bridging_water": false
+    }
+   ],
+   "attached": false,
+   "complete": true,
+   "buried_fraction": 0.963,
+   "burial_warning": false,
+   "half": "held_out",
+   "resolution": 2.5
+  },
+  {
+   "structure": "1k3u",
+   "ligand": "A:IAD:801",
+   "bridging_waters": 1,
+   "predicted": 1,
+   "chance_sites": 1.0,
+   "recovered_1.0": 0,
+   "invented_1.0": 0,
+   "reachable_1.0": 0,
+   "chance_recovered_1.0": 0.0,
+   "chance_invented_1.0": 0.62,
+   "recovered_1.5": 0,
+   "invented_1.5": 0,
+   "reachable_1.5": 0,
+   "chance_recovered_1.5": 0.0,
+   "chance_invented_1.5": 0.0,
+   "recovered_2.0": 0,
+   "invented_2.0": 0,
+   "reachable_2.0": 0,
+   "chance_recovered_2.0": 0.0,
+   "chance_invented_2.0": 0.0,
+   "sites": [
+    {
+     "rank": 1,
+     "partners": 2,
+     "enclosure": 0.8,
+     "nearest_water": 0.73,
+     "water": true,
+     "bridging_water": false
+    }
+   ],
+   "attached": false,
+   "complete": true,
+   "buried_fraction": 0.993,
+   "burial_warning": false,
+   "half": "development",
+   "resolution": 1.7
+  },
+  {
+   "structure": "1ke5",
+   "ligand": "A:LS1:299",
+   "bridging_waters": 1,
+   "predicted": 2,
+   "chance_sites": 2.0,
+   "recovered_1.0": 1,
+   "invented_1.0": 1,
+   "reachable_1.0": 1,
+   "chance_recovered_1.0": 0.075,
+   "chance_invented_1.0": 1.845,
+   "recovered_1.5": 1,
+   "invented_1.5": 1,
+   "reachable_1.5": 1,
+   "chance_recovered_1.5": 0.135,
+   "chance_invented_1.5": 1.63,
+   "recovered_2.0": 1,
+   "invented_2.0": 0,
+   "reachable_2.0": 1,
+   "chance_recovered_2.0": 0.175,
+   "chance_invented_2.0": 1.325,
+   "sites": [
+    {
+     "rank": 1,
+     "partners": 5,
+     "enclosure": 0.7,
+     "nearest_water": 0.75,
+     "water": true,
+     "bridging_water": true
+    },
+    {
+     "rank": 2,
+     "partners": 2,
+     "enclosure": 0.633,
+     "nearest_water": 1.55,
+     "water": false,
+     "bridging_water": false
+    }
+   ],
+   "attached": false,
+   "complete": true,
+   "buried_fraction": 0.827,
+   "burial_warning": false,
+   "half": "held_out",
+   "resolution": 2.2
+  },
+  {
+   "structure": "1kzk",
+   "ligand": "A:JE2:701",
+   "bridging_waters": 2,
+   "predicted": 3,
+   "chance_sites": 2.46,
+   "recovered_1.0": 2,
+   "invented_1.0": 0,
+   "reachable_1.0": 2,
+   "chance_recovered_1.0": 1.655,
+   "chance_invented_1.0": 0.345,
+   "recovered_1.5": 2,
+   "invented_1.5": 0,
+   "reachable_1.5": 2,
+   "chance_recovered_1.5": 1.855,
+   "chance_invented_1.5": 0.055,
+   "recovered_2.0": 2,
+   "invented_2.0": 0,
+   "reachable_2.0": 2,
+   "chance_recovered_2.0": 2.0,
+   "chance_invented_2.0": 0.0,
+   "sites": [
+    {
+     "rank": 1,
+     "partners": 4,
+     "enclosure": 0.9,
+     "nearest_water": 0.19,
+     "water": true,
+     "bridging_water": true
+    },
+    {
+     "rank": 2,
+     "partners": 3,
+     "enclosure": 0.8,
+     "nearest_water": 0.59,
+     "water": true,
+     "bridging_water": true
+    },
+    {
+     "rank": 3,
+     "partners": 2,
+     "enclosure": 0.667,
+     "nearest_water": 0.87,
+     "water": true,
+     "bridging_water": false
+    }
+   ],
+   "attached": false,
+   "complete": true,
+   "buried_fraction": 0.954,
+   "burial_warning": false,
+   "half": "development",
+   "resolution": 1.09
+  },
+  {
+   "structure": "1l2s",
+   "ligand": "A:STC:1115",
+   "bridging_waters": 1,
+   "predicted": 5,
+   "chance_sites": 4.8,
+   "recovered_1.0": 1,
+   "invented_1.0": 4,
+   "reachable_1.0": 1,
+   "chance_recovered_1.0": 0.42,
+   "chance_invented_1.0": 4.165,
+   "recovered_1.5": 1,
+   "invented_1.5": 3,
+   "reachable_1.5": 1,
+   "chance_recovered_1.5": 0.69,
+   "chance_invented_1.5": 3.5,
+   "recovered_2.0": 1,
+   "invented_2.0": 3,
+   "reachable_2.0": 1,
+   "chance_recovered_2.0": 0.795,
+   "chance_invented_2.0": 3.15,
+   "sites": [
+    {
+     "rank": 1,
+     "partners": 5,
+     "enclosure": 0.8,
+     "nearest_water": 3.66,
+     "water": false,
+     "bridging_water": false
+    },
+    {
+     "rank": 2,
+     "partners": 4,
+     "enclosure": 0.7,
+     "nearest_water": 2.85,
+     "water": false,
+     "bridging_water": false
+    },
+    {
+     "rank": 3,
+     "partners": 3,
+     "enclosure": 0.767,
+     "nearest_water": 0.28,
+     "water": true,
+     "bridging_water": true
+    },
+    {
+     "rank": 4,
+     "partners": 3,
+     "enclosure": 0.7,
+     "nearest_water": 2.96,
+     "water": false,
+     "bridging_water": false
+    },
+    {
+     "rank": 5,
+     "partners": 2,
+     "enclosure": 0.7,
+     "nearest_water": 1.33,
+     "water": true,
+     "bridging_water": false
+    }
+   ],
+   "attached": false,
+   "complete": true,
+   "buried_fraction": 0.704,
+   "burial_warning": false,
+   "half": "held_out",
+   "resolution": 1.94
+  },
+  {
+   "structure": "1l7f",
+   "ligand": "A:BCZ:801",
+   "bridging_waters": 3,
+   "predicted": 3,
+   "chance_sites": 3.0,
+   "recovered_1.0": 1,
+   "invented_1.0": 2,
+   "reachable_1.0": 3,
+   "chance_recovered_1.0": 0.24,
+   "chance_invented_1.0": 2.51,
+   "recovered_1.5": 1,
+   "invented_1.5": 2,
+   "reachable_1.5": 3,
+   "chance_recovered_1.5": 0.48,
+   "chance_invented_1.5": 1.785,
+   "recovered_2.0": 1,
+   "invented_2.0": 2,
+   "reachable_2.0": 3,
+   "chance_recovered_2.0": 0.765,
+   "chance_invented_2.0": 0.82,
+   "sites": [
+    {
+     "rank": 1,
+     "partners": 4,
+     "enclosure": 0.933,
+     "nearest_water": 0.36,
+     "water": true,
+     "bridging_water": true
+    },
+    {
+     "rank": 2,
+     "partners": 2,
+     "enclosure": 0.6,
+     "nearest_water": 2.69,
+     "water": false,
+     "bridging_water": false
+    },
+    {
+     "rank": 3,
+     "partners": 2,
+     "enclosure": 0.6,
+     "nearest_water": 2.3,
+     "water": false,
+     "bridging_water": false
+    }
+   ],
+   "attached": false,
+   "complete": true,
+   "buried_fraction": 0.879,
+   "burial_warning": false,
+   "half": "development",
+   "resolution": 1.8
+  },
+  {
+   "structure": "1lpz",
+   "ligand": "B:CMB:301",
+   "bridging_waters": 3,
+   "predicted": 3,
+   "chance_sites": 3.0,
+   "recovered_1.0": 2,
+   "invented_1.0": 1,
+   "reachable_1.0": 3,
+   "chance_recovered_1.0": 0.405,
+   "chance_invented_1.0": 2.39,
+   "recovered_1.5": 2,
+   "invented_1.5": 1,
+   "reachable_1.5": 3,
+   "chance_recovered_1.5": 0.64,
+   "chance_invented_1.5": 1.965,
+   "recovered_2.0": 2,
+   "invented_2.0": 1,
+   "reachable_2.0": 3,
+   "chance_recovered_2.0": 0.78,
+   "chance_invented_2.0": 1.6,
+   "sites": [
+    {
+     "rank": 1,
+     "partners": 5,
+     "enclosure": 0.867,
+     "nearest_water": 0.5,
+     "water": true,
+     "bridging_water": true
+    },
+    {
+     "rank": 2,
+     "partners": 5,
+     "enclosure": 0.867,
+     "nearest_water": 2.2,
+     "water": false,
+     "bridging_water": false
+    },
+    {
+     "rank": 3,
+     "partners": 4,
+     "enclosure": 0.933,
+     "nearest_water": 0.45,
+     "water": true,
+     "bridging_water": true
+    }
+   ],
+   "attached": false,
+   "complete": true,
+   "buried_fraction": 0.783,
+   "burial_warning": false,
+   "half": "held_out",
+   "resolution": 2.4
+  },
+  {
+   "structure": "1lrh",
+   "ligand": "A:NLA:5190",
+   "bridging_waters": 0,
+   "predicted": 0,
+   "chance_sites": 0.0,
+   "recovered_1.0": 0,
+   "invented_1.0": 0,
+   "reachable_1.0": 0,
+   "chance_recovered_1.0": 0.0,
+   "chance_invented_1.0": 0.0,
+   "recovered_1.5": 0,
+   "invented_1.5": 0,
+   "reachable_1.5": 0,
+   "chance_recovered_1.5": 0.0,
+   "chance_invented_1.5": 0.0,
+   "recovered_2.0": 0,
+   "invented_2.0": 0,
+   "reachable_2.0": 0,
+   "chance_recovered_2.0": 0.0,
+   "chance_invented_2.0": 0.0,
+   "sites": [],
+   "attached": false,
+   "complete": true,
+   "buried_fraction": 0.984,
+   "burial_warning": false,
+   "half": "development",
+   "resolution": 1.9
+  },
+  {
+   "structure": "1m2z",
+   "ligand": "A:DEX:301",
+   "bridging_waters": 0,
+   "predicted": 2,
+   "chance_sites": 2.0,
+   "recovered_1.0": 0,
+   "invented_1.0": 2,
+   "reachable_1.0": 0,
+   "chance_recovered_1.0": 0.0,
+   "chance_invented_1.0": 2.0,
+   "recovered_1.5": 0,
+   "invented_1.5": 2,
+   "reachable_1.5": 0,
+   "chance_recovered_1.5": 0.0,
+   "chance_invented_1.5": 2.0,
+   "recovered_2.0": 0,
+   "invented_2.0": 2,
+   "reachable_2.0": 0,
+   "chance_recovered_2.0": 0.0,
+   "chance_invented_2.0": 2.0,
+   "sites": [
+    {
+     "rank": 1,
+     "partners": 5,
+     "enclosure": 0.867,
+     "nearest_water": 4.48,
+     "water": false,
+     "bridging_water": false
+    },
+    {
+     "rank": 2,
+     "partners": 2,
+     "enclosure": 1.0,
+     "nearest_water": 9.03,
+     "water": false,
+     "bridging_water": false
+    }
+   ],
+   "attached": false,
+   "complete": true,
+   "buried_fraction": 0.994,
+   "burial_warning": false,
+   "half": "held_out",
+   "resolution": 2.5
+  },
+  {
+   "structure": "1meh",
+   "ligand": "A:MOA:600",
+   "bridging_waters": 3,
+   "predicted": 6,
+   "chance_sites": 6.0,
+   "recovered_1.0": 2,
+   "invented_1.0": 4,
+   "reachable_1.0": 3,
+   "chance_recovered_1.0": 0.655,
+   "chance_invented_1.0": 5.23,
+   "recovered_1.5": 3,
+   "invented_1.5": 3,
+   "reachable_1.5": 3,
+   "chance_recovered_1.5": 0.905,
+   "chance_invented_1.5": 4.92,
+   "recovered_2.0": 3,
+   "invented_2.0": 3,
+   "reachable_2.0": 3,
+   "chance_recovered_2.0": 1.07,
+   "chance_invented_2.0": 4.655,
+   "sites": [
+    {
+     "rank": 1,
+     "partners": 4,
+     "enclosure": 0.7,
+     "nearest_water": 3.55,
+     "water": false,
+     "bridging_water": false
+    },
+    {
+     "rank": 2,
+     "partners": 4,
+     "enclosure": 0.9,
+     "nearest_water": 1.38,
+     "water": true,
+     "bridging_water": true
+    },
+    {
+     "rank": 3,
+     "partners": 4,
+     "enclosure": 0.933,
+     "nearest_water": 0.62,
+     "water": true,
+     "bridging_water": true
+    },
+    {
+     "rank": 4,
+     "partners": 2,
+     "enclosure": 0.667,
+     "nearest_water": 5.81,
+     "water": false,
+     "bridging_water": false
+    },
+    {
+     "rank": 5,
+     "partners": 2,
+     "enclosure": 0.767,
+     "nearest_water": 3.34,
+     "water": false,
+     "bridging_water": false
+    },
+    {
+     "rank": 6,
+     "partners": 2,
+     "enclosure": 0.633,
+     "nearest_water": 0.39,
+     "water": true,
+     "bridging_water": true
+    }
+   ],
+   "attached": false,
+   "complete": true,
+   "buried_fraction": 0.787,
+   "burial_warning": false,
+   "half": "development",
+   "resolution": 1.95
+  },
+  {
+   "structure": "1mmv",
+   "ligand": "A:3AR:1785",
+   "bridging_waters": 4,
+   "predicted": 4,
+   "chance_sites": 4.0,
+   "recovered_1.0": 2,
+   "invented_1.0": 2,
+   "reachable_1.0": 4,
+   "chance_recovered_1.0": 1.72,
+   "chance_invented_1.0": 2.235,
+   "recovered_1.5": 3,
+   "invented_1.5": 1,
+   "reachable_1.5": 4,
+   "chance_recovered_1.5": 2.235,
+   "chance_invented_1.5": 1.38,
+   "recovered_2.0": 3,
+   "invented_2.0": 1,
+   "reachable_2.0": 4,
+   "chance_recovered_2.0": 2.795,
+   "chance_invented_2.0": 0.7,
+   "sites": [
+    {
+     "rank": 1,
+     "partners": 5,
+     "enclosure": 0.9,
+     "nearest_water": 0.24,
+     "water": true,
+     "bridging_water": true
+    },
+    {
+     "rank": 2,
+     "partners": 4,
+     "enclosure": 0.833,
+     "nearest_water": 0.2,
+     "water": true,
+     "bridging_water": true
+    },
+    {
+     "rank": 3,
+     "partners": 3,
+     "enclosure": 0.7,
+     "nearest_water": 1.42,
+     "water": true,
+     "bridging_water": true
+    },
+    {
+     "rank": 4,
+     "partners": 2,
+     "enclosure": 0.667,
+     "nearest_water": 2.27,
+     "water": false,
+     "bridging_water": false
+    }
+   ],
+   "attached": false,
+   "complete": true,
+   "buried_fraction": 0.951,
+   "burial_warning": false,
+   "half": "held_out",
+   "resolution": 2.0
+  },
+  {
+   "structure": "1mzc",
+   "ligand": "B:BNE:1003",
+   "bridging_waters": 1,
+   "predicted": 3,
+   "chance_sites": 3.0,
+   "recovered_1.0": 1,
+   "invented_1.0": 2,
+   "reachable_1.0": 1,
+   "chance_recovered_1.0": 0.08,
+   "chance_invented_1.0": 2.48,
+   "recovered_1.5": 1,
+   "invented_1.5": 1,
+   "reachable_1.5": 1,
+   "chance_recovered_1.5": 0.115,
+   "chance_invented_1.5": 1.775,
+   "recovered_2.0": 1,
+   "invented_2.0": 1,
+   "reachable_2.0": 1,
+   "chance_recovered_2.0": 0.165,
+   "chance_invented_2.0": 1.125,
+   "sites": [
+    {
+     "rank": 1,
+     "partners": 3,
+     "enclosure": 0.667,
+     "nearest_water": 0.58,
+     "water": true,
+     "bridging_water": true
+    },
+    {
+     "rank": 2,
+     "partners": 3,
+     "enclosure": 0.633,
+     "nearest_water": 2.72,
+     "water": false,
+     "bridging_water": false
+    },
+    {
+     "rank": 3,
+     "partners": 2,
+     "enclosure": 0.633,
+     "nearest_water": 1.29,
+     "water": true,
+     "bridging_water": false
+    }
+   ],
+   "attached": false,
+   "complete": true,
+   "buried_fraction": 0.76,
+   "burial_warning": false,
+   "half": "development",
+   "resolution": 2.0
+  },
+  {
+   "structure": "1n1m",
+   "ligand": "A:A3M:954",
+   "bridging_waters": 2,
+   "predicted": 3,
+   "chance_sites": 2.525,
+   "recovered_1.0": 2,
+   "invented_1.0": 1,
+   "reachable_1.0": 2,
+   "chance_recovered_1.0": 1.435,
+   "chance_invented_1.0": 1.09,
+   "recovered_1.5": 2,
+   "invented_1.5": 1,
+   "reachable_1.5": 2,
+   "chance_recovered_1.5": 1.63,
+   "chance_invented_1.5": 0.895,
+   "recovered_2.0": 2,
+   "invented_2.0": 1,
+   "reachable_2.0": 2,
+   "chance_recovered_2.0": 1.84,
+   "chance_invented_2.0": 0.65,
+   "sites": [
+    {
+     "rank": 1,
+     "partners": 3,
+     "enclosure": 0.933,
+     "nearest_water": 2.45,
+     "water": false,
+     "bridging_water": false
+    },
+    {
+     "rank": 2,
+     "partners": 3,
+     "enclosure": 0.733,
+     "nearest_water": 0.48,
+     "water": true,
+     "bridging_water": true
+    },
+    {
+     "rank": 3,
+     "partners": 2,
+     "enclosure": 0.6,
+     "nearest_water": 0.6,
+     "water": true,
+     "bridging_water": true
+    }
+   ],
+   "attached": false,
+   "complete": true,
+   "buried_fraction": 0.871,
+   "burial_warning": false,
+   "half": "held_out",
+   "resolution": 2.5
+  },
+  {
+   "structure": "1n2j",
+   "ligand": "A:PAF:1001",
+   "bridging_waters": 2,
+   "predicted": 6,
+   "chance_sites": 6.0,
+   "recovered_1.0": 0,
+   "invented_1.0": 6,
+   "reachable_1.0": 2,
+   "chance_recovered_1.0": 0.75,
+   "chance_invented_1.0": 5.11,
+   "recovered_1.5": 2,
+   "invented_1.5": 4,
+   "reachable_1.5": 2,
+   "chance_recovered_1.5": 1.465,
+   "chance_invented_1.5": 3.62,
+   "recovered_2.0": 2,
+   "invented_2.0": 3,
+   "reachable_2.0": 2,
+   "chance_recovered_2.0": 1.74,
+   "chance_invented_2.0": 2.5,
+   "sites": [
+    {
+     "rank": 1,
+     "partners": 4,
+     "enclosure": 0.833,
+     "nearest_water": 1.04,
+     "water": true,
+     "bridging_water": true
+    },
+    {
+     "rank": 2,
+     "partners": 4,
+     "enclosure": 0.767,
+     "nearest_water": 1.77,
+     "water": false,
+     "bridging_water": false
+    },
+    {
+     "rank": 3,
+     "partners": 4,
+     "enclosure": 0.667,
+     "nearest_water": 3.45,
+     "water": false,
+     "bridging_water": false
+    },
+    {
+     "rank": 4,
+     "partners": 3,
+     "enclosure": 0.967,
+     "nearest_water": 1.06,
+     "water": true,
+     "bridging_water": true
+    },
+    {
+     "rank": 5,
+     "partners": 3,
+     "enclosure": 0.7,
+     "nearest_water": 3.45,
+     "water": false,
+     "bridging_water": false
+    },
+    {
+     "rank": 6,
+     "partners": 3,
+     "enclosure": 0.733,
+     "nearest_water": 2.53,
+     "water": false,
+     "bridging_water": false
+    }
+   ],
+   "attached": false,
+   "complete": true,
+   "buried_fraction": 0.914,
+   "burial_warning": false,
+   "half": "development",
+   "resolution": 1.8
+  },
+  {
+   "structure": "1n2v",
+   "ligand": "A:BDI:900",
+   "bridging_waters": 5,
+   "predicted": 5,
+   "chance_sites": 4.995,
+   "recovered_1.0": 3,
+   "invented_1.0": 2,
+   "reachable_1.0": 4,
+   "chance_recovered_1.0": 2.225,
+   "chance_invented_1.0": 2.77,
+   "recovered_1.5": 3,
+   "invented_1.5": 2,
+   "reachable_1.5": 4,
+   "chance_recovered_1.5": 2.945,
+   "chance_invented_1.5": 1.83,
+   "recovered_2.0": 4,
+   "invented_2.0": 0,
+   "reachable_2.0": 4,
+   "chance_recovered_2.0": 3.435,
+   "chance_invented_2.0": 0.995,
+   "sites": [
+    {
+     "rank": 1,
+     "partners": 5,
+     "enclosure": 0.9,
+     "nearest_water": 1.76,
+     "water": false,
+     "bridging_water": false
+    },
+    {
+     "rank": 2,
+     "partners": 5,
+     "enclosure": 0.9,
+     "nearest_water": 1.56,
+     "water": false,
+     "bridging_water": false
+    },
+    {
+     "rank": 3,
+     "partners": 3,
+     "enclosure": 0.833,
+     "nearest_water": 0.29,
+     "water": true,
+     "bridging_water": true
+    },
+    {
+     "rank": 4,
+     "partners": 2,
+     "enclosure": 0.867,
+     "nearest_water": 0.57,
+     "water": true,
+     "bridging_water": true
+    },
+    {
+     "rank": 5,
+     "partners": 2,
+     "enclosure": 0.733,
+     "nearest_water": 0.59,
+     "water": true,
+     "bridging_water": true
+    }
+   ],
+   "attached": false,
+   "complete": true,
+   "buried_fraction": 0.825,
+   "burial_warning": false,
+   "half": "held_out",
+   "resolution": 2.1
+  },
+  {
+   "structure": "1n46",
+   "ligand": "A:PFA:462",
+   "bridging_waters": 0,
+   "predicted": 0,
+   "chance_sites": 0.0,
+   "recovered_1.0": 0,
+   "invented_1.0": 0,
+   "reachable_1.0": 0,
+   "chance_recovered_1.0": 0.0,
+   "chance_invented_1.0": 0.0,
+   "recovered_1.5": 0,
+   "invented_1.5": 0,
+   "reachable_1.5": 0,
+   "chance_recovered_1.5": 0.0,
+   "chance_invented_1.5": 0.0,
+   "recovered_2.0": 0,
+   "invented_2.0": 0,
+   "reachable_2.0": 0,
+   "chance_recovered_2.0": 0.0,
+   "chance_invented_2.0": 0.0,
+   "sites": [],
+   "attached": false,
+   "complete": true,
+   "buried_fraction": 1.0,
+   "burial_warning": false,
+   "half": "development",
+   "resolution": 2.2
+  },
+  {
+   "structure": "1nav",
+   "ligand": "A:IH5:600",
+   "bridging_waters": 2,
+   "predicted": 3,
+   "chance_sites": 2.935,
+   "recovered_1.0": 1,
+   "invented_1.0": 2,
+   "reachable_1.0": 2,
+   "chance_recovered_1.0": 0.98,
+   "chance_invented_1.0": 1.955,
+   "recovered_1.5": 2,
+   "invented_1.5": 1,
+   "reachable_1.5": 2,
+   "chance_recovered_1.5": 1.685,
+   "chance_invented_1.5": 1.25,
+   "recovered_2.0": 2,
+   "invented_2.0": 1,
+   "reachable_2.0": 2,
+   "chance_recovered_2.0": 1.85,
+   "chance_invented_2.0": 1.03,
+   "sites": [
+    {
+     "rank": 1,
+     "partners": 3,
+     "enclosure": 0.7,
+     "nearest_water": 0.45,
+     "water": true,
+     "bridging_water": true
+    },
+    {
+     "rank": 2,
+     "partners": 3,
+     "enclosure": 0.9,
+     "nearest_water": 1.07,
+     "water": true,
+     "bridging_water": true
+    },
+    {
+     "rank": 3,
+     "partners": 2,
+     "enclosure": 0.8,
+     "nearest_water": 3.59,
+     "water": false,
+     "bridging_water": false
+    }
+   ],
+   "attached": false,
+   "complete": true,
+   "buried_fraction": 0.985,
+   "burial_warning": false,
+   "half": "held_out",
+   "resolution": 2.5
+  },
+  {
+   "structure": "1of1",
+   "ligand": "A:SCT:400",
+   "bridging_waters": 3,
+   "predicted": 4,
+   "chance_sites": 4.0,
+   "recovered_1.0": 3,
+   "invented_1.0": 1,
+   "reachable_1.0": 3,
+   "chance_recovered_1.0": 2.525,
+   "chance_invented_1.0": 0.775,
+   "recovered_1.5": 3,
+   "invented_1.5": 0,
+   "reachable_1.5": 3,
+   "chance_recovered_1.5": 2.78,
+   "chance_invented_1.5": 0.045,
+   "recovered_2.0": 3,
+   "invented_2.0": 0,
+   "reachable_2.0": 3,
+   "chance_recovered_2.0": 2.875,
+   "chance_invented_2.0": 0.0,
+   "sites": [
+    {
+     "rank": 1,
+     "partners": 6,
+     "enclosure": 0.9,
+     "nearest_water": 0.43,
+     "water": true,
+     "bridging_water": true
+    },
+    {
+     "rank": 2,
+     "partners": 3,
+     "enclosure": 0.933,
+     "nearest_water": 0.61,
+     "water": true,
+     "bridging_water": true
+    },
+    {
+     "rank": 3,
+     "partners": 3,
+     "enclosure": 1.0,
+     "nearest_water": 1.05,
+     "water": true,
+     "bridging_water": false
+    },
+    {
+     "rank": 4,
+     "partners": 3,
+     "enclosure": 0.933,
+     "nearest_water": 0.37,
+     "water": true,
+     "bridging_water": true
+    }
+   ],
+   "attached": false,
+   "complete": true,
+   "buried_fraction": 0.997,
+   "burial_warning": false,
+   "half": "development",
+   "resolution": 1.95
+  },
+  {
+   "structure": "1of6",
+   "ligand": "A:DTY:1370",
+   "bridging_waters": 1,
+   "predicted": 0,
+   "chance_sites": 0.0,
+   "recovered_1.0": 0,
+   "invented_1.0": 0,
+   "reachable_1.0": 0,
+   "chance_recovered_1.0": 0.0,
+   "chance_invented_1.0": 0.0,
+   "recovered_1.5": 0,
+   "invented_1.5": 0,
+   "reachable_1.5": 0,
+   "chance_recovered_1.5": 0.0,
+   "chance_invented_1.5": 0.0,
+   "recovered_2.0": 0,
+   "invented_2.0": 0,
+   "reachable_2.0": 0,
+   "chance_recovered_2.0": 0.0,
+   "chance_invented_2.0": 0.0,
+   "sites": [],
+   "attached": false,
+   "complete": true,
+   "buried_fraction": 0.999,
+   "burial_warning": false,
+   "half": "held_out",
+   "resolution": 2.1
+  },
+  {
+   "structure": "1opk",
+   "ligand": "A:P16:2",
+   "bridging_waters": 1,
+   "predicted": 1,
+   "chance_sites": 1.0,
+   "recovered_1.0": 0,
+   "invented_1.0": 1,
+   "reachable_1.0": 1,
+   "chance_recovered_1.0": 0.02,
+   "chance_invented_1.0": 0.935,
+   "recovered_1.5": 0,
+   "invented_1.5": 1,
+   "reachable_1.5": 1,
+   "chance_recovered_1.5": 0.065,
+   "chance_invented_1.5": 0.8,
+   "recovered_2.0": 0,
+   "invented_2.0": 1,
+   "reachable_2.0": 1,
+   "chance_recovered_2.0": 0.15,
+   "chance_invented_2.0": 0.625,
+   "sites": [
+    {
+     "rank": 1,
+     "partners": 3,
+     "enclosure": 0.767,
+     "nearest_water": 5.98,
+     "water": false,
+     "bridging_water": false
+    }
+   ],
+   "attached": false,
+   "complete": true,
+   "buried_fraction": 0.896,
+   "burial_warning": false,
+   "half": "development",
+   "resolution": 1.8
+  },
+  {
+   "structure": "1oq5",
+   "ligand": "A:CEL:701",
+   "bridging_waters": 0,
+   "predicted": 0,
+   "chance_sites": 0.0,
+   "recovered_1.0": 0,
+   "invented_1.0": 0,
+   "reachable_1.0": 0,
+   "chance_recovered_1.0": 0.0,
+   "chance_invented_1.0": 0.0,
+   "recovered_1.5": 0,
+   "invented_1.5": 0,
+   "reachable_1.5": 0,
+   "chance_recovered_1.5": 0.0,
+   "chance_invented_1.5": 0.0,
+   "recovered_2.0": 0,
+   "invented_2.0": 0,
+   "reachable_2.0": 0,
+   "chance_recovered_2.0": 0.0,
+   "chance_invented_2.0": 0.0,
+   "sites": [],
+   "attached": false,
+   "complete": true,
+   "buried_fraction": 0.788,
+   "burial_warning": false,
+   "half": "held_out",
+   "resolution": 1.5
+  },
+  {
+   "structure": "1owe",
+   "ligand": "A:675:1001",
+   "bridging_waters": 3,
+   "predicted": 3,
+   "chance_sites": 3.0,
+   "recovered_1.0": 3,
+   "invented_1.0": 0,
+   "reachable_1.0": 3,
+   "chance_recovered_1.0": 0.425,
+   "chance_invented_1.0": 2.575,
+   "recovered_1.5": 3,
+   "invented_1.5": 0,
+   "reachable_1.5": 3,
+   "chance_recovered_1.5": 0.67,
+   "chance_invented_1.5": 2.275,
+   "recovered_2.0": 3,
+   "invented_2.0": 0,
+   "reachable_2.0": 3,
+   "chance_recovered_2.0": 0.79,
+   "chance_invented_2.0": 2.09,
+   "sites": [
+    {
+     "rank": 1,
+     "partners": 6,
+     "enclosure": 0.9,
+     "nearest_water": 0.34,
+     "water": true,
+     "bridging_water": true
+    },
+    {
+     "rank": 2,
+     "partners": 4,
+     "enclosure": 0.933,
+     "nearest_water": 0.24,
+     "water": true,
+     "bridging_water": true
+    },
+    {
+     "rank": 3,
+     "partners": 2,
+     "enclosure": 0.8,
+     "nearest_water": 0.46,
+     "water": true,
+     "bridging_water": true
+    }
+   ],
+   "attached": false,
+   "complete": true,
+   "buried_fraction": 0.757,
+   "burial_warning": false,
+   "half": "development",
+   "resolution": 1.6
+  },
+  {
+   "structure": "1oyt",
+   "ligand": "H:FSN:501",
+   "bridging_waters": 1,
+   "predicted": 2,
+   "chance_sites": 2.0,
+   "recovered_1.0": 1,
+   "invented_1.0": 1,
+   "reachable_1.0": 1,
+   "chance_recovered_1.0": 0.24,
+   "chance_invented_1.0": 1.155,
+   "recovered_1.5": 1,
+   "invented_1.5": 1,
+   "reachable_1.5": 1,
+   "chance_recovered_1.5": 0.24,
+   "chance_invented_1.5": 0.465,
+   "recovered_2.0": 1,
+   "invented_2.0": 0,
+   "reachable_2.0": 1,
+   "chance_recovered_2.0": 0.24,
+   "chance_invented_2.0": 0.115,
+   "sites": [
+    {
+     "rank": 1,
+     "partners": 5,
+     "enclosure": 0.933,
+     "nearest_water": 1.84,
+     "water": false,
+     "bridging_water": false
+    },
+    {
+     "rank": 2,
+     "partners": 4,
+     "enclosure": 0.9,
+     "nearest_water": 0.56,
+     "water": true,
+     "bridging_water": true
+    }
+   ],
+   "attached": false,
+   "complete": true,
+   "buried_fraction": 0.868,
+   "burial_warning": false,
+   "half": "held_out",
+   "resolution": 1.67
+  },
+  {
+   "structure": "1p2y",
+   "ligand": "A:NCT:440",
+   "bridging_waters": 1,
+   "predicted": 1,
+   "chance_sites": 1.0,
+   "recovered_1.0": 1,
+   "invented_1.0": 0,
+   "reachable_1.0": 1,
+   "chance_recovered_1.0": 0.6,
+   "chance_invented_1.0": 0.4,
+   "recovered_1.5": 1,
+   "invented_1.5": 0,
+   "reachable_1.5": 1,
+   "chance_recovered_1.5": 0.82,
+   "chance_invented_1.5": 0.09,
+   "recovered_2.0": 1,
+   "invented_2.0": 0,
+   "reachable_2.0": 1,
+   "chance_recovered_2.0": 0.95,
+   "chance_invented_2.0": 0.0,
+   "sites": [
+    {
+     "rank": 1,
+     "partners": 2,
+     "enclosure": 0.933,
+     "nearest_water": 0.2,
+     "water": true,
+     "bridging_water": true
+    }
+   ],
+   "attached": false,
+   "complete": true,
+   "buried_fraction": 0.98,
+   "burial_warning": false,
+   "half": "development",
+   "resolution": 2.3
+  },
+  {
+   "structure": "1p62",
+   "ligand": "B:GEO:302",
+   "bridging_waters": 2,
+   "predicted": 5,
+   "chance_sites": 5.0,
+   "recovered_1.0": 2,
+   "invented_1.0": 2,
+   "reachable_1.0": 2,
+   "chance_recovered_1.0": 0.76,
+   "chance_invented_1.0": 4.07,
+   "recovered_1.5": 2,
+   "invented_1.5": 2,
+   "reachable_1.5": 2,
+   "chance_recovered_1.5": 1.075,
+   "chance_invented_1.5": 2.97,
+   "recovered_2.0": 2,
+   "invented_2.0": 1,
+   "reachable_2.0": 2,
+   "chance_recovered_2.0": 1.29,
+   "chance_invented_2.0": 2.125,
+   "sites": [
+    {
+     "rank": 1,
+     "partners": 4,
+     "enclosure": 0.967,
+     "nearest_water": 1.84,
+     "water": false,
+     "bridging_water": false
+    },
+    {
+     "rank": 2,
+     "partners": 4,
+     "enclosure": 0.867,
+     "nearest_water": 0.49,
+     "water": true,
+     "bridging_water": true
+    },
+    {
+     "rank": 3,
+     "partners": 3,
+     "enclosure": 0.867,
+     "nearest_water": 0.73,
+     "water": true,
+     "bridging_water": true
+    },
+    {
+     "rank": 4,
+     "partners": 3,
+     "enclosure": 0.933,
+     "nearest_water": 2.28,
+     "water": false,
+     "bridging_water": false
+    },
+    {
+     "rank": 5,
+     "partners": 3,
+     "enclosure": 0.733,
+     "nearest_water": 0.61,
+     "water": true,
+     "bridging_water": false
+    }
+   ],
+   "attached": false,
+   "complete": true,
+   "buried_fraction": 0.983,
+   "burial_warning": false,
+   "half": "held_out",
+   "resolution": 1.9
+  },
+  {
+   "structure": "1pmn",
+   "ligand": "A:984:501",
+   "bridging_waters": 1,
+   "predicted": 2,
+   "chance_sites": 2.0,
+   "recovered_1.0": 0,
+   "invented_1.0": 2,
+   "reachable_1.0": 1,
+   "chance_recovered_1.0": 0.25,
+   "chance_invented_1.0": 1.75,
+   "recovered_1.5": 1,
+   "invented_1.5": 1,
+   "reachable_1.5": 1,
+   "chance_recovered_1.5": 0.395,
+   "chance_invented_1.5": 1.525,
+   "recovered_2.0": 1,
+   "invented_2.0": 1,
+   "reachable_2.0": 1,
+   "chance_recovered_2.0": 0.575,
+   "chance_invented_2.0": 1.335,
+   "sites": [
+    {
+     "rank": 1,
+     "partners": 2,
+     "enclosure": 0.667,
+     "nearest_water": 3.11,
+     "water": false,
+     "bridging_water": false
+    },
+    {
+     "rank": 2,
+     "partners": 2,
+     "enclosure": 0.7,
+     "nearest_water": 1.21,
+     "water": true,
+     "bridging_water": true
+    }
+   ],
+   "attached": false,
+   "complete": true,
+   "buried_fraction": 0.832,
+   "burial_warning": false,
+   "half": "development",
+   "resolution": 2.2
+  },
+  {
+   "structure": "1q1g",
+   "ligand": "A:MTI:301",
+   "bridging_waters": 2,
+   "predicted": 4,
+   "chance_sites": 4.0,
+   "recovered_1.0": 0,
+   "invented_1.0": 4,
+   "reachable_1.0": 2,
+   "chance_recovered_1.0": 0.715,
+   "chance_invented_1.0": 2.81,
+   "recovered_1.5": 0,
+   "invented_1.5": 4,
+   "reachable_1.5": 2,
+   "chance_recovered_1.5": 1.12,
+   "chance_invented_1.5": 2.12,
+   "recovered_2.0": 1,
+   "invented_2.0": 2,
+   "reachable_2.0": 2,
+   "chance_recovered_2.0": 1.48,
+   "chance_invented_2.0": 1.44,
+   "sites": [
+    {
+     "rank": 1,
+     "partners": 4,
+     "enclosure": 0.867,
+     "nearest_water": 4.98,
+     "water": false,
+     "bridging_water": false
+    },
+    {
+     "rank": 2,
+     "partners": 4,
+     "enclosure": 0.967,
+     "nearest_water": 4.05,
+     "water": false,
+     "bridging_water": false
+    },
+    {
+     "rank": 3,
+     "partners": 4,
+     "enclosure": 0.967,
+     "nearest_water": 1.81,
+     "water": false,
+     "bridging_water": false
+    },
+    {
+     "rank": 4,
+     "partners": 3,
+     "enclosure": 0.867,
+     "nearest_water": 1.94,
+     "water": false,
+     "bridging_water": false
+    }
+   ],
+   "attached": false,
+   "complete": true,
+   "buried_fraction": 0.98,
+   "burial_warning": false,
+   "half": "held_out",
+   "resolution": 2.02
+  },
+  {
+   "structure": "1q41",
+   "ligand": "A:IXM:451",
+   "bridging_waters": 1,
+   "predicted": 4,
+   "chance_sites": 3.98,
+   "recovered_1.0": 1,
+   "invented_1.0": 3,
+   "reachable_1.0": 1,
+   "chance_recovered_1.0": 0.345,
+   "chance_invented_1.0": 3.635,
+   "recovered_1.5": 1,
+   "invented_1.5": 3,
+   "reachable_1.5": 1,
+   "chance_recovered_1.5": 0.685,
+   "chance_invented_1.5": 3.295,
+   "recovered_2.0": 1,
+   "invented_2.0": 3,
+   "reachable_2.0": 1,
+   "chance_recovered_2.0": 0.825,
+   "chance_invented_2.0": 3.13,
+   "sites": [
+    {
+     "rank": 1,
+     "partners": 3,
+     "enclosure": 0.633,
+     "nearest_water": 4.27,
+     "water": false,
+     "bridging_water": false
+    },
+    {
+     "rank": 2,
+     "partners": 2,
+     "enclosure": 0.633,
+     "nearest_water": 3.28,
+     "water": false,
+     "bridging_water": false
+    },
+    {
+     "rank": 3,
+     "partners": 2,
+     "enclosure": 0.6,
+     "nearest_water": 0.46,
+     "water": true,
+     "bridging_water": true
+    },
+    {
+     "rank": 4,
+     "partners": 2,
+     "enclosure": 0.8,
+     "nearest_water": 2.44,
+     "water": false,
+     "bridging_water": false
+    }
+   ],
+   "attached": false,
+   "complete": true,
+   "buried_fraction": 0.884,
+   "burial_warning": false,
+   "half": "development",
+   "resolution": 2.1
+  },
+  {
+   "structure": "1q4g",
+   "ligand": "A:BFL:701",
+   "bridging_waters": 0,
+   "predicted": 1,
+   "chance_sites": 1.0,
+   "recovered_1.0": 0,
+   "invented_1.0": 1,
+   "reachable_1.0": 0,
+   "chance_recovered_1.0": 0.0,
+   "chance_invented_1.0": 1.0,
+   "recovered_1.5": 0,
+   "invented_1.5": 1,
+   "reachable_1.5": 0,
+   "chance_recovered_1.5": 0.0,
+   "chance_invented_1.5": 1.0,
+   "recovered_2.0": 0,
+   "invented_2.0": 1,
+   "reachable_2.0": 0,
+   "chance_recovered_2.0": 0.0,
+   "chance_invented_2.0": 1.0,
+   "sites": [
+    {
+     "rank": 1,
+     "partners": 4,
+     "enclosure": 0.833,
+     "nearest_water": 3.6,
+     "water": false,
+     "bridging_water": false
+    }
+   ],
+   "attached": false,
+   "complete": true,
+   "buried_fraction": 0.993,
+   "burial_warning": false,
+   "half": "held_out",
+   "resolution": 2.0
+  },
+  {
+   "structure": "1r1h",
+   "ligand": "A:BIR:2001",
+   "bridging_waters": 5,
+   "predicted": 4,
+   "chance_sites": 4.0,
+   "recovered_1.0": 3,
+   "invented_1.0": 1,
+   "reachable_1.0": 5,
+   "chance_recovered_1.0": 0.965,
+   "chance_invented_1.0": 2.33,
+   "recovered_1.5": 3,
+   "invented_1.5": 1,
+   "reachable_1.5": 5,
+   "chance_recovered_1.5": 1.495,
+   "chance_invented_1.5": 1.025,
+   "recovered_2.0": 4,
+   "invented_2.0": 0,
+   "reachable_2.0": 5,
+   "chance_recovered_2.0": 1.935,
+   "chance_invented_2.0": 0.34,
+   "sites": [
+    {
+     "rank": 1,
+     "partners": 4,
+     "enclosure": 0.733,
+     "nearest_water": 0.54,
+     "water": true,
+     "bridging_water": true
+    },
+    {
+     "rank": 2,
+     "partners": 4,
+     "enclosure": 0.6,
+     "nearest_water": 0.74,
+     "water": true,
+     "bridging_water": true
+    },
+    {
+     "rank": 3,
+     "partners": 3,
+     "enclosure": 0.733,
+     "nearest_water": 0.7,
+     "water": true,
+     "bridging_water": true
+    },
+    {
+     "rank": 4,
+     "partners": 2,
+     "enclosure": 0.6,
+     "nearest_water": 1.54,
+     "water": false,
+     "bridging_water": false
+    }
+   ],
+   "attached": false,
+   "complete": true,
+   "buried_fraction": 0.884,
+   "burial_warning": false,
+   "half": "development",
+   "resolution": 1.95
+  },
+  {
+   "structure": "1r55",
+   "ligand": "A:097:518",
+   "bridging_waters": 4,
+   "predicted": 4,
+   "chance_sites": 4.0,
+   "recovered_1.0": 3,
+   "invented_1.0": 1,
+   "reachable_1.0": 3,
+   "chance_recovered_1.0": 0.685,
+   "chance_invented_1.0": 2.955,
+   "recovered_1.5": 3,
+   "invented_1.5": 0,
+   "reachable_1.5": 4,
+   "chance_recovered_1.5": 1.315,
+   "chance_invented_1.5": 2.03,
+   "recovered_2.0": 3,
+   "invented_2.0": 0,
+   "reachable_2.0": 4,
+   "chance_recovered_2.0": 2.14,
+   "chance_invented_2.0": 1.05,
+   "sites": [
+    {
+     "rank": 1,
+     "partners": 4,
+     "enclosure": 0.7,
+     "nearest_water": 0.81,
+     "water": true,
+     "bridging_water": true
+    },
+    {
+     "rank": 2,
+     "partners": 3,
+     "enclosure": 0.667,
+     "nearest_water": 0.81,
+     "water": true,
+     "bridging_water": true
+    },
+    {
+     "rank": 3,
+     "partners": 2,
+     "enclosure": 0.6,
+     "nearest_water": 1.46,
+     "water": true,
+     "bridging_water": false
+    },
+    {
+     "rank": 4,
+     "partners": 2,
+     "enclosure": 0.6,
+     "nearest_water": 0.97,
+     "water": true,
+     "bridging_water": true
+    }
+   ],
+   "attached": false,
+   "complete": true,
+   "buried_fraction": 0.746,
+   "burial_warning": false,
+   "half": "held_out",
+   "resolution": 1.58
+  },
+  {
+   "structure": "1r58",
+   "ligand": "A:AO5:501",
+   "bridging_waters": 2,
+   "predicted": 5,
+   "chance_sites": 4.98,
+   "recovered_1.0": 2,
+   "invented_1.0": 2,
+   "reachable_1.0": 2,
+   "chance_recovered_1.0": 0.56,
+   "chance_invented_1.0": 4.155,
+   "recovered_1.5": 2,
+   "invented_1.5": 1,
+   "reachable_1.5": 2,
+   "chance_recovered_1.5": 1.13,
+   "chance_invented_1.5": 2.6,
+   "recovered_2.0": 2,
+   "invented_2.0": 1,
+   "reachable_2.0": 2,
+   "chance_recovered_2.0": 1.48,
+   "chance_invented_2.0": 1.68,
+   "sites": [
+    {
+     "rank": 1,
+     "partners": 4,
+     "enclosure": 0.767,
+     "nearest_water": 0.73,
+     "water": true,
+     "bridging_water": true
+    },
+    {
+     "rank": 2,
+     "partners": 3,
+     "enclosure": 0.867,
+     "nearest_water": 0.79,
+     "water": true,
+     "bridging_water": false
+    },
+    {
+     "rank": 3,
+     "partners": 3,
+     "enclosure": 0.9,
+     "nearest_water": 0.27,
+     "water": true,
+     "bridging_water": true
+    },
+    {
+     "rank": 4,
+     "partners": 2,
+     "enclosure": 0.767,
+     "nearest_water": 2.68,
+     "water": false,
+     "bridging_water": false
+    },
+    {
+     "rank": 5,
+     "partners": 2,
+     "enclosure": 0.933,
+     "nearest_water": 1.32,
+     "water": true,
+     "bridging_water": false
+    }
+   ],
+   "attached": false,
+   "complete": true,
+   "buried_fraction": 0.777,
+   "burial_warning": false,
+   "half": "development",
+   "resolution": 1.9
+  },
+  {
+   "structure": "1r9o",
+   "ligand": "A:FLP:501",
+   "bridging_waters": 0,
+   "predicted": 0,
+   "chance_sites": 0.0,
+   "recovered_1.0": 0,
+   "invented_1.0": 0,
+   "reachable_1.0": 0,
+   "chance_recovered_1.0": 0.0,
+   "chance_invented_1.0": 0.0,
+   "recovered_1.5": 0,
+   "invented_1.5": 0,
+   "reachable_1.5": 0,
+   "chance_recovered_1.5": 0.0,
+   "chance_invented_1.5": 0.0,
+   "recovered_2.0": 0,
+   "invented_2.0": 0,
+   "reachable_2.0": 0,
+   "chance_recovered_2.0": 0.0,
+   "chance_invented_2.0": 0.0,
+   "sites": [],
+   "attached": false,
+   "complete": true,
+   "buried_fraction": 0.958,
+   "burial_warning": false,
+   "half": "held_out",
+   "resolution": 2.0
+  },
+  {
+   "structure": "1s19",
+   "ligand": "A:MC9:500",
+   "bridging_waters": 0,
+   "predicted": 1,
+   "chance_sites": 1.0,
+   "recovered_1.0": 0,
+   "invented_1.0": 1,
+   "reachable_1.0": 0,
+   "chance_recovered_1.0": 0.0,
+   "chance_invented_1.0": 1.0,
+   "recovered_1.5": 0,
+   "invented_1.5": 1,
+   "reachable_1.5": 0,
+   "chance_recovered_1.5": 0.0,
+   "chance_invented_1.5": 1.0,
+   "recovered_2.0": 0,
+   "invented_2.0": 1,
+   "reachable_2.0": 0,
+   "chance_recovered_2.0": 0.0,
+   "chance_invented_2.0": 1.0,
+   "sites": [
+    {
+     "rank": 1,
+     "partners": 2,
+     "enclosure": 0.9,
+     "nearest_water": 2.88,
+     "water": false,
+     "bridging_water": false
+    }
+   ],
+   "attached": false,
+   "complete": true,
+   "buried_fraction": 0.987,
+   "burial_warning": false,
+   "half": "development",
+   "resolution": 2.1
+  },
+  {
+   "structure": "1s3v",
+   "ligand": "A:TQD:187",
+   "bridging_waters": 1,
+   "predicted": 3,
+   "chance_sites": 3.0,
+   "recovered_1.0": 1,
+   "invented_1.0": 1,
+   "reachable_1.0": 1,
+   "chance_recovered_1.0": 0.085,
+   "chance_invented_1.0": 2.265,
+   "recovered_1.5": 1,
+   "invented_1.5": 0,
+   "reachable_1.5": 1,
+   "chance_recovered_1.5": 0.085,
+   "chance_invented_1.5": 1.09,
+   "recovered_2.0": 1,
+   "invented_2.0": 0,
+   "reachable_2.0": 1,
+   "chance_recovered_2.0": 0.085,
+   "chance_invented_2.0": 0.575,
+   "sites": [
+    {
+     "rank": 1,
+     "partners": 4,
+     "enclosure": 0.933,
+     "nearest_water": 0.62,
+     "water": true,
+     "bridging_water": true
+    },
+    {
+     "rank": 2,
+     "partners": 3,
+     "enclosure": 0.667,
+     "nearest_water": 1.37,
+     "water": true,
+     "bridging_water": false
+    },
+    {
+     "rank": 3,
+     "partners": 3,
+     "enclosure": 0.733,
+     "nearest_water": 0.84,
+     "water": true,
+     "bridging_water": false
+    }
+   ],
+   "attached": false,
+   "complete": true,
+   "buried_fraction": 0.87,
+   "burial_warning": false,
+   "half": "held_out",
+   "resolution": 1.8
+  },
+  {
+   "structure": "1sg0",
+   "ligand": "A:STL:501",
+   "bridging_waters": 3,
+   "predicted": 4,
+   "chance_sites": 4.0,
+   "recovered_1.0": 2,
+   "invented_1.0": 1,
+   "reachable_1.0": 3,
+   "chance_recovered_1.0": 1.325,
+   "chance_invented_1.0": 2.025,
+   "recovered_1.5": 2,
+   "invented_1.5": 1,
+   "reachable_1.5": 3,
+   "chance_recovered_1.5": 1.595,
+   "chance_invented_1.5": 0.775,
+   "recovered_2.0": 2,
+   "invented_2.0": 1,
+   "reachable_2.0": 3,
+   "chance_recovered_2.0": 1.745,
+   "chance_invented_2.0": 0.31,
+   "sites": [
+    {
+     "rank": 1,
+     "partners": 4,
+     "enclosure": 0.9,
+     "nearest_water": 0.7,
+     "water": true,
+     "bridging_water": true
+    },
+    {
+     "rank": 2,
+     "partners": 3,
+     "enclosure": 0.733,
+     "nearest_water": 0.27,
+     "water": true,
+     "bridging_water": true
+    },
+    {
+     "rank": 3,
+     "partners": 3,
+     "enclosure": 0.733,
+     "nearest_water": 2.01,
+     "water": false,
+     "bridging_water": false
+    },
+    {
+     "rank": 4,
+     "partners": 2,
+     "enclosure": 0.9,
+     "nearest_water": 0.98,
+     "water": true,
+     "bridging_water": false
+    }
+   ],
+   "attached": false,
+   "complete": true,
+   "buried_fraction": 0.901,
+   "burial_warning": false,
+   "half": "development",
+   "resolution": 1.5
+  },
+  {
+   "structure": "1sj0",
+   "ligand": "A:E4D:600",
+   "bridging_waters": 1,
+   "predicted": 1,
+   "chance_sites": 1.0,
+   "recovered_1.0": 1,
+   "invented_1.0": 0,
+   "reachable_1.0": 1,
+   "chance_recovered_1.0": 0.435,
+   "chance_invented_1.0": 0.565,
+   "recovered_1.5": 1,
+   "invented_1.5": 0,
+   "reachable_1.5": 1,
+   "chance_recovered_1.5": 0.435,
+   "chance_invented_1.5": 0.565,
+   "recovered_2.0": 1,
+   "invented_2.0": 0,
+   "reachable_2.0": 1,
+   "chance_recovered_2.0": 0.435,
+   "chance_invented_2.0": 0.565,
+   "sites": [
+    {
+     "rank": 1,
+     "partners": 5,
+     "enclosure": 0.8,
+     "nearest_water": 0.34,
+     "water": true,
+     "bridging_water": true
+    }
+   ],
+   "attached": false,
+   "complete": true,
+   "buried_fraction": 0.926,
+   "burial_warning": false,
+   "half": "held_out",
+   "resolution": 1.9
+  },
+  {
+   "structure": "1sq5",
+   "ligand": "A:PAU:6001",
+   "bridging_waters": 5,
+   "predicted": 6,
+   "chance_sites": 6.0,
+   "recovered_1.0": 2,
+   "invented_1.0": 3,
+   "reachable_1.0": 4,
+   "chance_recovered_1.0": 1.075,
+   "chance_invented_1.0": 4.56,
+   "recovered_1.5": 3,
+   "invented_1.5": 1,
+   "reachable_1.5": 5,
+   "chance_recovered_1.5": 1.91,
+   "chance_invented_1.5": 3.045,
+   "recovered_2.0": 3,
+   "invented_2.0": 1,
+   "reachable_2.0": 5,
+   "chance_recovered_2.0": 2.6,
+   "chance_invented_2.0": 1.69,
+   "sites": [
+    {
+     "rank": 1,
+     "partners": 5,
+     "enclosure": 0.8,
+     "nearest_water": 0.66,
+     "water": true,
+     "bridging_water": true
+    },
+    {
+     "rank": 2,
+     "partners": 4,
+     "enclosure": 0.8,
+     "nearest_water": 0.84,
+     "water": true,
+     "bridging_water": true
+    },
+    {
+     "rank": 3,
+     "partners": 3,
+     "enclosure": 0.867,
+     "nearest_water": 0.94,
+     "water": true,
+     "bridging_water": false
+    },
+    {
+     "rank": 4,
+     "partners": 3,
+     "enclosure": 0.7,
+     "nearest_water": 3.06,
+     "water": false,
+     "bridging_water": false
+    },
+    {
+     "rank": 5,
+     "partners": 3,
+     "enclosure": 0.7,
+     "nearest_water": 1.15,
+     "water": true,
+     "bridging_water": true
+    },
+    {
+     "rank": 6,
+     "partners": 3,
+     "enclosure": 0.767,
+     "nearest_water": 1.08,
+     "water": true,
+     "bridging_water": false
+    }
+   ],
+   "attached": false,
+   "complete": true,
+   "buried_fraction": 0.904,
+   "burial_warning": false,
+   "half": "development",
+   "resolution": 2.2
+  },
+  {
+   "structure": "1sqn",
+   "ligand": "A:NDR:1001",
+   "bridging_waters": 2,
+   "predicted": 2,
+   "chance_sites": 2.0,
+   "recovered_1.0": 2,
+   "invented_1.0": 0,
+   "reachable_1.0": 2,
+   "chance_recovered_1.0": 2.0,
+   "chance_invented_1.0": 0.0,
+   "recovered_1.5": 2,
+   "invented_1.5": 0,
+   "reachable_1.5": 2,
+   "chance_recovered_1.5": 2.0,
+   "chance_invented_1.5": 0.0,
+   "recovered_2.0": 2,
+   "invented_2.0": 0,
+   "reachable_2.0": 2,
+   "chance_recovered_2.0": 2.0,
+   "chance_invented_2.0": 0.0,
+   "sites": [
+    {
+     "rank": 1,
+     "partners": 6,
+     "enclosure": 0.767,
+     "nearest_water": 0.47,
+     "water": true,
+     "bridging_water": true
+    },
+    {
+     "rank": 2,
+     "partners": 3,
+     "enclosure": 0.833,
+     "nearest_water": 0.43,
+     "water": true,
+     "bridging_water": true
+    }
+   ],
+   "attached": false,
+   "complete": true,
+   "buried_fraction": 0.991,
+   "burial_warning": false,
+   "half": "held_out",
+   "resolution": 1.451
+  },
+  {
+   "structure": "1t40",
+   "ligand": "A:ID5:320",
+   "bridging_waters": 0,
+   "predicted": 0,
+   "chance_sites": 0.0,
+   "recovered_1.0": 0,
+   "invented_1.0": 0,
+   "reachable_1.0": 0,
+   "chance_recovered_1.0": 0.0,
+   "chance_invented_1.0": 0.0,
+   "recovered_1.5": 0,
+   "invented_1.5": 0,
+   "reachable_1.5": 0,
+   "chance_recovered_1.5": 0.0,
+   "chance_invented_1.5": 0.0,
+   "recovered_2.0": 0,
+   "invented_2.0": 0,
+   "reachable_2.0": 0,
+   "chance_recovered_2.0": 0.0,
+   "chance_invented_2.0": 0.0,
+   "sites": [],
+   "attached": false,
+   "complete": true,
+   "buried_fraction": 0.924,
+   "burial_warning": false,
+   "half": "development",
+   "resolution": 1.8
+  },
+  {
+   "structure": "1t46",
+   "ligand": "A:STI:3",
+   "bridging_waters": 1,
+   "predicted": 0,
+   "chance_sites": 0.0,
+   "recovered_1.0": 0,
+   "invented_1.0": 0,
+   "reachable_1.0": 0,
+   "chance_recovered_1.0": 0.0,
+   "chance_invented_1.0": 0.0,
+   "recovered_1.5": 0,
+   "invented_1.5": 0,
+   "reachable_1.5": 0,
+   "chance_recovered_1.5": 0.0,
+   "chance_invented_1.5": 0.0,
+   "recovered_2.0": 0,
+   "invented_2.0": 0,
+   "reachable_2.0": 0,
+   "chance_recovered_2.0": 0.0,
+   "chance_invented_2.0": 0.0,
+   "sites": [],
+   "attached": false,
+   "complete": true,
+   "buried_fraction": 0.911,
+   "burial_warning": false,
+   "half": "held_out",
+   "resolution": 1.6
+  },
+  {
+   "structure": "1t9b",
+   "ligand": "A:1CS:695",
+   "bridging_waters": 4,
+   "predicted": 3,
+   "chance_sites": 3.0,
+   "recovered_1.0": 0,
+   "invented_1.0": 3,
+   "reachable_1.0": 3,
+   "chance_recovered_1.0": 0.54,
+   "chance_invented_1.0": 2.09,
+   "recovered_1.5": 2,
+   "invented_1.5": 1,
+   "reachable_1.5": 3,
+   "chance_recovered_1.5": 0.93,
+   "chance_invented_1.5": 1.235,
+   "recovered_2.0": 2,
+   "invented_2.0": 1,
+   "reachable_2.0": 3,
+   "chance_recovered_2.0": 1.245,
+   "chance_invented_2.0": 0.645,
+   "sites": [
+    {
+     "rank": 1,
+     "partners": 4,
+     "enclosure": 0.8,
+     "nearest_water": 1.35,
+     "water": true,
+     "bridging_water": true
+    },
+    {
+     "rank": 2,
+     "partners": 3,
+     "enclosure": 0.6,
+     "nearest_water": 1.3,
+     "water": true,
+     "bridging_water": true
+    },
+    {
+     "rank": 3,
+     "partners": 2,
+     "enclosure": 0.633,
+     "nearest_water": 2.35,
+     "water": false,
+     "bridging_water": false
+    }
+   ],
+   "attached": false,
+   "complete": true,
+   "buried_fraction": 0.886,
+   "burial_warning": false,
+   "half": "development",
+   "resolution": 2.2
+  },
+  {
+   "structure": "1tow",
+   "ligand": "A:CRZ:501",
+   "bridging_waters": 1,
+   "predicted": 2,
+   "chance_sites": 2.0,
+   "recovered_1.0": 1,
+   "invented_1.0": 0,
+   "reachable_1.0": 1,
+   "chance_recovered_1.0": 0.03,
+   "chance_invented_1.0": 1.14,
+   "recovered_1.5": 1,
+   "invented_1.5": 0,
+   "reachable_1.5": 1,
+   "chance_recovered_1.5": 0.04,
+   "chance_invented_1.5": 0.36,
+   "recovered_2.0": 1,
+   "invented_2.0": 0,
+   "reachable_2.0": 1,
+   "chance_recovered_2.0": 0.16,
+   "chance_invented_2.0": 0.015,
+   "sites": [
+    {
+     "rank": 1,
+     "partners": 3,
+     "enclosure": 0.8,
+     "nearest_water": 0.92,
+     "water": true,
+     "bridging_water": true
+    },
+    {
+     "rank": 2,
+     "partners": 3,
+     "enclosure": 0.867,
+     "nearest_water": 0.92,
+     "water": true,
+     "bridging_water": false
+    }
+   ],
+   "attached": false,
+   "complete": true,
+   "buried_fraction": 0.911,
+   "burial_warning": false,
+   "half": "held_out",
+   "resolution": 2.0
+  },
+  {
+   "structure": "1tt1",
+   "ligand": "A:KAI:998",
+   "bridging_waters": 3,
+   "predicted": 3,
+   "chance_sites": 3.0,
+   "recovered_1.0": 3,
+   "invented_1.0": 0,
+   "reachable_1.0": 3,
+   "chance_recovered_1.0": 1.845,
+   "chance_invented_1.0": 1.155,
+   "recovered_1.5": 3,
+   "invented_1.5": 0,
+   "reachable_1.5": 3,
+   "chance_recovered_1.5": 1.965,
+   "chance_invented_1.5": 1.035,
+   "recovered_2.0": 3,
+   "invented_2.0": 0,
+   "reachable_2.0": 3,
+   "chance_recovered_2.0": 2.21,
+   "chance_invented_2.0": 0.385,
+   "sites": [
+    {
+     "rank": 1,
+     "partners": 4,
+     "enclosure": 0.9,
+     "nearest_water": 0.34,
+     "water": true,
+     "bridging_water": true
+    },
+    {
+     "rank": 2,
+     "partners": 3,
+     "enclosure": 0.867,
+     "nearest_water": 0.42,
+     "water": true,
+     "bridging_water": true
+    },
+    {
+     "rank": 3,
+     "partners": 3,
+     "enclosure": 0.9,
+     "nearest_water": 0.16,
+     "water": true,
+     "bridging_water": true
+    }
+   ],
+   "attached": false,
+   "complete": true,
+   "buried_fraction": 0.954,
+   "burial_warning": false,
+   "half": "development",
+   "resolution": 1.93
+  },
+  {
+   "structure": "1tz8",
+   "ligand": "B:DES:128",
+   "bridging_waters": 2,
+   "predicted": 3,
+   "chance_sites": 3.0,
+   "recovered_1.0": 0,
+   "invented_1.0": 3,
+   "reachable_1.0": 2,
+   "chance_recovered_1.0": 0.5,
+   "chance_invented_1.0": 2.5,
+   "recovered_1.5": 0,
+   "invented_1.5": 3,
+   "reachable_1.5": 2,
+   "chance_recovered_1.5": 0.865,
+   "chance_invented_1.5": 2.135,
+   "recovered_2.0": 1,
+   "invented_2.0": 2,
+   "reachable_2.0": 2,
+   "chance_recovered_2.0": 1.13,
+   "chance_invented_2.0": 1.825,
+   "sites": [
+    {
+     "rank": 1,
+     "partners": 3,
+     "enclosure": 0.633,
+     "nearest_water": 4.6,
+     "water": false,
+     "bridging_water": false
+    },
+    {
+     "rank": 2,
+     "partners": 2,
+     "enclosure": 0.633,
+     "nearest_water": 1.85,
+     "water": false,
+     "bridging_water": false
+    },
+    {
+     "rank": 3,
+     "partners": 2,
+     "enclosure": 0.633,
+     "nearest_water": 2.01,
+     "water": false,
+     "bridging_water": false
+    }
+   ],
+   "attached": false,
+   "complete": true,
+   "buried_fraction": 0.944,
+   "burial_warning": false,
+   "half": "held_out",
+   "resolution": 1.85
+  },
+  {
+   "structure": "1u1c",
+   "ligand": "A:BAU:5400",
+   "bridging_waters": 3,
+   "predicted": 3,
+   "chance_sites": 2.585,
+   "recovered_1.0": 2,
+   "invented_1.0": 1,
+   "reachable_1.0": 2,
+   "chance_recovered_1.0": 1.035,
+   "chance_invented_1.0": 1.475,
+   "recovered_1.5": 2,
+   "invented_1.5": 1,
+   "reachable_1.5": 2,
+   "chance_recovered_1.5": 1.595,
+   "chance_invented_1.5": 0.755,
+   "recovered_2.0": 2,
+   "invented_2.0": 0,
+   "reachable_2.0": 2,
+   "chance_recovered_2.0": 1.695,
+   "chance_invented_2.0": 0.285,
+   "sites": [
+    {
+     "rank": 1,
+     "partners": 4,
+     "enclosure": 0.833,
+     "nearest_water": 0.22,
+     "water": true,
+     "bridging_water": true
+    },
+    {
+     "rank": 2,
+     "partners": 3,
+     "enclosure": 0.733,
+     "nearest_water": 1.57,
+     "water": false,
+     "bridging_water": false
+    },
+    {
+     "rank": 3,
+     "partners": 2,
+     "enclosure": 0.8,
+     "nearest_water": 0.58,
+     "water": true,
+     "bridging_water": true
+    }
+   ],
+   "attached": false,
+   "complete": true,
+   "buried_fraction": 0.959,
+   "burial_warning": false,
+   "half": "development",
+   "resolution": 2.2
+  },
+  {
+   "structure": "1u4d",
+   "ligand": "A:DBQ:398",
+   "bridging_waters": 3,
+   "predicted": 6,
+   "chance_sites": 5.945,
+   "recovered_1.0": 2,
+   "invented_1.0": 3,
+   "reachable_1.0": 3,
+   "chance_recovered_1.0": 1.0,
+   "chance_invented_1.0": 4.7,
+   "recovered_1.5": 2,
+   "invented_1.5": 2,
+   "reachable_1.5": 3,
+   "chance_recovered_1.5": 2.23,
+   "chance_invented_1.5": 2.975,
+   "recovered_2.0": 2,
+   "invented_2.0": 2,
+   "reachable_2.0": 3,
+   "chance_recovered_2.0": 2.835,
+   "chance_invented_2.0": 1.745,
+   "sites": [
+    {
+     "rank": 1,
+     "partners": 4,
+     "enclosure": 0.633,
+     "nearest_water": 1.28,
+     "water": true,
+     "bridging_water": false
+    },
+    {
+     "rank": 2,
+     "partners": 4,
+     "enclosure": 0.867,
+     "nearest_water": 0.8,
+     "water": true,
+     "bridging_water": false
+    },
+    {
+     "rank": 3,
+     "partners": 3,
+     "enclosure": 0.633,
+     "nearest_water": 2.33,
+     "water": false,
+     "bridging_water": false
+    },
+    {
+     "rank": 4,
+     "partners": 3,
+     "enclosure": 0.733,
+     "nearest_water": 2.92,
+     "water": false,
+     "bridging_water": false
+    },
+    {
+     "rank": 5,
+     "partners": 3,
+     "enclosure": 0.7,
+     "nearest_water": 0.2,
+     "water": true,
+     "bridging_water": true
+    },
+    {
+     "rank": 6,
+     "partners": 2,
+     "enclosure": 0.733,
+     "nearest_water": 0.6,
+     "water": true,
+     "bridging_water": true
+    }
+   ],
+   "attached": false,
+   "complete": true,
+   "buried_fraction": 0.922,
+   "burial_warning": false,
+   "half": "held_out",
+   "resolution": 2.1
+  },
+  {
+   "structure": "1uml",
+   "ligand": "A:FR4:1001",
+   "bridging_waters": 1,
+   "predicted": 5,
+   "chance_sites": 4.565,
+   "recovered_1.0": 0,
+   "invented_1.0": 5,
+   "reachable_1.0": 0,
+   "chance_recovered_1.0": 0.0,
+   "chance_invented_1.0": 4.565,
+   "recovered_1.5": 1,
+   "invented_1.5": 4,
+   "reachable_1.5": 1,
+   "chance_recovered_1.5": 0.085,
+   "chance_invented_1.5": 4.48,
+   "recovered_2.0": 1,
+   "invented_2.0": 4,
+   "reachable_2.0": 1,
+   "chance_recovered_2.0": 0.215,
+   "chance_invented_2.0": 4.35,
+   "sites": [
+    {
+     "rank": 1,
+     "partners": 5,
+     "enclosure": 0.933,
+     "nearest_water": 1.32,
+     "water": true,
+     "bridging_water": true
+    },
+    {
+     "rank": 2,
+     "partners": 3,
+     "enclosure": 0.9,
+     "nearest_water": 4.02,
+     "water": false,
+     "bridging_water": false
+    },
+    {
+     "rank": 3,
+     "partners": 2,
+     "enclosure": 0.833,
+     "nearest_water": 3.76,
+     "water": false,
+     "bridging_water": false
+    },
+    {
+     "rank": 4,
+     "partners": 2,
+     "enclosure": 0.7,
+     "nearest_water": 6.43,
+     "water": false,
+     "bridging_water": false
+    },
+    {
+     "rank": 5,
+     "partners": 2,
+     "enclosure": 0.867,
+     "nearest_water": 4.34,
+     "water": false,
+     "bridging_water": false
+    }
+   ],
+   "attached": false,
+   "complete": true,
+   "buried_fraction": 0.916,
+   "burial_warning": false,
+   "half": "development",
+   "resolution": 2.5
+  },
+  {
+   "structure": "1unl",
+   "ligand": "A:RRC:1293",
+   "bridging_waters": 0,
+   "predicted": 2,
+   "chance_sites": 2.0,
+   "recovered_1.0": 0,
+   "invented_1.0": 2,
+   "reachable_1.0": 0,
+   "chance_recovered_1.0": 0.0,
+   "chance_invented_1.0": 2.0,
+   "recovered_1.5": 0,
+   "invented_1.5": 2,
+   "reachable_1.5": 0,
+   "chance_recovered_1.5": 0.0,
+   "chance_invented_1.5": 2.0,
+   "recovered_2.0": 0,
+   "invented_2.0": 2,
+   "reachable_2.0": 0,
+   "chance_recovered_2.0": 0.0,
+   "chance_invented_2.0": 2.0,
+   "sites": [
+    {
+     "rank": 1,
+     "partners": 3,
+     "enclosure": 0.8,
+     "nearest_water": 5.29,
+     "water": false,
+     "bridging_water": false
+    },
+    {
+     "rank": 2,
+     "partners": 2,
+     "enclosure": 0.9,
+     "nearest_water": 5.32,
+     "water": false,
+     "bridging_water": false
+    }
+   ],
+   "attached": false,
+   "complete": true,
+   "buried_fraction": 0.883,
+   "burial_warning": false,
+   "half": "held_out",
+   "resolution": 2.2
+  },
+  {
+   "structure": "1uou",
+   "ligand": "A:CMU:1481",
+   "bridging_waters": 2,
+   "predicted": 3,
+   "chance_sites": 3.0,
+   "recovered_1.0": 1,
+   "invented_1.0": 1,
+   "reachable_1.0": 2,
+   "chance_recovered_1.0": 0.815,
+   "chance_invented_1.0": 1.71,
+   "recovered_1.5": 1,
+   "invented_1.5": 1,
+   "reachable_1.5": 2,
+   "chance_recovered_1.5": 1.47,
+   "chance_invented_1.5": 0.525,
+   "recovered_2.0": 2,
+   "invented_2.0": 0,
+   "reachable_2.0": 2,
+   "chance_recovered_2.0": 1.735,
+   "chance_invented_2.0": 0.11,
+   "sites": [
+    {
+     "rank": 1,
+     "partners": 4,
+     "enclosure": 0.833,
+     "nearest_water": 0.31,
+     "water": true,
+     "bridging_water": true
+    },
+    {
+     "rank": 2,
+     "partners": 3,
+     "enclosure": 0.8,
+     "nearest_water": 1.63,
+     "water": false,
+     "bridging_water": false
+    },
+    {
+     "rank": 3,
+     "partners": 2,
+     "enclosure": 0.767,
+     "nearest_water": 0.72,
+     "water": true,
+     "bridging_water": false
+    }
+   ],
+   "attached": false,
+   "complete": true,
+   "buried_fraction": 0.946,
+   "burial_warning": false,
+   "half": "development",
+   "resolution": 2.11
+  },
+  {
+   "structure": "1v0p",
+   "ligand": "A:PVB:1287",
+   "bridging_waters": 1,
+   "predicted": 4,
+   "chance_sites": 4.0,
+   "recovered_1.0": 1,
+   "invented_1.0": 3,
+   "reachable_1.0": 1,
+   "chance_recovered_1.0": 0.12,
+   "chance_invented_1.0": 3.775,
+   "recovered_1.5": 1,
+   "invented_1.5": 3,
+   "reachable_1.5": 1,
+   "chance_recovered_1.5": 0.255,
+   "chance_invented_1.5": 3.52,
+   "recovered_2.0": 1,
+   "invented_2.0": 3,
+   "reachable_2.0": 1,
+   "chance_recovered_2.0": 0.4,
+   "chance_invented_2.0": 3.27,
+   "sites": [
+    {
+     "rank": 1,
+     "partners": 3,
+     "enclosure": 0.933,
+     "nearest_water": 0.52,
+     "water": true,
+     "bridging_water": true
+    },
+    {
+     "rank": 2,
+     "partners": 2,
+     "enclosure": 0.867,
+     "nearest_water": 2.27,
+     "water": false,
+     "bridging_water": false
+    },
+    {
+     "rank": 3,
+     "partners": 2,
+     "enclosure": 0.667,
+     "nearest_water": 6.68,
+     "water": false,
+     "bridging_water": false
+    },
+    {
+     "rank": 4,
+     "partners": 2,
+     "enclosure": 0.767,
+     "nearest_water": 2.39,
+     "water": false,
+     "bridging_water": false
+    }
+   ],
+   "attached": false,
+   "complete": true,
+   "buried_fraction": 0.807,
+   "burial_warning": false,
+   "half": "held_out",
+   "resolution": 2.0
+  },
+  {
+   "structure": "1v48",
+   "ligand": "A:HA1:290",
+   "bridging_waters": 4,
+   "predicted": 4,
+   "chance_sites": 4.0,
+   "recovered_1.0": 2,
+   "invented_1.0": 2,
+   "reachable_1.0": 3,
+   "chance_recovered_1.0": 0.83,
+   "chance_invented_1.0": 3.02,
+   "recovered_1.5": 3,
+   "invented_1.5": 1,
+   "reachable_1.5": 3,
+   "chance_recovered_1.5": 1.66,
+   "chance_invented_1.5": 1.845,
+   "recovered_2.0": 3,
+   "invented_2.0": 1,
+   "reachable_2.0": 3,
+   "chance_recovered_2.0": 2.28,
+   "chance_invented_2.0": 0.765,
+   "sites": [
+    {
+     "rank": 1,
+     "partners": 3,
+     "enclosure": 0.833,
+     "nearest_water": 5.26,
+     "water": false,
+     "bridging_water": false
+    },
+    {
+     "rank": 2,
+     "partners": 3,
+     "enclosure": 0.733,
+     "nearest_water": 0.65,
+     "water": true,
+     "bridging_water": true
+    },
+    {
+     "rank": 3,
+     "partners": 2,
+     "enclosure": 0.6,
+     "nearest_water": 1.25,
+     "water": true,
+     "bridging_water": true
+    },
+    {
+     "rank": 4,
+     "partners": 2,
+     "enclosure": 0.733,
+     "nearest_water": 0.56,
+     "water": true,
+     "bridging_water": true
+    }
+   ],
+   "attached": false,
+   "complete": true,
+   "buried_fraction": 0.928,
+   "burial_warning": false,
+   "half": "development",
+   "resolution": 2.2
+  },
+  {
+   "structure": "1v4s",
+   "ligand": "A:MRK:501",
+   "bridging_waters": 0,
+   "predicted": 1,
+   "chance_sites": 1.0,
+   "recovered_1.0": 0,
+   "invented_1.0": 1,
+   "reachable_1.0": 0,
+   "chance_recovered_1.0": 0.0,
+   "chance_invented_1.0": 0.855,
+   "recovered_1.5": 0,
+   "invented_1.5": 1,
+   "reachable_1.5": 0,
+   "chance_recovered_1.5": 0.0,
+   "chance_invented_1.5": 0.73,
+   "recovered_2.0": 0,
+   "invented_2.0": 0,
+   "reachable_2.0": 0,
+   "chance_recovered_2.0": 0.0,
+   "chance_invented_2.0": 0.4,
+   "sites": [
+    {
+     "rank": 1,
+     "partners": 3,
+     "enclosure": 0.733,
+     "nearest_water": 1.93,
+     "water": false,
+     "bridging_water": false
+    }
+   ],
+   "attached": false,
+   "complete": true,
+   "buried_fraction": 0.933,
+   "burial_warning": false,
+   "half": "held_out",
+   "resolution": 2.3
+  },
+  {
+   "structure": "1vcj",
+   "ligand": "A:IBA:1",
+   "bridging_waters": 0,
+   "predicted": 1,
+   "chance_sites": 1.0,
+   "recovered_1.0": 0,
+   "invented_1.0": 1,
+   "reachable_1.0": 0,
+   "chance_recovered_1.0": 0.0,
+   "chance_invented_1.0": 1.0,
+   "recovered_1.5": 0,
+   "invented_1.5": 1,
+   "reachable_1.5": 0,
+   "chance_recovered_1.5": 0.0,
+   "chance_invented_1.5": 1.0,
+   "recovered_2.0": 0,
+   "invented_2.0": 1,
+   "reachable_2.0": 0,
+   "chance_recovered_2.0": 0.0,
+   "chance_invented_2.0": 0.97,
+   "sites": [
+    {
+     "rank": 1,
+     "partners": 3,
+     "enclosure": 0.633,
+     "nearest_water": 2.42,
+     "water": false,
+     "bridging_water": false
+    }
+   ],
+   "attached": false,
+   "complete": true,
+   "buried_fraction": 0.889,
+   "burial_warning": false,
+   "half": "development",
+   "resolution": 2.4
+  },
+  {
+   "structure": "1w1p",
+   "ligand": "A:GIO:1518",
+   "bridging_waters": 1,
+   "predicted": 3,
+   "chance_sites": 2.975,
+   "recovered_1.0": 1,
+   "invented_1.0": 2,
+   "reachable_1.0": 1,
+   "chance_recovered_1.0": 0.52,
+   "chance_invented_1.0": 2.455,
+   "recovered_1.5": 1,
+   "invented_1.5": 2,
+   "reachable_1.5": 1,
+   "chance_recovered_1.5": 0.88,
+   "chance_invented_1.5": 1.705,
+   "recovered_2.0": 1,
+   "invented_2.0": 1,
+   "reachable_2.0": 1,
+   "chance_recovered_2.0": 0.95,
+   "chance_invented_2.0": 0.745,
+   "sites": [
+    {
+     "rank": 1,
+     "partners": 3,
+     "enclosure": 0.733,
+     "nearest_water": 0.64,
+     "water": true,
+     "bridging_water": true
+    },
+    {
+     "rank": 2,
+     "partners": 3,
+     "enclosure": 0.633,
+     "nearest_water": 2.63,
+     "water": false,
+     "bridging_water": false
+    },
+    {
+     "rank": 3,
+     "partners": 2,
+     "enclosure": 0.833,
+     "nearest_water": 1.75,
+     "water": false,
+     "bridging_water": false
+    }
+   ],
+   "attached": false,
+   "complete": true,
+   "buried_fraction": 0.965,
+   "burial_warning": false,
+   "half": "held_out",
+   "resolution": 2.1
+  },
+  {
+   "structure": "1w2g",
+   "ligand": "A:THM:1210",
+   "bridging_waters": 2,
+   "predicted": 5,
+   "chance_sites": 4.865,
+   "recovered_1.0": 1,
+   "invented_1.0": 4,
+   "reachable_1.0": 1,
+   "chance_recovered_1.0": 0.255,
+   "chance_invented_1.0": 4.61,
+   "recovered_1.5": 1,
+   "invented_1.5": 4,
+   "reachable_1.5": 2,
+   "chance_recovered_1.5": 0.755,
+   "chance_invented_1.5": 4.05,
+   "recovered_2.0": 1,
+   "invented_2.0": 3,
+   "reachable_2.0": 2,
+   "chance_recovered_2.0": 1.27,
+   "chance_invented_2.0": 3.33,
+   "sites": [
+    {
+     "rank": 1,
+     "partners": 5,
+     "enclosure": 0.967,
+     "nearest_water": 3.07,
+     "water": false,
+     "bridging_water": false
+    },
+    {
+     "rank": 2,
+     "partners": 3,
+     "enclosure": 0.6,
+     "nearest_water": 1.63,
+     "water": false,
+     "bridging_water": false
+    },
+    {
+     "rank": 3,
+     "partners": 3,
+     "enclosure": 0.8,
+     "nearest_water": 3.37,
+     "water": false,
+     "bridging_water": false
+    },
+    {
+     "rank": 4,
+     "partners": 2,
+     "enclosure": 0.667,
+     "nearest_water": 3.33,
+     "water": false,
+     "bridging_water": false
+    },
+    {
+     "rank": 5,
+     "partners": 2,
+     "enclosure": 0.9,
+     "nearest_water": 0.68,
+     "water": true,
+     "bridging_water": true
+    }
+   ],
+   "attached": false,
+   "complete": true,
+   "buried_fraction": 0.931,
+   "burial_warning": false,
+   "half": "development",
+   "resolution": 2.1
+  },
+  {
+   "structure": "1x8x",
+   "ligand": "A:TYR:952",
+   "bridging_waters": 7,
+   "predicted": 6,
+   "chance_sites": 5.99,
+   "recovered_1.0": 5,
+   "invented_1.0": 1,
+   "reachable_1.0": 6,
+   "chance_recovered_1.0": 2.065,
+   "chance_invented_1.0": 3.69,
+   "recovered_1.5": 5,
+   "invented_1.5": 1,
+   "reachable_1.5": 7,
+   "chance_recovered_1.5": 3.98,
+   "chance_invented_1.5": 1.08,
+   "recovered_2.0": 6,
+   "invented_2.0": 0,
+   "reachable_2.0": 7,
+   "chance_recovered_2.0": 5.075,
+   "chance_invented_2.0": 0.09,
+   "sites": [
+    {
+     "rank": 1,
+     "partners": 5,
+     "enclosure": 0.633,
+     "nearest_water": 1.95,
+     "water": false,
+     "bridging_water": false
+    },
+    {
+     "rank": 2,
+     "partners": 3,
+     "enclosure": 0.733,
+     "nearest_water": 0.82,
+     "water": true,
+     "bridging_water": true
+    },
+    {
+     "rank": 3,
+     "partners": 3,
+     "enclosure": 0.833,
+     "nearest_water": 0.61,
+     "water": true,
+     "bridging_water": true
+    },
+    {
+     "rank": 4,
+     "partners": 3,
+     "enclosure": 0.733,
+     "nearest_water": 0.86,
+     "water": true,
+     "bridging_water": true
+    },
+    {
+     "rank": 5,
+     "partners": 2,
+     "enclosure": 0.8,
+     "nearest_water": 0.9,
+     "water": true,
+     "bridging_water": true
+    },
+    {
+     "rank": 6,
+     "partners": 2,
+     "enclosure": 0.667,
+     "nearest_water": 0.56,
+     "water": true,
+     "bridging_water": true
+    }
+   ],
+   "attached": false,
+   "complete": true,
+   "buried_fraction": 0.91,
+   "burial_warning": false,
+   "half": "held_out",
+   "resolution": 2.0
+  },
+  {
+   "structure": "1xm6",
+   "ligand": "A:5RM:1003",
+   "bridging_waters": 1,
+   "predicted": 3,
+   "chance_sites": 3.0,
+   "recovered_1.0": 1,
+   "invented_1.0": 2,
+   "reachable_1.0": 1,
+   "chance_recovered_1.0": 0.195,
+   "chance_invented_1.0": 2.13,
+   "recovered_1.5": 1,
+   "invented_1.5": 1,
+   "reachable_1.5": 1,
+   "chance_recovered_1.5": 0.395,
+   "chance_invented_1.5": 1.365,
+   "recovered_2.0": 1,
+   "invented_2.0": 0,
+   "reachable_2.0": 1,
+   "chance_recovered_2.0": 0.645,
+   "chance_invented_2.0": 0.225,
+   "sites": [
+    {
+     "rank": 1,
+     "partners": 3,
+     "enclosure": 0.767,
+     "nearest_water": 0.35,
+     "water": true,
+     "bridging_water": true
+    },
+    {
+     "rank": 2,
+     "partners": 2,
+     "enclosure": 0.833,
+     "nearest_water": 1.57,
+     "water": false,
+     "bridging_water": false
+    },
+    {
+     "rank": 3,
+     "partners": 2,
+     "enclosure": 0.767,
+     "nearest_water": 1.38,
+     "water": true,
+     "bridging_water": false
+    }
+   ],
+   "attached": false,
+   "complete": true,
+   "buried_fraction": 0.934,
+   "burial_warning": false,
+   "half": "development",
+   "resolution": 1.92
+  },
+  {
+   "structure": "1xoq",
+   "ligand": "A:ROF:502",
+   "bridging_waters": 4,
+   "predicted": 2,
+   "chance_sites": 2.0,
+   "recovered_1.0": 1,
+   "invented_1.0": 1,
+   "reachable_1.0": 2,
+   "chance_recovered_1.0": 0.3,
+   "chance_invented_1.0": 1.61,
+   "recovered_1.5": 2,
+   "invented_1.5": 0,
+   "reachable_1.5": 2,
+   "chance_recovered_1.5": 0.43,
+   "chance_invented_1.5": 1.365,
+   "recovered_2.0": 2,
+   "invented_2.0": 0,
+   "reachable_2.0": 2,
+   "chance_recovered_2.0": 0.48,
+   "chance_invented_2.0": 1.32,
+   "sites": [
+    {
+     "rank": 1,
+     "partners": 4,
+     "enclosure": 0.833,
+     "nearest_water": 0.79,
+     "water": true,
+     "bridging_water": true
+    },
+    {
+     "rank": 2,
+     "partners": 3,
+     "enclosure": 0.8,
+     "nearest_water": 1.49,
+     "water": true,
+     "bridging_water": true
+    }
+   ],
+   "attached": false,
+   "complete": true,
+   "buried_fraction": 0.895,
+   "burial_warning": false,
+   "half": "held_out",
+   "resolution": 1.83
+  },
+  {
+   "structure": "1xoz",
+   "ligand": "A:CIA:501",
+   "bridging_waters": 0,
+   "predicted": 2,
+   "chance_sites": 2.0,
+   "recovered_1.0": 0,
+   "invented_1.0": 2,
+   "reachable_1.0": 0,
+   "chance_recovered_1.0": 0.0,
+   "chance_invented_1.0": 1.58,
+   "recovered_1.5": 0,
+   "invented_1.5": 1,
+   "reachable_1.5": 0,
+   "chance_recovered_1.5": 0.0,
+   "chance_invented_1.5": 1.125,
+   "recovered_2.0": 0,
+   "invented_2.0": 0,
+   "reachable_2.0": 0,
+   "chance_recovered_2.0": 0.0,
+   "chance_invented_2.0": 0.52,
+   "sites": [
+    {
+     "rank": 1,
+     "partners": 2,
+     "enclosure": 0.733,
+     "nearest_water": 1.47,
+     "water": true,
+     "bridging_water": false
+    },
+    {
+     "rank": 2,
+     "partners": 2,
+     "enclosure": 0.6,
+     "nearest_water": 1.69,
+     "water": false,
+     "bridging_water": false
+    }
+   ],
+   "attached": false,
+   "complete": true,
+   "buried_fraction": 0.846,
+   "burial_warning": false,
+   "half": "development",
+   "resolution": 1.37
+  },
+  {
+   "structure": "1y6b",
+   "ligand": "A:AAX:201",
+   "bridging_waters": 2,
+   "predicted": 2,
+   "chance_sites": 2.0,
+   "recovered_1.0": 1,
+   "invented_1.0": 1,
+   "reachable_1.0": 2,
+   "chance_recovered_1.0": 0.125,
+   "chance_invented_1.0": 1.665,
+   "recovered_1.5": 1,
+   "invented_1.5": 1,
+   "reachable_1.5": 2,
+   "chance_recovered_1.5": 0.255,
+   "chance_invented_1.5": 1.28,
+   "recovered_2.0": 1,
+   "invented_2.0": 1,
+   "reachable_2.0": 2,
+   "chance_recovered_2.0": 0.42,
+   "chance_invented_2.0": 0.915,
+   "sites": [
+    {
+     "rank": 1,
+     "partners": 3,
+     "enclosure": 0.633,
+     "nearest_water": 0.66,
+     "water": true,
+     "bridging_water": true
+    },
+    {
+     "rank": 2,
+     "partners": 2,
+     "enclosure": 0.733,
+     "nearest_water": 2.31,
+     "water": false,
+     "bridging_water": false
+    }
+   ],
+   "attached": false,
+   "complete": true,
+   "buried_fraction": 0.803,
+   "burial_warning": false,
+   "half": "held_out",
+   "resolution": 2.1
+  },
+  {
+   "structure": "1ygc",
+   "ligand": "H:905:1",
+   "bridging_waters": 5,
+   "predicted": 6,
+   "chance_sites": 6.0,
+   "recovered_1.0": 2,
+   "invented_1.0": 4,
+   "reachable_1.0": 5,
+   "chance_recovered_1.0": 0.515,
+   "chance_invented_1.0": 5.24,
+   "recovered_1.5": 3,
+   "invented_1.5": 3,
+   "reachable_1.5": 5,
+   "chance_recovered_1.5": 0.7,
+   "chance_invented_1.5": 4.645,
+   "recovered_2.0": 3,
+   "invented_2.0": 2,
+   "reachable_2.0": 5,
+   "chance_recovered_2.0": 0.92,
+   "chance_invented_2.0": 3.91,
+   "sites": [
+    {
+     "rank": 1,
+     "partners": 5,
+     "enclosure": 0.9,
+     "nearest_water": 0.55,
+     "water": true,
+     "bridging_water": true
+    },
+    {
+     "rank": 2,
+     "partners": 4,
+     "enclosure": 0.967,
+     "nearest_water": 0.51,
+     "water": true,
+     "bridging_water": true
+    },
+    {
+     "rank": 3,
+     "partners": 4,
+     "enclosure": 0.933,
+     "nearest_water": 1.73,
+     "water": false,
+     "bridging_water": false
+    },
+    {
+     "rank": 4,
+     "partners": 3,
+     "enclosure": 0.767,
+     "nearest_water": 3.86,
+     "water": false,
+     "bridging_water": false
+    },
+    {
+     "rank": 5,
+     "partners": 3,
+     "enclosure": 0.7,
+     "nearest_water": 1.43,
+     "water": true,
+     "bridging_water": true
+    },
+    {
+     "rank": 6,
+     "partners": 2,
+     "enclosure": 0.6,
+     "nearest_water": 2.08,
+     "water": false,
+     "bridging_water": false
+    }
+   ],
+   "attached": false,
+   "complete": true,
+   "buried_fraction": 0.76,
+   "burial_warning": false,
+   "half": "development",
+   "resolution": 2.0
+  },
+  {
+   "structure": "1yqy",
+   "ligand": "A:915:782",
+   "bridging_waters": 2,
+   "predicted": 3,
+   "chance_sites": 3.0,
+   "recovered_1.0": 2,
+   "invented_1.0": 1,
+   "reachable_1.0": 2,
+   "chance_recovered_1.0": 0.67,
+   "chance_invented_1.0": 2.28,
+   "recovered_1.5": 2,
+   "invented_1.5": 1,
+   "reachable_1.5": 2,
+   "chance_recovered_1.5": 0.905,
+   "chance_invented_1.5": 1.93,
+   "recovered_2.0": 2,
+   "invented_2.0": 1,
+   "reachable_2.0": 2,
+   "chance_recovered_2.0": 1.025,
+   "chance_invented_2.0": 1.705,
+   "sites": [
+    {
+     "rank": 1,
+     "partners": 3,
+     "enclosure": 0.767,
+     "nearest_water": 0.21,
+     "water": true,
+     "bridging_water": true
+    },
+    {
+     "rank": 2,
+     "partners": 3,
+     "enclosure": 0.7,
+     "nearest_water": 0.58,
+     "water": true,
+     "bridging_water": true
+    },
+    {
+     "rank": 3,
+     "partners": 2,
+     "enclosure": 0.767,
+     "nearest_water": 2.7,
+     "water": false,
+     "bridging_water": false
+    }
+   ],
+   "attached": false,
+   "complete": true,
+   "buried_fraction": 0.9,
+   "burial_warning": false,
+   "half": "held_out",
+   "resolution": 2.3
+  },
+  {
+   "structure": "1yv3",
+   "ligand": "A:BIT:800",
+   "bridging_waters": 1,
+   "predicted": 1,
+   "chance_sites": 1.0,
+   "recovered_1.0": 1,
+   "invented_1.0": 0,
+   "reachable_1.0": 1,
+   "chance_recovered_1.0": 1.0,
+   "chance_invented_1.0": 0.0,
+   "recovered_1.5": 1,
+   "invented_1.5": 0,
+   "reachable_1.5": 1,
+   "chance_recovered_1.5": 1.0,
+   "chance_invented_1.5": 0.0,
+   "recovered_2.0": 1,
+   "invented_2.0": 0,
+   "reachable_2.0": 1,
+   "chance_recovered_2.0": 1.0,
+   "chance_invented_2.0": 0.0,
+   "sites": [
+    {
+     "rank": 1,
+     "partners": 3,
+     "enclosure": 0.933,
+     "nearest_water": 0.55,
+     "water": true,
+     "bridging_water": true
+    }
+   ],
+   "attached": false,
+   "complete": true,
+   "buried_fraction": 0.972,
+   "burial_warning": false,
+   "half": "development",
+   "resolution": 2.0
+  },
+  {
+   "structure": "1yvf",
+   "ligand": "A:PH7:800",
+   "bridging_waters": 2,
+   "predicted": 5,
+   "chance_sites": 5.0,
+   "recovered_1.0": 1,
+   "invented_1.0": 3,
+   "reachable_1.0": 2,
+   "chance_recovered_1.0": 0.355,
+   "chance_invented_1.0": 4.24,
+   "recovered_1.5": 1,
+   "invented_1.5": 3,
+   "reachable_1.5": 2,
+   "chance_recovered_1.5": 0.355,
+   "chance_invented_1.5": 3.8,
+   "recovered_2.0": 1,
+   "invented_2.0": 2,
+   "reachable_2.0": 2,
+   "chance_recovered_2.0": 0.43,
+   "chance_invented_2.0": 3.415,
+   "sites": [
+    {
+     "rank": 1,
+     "partners": 4,
+     "enclosure": 0.8,
+     "nearest_water": 0.53,
+     "water": true,
+     "bridging_water": true
+    },
+    {
+     "rank": 2,
+     "partners": 4,
+     "enclosure": 0.767,
+     "nearest_water": 3.8,
+     "water": false,
+     "bridging_water": false
+    },
+    {
+     "rank": 3,
+     "partners": 2,
+     "enclosure": 0.6,
+     "nearest_water": 3.17,
+     "water": false,
+     "bridging_water": false
+    },
+    {
+     "rank": 4,
+     "partners": 2,
+     "enclosure": 0.7,
+     "nearest_water": 0.42,
+     "water": true,
+     "bridging_water": false
+    },
+    {
+     "rank": 5,
+     "partners": 2,
+     "enclosure": 0.633,
+     "nearest_water": 1.59,
+     "water": false,
+     "bridging_water": false
+    }
+   ],
+   "attached": false,
+   "complete": true,
+   "buried_fraction": 0.872,
+   "burial_warning": false,
+   "half": "held_out",
+   "resolution": 2.5
+  },
+  {
+   "structure": "1ywr",
+   "ligand": "A:LI9:361",
+   "bridging_waters": 0,
+   "predicted": 2,
+   "chance_sites": 2.0,
+   "recovered_1.0": 0,
+   "invented_1.0": 2,
+   "reachable_1.0": 0,
+   "chance_recovered_1.0": 0.0,
+   "chance_invented_1.0": 1.975,
+   "recovered_1.5": 0,
+   "invented_1.5": 2,
+   "reachable_1.5": 0,
+   "chance_recovered_1.5": 0.0,
+   "chance_invented_1.5": 1.87,
+   "recovered_2.0": 0,
+   "invented_2.0": 2,
+   "reachable_2.0": 0,
+   "chance_recovered_2.0": 0.0,
+   "chance_invented_2.0": 1.805,
+   "sites": [
+    {
+     "rank": 1,
+     "partners": 4,
+     "enclosure": 0.867,
+     "nearest_water": 2.13,
+     "water": false,
+     "bridging_water": false
+    },
+    {
+     "rank": 2,
+     "partners": 3,
+     "enclosure": 0.633,
+     "nearest_water": 3.8,
+     "water": false,
+     "bridging_water": false
+    }
+   ],
+   "attached": false,
+   "complete": true,
+   "buried_fraction": 0.841,
+   "burial_warning": false,
+   "half": "development",
+   "resolution": 1.95
+  },
+  {
+   "structure": "1z95",
+   "ligand": "A:198:501",
+   "bridging_waters": 1,
+   "predicted": 2,
+   "chance_sites": 2.0,
+   "recovered_1.0": 1,
+   "invented_1.0": 1,
+   "reachable_1.0": 1,
+   "chance_recovered_1.0": 0.405,
+   "chance_invented_1.0": 1.595,
+   "recovered_1.5": 1,
+   "invented_1.5": 1,
+   "reachable_1.5": 1,
+   "chance_recovered_1.5": 0.405,
+   "chance_invented_1.5": 1.595,
+   "recovered_2.0": 1,
+   "invented_2.0": 1,
+   "reachable_2.0": 1,
+   "chance_recovered_2.0": 0.405,
+   "chance_invented_2.0": 1.595,
+   "sites": [
+    {
+     "rank": 1,
+     "partners": 5,
+     "enclosure": 0.833,
+     "nearest_water": 0.31,
+     "water": true,
+     "bridging_water": true
+    },
+    {
+     "rank": 2,
+     "partners": 3,
+     "enclosure": 0.967,
+     "nearest_water": 8.58,
+     "water": false,
+     "bridging_water": false
+    }
+   ],
+   "attached": false,
+   "complete": true,
+   "buried_fraction": 0.994,
+   "burial_warning": false,
+   "half": "held_out",
+   "resolution": 1.8
+  },
+  {
+   "structure": "2bm2",
+   "ligand": "A:PM2:3211",
+   "bridging_waters": 1,
+   "predicted": 2,
+   "chance_sites": 2.0,
+   "recovered_1.0": 1,
+   "invented_1.0": 1,
+   "reachable_1.0": 1,
+   "chance_recovered_1.0": 0.03,
+   "chance_invented_1.0": 1.845,
+   "recovered_1.5": 1,
+   "invented_1.5": 1,
+   "reachable_1.5": 1,
+   "chance_recovered_1.5": 0.03,
+   "chance_invented_1.5": 1.47,
+   "recovered_2.0": 1,
+   "invented_2.0": 0,
+   "reachable_2.0": 1,
+   "chance_recovered_2.0": 0.03,
+   "chance_invented_2.0": 1.14,
+   "sites": [
+    {
+     "rank": 1,
+     "partners": 4,
+     "enclosure": 0.9,
+     "nearest_water": 0.35,
+     "water": true,
+     "bridging_water": true
+    },
+    {
+     "rank": 2,
+     "partners": 3,
+     "enclosure": 0.633,
+     "nearest_water": 1.75,
+     "water": false,
+     "bridging_water": false
+    }
+   ],
+   "attached": false,
+   "complete": true,
+   "buried_fraction": 0.715,
+   "burial_warning": false,
+   "half": "development",
+   "resolution": 2.2
+  },
+  {
+   "structure": "2br1",
+   "ligand": "A:PFP:1277",
+   "bridging_waters": 1,
+   "predicted": 2,
+   "chance_sites": 2.0,
+   "recovered_1.0": 1,
+   "invented_1.0": 1,
+   "reachable_1.0": 1,
+   "chance_recovered_1.0": 0.105,
+   "chance_invented_1.0": 1.755,
+   "recovered_1.5": 1,
+   "invented_1.5": 1,
+   "reachable_1.5": 1,
+   "chance_recovered_1.5": 0.155,
+   "chance_invented_1.5": 1.455,
+   "recovered_2.0": 1,
+   "invented_2.0": 0,
+   "reachable_2.0": 1,
+   "chance_recovered_2.0": 0.185,
+   "chance_invented_2.0": 1.125,
+   "sites": [
+    {
+     "rank": 1,
+     "partners": 2,
+     "enclosure": 0.867,
+     "nearest_water": 0.75,
+     "water": true,
+     "bridging_water": true
+    },
+    {
+     "rank": 2,
+     "partners": 2,
+     "enclosure": 0.6,
+     "nearest_water": 1.95,
+     "water": false,
+     "bridging_water": false
+    }
+   ],
+   "attached": false,
+   "complete": true,
+   "buried_fraction": 0.724,
+   "burial_warning": false,
+   "half": "held_out",
+   "resolution": 2.0
+  },
+  {
+   "structure": "2bsm",
+   "ligand": "A:BSM:1224",
+   "bridging_waters": 3,
+   "predicted": 3,
+   "chance_sites": 3.0,
+   "recovered_1.0": 2,
+   "invented_1.0": 0,
+   "reachable_1.0": 3,
+   "chance_recovered_1.0": 0.54,
+   "chance_invented_1.0": 2.02,
+   "recovered_1.5": 2,
+   "invented_1.5": 0,
+   "reachable_1.5": 3,
+   "chance_recovered_1.5": 0.855,
+   "chance_invented_1.5": 1.37,
+   "recovered_2.0": 2,
+   "invented_2.0": 0,
+   "reachable_2.0": 3,
+   "chance_recovered_2.0": 1.04,
+   "chance_invented_2.0": 1.065,
+   "sites": [
+    {
+     "rank": 1,
+     "partners": 4,
+     "enclosure": 0.9,
+     "nearest_water": 0.36,
+     "water": true,
+     "bridging_water": true
+    },
+    {
+     "rank": 2,
+     "partners": 3,
+     "enclosure": 0.933,
+     "nearest_water": 0.31,
+     "water": true,
+     "bridging_water": true
+    },
+    {
+     "rank": 3,
+     "partners": 2,
+     "enclosure": 0.6,
+     "nearest_water": 0.97,
+     "water": true,
+     "bridging_water": false
+    }
+   ],
+   "attached": false,
+   "complete": true,
+   "buried_fraction": 0.875,
+   "burial_warning": false,
+   "half": "development",
+   "resolution": 2.05
+  }
+ ],
+ "structures": [
+  {
+   "structure": "1g9v",
+   "half": "development",
+   "resolution": 1.85,
+   "waters": 260,
+   "ligands": [
+    "A:RQ3:801"
+   ],
+   "ligand_from": "list of the set",
+   "passed_over": [],
+   "sha256": "8551a7fee46b207440693f2eaabe730ecb98c2b92ff356bf0b7ce29a75cb7223"
+  },
+  {
+   "structure": "1gkc",
+   "half": "held_out",
+   "resolution": 2.3,
+   "waters": 120,
+   "ligands": [
+    "A:NFH:1448"
+   ],
+   "ligand_from": "list of the set",
+   "passed_over": [],
+   "sha256": "09e9c2542e121198f5562e570317fbb1d8033bd852ebaf3c21db01c0b1110d8c"
+  },
+  {
+   "structure": "1gm8",
+   "half": "development",
+   "resolution": 2.0,
+   "waters": 644,
+   "ligands": [
+    "B:SOX:1559"
+   ],
+   "ligand_from": "list of the set",
+   "passed_over": [],
+   "sha256": "1019b85557772ee86ecfce525ab4a7dd52191f46b3ecbf20548d807be8086eb1"
+  },
+  {
+   "structure": "1gpk",
+   "half": "held_out",
+   "resolution": 2.1,
+   "waters": 529,
+   "ligands": [
+    "A:HUP:1540"
+   ],
+   "ligand_from": "list of the set",
+   "passed_over": [],
+   "sha256": "6f95112cbaebf4d3e023f18bd999a9d153dfe33360ffaf06f24b998c10154dc0"
+  },
+  {
+   "structure": "1hnn",
+   "half": "development",
+   "resolution": 2.4,
+   "waters": 126,
+   "ligands": [
+    "A:SKF:3001"
+   ],
+   "ligand_from": "list of the set",
+   "passed_over": [],
+   "sha256": "8cc1198f8ac370af9c007f1b6cb3406eabd7de1ba983db087876c9550e743804"
+  },
+  {
+   "structure": "1hp0",
+   "half": "held_out",
+   "resolution": 2.1,
+   "waters": 395,
+   "ligands": [
+    "A:AD3:1315"
+   ],
+   "ligand_from": "list of the set",
+   "passed_over": [],
+   "sha256": "b72f18a805a2e47068ec9d5366ac026ae7375366cf7e308b2ea9de5ece914094"
+  },
+  {
+   "structure": "1hq2",
+   "half": "development",
+   "resolution": 1.25,
+   "waters": 332,
+   "ligands": [
+    "A:PH2:181"
+   ],
+   "ligand_from": "list of the set",
+   "passed_over": [],
+   "sha256": "93b582c46fef2dcaea5376212a95a96b8283f1bf79e7ee7536eea2ead906b411"
+  },
+  {
+   "structure": "1hvy",
+   "half": "held_out",
+   "resolution": 1.9,
+   "waters": 596,
+   "ligands": [
+    "A:D16:414"
+   ],
+   "ligand_from": "list of the set",
+   "passed_over": [],
+   "sha256": "2ea0cd5a6f7404de857cf0079256701575e5d7535494b33ede5bb72371214f51"
+  },
+  {
+   "structure": "1hwi",
+   "half": "development",
+   "resolution": 2.3,
+   "waters": 199,
+   "ligands": [
+    "A:115:2"
+   ],
+   "ligand_from": "list of the set",
+   "passed_over": [],
+   "sha256": "5256233b8f5598640a86710a08d45595dfa4859d4a049ed4f1d8cb621e4dbaae"
+  },
+  {
+   "structure": "1hww",
+   "half": "held_out",
+   "resolution": 1.87,
+   "waters": 985,
+   "ligands": [
+    "A:SWA:1103"
+   ],
+   "ligand_from": "list of the set",
+   "passed_over": [],
+   "sha256": "d071ab96996a249cebed01a5ea959e69f87fa37e748a27023e25a5b2bbd8502e"
+  },
+  {
+   "structure": "1ia1",
+   "half": "development",
+   "resolution": 1.7,
+   "waters": 236,
+   "ligands": [
+    "A:TQ3:194"
+   ],
+   "ligand_from": "list of the set",
+   "passed_over": [],
+   "sha256": "7e991439ec2f519ee4128e5c9afbc67706c46659bf6c409cd557a79ee4557c50"
+  },
+  {
+   "structure": "1ig3",
+   "half": "held_out",
+   "resolution": 1.9,
+   "waters": 413,
+   "ligands": [
+    "A:VIB:502"
+   ],
+   "ligand_from": "list of the set",
+   "passed_over": [],
+   "sha256": "b5165ac6134b66bc74a72be01d928dd5c290888d50ce2c730c1efaf7761b7584"
+  },
+  {
+   "structure": "1j3j",
+   "half": "development",
+   "resolution": 2.3,
+   "waters": 733,
+   "ligands": [
+    "A:CP6:609"
+   ],
+   "ligand_from": "list of the set",
+   "passed_over": [],
+   "sha256": "d2a74f394628147b49b8f2332acd2adb5b7121adc957caee58e481bff96f825d"
+  },
+  {
+   "structure": "1jd0",
+   "half": "held_out",
+   "resolution": 1.5,
+   "waters": 504,
+   "ligands": [
+    "A:AZM:1400"
+   ],
+   "ligand_from": "list of the set",
+   "passed_over": [],
+   "sha256": "b7685211c93c4463f75e02ee18524a18edcc2f1c0d2b878be487682f3eb31f1b"
+  },
+  {
+   "structure": "1jje",
+   "half": "development",
+   "resolution": 1.8,
+   "waters": 184,
+   "ligands": [
+    "A:BYS:250"
+   ],
+   "ligand_from": "list of the set",
+   "passed_over": [],
+   "sha256": "c15ed72ac2eb9ac572b57e1eda4d840d5e29d48e0f31d2d7a11bbf361b5bdb87"
+  },
+  {
+   "structure": "1jla",
+   "half": "held_out",
+   "resolution": 2.5,
+   "waters": 46,
+   "ligands": [
+    "A:TNK:999"
+   ],
+   "ligand_from": "list of the set",
+   "passed_over": [],
+   "sha256": "0f7876f232d6cdd0e521879fa0a1643748c43ba383a7985879a9179eac81a7ef"
+  },
+  {
+   "structure": "1k3u",
+   "half": "development",
+   "resolution": 1.7,
+   "waters": 712,
+   "ligands": [
+    "A:IAD:801"
+   ],
+   "ligand_from": "list of the set",
+   "passed_over": [],
+   "sha256": "53fa9f626779cea782e2b9db79c233ca3bf356a62963b56551217b22609e27ff"
+  },
+  {
+   "structure": "1ke5",
+   "half": "held_out",
+   "resolution": 2.2,
+   "waters": 134,
+   "ligands": [
+    "A:LS1:299"
+   ],
+   "ligand_from": "list of the set",
+   "passed_over": [],
+   "sha256": "163dcfd25da03225d1f44958d210c49513c6d85b18cdc0d76b81255e4e31c39d"
+  },
+  {
+   "structure": "1kzk",
+   "half": "development",
+   "resolution": 1.09,
+   "waters": 223,
+   "ligands": [
+    "A:JE2:701"
+   ],
+   "ligand_from": "list of the set",
+   "passed_over": [],
+   "sha256": "30d6a82c14b482068521232b4c782d373347e43756c83801af5c350291a5312c"
+  },
+  {
+   "structure": "1l2s",
+   "half": "held_out",
+   "resolution": 1.94,
+   "waters": 352,
+   "ligands": [
+    "A:STC:1115"
+   ],
+   "ligand_from": "list of the set",
+   "passed_over": [],
+   "sha256": "c212cbdabaf54f2b445932afa93b390ba8139273a061af005a724af3ccfb130f"
+  },
+  {
+   "structure": "1l7f",
+   "half": "development",
+   "resolution": 1.8,
+   "waters": 642,
+   "ligands": [
+    "A:BCZ:801"
+   ],
+   "ligand_from": "list of the set",
+   "passed_over": [],
+   "sha256": "5ca96f6a8bb23901b7689b0c5e03adf1aa88f04703a638722736dc7812fd559e"
+  },
+  {
+   "structure": "1lpz",
+   "half": "held_out",
+   "resolution": 2.4,
+   "waters": 291,
+   "ligands": [
+    "B:CMB:301"
+   ],
+   "ligand_from": "list of the set",
+   "passed_over": [],
+   "sha256": "a8db0eb3209d48df381d1d4ba968874cbb2d1f65e0ce15573a8bbbf3c3b65621"
+  },
+  {
+   "structure": "1lrh",
+   "half": "development",
+   "resolution": 1.9,
+   "waters": 375,
+   "ligands": [
+    "A:NLA:5190"
+   ],
+   "ligand_from": "list of the set",
+   "passed_over": [],
+   "sha256": "726397279ccf12be3e893c880ed1d07f42b6ac81e815c57e6f70541d926f071c"
+  },
+  {
+   "structure": "1m2z",
+   "half": "held_out",
+   "resolution": 2.5,
+   "waters": 205,
+   "ligands": [
+    "A:DEX:301"
+   ],
+   "ligand_from": "list of the set",
+   "passed_over": [],
+   "sha256": "ada431c0857e60ef8a1176a54add1ef29bab5c1bc87fda79d03157ab009e0692"
+  },
+  {
+   "structure": "1meh",
+   "half": "development",
+   "resolution": 1.95,
+   "waters": 193,
+   "ligands": [
+    "A:MOA:600"
+   ],
+   "ligand_from": "list of the set",
+   "passed_over": [],
+   "sha256": "c17565caa9437a52873a0ad69e0f4dbfd2612ed9842fca7483404c0475424271"
+  },
+  {
+   "structure": "1mmv",
+   "half": "held_out",
+   "resolution": 2.0,
+   "waters": 449,
+   "ligands": [
+    "A:3AR:1785"
+   ],
+   "ligand_from": "list of the set",
+   "passed_over": [],
+   "sha256": "8ee80c67beaf34fbc8987cb0c98b6c114748d8be07c4cf73e97c8d836b273d10"
+  },
+  {
+   "structure": "1mzc",
+   "half": "development",
+   "resolution": 2.0,
+   "waters": 703,
+   "ligands": [
+    "B:BNE:1003"
+   ],
+   "ligand_from": "list of the set",
+   "passed_over": [],
+   "sha256": "bd1943dc9983a505afd79af28ef3513b0620ef6b4c6d9076a5f6d71993c3db40"
+  },
+  {
+   "structure": "1n1m",
+   "half": "held_out",
+   "resolution": 2.5,
+   "waters": 931,
+   "ligands": [
+    "A:A3M:954"
+   ],
+   "ligand_from": "list of the set",
+   "passed_over": [],
+   "sha256": "0c947a20c5648437c7bc4fb200d6fd1368d2770a957d317e513b2b3c86491941"
+  },
+  {
+   "structure": "1n2j",
+   "half": "development",
+   "resolution": 1.8,
+   "waters": 305,
+   "ligands": [
+    "A:PAF:1001"
+   ],
+   "ligand_from": "list of the set",
+   "passed_over": [],
+   "sha256": "45de6e5a3b6e43f775d0fdf0792a1672ba8dbe9cfb0796418206221731432732"
+  },
+  {
+   "structure": "1n2v",
+   "half": "held_out",
+   "resolution": 2.1,
+   "waters": 282,
+   "ligands": [
+    "A:BDI:900"
+   ],
+   "ligand_from": "list of the set",
+   "passed_over": [],
+   "sha256": "509b5421885f077c77dc121764fd071f12c6cebfb588f1eb52d8ab6441f7ed17"
+  },
+  {
+   "structure": "1n46",
+   "half": "development",
+   "resolution": 2.2,
+   "waters": 114,
+   "ligands": [
+    "A:PFA:462"
+   ],
+   "ligand_from": "list of the set",
+   "passed_over": [],
+   "sha256": "3cc9c8f61ad5a92b28e33950c9cec073a9f2e79b026edf978fde0d4adf06fea9"
+  },
+  {
+   "structure": "1nav",
+   "half": "held_out",
+   "resolution": 2.5,
+   "waters": 28,
+   "ligands": [
+    "A:IH5:600"
+   ],
+   "ligand_from": "list of the set",
+   "passed_over": [],
+   "sha256": "0b07a7fe02df40c1bc989d2fa68494282a0386a1f607ac726f4850505d759a13"
+  },
+  {
+   "structure": "1of1",
+   "half": "development",
+   "resolution": 1.95,
+   "waters": 340,
+   "ligands": [
+    "A:SCT:400"
+   ],
+   "ligand_from": "list of the set",
+   "passed_over": [],
+   "sha256": "6116d02094a38f2dbf250eb25953c99848359c72c8c7b3225647a293e169e019"
+  },
+  {
+   "structure": "1of6",
+   "half": "held_out",
+   "resolution": 2.1,
+   "waters": 667,
+   "ligands": [
+    "A:DTY:1370"
+   ],
+   "ligand_from": "list of the set",
+   "passed_over": [],
+   "sha256": "b1b4dd89c4b9554b8d526359096247ca0b04831d959cd5581e00eeb8b6132b21"
+  },
+  {
+   "structure": "1opk",
+   "half": "development",
+   "resolution": 1.8,
+   "waters": 270,
+   "ligands": [
+    "A:P16:2"
+   ],
+   "ligand_from": "list of the set",
+   "passed_over": [],
+   "sha256": "b2a325d28f8f236b50f2ff9df6d8b5e36aedb4ed6e4fb143452164f56c6fae2c"
+  },
+  {
+   "structure": "1oq5",
+   "half": "held_out",
+   "resolution": 1.5,
+   "waters": 233,
+   "ligands": [
+    "A:CEL:701"
+   ],
+   "ligand_from": "list of the set",
+   "passed_over": [],
+   "sha256": "fee58c81830fbc1c8ce275ed90bec7af67b9c81b7fd1cafa72a4e29454585894"
+  },
+  {
+   "structure": "1owe",
+   "half": "development",
+   "resolution": 1.6,
+   "waters": 223,
+   "ligands": [
+    "A:675:1001"
+   ],
+   "ligand_from": "list of the set",
+   "passed_over": [],
+   "sha256": "d38c387b669770a4313a5d00079cb4f5a4299b81df90fe8ca2130072b25c4642"
+  },
+  {
+   "structure": "1oyt",
+   "half": "held_out",
+   "resolution": 1.67,
+   "waters": 404,
+   "ligands": [
+    "H:FSN:501"
+   ],
+   "ligand_from": "list of the set",
+   "passed_over": [],
+   "sha256": "cdfa870d45383abbd27acffe21eb4115a3ab91cd9e93c93327e8a37e475f341d"
+  },
+  {
+   "structure": "1p2y",
+   "half": "development",
+   "resolution": 2.3,
+   "waters": 122,
+   "ligands": [
+    "A:NCT:440"
+   ],
+   "ligand_from": "list of the set",
+   "passed_over": [],
+   "sha256": "293c882b81ec85e9d28bfcc0f3f00f9f237d19eb544606579d2efd5725d35116"
+  },
+  {
+   "structure": "1p62",
+   "half": "held_out",
+   "resolution": 1.9,
+   "waters": 144,
+   "ligands": [
+    "B:GEO:302"
+   ],
+   "ligand_from": "list of the set",
+   "passed_over": [],
+   "sha256": "631c46ba311e705878ce19cb0efb149dcfc14b698df48388fffb9e71bb914c57"
+  },
+  {
+   "structure": "1pmn",
+   "half": "development",
+   "resolution": 2.2,
+   "waters": 197,
+   "ligands": [
+    "A:984:501"
+   ],
+   "ligand_from": "list of the set",
+   "passed_over": [],
+   "sha256": "12fa52500487ed55339657e534f5cac0342f658e73ef3d36fb749a059105a13f"
+  },
+  {
+   "structure": "1q1g",
+   "half": "held_out",
+   "resolution": 2.02,
+   "waters": 357,
+   "ligands": [
+    "A:MTI:301"
+   ],
+   "ligand_from": "list of the set",
+   "passed_over": [],
+   "sha256": "35032a27daeea2390bf7754f05a944ec151a6831dafbe37d5a8daea0aa79b910"
+  },
+  {
+   "structure": "1q41",
+   "half": "development",
+   "resolution": 2.1,
+   "waters": 147,
+   "ligands": [
+    "A:IXM:451"
+   ],
+   "ligand_from": "list of the set",
+   "passed_over": [],
+   "sha256": "ee227c8bac6bf4b83671aebeaa56f7bb0bd2e27ad220f1b761728f6e7de93e3a"
+  },
+  {
+   "structure": "1q4g",
+   "half": "held_out",
+   "resolution": 2.0,
+   "waters": 654,
+   "ligands": [
+    "A:BFL:701"
+   ],
+   "ligand_from": "list of the set",
+   "passed_over": [],
+   "sha256": "3adb8e703573f0754427848a91d24fa720d238c8be3a0f45246ae980d5139f15"
+  },
+  {
+   "structure": "1r1h",
+   "half": "development",
+   "resolution": 1.95,
+   "waters": 295,
+   "ligands": [
+    "A:BIR:2001"
+   ],
+   "ligand_from": "list of the set",
+   "passed_over": [],
+   "sha256": "149e5a31bd095196854980ebdf4dc513b43576899a277996cb5e721710cb2cf3"
+  },
+  {
+   "structure": "1r55",
+   "half": "held_out",
+   "resolution": 1.58,
+   "waters": 201,
+   "ligands": [
+    "A:097:518"
+   ],
+   "ligand_from": "list of the set",
+   "passed_over": [],
+   "sha256": "7f963c82d58241fa824c100b779696f8994679b3ed9ec65084e5c1b1d4b21a16"
+  },
+  {
+   "structure": "1r58",
+   "half": "development",
+   "resolution": 1.9,
+   "waters": 416,
+   "ligands": [
+    "A:AO5:501"
+   ],
+   "ligand_from": "list of the set",
+   "passed_over": [],
+   "sha256": "582661d940818cc40c3cb9590708928498694bb5ef044a016fd5fdd554e373cf"
+  },
+  {
+   "structure": "1r9o",
+   "half": "held_out",
+   "resolution": 2.0,
+   "waters": 255,
+   "ligands": [
+    "A:FLP:501"
+   ],
+   "ligand_from": "list of the set",
+   "passed_over": [],
+   "sha256": "6cdc047fccf179f63375fa8f03fac24384001d9ed1f7bb6658ea1f45370aac80"
+  },
+  {
+   "structure": "1s19",
+   "half": "development",
+   "resolution": 2.1,
+   "waters": 184,
+   "ligands": [
+    "A:MC9:500"
+   ],
+   "ligand_from": "list of the set",
+   "passed_over": [],
+   "sha256": "fa5b6ba4ba75f7ab640794bc847a415020c1676dd73bfdb14287536a72750a16"
+  },
+  {
+   "structure": "1s3v",
+   "half": "held_out",
+   "resolution": 1.8,
+   "waters": 112,
+   "ligands": [
+    "A:TQD:187"
+   ],
+   "ligand_from": "list of the set",
+   "passed_over": [],
+   "sha256": "fe72b4506de103cea61d8058ecda9b88fa50c5a5ae7e6162813edf173259541b"
+  },
+  {
+   "structure": "1sg0",
+   "half": "development",
+   "resolution": 1.5,
+   "waters": 353,
+   "ligands": [
+    "A:STL:501"
+   ],
+   "ligand_from": "list of the set",
+   "passed_over": [],
+   "sha256": "baca575e2415363903051e14067c0970c53e4a5892f999e8a14a55738df16ad7"
+  },
+  {
+   "structure": "1sj0",
+   "half": "held_out",
+   "resolution": 1.9,
+   "waters": 152,
+   "ligands": [
+    "A:E4D:600"
+   ],
+   "ligand_from": "list of the set",
+   "passed_over": [],
+   "sha256": "e7dbcb6d039756877f42c99bc69ed2f42b2b0e20fdb6e7fab09e3b1b0a6007f2"
+  },
+  {
+   "structure": "1sq5",
+   "half": "development",
+   "resolution": 2.2,
+   "waters": 885,
+   "ligands": [
+    "A:PAU:6001"
+   ],
+   "ligand_from": "list of the set",
+   "passed_over": [],
+   "sha256": "cbacf69008049de59a2dea136cfaac6c1e700da304c1e622d76112f8452b2325"
+  },
+  {
+   "structure": "1sqn",
+   "half": "held_out",
+   "resolution": 1.451,
+   "waters": 276,
+   "ligands": [
+    "A:NDR:1001"
+   ],
+   "ligand_from": "list of the set",
+   "passed_over": [],
+   "sha256": "cf30e2adcb71cecc9c52cd29c8ac305b16616b5c835e7aff70d01ce337915e52"
+  },
+  {
+   "structure": "1t40",
+   "half": "development",
+   "resolution": 1.8,
+   "waters": 263,
+   "ligands": [
+    "A:ID5:320"
+   ],
+   "ligand_from": "list of the set",
+   "passed_over": [],
+   "sha256": "7fd76b1f14c54d0379bd6236bd166ea216e3568fc0f22e86d3bd6bd2c7898442"
+  },
+  {
+   "structure": "1t46",
+   "half": "held_out",
+   "resolution": 1.6,
+   "waters": 268,
+   "ligands": [
+    "A:STI:3"
+   ],
+   "ligand_from": "list of the set",
+   "passed_over": [],
+   "sha256": "ad9befb02ae76ca91a8b51a1e0469b9e0a09ad8ff969119922e2d566e083b031"
+  },
+  {
+   "structure": "1t9b",
+   "half": "development",
+   "resolution": 2.2,
+   "waters": 1360,
+   "ligands": [
+    "A:1CS:695"
+   ],
+   "ligand_from": "list of the set",
+   "passed_over": [],
+   "sha256": "2a87db4517c51d84b012796774d3295c8f8bee4c26c35d192f40922f46c6021d"
+  },
+  {
+   "structure": "1tow",
+   "half": "held_out",
+   "resolution": 2.0,
+   "waters": 174,
+   "ligands": [
+    "A:CRZ:501"
+   ],
+   "ligand_from": "list of the set",
+   "passed_over": [],
+   "sha256": "e2853a55121e0ccacb73af379ca2cff61c14849bb8f5a2fbf1fe776491c2c992"
+  },
+  {
+   "structure": "1tt1",
+   "half": "development",
+   "resolution": 1.93,
+   "waters": 420,
+   "ligands": [
+    "A:KAI:998"
+   ],
+   "ligand_from": "list of the set",
+   "passed_over": [],
+   "sha256": "85e1ed43dc19688228bc23d2e6b6b82e95f45397ed686f4d4fece626a3de18bc"
+  },
+  {
+   "structure": "1tz8",
+   "half": "held_out",
+   "resolution": 1.85,
+   "waters": 322,
+   "ligands": [
+    "B:DES:128"
+   ],
+   "ligand_from": "list of the set",
+   "passed_over": [],
+   "sha256": "48ab12d7bc07c2e0c11a4917d3b12c74c0e9033bffbe7838deb6cd2c4d3d5ec0"
+  },
+  {
+   "structure": "1u1c",
+   "half": "development",
+   "resolution": 2.2,
+   "waters": 561,
+   "ligands": [
+    "A:BAU:5400"
+   ],
+   "ligand_from": "list of the set",
+   "passed_over": [],
+   "sha256": "2785d29d396eafd876ac529815b5c08fa63b60cc435903c90dd3acedd5e0b522"
+  },
+  {
+   "structure": "1u4d",
+   "half": "held_out",
+   "resolution": 2.1,
+   "waters": 157,
+   "ligands": [
+    "A:DBQ:398"
+   ],
+   "ligand_from": "list of the set",
+   "passed_over": [],
+   "sha256": "def4ab3fe68eae4b5122b5728105ef7d4e45fe516c699a1c00a795064ffbbb51"
+  },
+  {
+   "structure": "1uml",
+   "half": "development",
+   "resolution": 2.5,
+   "waters": 129,
+   "ligands": [
+    "A:FR4:1001"
+   ],
+   "ligand_from": "list of the set",
+   "passed_over": [],
+   "sha256": "a4e67ecca3646ba6d4fc9603740042e3012e1ed528189325dbd6db8901d15839"
+  },
+  {
+   "structure": "1unl",
+   "half": "held_out",
+   "resolution": 2.2,
+   "waters": 302,
+   "ligands": [
+    "A:RRC:1293"
+   ],
+   "ligand_from": "list of the set",
+   "passed_over": [],
+   "sha256": "7babf377cd08e9973f8ddab3849ef4420ee9d33b8f1f5072e83264ee4ba8bb1c"
+  },
+  {
+   "structure": "1uou",
+   "half": "development",
+   "resolution": 2.11,
+   "waters": 75,
+   "ligands": [
+    "A:CMU:1481"
+   ],
+   "ligand_from": "list of the set",
+   "passed_over": [],
+   "sha256": "3c9e9a597e799b68d71afce0695246e20ae119f106f5803851ae7624b16212a5"
+  },
+  {
+   "structure": "1v0p",
+   "half": "held_out",
+   "resolution": 2.0,
+   "waters": 239,
+   "ligands": [
+    "A:PVB:1287"
+   ],
+   "ligand_from": "list of the set",
+   "passed_over": [],
+   "sha256": "96f220f9f3a9fe6dbd4405d04f322ef323989e53bb09f4402f5bd364bbddb779"
+  },
+  {
+   "structure": "1v48",
+   "half": "development",
+   "resolution": 2.2,
+   "waters": 179,
+   "ligands": [
+    "A:HA1:290"
+   ],
+   "ligand_from": "list of the set",
+   "passed_over": [],
+   "sha256": "414008c0d5a99e47ec4e55c8e95f97c38bd6cad429d8c046e7de1037395d551b"
+  },
+  {
+   "structure": "1v4s",
+   "half": "held_out",
+   "resolution": 2.3,
+   "waters": 149,
+   "ligands": [
+    "A:MRK:501"
+   ],
+   "ligand_from": "list of the set",
+   "passed_over": [],
+   "sha256": "b1a3d6cc61b4e28226ba2402c1210697c4417ccdf8ee420a36a7ff7948173418"
+  },
+  {
+   "structure": "1vcj",
+   "half": "development",
+   "resolution": 2.4,
+   "waters": 106,
+   "ligands": [
+    "A:IBA:1"
+   ],
+   "ligand_from": "list of the set",
+   "passed_over": [],
+   "sha256": "62c6ee506decf461fa77ec7edc0662f8c05ee427a0758ba5833cd3787f616b5d"
+  },
+  {
+   "structure": "1w1p",
+   "half": "held_out",
+   "resolution": 2.1,
+   "waters": 949,
+   "ligands": [
+    "A:GIO:1518"
+   ],
+   "ligand_from": "list of the set",
+   "passed_over": [],
+   "sha256": "e73303f8ba4c5365402d412fb23c9dc8737def64d30240144a1cf7e21294897f"
+  },
+  {
+   "structure": "1w2g",
+   "half": "development",
+   "resolution": 2.1,
+   "waters": 153,
+   "ligands": [
+    "A:THM:1210"
+   ],
+   "ligand_from": "list of the set",
+   "passed_over": [],
+   "sha256": "d8e2ae71f309391cc587c488d4b5a5dbc66852060c16b99695cbc4fc65e51bb5"
+  },
+  {
+   "structure": "1x8x",
+   "half": "held_out",
+   "resolution": 2.0,
+   "waters": 218,
+   "ligands": [
+    "A:TYR:952"
+   ],
+   "ligand_from": "list of the set",
+   "passed_over": [],
+   "sha256": "b6dc5cfe72661d83127795452644235412e3759bc719c98c9341550d1d1ddf70"
+  },
+  {
+   "structure": "1xm6",
+   "half": "development",
+   "resolution": 1.92,
+   "waters": 224,
+   "ligands": [
+    "A:5RM:1003"
+   ],
+   "ligand_from": "list of the set",
+   "passed_over": [],
+   "sha256": "51db42d860eb46c998ca8b37a0e92f7bb8a11a3ac51058dd9bc19371379f1fe7"
+  },
+  {
+   "structure": "1xoq",
+   "half": "held_out",
+   "resolution": 1.83,
+   "waters": 360,
+   "ligands": [
+    "A:ROF:502"
+   ],
+   "ligand_from": "list of the set",
+   "passed_over": [],
+   "sha256": "605542690543e82e3ce6bd98c095e7ab0d7fc86b6e93d0c707b260bf4b0d20cf"
+  },
+  {
+   "structure": "1xoz",
+   "half": "development",
+   "resolution": 1.37,
+   "waters": 352,
+   "ligands": [
+    "A:CIA:501"
+   ],
+   "ligand_from": "list of the set",
+   "passed_over": [],
+   "sha256": "fe211fdf50de8d34633b2cb8d861d9aa87e3750dc6858d3e031e28ff9dd4d97f"
+  },
+  {
+   "structure": "1y6b",
+   "half": "held_out",
+   "resolution": 2.1,
+   "waters": 151,
+   "ligands": [
+    "A:AAX:201"
+   ],
+   "ligand_from": "list of the set",
+   "passed_over": [],
+   "sha256": "fb441ae1a7586aa70e98e1511db8de83fe6536d3864df7c13a3bff75fbf501dd"
+  },
+  {
+   "structure": "1ygc",
+   "half": "development",
+   "resolution": 2.0,
+   "waters": 260,
+   "ligands": [
+    "H:905:1"
+   ],
+   "ligand_from": "list of the set",
+   "passed_over": [],
+   "sha256": "6312f6ff04106573e2309a12ce7180dab138ffc576a6715b2a250e06146b77a8"
+  },
+  {
+   "structure": "1yqy",
+   "half": "held_out",
+   "resolution": 2.3,
+   "waters": 436,
+   "ligands": [
+    "A:915:782"
+   ],
+   "ligand_from": "list of the set",
+   "passed_over": [],
+   "sha256": "bb43f1f378509e6154147939268434ed49a8758789e2c0a82db61c971aeb1ff7"
+  },
+  {
+   "structure": "1yv3",
+   "half": "development",
+   "resolution": 2.0,
+   "waters": 678,
+   "ligands": [
+    "A:BIT:800"
+   ],
+   "ligand_from": "list of the set",
+   "passed_over": [],
+   "sha256": "5ac88972e238cc853a777104769eac5516fbda3af9870cda7c79d3fc89a4ed63"
+  },
+  {
+   "structure": "1yvf",
+   "half": "held_out",
+   "resolution": 2.5,
+   "waters": 228,
+   "ligands": [
+    "A:PH7:800"
+   ],
+   "ligand_from": "list of the set",
+   "passed_over": [],
+   "sha256": "164d963a4cb8152028d4782f0c1e1a3d2b90d829d041d9ccac19f43127248d48"
+  },
+  {
+   "structure": "1ywr",
+   "half": "development",
+   "resolution": 1.95,
+   "waters": 196,
+   "ligands": [
+    "A:LI9:361"
+   ],
+   "ligand_from": "list of the set",
+   "passed_over": [],
+   "sha256": "c55057db7848d08425e0d86d4d8a29ecf0d7dabd36ce1ea84940509b5249700f"
+  },
+  {
+   "structure": "1z95",
+   "half": "held_out",
+   "resolution": 1.8,
+   "waters": 134,
+   "ligands": [
+    "A:198:501"
+   ],
+   "ligand_from": "list of the set",
+   "passed_over": [],
+   "sha256": "928bcb8dff2c2f8060b2e124194507d147622d994ded6e19fc1c87811506039b"
+  },
+  {
+   "structure": "2bm2",
+   "half": "development",
+   "resolution": 2.2,
+   "waters": 377,
+   "ligands": [
+    "A:PM2:3211"
+   ],
+   "ligand_from": "list of the set",
+   "passed_over": [],
+   "sha256": "f8917bb85e72ea7fe262df8c9becc8827adb35f365ba9fe4cc8838b654bdfd48"
+  },
+  {
+   "structure": "2br1",
+   "half": "held_out",
+   "resolution": 2.0,
+   "waters": 302,
+   "ligands": [
+    "A:PFP:1277"
+   ],
+   "ligand_from": "list of the set",
+   "passed_over": [],
+   "sha256": "932ccf21d2e77cd47b1cdd880d8604b042721ed7ad5527922e2c64accebf5fbe"
+  },
+  {
+   "structure": "2bsm",
+   "half": "development",
+   "resolution": 2.05,
+   "waters": 247,
+   "ligands": [
+    "A:BSM:1224"
+   ],
+   "ligand_from": "list of the set",
+   "passed_over": [],
+   "sha256": "ea85d237c17ebb57658986da081b84ea5f12415c68e7113e4a182a0193f67bda"
+  }
+ ],
+ "not_evaluated": [],
+ "enclosure_contrast": {
+  "weak": {
+   "sites": 33,
+   "water": 10,
+   "share": 0.303,
+   "interval": [
+    0.152,
+    0.469
+   ],
+   "structures": 21
+  },
+  "well": {
+   "sites": 63,
+   "water": 47,
+   "share": 0.746,
+   "interval": [
+    0.618,
+    0.865
+   ],
+   "structures": 32
+  },
+  "difference": {
+   "value": 0.443,
+   "interval": [
+    0.254,
+    0.628
+   ]
+  }
+ },
+ "burial": {
+  "cut": 0.7,
+  "ligands": 85,
+  "five_numbers": [
+   0.704,
+   0.832,
+   0.91,
+   0.959,
+   1.0
+  ],
+  "warned": []
+ }
+}

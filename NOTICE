@@ -1,0 +1,43 @@
+bindview
+Copyright (c) 2026 Jakob Steuer
+Licence: MIT (see LICENSE)
+
+This file names what the package and its repository hold of others' work.
+
+In the package
+--------------
+
+Advance widths of Helvetica and Helvetica-Bold (src/bindview/textmetrics.py), from the font metrics of the
+14 PDF core fonts:
+
+    Copyright (c) 1985, 1987, 1989, 1990, 1997 Adobe Systems Incorporated. All Rights Reserved.
+
+    This file and the 14 PostScript(R) AFM files it accompanies may be used, copied, and distributed for any
+    purpose and without charge, with or without modification, provided that all copyright notices are retained;
+    that the AFM files are not distributed without this file; that all modifications to this file or any of the
+    AFM files are prominently noted in the modified file(s); and that this paragraph is not modified. Adobe
+    Systems has no responsibility or obligation to support the use of the AFM files.
+
+The widths are held as a table of numbers; those of a few characters that the two fonts do not have (a pi, a
+prime, an arrow, subscript digits) were added.
+
+Residue templates (src/bindview/residues.py) follow the wwPDB Chemical Component Dictionary, which is in the
+public domain (CC0 1.0).
+
+In the repository, not in the package
+-------------------------------------
+
+Structures under testdata/ are entries of the RCSB Protein Data Bank, whose data are in the public domain
+(CC0 1.0); each folder's meta.json names its entry. Berman et al., Nucleic Acids Res. 2000, 28, 235.
+
+testdata/interface_pae: models and predicted aligned errors of the AlphaFold Protein Structure Database
+(CC BY 4.0; Jumper et al., Nature 2021, 596, 583; Varadi et al., Nucleic Acids Res. 2024, 52, D368). The files
+are the database's, packed. The domain borders are from The Encyclopedia of Domains (CC BY 4.0).
+
+scripts/solvent_validation_set.tsv lists the Astex Diverse Set (Hartshorn et al., J. Med. Chem. 2007, 50, 726)
+with the ligand of each entry as PoseBusters names it (Buttenschoen et al., Chem. Sci. 2024, 15, 3130).
+
+testdata/ensemble_bioemu2: samples of BioEmu 2 (Microsoft), whose code and checkpoint are under the MIT licence.
+
+testdata/*/interactions.tsv were written by PLIP (Adasme et al., Nucleic Acids Res. 2021, 49, W530), which is
+GPL-2.0 and not part of this repository.

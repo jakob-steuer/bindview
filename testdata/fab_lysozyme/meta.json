@@ -1,0 +1,21 @@
+{
+ "slug": "fab_lysozyme",
+ "what": "the Fab of antibody HyHEL10 on hen egg lysozyme",
+ "source": {
+  "archive": "RCSB Protein Data Bank",
+  "entry": "3D9A",
+  "address": "https://files.rcsb.org/download/3D9A.cif.gz",
+  "licence": "CC0 1.0 (the archive's data are in the public domain)",
+  "file": "model.cif.gz",
+  "file_is": "the archive's file, unpacked and packed again (gzip, no time stamp)",
+  "sha256": "5e2115a9f89d96aa3ac3a04880a05eebaf225959f68290d533a3f2e39aad304f",
+  "title": "High resolution crystal structure of HyHEL10 Fab complexed to hen egg lysozyme"
+ },
+ "chains": {
+  "H": "heavy chain of the Fab",
+  "L": "light chain of the Fab",
+  "C": "hen egg lysozyme, the antigen"
+ },
+ "chain_names": "the authors' (auth_asym_id)",
+ "why_this_case": "An interface whose residues come in several loops that are far apart in the sequence."
+}

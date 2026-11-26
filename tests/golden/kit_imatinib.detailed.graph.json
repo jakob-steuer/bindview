@@ -1,0 +1,533 @@
+{
+ "bond_length": 30.0,
+ "contacts": {
+  "A:ASP810|hbond|L:O29|atom:N": [
+   "hbond",
+   "R:A:ASP810",
+   "L:O29",
+   true,
+   3.08
+  ],
+  "A:ASP810|hydrophobic|L:C23|atom:CB": [
+   "hydrophobic",
+   "R:A:ASP810",
+   "L:C23",
+   false,
+   3.83
+  ],
+  "A:ASP810|saltbridge|L:N48|group:OD1,OD2": [
+   "saltbridge",
+   "R:A:ASP810",
+   "L:N48",
+   true,
+   5.39
+  ],
+  "A:ASP810|saltbridge|L:N51|group:OD1,OD2": [
+   "saltbridge",
+   "R:A:ASP810",
+   "L:N51",
+   true,
+   5.32
+  ],
+  "A:CYS673|hbond|L:N3|atom:N": [
+   "hbond",
+   "R:A:CYS673",
+   "L:N3",
+   true,
+   2.85
+  ],
+  "A:GLU640|hbond|L:N21|atom:OE1": [
+   "hbond",
+   "R:A:GLU640",
+   "L:N21",
+   true,
+   2.86
+  ],
+  "A:GLU640|hydrophobic|L:C29|atom:CG": [
+   "hydrophobic",
+   "R:A:GLU640",
+   "L:C29",
+   false,
+   3.57
+  ],
+  "A:HIS790|pi_cation|L:N48|ring:CG,ND1,CD2,CE1,NE2": [
+   "pi_cation",
+   "R:A:HIS790",
+   "L:N48",
+   true,
+   5.64
+  ],
+  "A:LEU595|hydrophobic|L:C6|atom:CD1": [
+   "hydrophobic",
+   "R:A:LEU595",
+   "L:C6",
+   false,
+   3.77
+  ],
+  "A:LEU644|hydrophobic|L:C17|atom:CD1": [
+   "hydrophobic",
+   "R:A:LEU644",
+   "L:C17",
+   false,
+   3.68
+  ],
+  "A:LEU644|hydrophobic|L:C23|atom:CD2": [
+   "hydrophobic",
+   "R:A:LEU644",
+   "L:C23",
+   false,
+   3.62
+  ],
+  "A:LEU799|hydrophobic|L:C5|atom:CD1": [
+   "hydrophobic",
+   "R:A:LEU799",
+   "L:C5",
+   false,
+   3.62
+  ],
+  "A:LEU799|hydrophobic|L:C6|atom:CD2": [
+   "hydrophobic",
+   "R:A:LEU799",
+   "L:C6",
+   false,
+   3.92
+  ],
+  "A:LYS623|hydrophobic|L:C18|atom:CB": [
+   "hydrophobic",
+   "R:A:LYS623",
+   "L:C18",
+   false,
+   3.53
+  ],
+  "A:LYS623|pi_cation|L:ring:C14-C19-C18-C17-C16-C15|atom:NZ": [
+   "pi_cation",
+   "R:A:LYS623",
+   "L:ring:C14-C19-C18-C17-C16-C15",
+   true,
+   4.16
+  ],
+  "A:LYS623|water_bridge|L:N10|atom:NZ": [
+   "water_bridge",
+   "R:A:LYS623",
+   "L:N10",
+   true,
+   3.21
+  ],
+  "A:LYS623|water_bridge|L:O29|atom:NZ": [
+   "water_bridge",
+   "R:A:LYS623",
+   "L:O29",
+   true,
+   3.21
+  ],
+  "A:PHE811|pi_stacking|L:ring:C7-C12-C11-N10-C9-N8|ring:CG,CD1,CD2,CE1,CE2,CZ": [
+   "pi_stacking",
+   "R:A:PHE811",
+   "L:ring:C7-C12-C11-N10-C9-N8",
+   true,
+   4.84
+  ],
+  "A:THR670|hbond|L:N13|atom:OG1": [
+   "hbond",
+   "R:A:THR670",
+   "L:N13",
+   true,
+   2.95
+  ],
+  "A:THR670|hydrophobic|L:C19|atom:CG2": [
+   "hydrophobic",
+   "R:A:THR670",
+   "L:C19",
+   false,
+   3.35
+  ],
+  "A:VAL603|hydrophobic|L:C12|atom:CG1": [
+   "hydrophobic",
+   "R:A:VAL603",
+   "L:C12",
+   false,
+   3.92
+  ],
+  "A:VAL654|hydrophobic|L:C15|atom:CG1": [
+   "hydrophobic",
+   "R:A:VAL654",
+   "L:C15",
+   false,
+   3.97
+  ],
+  "A:VAL668|hydrophobic|L:C18|atom:CG1": [
+   "hydrophobic",
+   "R:A:VAL668",
+   "L:C18",
+   false,
+   3.84
+  ]
+ },
+ "nodes": {
+  "L:C1": [
+   "ligand_atom",
+   210.0,
+   49.7,
+   0.0,
+   false
+  ],
+  "L:C11": [
+   "ligand_atom",
+   131.97,
+   -55.24,
+   0.0,
+   false
+  ],
+  "L:C12": [
+   "ligand_atom",
+   157.97,
+   -40.26,
+   0.0,
+   false
+  ],
+  "L:C14": [
+   "ligand_atom",
+   54.06,
+   -10.18,
+   0.0,
+   false
+  ],
+  "L:C15": [
+   "ligand_atom",
+   28.09,
+   4.84,
+   0.0,
+   false
+  ],
+  "L:C16": [
+   "ligand_atom",
+   2.1,
+   -10.14,
+   0.0,
+   false
+  ],
+  "L:C17": [
+   "ligand_atom",
+   2.07,
+   -40.14,
+   0.0,
+   false
+  ],
+  "L:C18": [
+   "ligand_atom",
+   28.04,
+   -55.16,
+   0.0,
+   false
+  ],
+  "L:C19": [
+   "ligand_atom",
+   54.04,
+   -40.18,
+   0.0,
+   false
+  ],
+  "L:C2": [
+   "ligand_atom",
+   235.97,
+   34.68,
+   0.0,
+   false
+  ],
+  "L:C20": [
+   "ligand_atom",
+   80.01,
+   -55.2,
+   0.0,
+   false
+  ],
+  "L:C22": [
+   "ligand_atom",
+   -49.87,
+   -10.09,
+   0.0,
+   false
+  ],
+  "L:C23": [
+   "ligand_atom",
+   -75.83,
+   4.93,
+   0.0,
+   false
+  ],
+  "L:C25": [
+   "ligand_atom",
+   -101.83,
+   -10.05,
+   0.0,
+   false
+  ],
+  "L:C26": [
+   "ligand_atom",
+   -127.8,
+   4.97,
+   0.0,
+   false
+  ],
+  "L:C27": [
+   "ligand_atom",
+   -127.77,
+   34.97,
+   0.0,
+   false
+  ],
+  "L:C28": [
+   "ligand_atom",
+   -101.78,
+   49.95,
+   0.0,
+   false
+  ],
+  "L:C29": [
+   "ligand_atom",
+   -75.81,
+   34.93,
+   0.0,
+   false
+  ],
+  "L:C4": [
+   "ligand_atom",
+   209.95,
+   -10.3,
+   0.0,
+   false
+  ],
+  "L:C46": [
+   "ligand_atom",
+   -153.74,
+   49.99,
+   0.0,
+   false
+  ],
+  "L:C49": [
+   "ligand_atom",
+   -205.71,
+   50.03,
+   0.0,
+   false
+  ],
+  "L:C5": [
+   "ligand_atom",
+   183.98,
+   4.72,
+   0.0,
+   false
+  ],
+  "L:C50": [
+   "ligand_atom",
+   -231.7,
+   35.05,
+   0.0,
+   false
+  ],
+  "L:C52": [
+   "ligand_atom",
+   -205.76,
+   -9.97,
+   0.0,
+   false
+  ],
+  "L:C53": [
+   "ligand_atom",
+   -179.76,
+   5.01,
+   0.0,
+   false
+  ],
+  "L:C54": [
+   "ligand_atom",
+   -257.72,
+   -9.93,
+   0.0,
+   false
+  ],
+  "L:C6": [
+   "ligand_atom",
+   184.01,
+   34.72,
+   0.0,
+   false
+  ],
+  "L:C7": [
+   "ligand_atom",
+   157.99,
+   -10.26,
+   0.0,
+   false
+  ],
+  "L:C9": [
+   "ligand_atom",
+   106.03,
+   -10.22,
+   0.0,
+   false
+  ],
+  "L:N10": [
+   "ligand_atom",
+   106.0,
+   -40.22,
+   0.0,
+   false
+  ],
+  "L:N13": [
+   "ligand_atom",
+   80.06,
+   4.8,
+   0.0,
+   false
+  ],
+  "L:N21": [
+   "ligand_atom",
+   -23.87,
+   4.88,
+   0.0,
+   false
+  ],
+  "L:N3": [
+   "ligand_atom",
+   235.95,
+   4.67,
+   0.0,
+   false
+  ],
+  "L:N48": [
+   "ligand_atom",
+   -179.74,
+   35.01,
+   0.0,
+   false
+  ],
+  "L:N51": [
+   "ligand_atom",
+   -231.73,
+   5.05,
+   0.0,
+   false
+  ],
+  "L:N8": [
+   "ligand_atom",
+   132.02,
+   4.76,
+   0.0,
+   false
+  ],
+  "L:O29": [
+   "ligand_atom",
+   -49.89,
+   -40.1,
+   0.0,
+   false
+  ],
+  "L:ring:C14-C19-C18-C17-C16-C15": [
+   "ring_centroid",
+   28.07,
+   -25.16,
+   0.0,
+   false
+  ],
+  "L:ring:C7-C12-C11-N10-C9-N8": [
+   "ring_centroid",
+   132.0,
+   -25.24,
+   0.0,
+   false
+  ],
+  "R:A:ASP810": [
+   "residue",
+   -139.52,
+   -57.58,
+   5.8233,
+   false
+  ],
+  "R:A:CYS673": [
+   "residue",
+   309.73,
+   4.67,
+   3.1416,
+   false
+  ],
+  "R:A:GLU640": [
+   "residue",
+   -60.78,
+   98.6,
+   4.7311,
+   false
+  ],
+  "R:A:HIS790": [
+   "residue",
+   -122.43,
+   95.03,
+   3.8927,
+   false
+  ],
+  "R:A:LEU595": [
+   "residue",
+   233.33,
+   84.12,
+   0.0,
+   false
+  ],
+  "R:A:LEU644": [
+   "residue",
+   -38.12,
+   -88.38,
+   0.0,
+   false
+  ],
+  "R:A:LEU799": [
+   "residue",
+   164.16,
+   78.91,
+   0.0,
+   false
+  ],
+  "R:A:LYS623": [
+   "residue",
+   45.1,
+   -122.06,
+   6.0441,
+   true
+  ],
+  "R:A:PHE811": [
+   "residue",
+   99.44,
+   76.92,
+   4.9193,
+   false
+  ],
+  "R:A:THR670": [
+   "residue",
+   12.07,
+   42.38,
+   4.7997,
+   true
+  ],
+  "R:A:VAL603": [
+   "residue",
+   186.0,
+   -80.0,
+   0.0,
+   false
+  ],
+  "R:A:VAL654": [
+   "residue",
+   42.62,
+   85.39,
+   0.0,
+   false
+  ],
+  "R:A:VAL668": [
+   "residue",
+   109.58,
+   -101.18,
+   0.0,
+   false
+  ]
+ },
+ "view": "detailed"
+}

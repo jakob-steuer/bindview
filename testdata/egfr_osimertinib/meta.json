@@ -1,0 +1,22 @@
+{
+ "slug": "egfr_osimertinib",
+ "what": "the kinase domain of EGFR with osimertinib bound to Cys797",
+ "source": {
+  "archive": "RCSB Protein Data Bank",
+  "entry": "6JXT",
+  "address": "https://files.rcsb.org/download/6JXT.cif.gz",
+  "licence": "CC0 1.0 (the archive's data are in the public domain)",
+  "file": "model.cif.gz",
+  "file_is": "the archive's file, unpacked and packed again (gzip, no time stamp)",
+  "sha256": "33e9804e668465cab9c1e4c3307a76658bdd6ce3fa8d987da30f44a3c04fddd2"
+ },
+ "ligand": {
+  "name": "osimertinib",
+  "component": "YY3",
+  "residue_name_in_cif": "YY3",
+  "smiles": "Cn1cc(c2c1cccc2)c3ccnc(n3)Nc4cc(c(cc4OC)N(C)CCN(C)C)NC(=O)C=C",
+  "smiles_from": "the archive's record of the chemical component YY3",
+  "heavy_atoms": 37
+ },
+ "why_this_case": "A covalent ligand: the bond to the cysteine is declared by the file."
+}

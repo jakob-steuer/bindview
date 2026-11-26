@@ -1,0 +1,149 @@
+<svg xmlns="http://www.w3.org/2000/svg" class="bindview" width="524.35" height="533.81" viewBox="0 0 524.35 533.81" font-family="Helvetica, Arial, 'Liberation Sans', sans-serif" role="img">
+ <title>the N-terminal domain – the C-terminal domain</title>
+ <desc>Predicted model: mean pLDDT 78 of the residues around the column, mean pLDDT 73 of the column, contact PAE 13.0–19.0 Å. Every contact in this figure has a PAE of 10 Å or more: the model does not place the two sides against each other, whatever the pLDDT of their residues.</desc>
+ <rect class="background" width="524.35" height="533.81" fill="#ffffff"/>
+ <g class="confidence" data-contact-pae-max="19.0" data-contact-pae-min="13.0" data-ligand-plddt="73.3" data-pocket-plddt="77.6">
+  <text x="18" y="26.26" font-size="11.5" fill="#667085">Model confidence  residues around pLDDT <tspan fill="#1f2933" font-weight="bold">78</tspan>  ·  column pLDDT <tspan fill="#1f2933" font-weight="bold">73</tspan>  ·  contact PAE <tspan fill="#1f2933" font-weight="bold">13.0–19.0 Å</tspan></text>
+ </g>
+ <g class="pae-warning">
+  <text x="18" y="43.09" font-size="10.5" fill="#b45309">Every contact in this figure has a PAE of 10 Å or more: the model does not place the two sides against</text>
+  <text x="18" y="58.31" font-size="10.5" fill="#b45309">each other, whatever the pLDDT of their residues.</text>
+ </g>
+ <g class="diagram" transform="translate(267.83 173.83)">
+  <g class="backdrop">
+   <rect x="-26.69" y="-12.19" width="53.38" height="24.38" rx="8.69" fill="#c9ced6" opacity="0.55"/>
+   <g class="lining" data-residues="Y:ASP273" data-surface="negative">
+    <title>Lining, charged (−): Asp273</title>
+    <polyline points="-39.58,14.27 -39.89,17.13 -40.43,20.01 -40.93,22.91 -41.21,25.85 -41.17,28.8 -40.81,31.72 -40.13,34.59 -39.13,37.36 -37.85,40.02" fill="none" stroke="#f4a98a" stroke-width="4.4" stroke-linecap="round" stroke-linejoin="round" opacity="0.62"/>
+   </g>
+   <g class="lining" data-residues="Y:CYS272" data-surface="polar">
+    <title>Lining, polar: Cys272</title>
+    <polyline points="36.34,42.41 37.9,39.91 39.18,37.25 40.16,34.47 40.83,31.6 41.18,28.68 41.2,25.73 40.91,22.79 40.4,19.89 39.87,17.01 39.58,14.16 39.69,11.3 40.15,8.44 40.71,5.55 41.12,2.62" fill="none" stroke="#9fdcee" stroke-width="4.4" stroke-linecap="round" stroke-linejoin="round" opacity="0.62"/>
+   </g>
+   <g class="lining" data-residues="Y:LEU276" data-surface="polar">
+    <title>Lining, polar: Leu276</title>
+    <polyline points="33.42,-18.88 31.22,-20.85 28.83,-22.57 26.26,-24.02 23.54,-25.17 20.72,-26.03 17.82,-26.59 14.86,-26.91 11.89,-27.05 8.9,-27.09 5.92,-27.1 2.93,-27.1 -0.06,-27.1 -3.05,-27.1" fill="none" stroke="#9fdcee" stroke-width="4.4" stroke-linecap="round" stroke-linejoin="round" opacity="0.62"/>
+   </g>
+   <g class="lining" data-residues="Y:ASP273" data-surface="polar">
+    <title>Lining, polar: Asp273</title>
+    <polyline points="-37.17,-14.19 -38.6,-11.61 -39.74,-8.89 -40.57,-6.06 -41.08,-3.15 -41.26,-0.2 -41.12,2.74 -40.69,5.67 -40.13,8.56 -39.68,11.42" fill="none" stroke="#9fdcee" stroke-width="4.4" stroke-linecap="round" stroke-linejoin="round" opacity="0.62"/>
+   </g>
+  </g>
+  <g class="interactions">
+   <g class="interaction hbond" data-confidence="low" data-distance="2.96" data-ligand-atoms="141/NH2" data-ligand-part="side-chain" data-ligand-residue="Arg141" data-pae="19.0" data-plddt="69.8" data-protein-atoms="O" data-residue="Y:CYS272" data-type="hbond">
+    <title>Hydrogen bond: Cys272 O – Arg 141 of the N-terminal domain (side chain: 141/NH2), 2.96 Å, contact pLDDT 70, PAE 19.0 Å</title>
+    <polygon points="69.4,38.65 64.86,33.65 62.76,37.43" fill="#c026d3" opacity="0.62"/>
+    <text x="27.67" y="27.93" font-size="9.5" font-weight="bold" fill="#1f2933">PAE 19</text>
+    <line x1="64.65" y1="36.01" x2="53.21" y2="29.63" fill="none" stroke="#c026d3" stroke-width="0.94" stroke-linejoin="round" opacity="0.62"/>
+    <line x1="34.86" y1="19.41" x2="18.66" y2="10.39" fill="none" stroke="#c026d3" stroke-width="0.94" stroke-linejoin="round" opacity="0.62"/>
+   </g>
+   <g class="interaction hbond" data-confidence="low" data-distance="2.78" data-ligand-atoms="141/NE" data-ligand-part="side-chain" data-ligand-residue="Arg141" data-pae="17.0" data-plddt="69.8" data-protein-atoms="O" data-residue="Y:ASP273" data-type="hbond">
+    <title>Hydrogen bond: Asp273 O – Arg 141 of the N-terminal domain (side chain: 141/NE), 2.78 Å, contact pLDDT 70, PAE 17.0 Å</title>
+    <polygon points="-78.78,11.07 -72.14,12.33 -72.75,8.04" fill="#c026d3" opacity="0.62"/>
+    <text x="-68.32" y="10.71" font-size="9.5" font-weight="bold" fill="#1f2933">PAE 17</text>
+    <line x1="-73.39" y1="10.32" x2="-69.82" y2="9.82" fill="none" stroke="#c026d3" stroke-width="0.94" stroke-linejoin="round" opacity="0.62"/>
+    <line x1="-34.09" y1="4.79" x2="-25.13" y2="3.53" fill="none" stroke="#c026d3" stroke-width="0.94" stroke-linejoin="round" opacity="0.62"/>
+   </g>
+   <g class="interaction saltbridge" data-confidence="confident" data-distance="2.64" data-ligand-atoms="144/NE,144/NH1,144/NH2" data-ligand-part="side-chain" data-ligand-residue="Arg144" data-pae="13.0" data-plddt="76.9" data-protein-atoms="OD1,OD2" data-residue="Y:ASP273" data-type="saltbridge">
+    <title>Salt bridge: Asp273 (−) – Arg 144 of the N-terminal domain (side chain: 144/NE, 144/NH1, 144/NH2), 2.64 Å, contact pLDDT 77, PAE 13.0 Å</title>
+    <text x="-68.31" y="22.97" font-size="9.5" font-weight="bold" fill="#1f2933">PAE 13</text>
+    <line x1="-78.79" y1="15.71" x2="-69.81" y2="17" fill="none" stroke="#2563eb" stroke-width="2.36" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0.01 3.7"/>
+    <line x1="-34.08" y1="22.12" x2="-25.1" y2="23.4" fill="none" stroke="#2563eb" stroke-width="2.36" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0.01 3.7"/>
+   </g>
+   <g class="interaction hbond" data-confidence="low" data-distance="2.88" data-ligand-atoms="141/NH2,141/NH1" data-ligand-part="side-chain" data-ligand-residue="Arg141" data-pae="19.0" data-plddt="69.8" data-protein-atoms="O" data-residue="Y:LEU276" data-type="hbond">
+    <title>Hydrogen bond: Leu276 O – Arg 141 of the N-terminal domain (side chain: 141/NH2), 2.88 Å, contact pLDDT 70, PAE 19.0 Å; Hydrogen bond: Leu276 O – Arg 141 of the N-terminal domain (side chain: 141/NH1), 3.00 Å, contact pLDDT 70, PAE 19.0 Å</title>
+    <polygon points="40.85,-67.75 35.69,-63.38 39.4,-61.15" fill="#c026d3" opacity="0.62"/>
+    <text x="7.43" y="-36.06" font-size="9.5" font-weight="bold" fill="#1f2933">PAE 19</text>
+    <line x1="38.04" y1="-63.09" x2="26.88" y2="-44.58" fill="none" stroke="#c026d3" stroke-width="0.94" stroke-linejoin="round" opacity="0.62"/>
+    <line x1="20.72" y1="-34.36" x2="6.75" y2="-11.2" fill="none" stroke="#c026d3" stroke-width="0.94" stroke-linejoin="round" opacity="0.62"/>
+   </g>
+  </g>
+  <g class="ligand" data-drawn-as="chain">
+   <g class="backbone">
+    <line x1="0" y1="8.5" x2="0" y2="18.5" fill="none" stroke="#1f2933" stroke-width="1.27" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0.01 3.2" opacity="0.7"/>
+    <line x1="0" y1="-17.5" x2="0" y2="-8.5" fill="none" stroke="#1f2933" stroke-width="1.27" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0.01 3.2" opacity="0.7"/>
+    <line x1="0" y1="35.5" x2="0" y2="44.5" fill="none" stroke="#1f2933" stroke-width="1.27" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0.01 3.2" opacity="0.7"/>
+   </g>
+   <g class="bonds">
+   </g>
+   <g class="units">
+    <g class="unit" data-atoms="141/N,141/CA,141/C,141/CB,141/O,141/CG,141/CD,141/NE,141/NH1,141/NH2,141/CZ" data-class="positive" data-confidence="low" data-position="1" data-residue="ARG">
+     <title>Arg 141 of the N-terminal domain (numbered as in the structure file)</title>
+     <rect x="-23" y="-8.5" width="46" height="17" rx="5" fill="#ffffff" stroke="#1f2933" stroke-width="1.15" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="3.6 2.2" opacity="0.85"/>
+     <text x="0" y="3.77" font-size="10.5" text-anchor="middle" fill="#1f2933" opacity="0.85"><tspan font-weight="bold">Arg</tspan><tspan font-size="8" fill="#667085"> 141</tspan></text>
+    </g>
+    <g class="unit" data-atoms="144/N,144/CA,144/C,144/CB,144/O,144/CG,144/CD,144/NE,144/NH1,144/NH2,144/CZ" data-class="positive" data-confidence="confident" data-position="2" data-residue="ARG">
+     <title>Arg 144 of the N-terminal domain (numbered as in the structure file)</title>
+     <rect x="-23" y="18.5" width="46" height="17" rx="5" fill="#ffffff" stroke="#1f2933" stroke-width="1.15" stroke-linecap="round" stroke-linejoin="round"/>
+     <text x="0" y="30.77" font-size="10.5" text-anchor="middle" fill="#1f2933"><tspan font-weight="bold">Arg</tspan><tspan font-size="8" fill="#667085"> 144</tspan></text>
+    </g>
+   </g>
+   <g class="atoms">
+   </g>
+  </g>
+  <g class="residues">
+   <g class="residue" data-class="hydrophobic" data-confidence="very_high" data-form="bubble" data-plddt="90.1" data-residue="Y:CYS272">
+    <title>Cys272: hydrogen bond; residue pLDDT 90</title>
+    <path d="M66.78 37.19 L78.4 32.69 A15 15 0 1 1 69.07 49.44 Z" fill="#b8dc7a" stroke="#5b6472" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="83.82" y="45.58" font-size="9.5" text-anchor="middle" font-weight="bold" fill="#1f2933">CYS</text>
+    <text x="83.82" y="54.6" font-size="9.5" text-anchor="middle" fill="#1f2933">272</text>
+   </g>
+   <g class="residue" data-class="negative" data-confidence="confident" data-form="bubble" data-plddt="82.1" data-residue="Y:ASP273">
+    <title>Asp273: hydrogen bond, salt bridge; residue pLDDT 82</title>
+    <path d="M-75.62 13.4 L-83.6 22.97 A15 15 0 1 1 -83.57 3.8 Z" fill="#f4a98a" stroke="#5b6472" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="-95.12" y="12.27" font-size="9.5" text-anchor="middle" font-weight="bold" fill="#1f2933">ASP</text>
+    <text x="-95.12" y="21.29" font-size="9.5" text-anchor="middle" fill="#1f2933">273</text>
+   </g>
+   <g class="residue" data-class="hydrophobic" data-confidence="confident" data-form="bubble" data-plddt="89.6" data-residue="Y:LEU276">
+    <title>Leu276: hydrogen bond; residue pLDDT 90</title>
+    <path d="M39.3 -65.18 L35.21 -76.95 A15 15 0 1 1 51.62 -67.05 Z" fill="#b8dc7a" stroke="#5b6472" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="49.37" y="-82.98" font-size="9.5" text-anchor="middle" font-weight="bold" fill="#1f2933">LEU</text>
+    <text x="49.37" y="-73.96" font-size="9.5" text-anchor="middle" fill="#1f2933">276</text>
+   </g>
+  </g>
+ </g>
+ <g class="legend" transform="translate(18 250.46)">
+  <circle cx="5.5" cy="9.19" r="5.5" fill="#b8dc7a" stroke="#5b6472" stroke-width="0.8" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="16" y="12.96" font-size="10.5" fill="#667085">Hydrophobic</text>
+  <circle cx="98.44" cy="9.19" r="5.5" fill="#f4a98a" stroke="#5b6472" stroke-width="0.8" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="108.94" y="12.96" font-size="10.5" fill="#667085">Charged (−)</text>
+  <polygon points="209.25,9.19 202.85,11.69 202.85,6.69" fill="#c026d3"/>
+  <line x1="183.25" y1="9.19" x2="203.81" y2="9.19" fill="none" stroke="#c026d3" stroke-width="1.35" stroke-linejoin="round"/>
+  <text x="217.25" y="12.96" font-size="10.5" fill="#667085">H-bond (backbone)</text>
+  <line x1="325.12" y1="9.19" x2="351.12" y2="9.19" fill="none" stroke="#2563eb" stroke-width="2.36" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0.01 3.7"/>
+  <text x="359.12" y="12.96" font-size="10.5" fill="#667085">Salt bridge</text>
+  <circle cx="6.5" cy="27.56" r="6.5" fill="#c9ced6" opacity="0.6"/>
+  <text x="18" y="31.33" font-size="10.5" fill="#667085">Solvent exposure</text>
+  <text x="117.12" y="31.33" font-size="10.5" fill="#667085">Lining:</text>
+  <line x1="168.26" y1="27.56" x2="181.86" y2="27.56" fill="none" stroke="#9fdcee" stroke-width="4.4" stroke-linecap="round" stroke-linejoin="round" opacity="0.62"/>
+  <text x="189.06" y="31.33" font-size="10.5" fill="#667085">polar</text>
+  <line x1="232.6" y1="27.56" x2="246.2" y2="27.56" fill="none" stroke="#f4a98a" stroke-width="4.4" stroke-linecap="round" stroke-linejoin="round" opacity="0.62"/>
+  <text x="253.4" y="31.33" font-size="10.5" fill="#667085">charged (−)</text>
+  <text x="0" y="49.71" font-size="10.5" fill="#667085">Confidence:</text>
+  <line x1="74.03" y1="45.94" x2="100.03" y2="45.94" fill="none" stroke="#1f2933" stroke-width="1.76" stroke-linejoin="round"/>
+  <text x="108.03" y="49.71" font-size="10.5" fill="#667085">pLDDT ≥ 70</text>
+  <line x1="182.56" y1="45.94" x2="208.56" y2="45.94" fill="none" stroke="#1f2933" stroke-width="1.23" stroke-linejoin="round" opacity="0.62"/>
+  <text x="216.56" y="49.71" font-size="10.5" fill="#667085">50–70</text>
+  <line x1="263.75" y1="45.94" x2="272.11" y2="45.94" fill="none" stroke="#1f2933" stroke-width="0.88" stroke-linejoin="round" opacity="0.42"/>
+  <line x1="281.39" y1="45.94" x2="289.75" y2="45.94" fill="none" stroke="#1f2933" stroke-width="0.88" stroke-linejoin="round" opacity="0.42"/>
+  <text x="276.75" y="49.35" font-size="9.5" text-anchor="middle" fill="#1f2933" opacity="0.42">?</text>
+  <text x="297.75" y="49.71" font-size="10.5" fill="#667085">&lt; 50</text>
+  <rect x="0.6" y="58.81" width="20.8" height="11" rx="3.5" fill="#ffffff" stroke="#1f2933" stroke-width="1.15" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="27" y="68.08" font-size="10.5" fill="#667085">Residue of the N-terminal domain, numbered as in the structure file</text>
+  <text x="0" y="86.1" font-size="9.5" font-weight="bold" fill="#1f2933">PAE 11</text>
+  <text x="37.74" y="86.46" font-size="10.5" fill="#667085">Predicted aligned error (PAE) of a contact in Å: written from 5 Å, bold from 10 Å. Not pLDDT</text>
+ </g>
+ <g class="footnotes">
+  <text x="18" y="355.87" font-size="10.5" fill="#667085">Stroke weight and opacity follow the model's pLDDT: a contact is drawn at the lower of its two ends'</text>
+  <text x="18" y="371.1" font-size="10.5" fill="#667085">values, a residue at its own. ? marks pLDDT below 50.</text>
+  <text x="18" y="386.32" font-size="10.5" fill="#667085">An interface has no centre. The residues of the N-terminal domain that touch the C-terminal domain</text>
+  <text x="18" y="401.55" font-size="10.5" fill="#667085">stand in a column, as boxes, in the order of the sequence; a dotted line stands for residues in between</text>
+  <text x="18" y="416.77" font-size="10.5" fill="#667085">that do not; those of the C-terminal domain around it. A line is a pair of residues, at the shortest of its</text>
+  <text x="18" y="432" font-size="10.5" fill="#667085">contacts of one kind.</text>
+  <text x="18" y="447.22" font-size="10.5" fill="#667085">All 2 residues of the N-terminal domain at the interface are shown, with 5 contacts.</text>
+  <text x="18" y="462.45" font-size="10.5" fill="#667085">PAE (predicted aligned error) is the model's expected error, in ångström, in placing one residue of a</text>
+  <text x="18" y="477.67" font-size="10.5" fill="#667085">contact relative to the other: low is confident, about 32 means no idea. It is not pLDDT, which line weight,</text>
+  <text x="18" y="492.9" font-size="10.5" fill="#667085">dashes and ? show.</text>
+  <text x="18" y="508.12" font-size="10.5" fill="#667085">All 4 residue pairs in contact have a PAE of 5 Å or more, written on their lines.</text>
+ </g>
+</svg>

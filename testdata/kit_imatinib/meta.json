@@ -1,0 +1,22 @@
+{
+ "slug": "kit_imatinib",
+ "what": "the kinase domain of c-Kit with imatinib",
+ "source": {
+  "archive": "RCSB Protein Data Bank",
+  "entry": "1T46",
+  "address": "https://files.rcsb.org/download/1T46.cif.gz",
+  "licence": "CC0 1.0 (the archive's data are in the public domain)",
+  "file": "model.cif.gz",
+  "file_is": "the archive's own file, byte for byte",
+  "sha256": "ea3df3dad96e6127d90725efb33f004c17b854ae89865d5b32b935ea9af341f5"
+ },
+ "ligand": {
+  "name": "imatinib",
+  "component": "STI",
+  "residue_name_in_cif": "STI",
+  "smiles": "Cc1ccc(cc1Nc2nccc(n2)c3cccnc3)NC(=O)c4ccc(cc4)CN5CCN(CC5)C",
+  "smiles_from": "the archive's record of the chemical component STI",
+  "heavy_atoms": 37
+ },
+ "why_this_case": "The reference case: one drug with hydrogen bonds, ring stacking, a ring over a charged group and hydrophobic contacts at once."
+}

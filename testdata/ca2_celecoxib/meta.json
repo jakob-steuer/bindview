@@ -1,0 +1,22 @@
+{
+ "slug": "ca2_celecoxib",
+ "what": "human carbonic anhydrase II with celecoxib on its zinc",
+ "source": {
+  "archive": "RCSB Protein Data Bank",
+  "entry": "1OQ5",
+  "address": "https://files.rcsb.org/download/1OQ5.cif.gz",
+  "licence": "CC0 1.0 (the archive's data are in the public domain)",
+  "file": "model.cif.gz",
+  "file_is": "the archive's own file, byte for byte",
+  "sha256": "c3130a56cb244c6fba9ab1828f7d7a41d9fee26062f302f3c4b0db7c16081824"
+ },
+ "ligand": {
+  "name": "celecoxib",
+  "component": "CEL",
+  "residue_name_in_cif": "CEL",
+  "smiles": "Cc1ccc(cc1)c2cc(nn2c3ccc(cc3)S(=O)(=O)N)C(F)(F)F",
+  "smiles_from": "the archive's record of the chemical component CEL",
+  "heavy_atoms": 26
+ },
+ "why_this_case": "A ligand on a metal ion that the protein holds: metal coordination, and the ion as a bridge."
+}

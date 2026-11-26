@@ -1,0 +1,22 @@
+{
+ "slug": "gr_desciclesonide",
+ "what": "the glucocorticoid receptor's ligand-binding domain with desisobutyryl-ciclesonide",
+ "source": {
+  "archive": "RCSB Protein Data Bank",
+  "entry": "4UDD",
+  "address": "https://files.rcsb.org/download/4UDD.cif.gz",
+  "licence": "CC0 1.0 (the archive's data are in the public domain)",
+  "file": "model.cif.gz",
+  "file_is": "the archive's own file, byte for byte",
+  "sha256": "0206d7153aac2a54ad405960813b6aebc10b322f9e63c77b63c3a1248b6e872a"
+ },
+ "ligand": {
+  "name": "desisobutyryl-ciclesonide",
+  "component": "CV7",
+  "residue_name_in_cif": "CV7",
+  "smiles": "C[C@]12C[C@@H]([C@H]3[C@H]([C@@H]1C[C@@H]4[C@]2(O[C@@H](O4)C5CCCCC5)C(=O)CO)CCC6=CC(=O)C=C[C@]36C)O",
+  "smiles_from": "the archive's record of the chemical component CV7",
+  "heavy_atoms": 34
+ },
+ "why_this_case": "A member of the series of corticosteroids."
+}

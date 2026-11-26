@@ -1,0 +1,22 @@
+{
+ "slug": "hb_carbon_monoxide",
+ "what": "human carbonmonoxy haemoglobin",
+ "source": {
+  "archive": "RCSB Protein Data Bank",
+  "entry": "2DN3",
+  "address": "https://files.rcsb.org/download/2DN3.cif.gz",
+  "licence": "CC0 1.0 (the archive's data are in the public domain)",
+  "file": "model.cif.gz",
+  "file_is": "the archive's own file, byte for byte",
+  "sha256": "c6f8a0ed99f86da848591184401a09a6aa0b926e4033c3a2dcb29b5762a0190b"
+ },
+ "ligand": {
+  "name": "carbon monoxide",
+  "component": "CMO",
+  "residue_name_in_cif": "A:143",
+  "smiles": "[C-]#[O+]",
+  "smiles_from": "the archive's record of the chemical component CMO",
+  "heavy_atoms": 2
+ },
+ "why_this_case": "A ligand of two atoms, bound to the haem and to no residue: the figure of a ligand without contacts."
+}

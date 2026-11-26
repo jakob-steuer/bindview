@@ -1,0 +1,23 @@
+{
+ "slug": "gr_dexamethasone",
+ "what": "the glucocorticoid receptor's ligand-binding domain with dexamethasone",
+ "source": {
+  "archive": "RCSB Protein Data Bank",
+  "entry": "1M2Z",
+  "address": "https://files.rcsb.org/download/1M2Z.cif.gz",
+  "licence": "CC0 1.0 (the archive's data are in the public domain)",
+  "file": "model.cif.gz",
+  "file_is": "the archive's own file, byte for byte",
+  "sha256": "b5a44934edda453aed4623c57954712a9c40a34a81d5c6903196e7ef8e0614f8"
+ },
+ "ligand": {
+  "name": "dexamethasone",
+  "component": "DEX",
+  "residue_name_in_cif": "A:301",
+  "smiles": "C[C@@H]1C[C@H]2[C@@H]3CCC4=CC(=O)C=C[C@@]4([C@]3([C@H](C[C@@]2([C@]1(C(=O)CO)O)C)O)F)C",
+  "smiles_from": "the archive's record of the chemical component DEX",
+  "heavy_atoms": 28,
+  "copies": "the entry holds the complex twice (chains A and D); the copy of chain A is the case"
+ },
+ "why_this_case": "A member of the series of corticosteroids."
+}

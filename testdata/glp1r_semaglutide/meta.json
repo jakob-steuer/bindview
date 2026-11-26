@@ -1,0 +1,25 @@
+{
+ "slug": "glp1r_semaglutide",
+ "what": "the GLP-1 receptor with semaglutide and its G protein (cryo-EM)",
+ "source": {
+  "archive": "RCSB Protein Data Bank",
+  "entry": "7KI0",
+  "address": "https://files.rcsb.org/download/7KI0.cif.gz",
+  "licence": "CC0 1.0 (the archive's data are in the public domain)",
+  "file": "model.cif.gz",
+  "file_is": "the archive's own file, byte for byte",
+  "sha256": "0576aeab446c2fb697312f458b5ce96f115fd9f07a0902b80c10d1a76e455da9"
+ },
+ "chains": {
+  "R": "GLP-1 receptor",
+  "P": "semaglutide: 33 residues, with 2-aminoisobutyric acid at position 8 and the linker of its fatty acid on Lys26",
+  "A": "G protein, alpha subunit",
+  "B": "G protein, beta subunit",
+  "G": "G protein, gamma subunit",
+  "N": "nanobody 35"
+ },
+ "chain_names": "the authors' (auth_asym_id)",
+ "peptide_chain": "P",
+ "receptor_chain": "R",
+ "why_this_case": "A long peptide deep in its receptor: a crowded chain, a modified residue, and a group bonded to a side chain."
+}

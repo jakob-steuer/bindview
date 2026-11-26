@@ -1,0 +1,22 @@
+{
+ "slug": "ar_bicalutamide",
+ "what": "the androgen receptor's ligand-binding domain (W741L) with R-bicalutamide",
+ "source": {
+  "archive": "RCSB Protein Data Bank",
+  "entry": "1Z95",
+  "address": "https://files.rcsb.org/download/1Z95.cif.gz",
+  "licence": "CC0 1.0 (the archive's data are in the public domain)",
+  "file": "model.cif.gz",
+  "file_is": "the archive's own file, byte for byte",
+  "sha256": "39bc7bc4c7fb983fdbea5c3202b2630c926377a7b18e910376466a7ba0dfefda"
+ },
+ "ligand": {
+  "name": "bicalutamide",
+  "component": "198",
+  "residue_name_in_cif": "198",
+  "smiles": "C[C@](CS(=O)(=O)c1ccc(cc1)F)(C(=O)Nc2ccc(c(c2)C(F)(F)F)C#N)O",
+  "smiles_from": "the archive's record of the chemical component 198",
+  "heavy_atoms": 29
+ },
+ "why_this_case": "Halogens: a CF3 group and a fluorophenyl in a tight pocket; the second ligand of the androgen receptor's pocket."
+}

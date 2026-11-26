@@ -1,0 +1,262 @@
+<svg xmlns="http://www.w3.org/2000/svg" class="bindview" width="533.84" height="847.47" viewBox="0 0 533.84 847.47" font-family="Helvetica, Arial, 'Liberation Sans', sans-serif" role="img">
+ <title>the N-terminal domain – the ZP domain</title>
+ <desc>Predicted model: mean pLDDT 66 of the residues around the column, mean pLDDT 63 of the column, contact PAE 3.0–13.0 Å.</desc>
+ <rect class="background" width="533.84" height="847.47" fill="#ffffff"/>
+ <g class="confidence" data-contact-pae-max="13.0" data-contact-pae-min="3.0" data-ligand-plddt="63.0" data-plddt-basis="residue" data-pocket-plddt="65.9">
+  <text x="18" y="26.26" font-size="11.5" fill="#667085">Model confidence  residues around pLDDT <tspan fill="#1f2933" font-weight="bold">66</tspan>  ·  column pLDDT <tspan fill="#1f2933" font-weight="bold">63</tspan>  ·  contact PAE <tspan fill="#1f2933" font-weight="bold">3.0–13.0 Å</tspan></text>
+ </g>
+ <g class="diagram" transform="translate(262.49 196.08)">
+  <g class="interactions">
+   <g class="interaction hbond" data-confidence="very_low" data-distance="2.82" data-ligand-atoms="124/N" data-pae="3.0" data-plddt="48.3" data-protein-atoms="OH" data-residue="Y:TYR127" data-type="hbond">
+    <title>Hydrogen bond: Tyr127 OH – His 124 of the N-terminal domain (backbone: 124/N), 2.82 Å, contact pLDDT 48, PAE 3.0 Å</title>
+    <polygon points="-55,161.49 -48.39,160.49 -50.06,156.99" fill="#1a9641" opacity="0.42"/>
+    <text x="-30.26" y="153.09" font-size="9.5" text-anchor="middle" fill="#1a9641" opacity="0.42">2.82 ?</text>
+    <line x1="-50.09" y1="159.15" x2="-40.97" y2="154.79" fill="none" stroke="#1a9641" stroke-width="0.68" stroke-linejoin="round" stroke-dasharray="4.2 2.8" opacity="0.42"/>
+    <line x1="-19.56" y1="144.57" x2="-5.53" y2="137.87" fill="none" stroke="#1a9641" stroke-width="0.68" stroke-linejoin="round" stroke-dasharray="4.2 2.8" opacity="0.42"/>
+   </g>
+   <g class="interaction hydrophobic" data-confidence="very_low" data-distance="3.78" data-ligand-atoms="124/CB" data-ligand-part="side-chain" data-ligand-residue="His124" data-pae="3.0" data-plddt="48.3" data-protein-atoms="CE2" data-residue="Y:TYR127" data-type="hydrophobic">
+    <title>Hydrophobic contact: Tyr127 CE2 – His 124 of the N-terminal domain (side chain: 124/CB), 3.78 Å, contact pLDDT 48, PAE 3.0 Å</title>
+    <line x1="0.6" y1="256.32" x2="0.08" y2="179.53" fill="none" stroke="#c0392b" stroke-width="0.41" stroke-linejoin="round" opacity="0.42"/>
+   </g>
+   <g class="interaction hydrophobic" data-confidence="very_low" data-distance="3.39" data-ligand-atoms="34/CG" data-ligand-part="side-chain" data-ligand-residue="Pro34" data-pae="10.0" data-plddt="40.0" data-protein-atoms="CD2" data-residue="Y:PHE151" data-type="hydrophobic">
+    <title>Hydrophobic contact: Phe151 CD2 – Pro 34 of the N-terminal domain (side chain: 34/CG), 3.39 Å, contact pLDDT 40, PAE 10.0 Å</title>
+    <text x="31.71" y="49.35" font-size="9.5" font-weight="bold" fill="#1f2933">PAE 10</text>
+    <line x1="74.61" y1="35.8" x2="61.45" y2="40.83" fill="none" stroke="#c0392b" stroke-width="0.41" stroke-linejoin="round" opacity="0.42"/>
+    <line x1="34.7" y1="51.05" x2="21.54" y2="56.08" fill="none" stroke="#c0392b" stroke-width="0.41" stroke-linejoin="round" opacity="0.42"/>
+   </g>
+   <g class="interaction hbond" data-confidence="low" data-distance="3.45" data-ligand-atoms="32/O" data-pae="8.0" data-plddt="55.0" data-protein-atoms="NE2" data-residue="Y:GLN154" data-type="hbond">
+    <title>Hydrogen bond: Gln154 NE2 – Cys 32 of the N-terminal domain (backbone: 32/O), 3.45 Å, contact pLDDT 55, PAE 8.0 Å</title>
+    <polygon points="-21.77,39.29 -24.42,33.08 -20.11,32.75" fill="#1a9641" opacity="0.62"/>
+    <text x="-50.15" y="-13.93" font-size="9.5" fill="#1a9641" opacity="0.62">3.45</text>
+    <text x="-29.02" y="-13.93" font-size="9.5" fill="#1f2933">PAE 8</text>
+    <line x1="-28.07" y1="-42.79" x2="-26.51" y2="-22.45" fill="none" stroke="#1a9641" stroke-width="0.94" stroke-linejoin="round" stroke-dasharray="4.2 2.8" opacity="0.62"/>
+    <line x1="-25.72" y1="-12.23" x2="-22.19" y2="33.87" fill="none" stroke="#1a9641" stroke-width="0.94" stroke-linejoin="round" stroke-dasharray="4.2 2.8" opacity="0.62"/>
+   </g>
+   <g class="interaction hbond" data-confidence="low" data-distance="2.83" data-ligand-atoms="35/N" data-pae="9.0" data-plddt="61.1" data-protein-atoms="O" data-residue="Y:GLY192" data-type="hbond">
+    <title>Hydrogen bond: Gly192 O – Lys 35 of the N-terminal domain (backbone: 35/N), 2.83 Å, contact pLDDT 61, PAE 9.0 Å</title>
+    <polygon points="85.36,83.22 78.96,81.06 78.96,85.38" fill="#1a9641" opacity="0.62"/>
+    <text x="21.72" y="86.63" font-size="9.5" fill="#1a9641" opacity="0.62">2.83</text>
+    <text x="42.84" y="86.63" font-size="9.5" fill="#1f2933">PAE 9</text>
+    <line x1="79.92" y1="83.22" x2="71.28" y2="83.22" fill="none" stroke="#1a9641" stroke-width="0.94" stroke-linejoin="round" stroke-dasharray="4.2 2.8" opacity="0.62"/>
+    <line x1="20.22" y1="83.22" x2="6.13" y2="83.22" fill="none" stroke="#1a9641" stroke-width="0.94" stroke-linejoin="round" stroke-dasharray="4.2 2.8" opacity="0.62"/>
+   </g>
+   <g class="interaction hbond" data-confidence="low" data-distance="2.89" data-ligand-atoms="35/NZ" data-pae="10.0" data-plddt="61.1" data-protein-atoms="O" data-residue="Y:LEU193" data-type="hbond">
+    <title>Hydrogen bond: Leu193 O – Lys 35 of the N-terminal domain (side chain: 35/NZ), 2.89 Å, contact pLDDT 61, PAE 10.0 Å</title>
+    <polygon points="-145.86,32.64 -146.77,39.34 -142.52,38.52" fill="#1a9641" opacity="0.62"/>
+    <text x="-165.3" y="74.89" font-size="9.5" fill="#1a9641" opacity="0.62">2.89</text>
+    <text x="-144.18" y="74.89" font-size="9.5" font-weight="bold" fill="#1f2933">PAE 10</text>
+    <line x1="-144.83" y1="37.98" x2="-139.36" y2="66.37" fill="none" stroke="#1a9641" stroke-width="0.94" stroke-linejoin="round" stroke-dasharray="4.2 2.8" opacity="0.62"/>
+    <line x1="-137.39" y1="76.59" x2="-130.89" y2="110.32" fill="none" stroke="#1a9641" stroke-width="0.94" stroke-linejoin="round" stroke-dasharray="4.2 2.8" opacity="0.62"/>
+   </g>
+   <g class="interaction hydrophobic" data-confidence="low" data-distance="3.93" data-ligand-atoms="34/CB" data-ligand-part="side-chain" data-ligand-residue="Pro34" data-pae="13.0" data-plddt="63.3" data-protein-atoms="CD2" data-residue="Y:LEU193" data-type="hydrophobic">
+    <title>Hydrophobic contact: Leu193 CD2 – Pro 34 of the N-terminal domain (side chain: 34/CB), 3.93 Å, contact pLDDT 63, PAE 13.0 Å</title>
+    <text x="-80.86" y="31.91" font-size="9.5" font-weight="bold" fill="#1f2933">PAE 13</text>
+    <line x1="-110.59" y1="2.9" x2="-73.69" y2="23.39" fill="none" stroke="#c0392b" stroke-width="0.57" stroke-linejoin="round" opacity="0.62"/>
+    <line x1="-55.28" y1="33.61" x2="-18.39" y2="54.1" fill="none" stroke="#c0392b" stroke-width="0.57" stroke-linejoin="round" opacity="0.62"/>
+   </g>
+  </g>
+  <g class="ligand" data-drawn-as="chain">
+   <g class="backbone">
+    <line x1="0" y1="36.1" x2="0" y2="55.81" fill="none" stroke="#1f2933" stroke-width="1.27" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0.01 3.2" opacity="0.7"/>
+    <line x1="0" y1="124.82" x2="0" y2="129.82" fill="none" stroke="#1f2933" stroke-width="1.27" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0.01 3.2" opacity="0.7"/>
+    <line x1="0" y1="-17.5" x2="0" y2="-8.5" fill="none" stroke="#1f2933" stroke-width="1.27" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0.01 3.2" opacity="0.7"/>
+   </g>
+   <g class="bonds">
+    <g class="bonds-beside-low" opacity="0.62">
+     <line x1="0" y1="72.81" x2="0" y2="79.81" fill="none" stroke="#1f2933" stroke-width="0.94" stroke-linecap="round" stroke-linejoin="round"/>
+     <line x1="0" y1="107.82" x2="0" y2="86.63" fill="none" stroke="#1f2933" stroke-width="0.94" stroke-linecap="round" stroke-linejoin="round"/>
+     <line x1="-22.5" y1="111.44" x2="-45.07" y2="106.55" fill="none" stroke="#1f2933" stroke-width="0.94" stroke-linecap="round" stroke-linejoin="round"/>
+     <line x1="-64.83" y1="121.21" x2="-45.07" y2="106.55" fill="none" stroke="#1f2933" stroke-width="0.94" stroke-linecap="round" stroke-linejoin="round"/>
+     <line x1="-87.4" y1="111.43" x2="-64.83" y2="121.21" fill="none" stroke="#1f2933" stroke-width="0.94" stroke-linecap="round" stroke-linejoin="round"/>
+     <line x1="-107.15" y1="126.1" x2="-87.4" y2="111.43" fill="none" stroke="#1f2933" stroke-width="0.94" stroke-linecap="round" stroke-linejoin="round"/>
+     <line x1="-124.8" y1="118.46" x2="-107.15" y2="126.1" fill="none" stroke="#1f2933" stroke-width="0.94" stroke-linecap="round" stroke-linejoin="round"/>
+     <line x1="0" y1="159.83" x2="0" y2="138.64" fill="none" stroke="#1f2933" stroke-width="0.94" stroke-linecap="round" stroke-linejoin="round"/>
+     <line x1="22.5" y1="176.24" x2="42.14" y2="183.14" fill="none" stroke="#1f2933" stroke-width="0.94" stroke-linecap="round" stroke-linejoin="round"/>
+     <line x1="64.79" y1="173.54" x2="42.14" y2="183.14" fill="none" stroke="#1f2933" stroke-width="0.94" stroke-linecap="round" stroke-linejoin="round"/>
+     <line x1="70.33" y1="149.57" x2="64.79" y2="173.54" fill="none" stroke="#1f2933" stroke-width="0.94" stroke-linecap="round" stroke-linejoin="round"/>
+     <line x1="72.95" y1="153.53" x2="68.88" y2="171.13" fill="none" stroke="#1f2933" stroke-width="0.94" stroke-linecap="round" stroke-linejoin="round"/>
+     <line x1="80.94" y1="183.25" x2="64.79" y2="173.54" fill="none" stroke="#1f2933" stroke-width="0.94" stroke-linecap="round" stroke-linejoin="round"/>
+     <line x1="104.44" y1="170.08" x2="90.8" y2="181.93" fill="none" stroke="#1f2933" stroke-width="0.94" stroke-linecap="round" stroke-linejoin="round"/>
+     <line x1="96.92" y1="152.35" x2="104.44" y2="170.08" fill="none" stroke="#1f2933" stroke-width="0.94" stroke-linecap="round" stroke-linejoin="round"/>
+     <line x1="93.18" y1="152.35" x2="100" y2="168.42" fill="none" stroke="#1f2933" stroke-width="0.94" stroke-linecap="round" stroke-linejoin="round"/>
+     <line x1="89.91" y1="147.87" x2="70.33" y2="149.57" fill="none" stroke="#1f2933" stroke-width="0.94" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+    <g class="bonds-beside-confident">
+     <line x1="0" y1="8.5" x2="0" y2="33.1" fill="none" stroke="#1f2933" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round"/>
+     <line x1="22.5" y1="-3.96" x2="45.74" y2="-8.05" fill="none" stroke="#1f2933" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round"/>
+     <line x1="-16.11" y1="44.39" x2="0.86" y2="34.59" fill="none" stroke="#1f2933" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round"/>
+     <line x1="-16.24" y1="40.49" x2="-0.86" y2="31.61" fill="none" stroke="#1f2933" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round"/>
+     <line x1="59.67" y1="4.01" x2="45.74" y2="-8.05" fill="none" stroke="#1f2933" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+   </g>
+   <g class="units">
+    <g class="unit" data-atoms="32/N,32/CA,32/C,32/CB,32/O,32/SG" data-beside="32/C,32/CB,32/O,32/SG" data-class="hydrophobic" data-confidence="confident" data-position="1" data-residue="CYS">
+     <title>Cys 32 of the N-terminal domain (numbered as in the structure file)</title>
+     <rect x="-22.5" y="-8.5" width="45" height="17" rx="5" fill="#ffffff" stroke="#1f2933" stroke-width="1.15" stroke-linecap="round" stroke-linejoin="round"/>
+     <text x="0" y="3.77" font-size="10.5" text-anchor="middle" fill="#1f2933"><tspan font-weight="bold">Cys</tspan><tspan font-size="8" fill="#667085"> 32</tspan></text>
+    </g>
+    <g class="unit" data-atoms="34/N,34/CA,34/C,34/CB,34/O,34/CG,34/CD" data-class="hydrophobic" data-confidence="low" data-position="2" data-residue="PRO">
+     <title>Pro 34 of the N-terminal domain (numbered as in the structure file)</title>
+     <rect x="-22.5" y="55.81" width="45" height="17" rx="5" fill="#ffffff" stroke="#1f2933" stroke-width="1.15" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="3.6 2.2" opacity="0.85"/>
+     <text x="0" y="68.08" font-size="10.5" text-anchor="middle" fill="#1f2933" opacity="0.85"><tspan font-weight="bold">Pro</tspan><tspan font-size="8" fill="#667085"> 34</tspan></text>
+    </g>
+    <g class="unit" data-atoms="35/N,35/CA,35/C,35/CB,35/O,35/CG,35/CD,35/CE,35/NZ" data-beside="35/N,35/CB,35/CG,35/CD,35/CE,35/NZ" data-class="positive" data-confidence="low" data-position="3" data-residue="LYS">
+     <title>Lys 35 of the N-terminal domain (numbered as in the structure file)</title>
+     <rect x="-22.5" y="107.82" width="45" height="17" rx="5" fill="#ffffff" stroke="#1f2933" stroke-width="1.15" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="3.6 2.2" opacity="0.85"/>
+     <text x="0" y="120.09" font-size="10.5" text-anchor="middle" fill="#1f2933" opacity="0.85"><tspan font-weight="bold">Lys</tspan><tspan font-size="8" fill="#667085"> 35</tspan></text>
+    </g>
+    <g class="unit" data-atoms="124/N,124/CA,124/C,124/CB,124/O,124/CG,124/CD2,124/ND1,124/CE1,124/NE2" data-beside="124/N,124/CB,124/CG,124/CD2,124/ND1,124/CE1,124/NE2" data-class="polar" data-confidence="low" data-position="4" data-residue="HIS">
+     <title>His 124 of the N-terminal domain (numbered as in the structure file)</title>
+     <rect x="-22.5" y="159.83" width="45" height="17" rx="5" fill="#ffffff" stroke="#1f2933" stroke-width="1.15" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="3.6 2.2" opacity="0.85"/>
+     <text x="0" y="172.1" font-size="10.5" text-anchor="middle" fill="#1f2933" opacity="0.85"><tspan font-weight="bold">His</tspan><tspan font-size="8" fill="#667085"> 124</tspan></text>
+    </g>
+   </g>
+   <g class="atoms">
+    <g class="atoms-beside-low" opacity="0.77">
+     <g class="atom" data-atom="35/N">
+      <text x="0" y="86.63" font-size="13.5" text-anchor="middle" fill="#2f5fd0"><tspan font-size="9.5">N</tspan></text>
+     </g>
+     <g class="atom" data-atom="35/NZ">
+      <text x="-129.73" y="119.73" font-size="13.5" text-anchor="middle" fill="#2f5fd0"><tspan font-size="9.5">N</tspan></text>
+     </g>
+     <g class="atom" data-atom="124/N">
+      <text x="0" y="138.64" font-size="13.5" text-anchor="middle" fill="#2f5fd0"><tspan font-size="9.5">N</tspan></text>
+     </g>
+     <g class="atom" data-atom="124/ND1">
+      <text x="85.87" y="189.63" font-size="13.5" text-anchor="middle" fill="#2f5fd0"><tspan font-size="9.5">N</tspan></text>
+     </g>
+     <g class="atom" data-atom="124/NE2">
+      <text x="94.84" y="150.85" font-size="13.5" text-anchor="middle" fill="#2f5fd0"><tspan font-size="9.5">N</tspan></text>
+     </g>
+    </g>
+    <g class="atoms-beside-confident">
+     <g class="atom" data-atom="32/O">
+      <text x="-21.3" y="48.81" font-size="13.5" text-anchor="middle" fill="#d6332a"><tspan font-size="9.5">O</tspan></text>
+     </g>
+     <g class="atom" data-atom="32/SG">
+      <text x="64.34" y="11.46" font-size="13.5" text-anchor="middle" fill="#a67c00"><tspan font-size="9.5">S</tspan></text>
+     </g>
+    </g>
+   </g>
+  </g>
+  <g class="residues">
+   <g class="residue" data-class="hydrophobic" data-confidence="very_low" data-detail="sidechain" data-form="fragment" data-plddt="48.3" data-residue="Y:TYR127">
+    <title>Tyr127: residue pLDDT 48</title>
+    <g class="fragment" data-confidence="very_low" opacity="0.42">
+     <line x1="0.61" y1="258.92" x2="-23.73" y2="255.36" fill="none" stroke="#6b7a90" stroke-width="0.68" stroke-linecap="round" stroke-linejoin="round"/>
+     <line x1="-23.73" y1="255.36" x2="-32.82" y2="232.51" fill="none" stroke="#6b7a90" stroke-width="0.68" stroke-linecap="round" stroke-linejoin="round"/>
+     <line x1="-32.82" y1="232.51" x2="-57.17" y2="228.96" fill="none" stroke="#6b7a90" stroke-width="0.68" stroke-linecap="round" stroke-linejoin="round"/>
+     <line x1="-57.17" y1="228.96" x2="-66.26" y2="206.1" fill="none" stroke="#6b7a90" stroke-width="0.68" stroke-linecap="round" stroke-linejoin="round"/>
+     <line x1="-55.18" y1="224.65" x2="-61.86" y2="207.86" fill="none" stroke="#6b7a90" stroke-width="0.68" stroke-linecap="round" stroke-linejoin="round"/>
+     <line x1="-66.26" y1="206.1" x2="-51.02" y2="186.79" fill="none" stroke="#6b7a90" stroke-width="0.68" stroke-linecap="round" stroke-linejoin="round"/>
+     <line x1="-51.02" y1="186.79" x2="-58.16" y2="168.85" fill="none" stroke="#6b7a90" stroke-width="0.68" stroke-linecap="round" stroke-linejoin="round"/>
+     <line x1="-51.02" y1="186.79" x2="-26.67" y2="190.34" fill="none" stroke="#6b7a90" stroke-width="0.68" stroke-linecap="round" stroke-linejoin="round"/>
+     <line x1="-48.28" y1="190.67" x2="-30.4" y2="193.28" fill="none" stroke="#6b7a90" stroke-width="0.68" stroke-linecap="round" stroke-linejoin="round"/>
+     <line x1="-26.67" y1="190.34" x2="-17.58" y2="213.2" fill="none" stroke="#6b7a90" stroke-width="0.68" stroke-linecap="round" stroke-linejoin="round"/>
+     <line x1="-17.58" y1="213.2" x2="-32.82" y2="232.51" fill="none" stroke="#6b7a90" stroke-width="0.68" stroke-linecap="round" stroke-linejoin="round"/>
+     <line x1="-22.3" y1="213.63" x2="-33.5" y2="227.81" fill="none" stroke="#6b7a90" stroke-width="0.68" stroke-linecap="round" stroke-linejoin="round"/>
+     <text x="-60.11" y="167.35" font-size="9.5" text-anchor="middle" fill="#d6332a">O</text>
+    </g>
+    <text x="28.91" y="267.35" font-size="12" text-anchor="middle" fill="#1f2933" opacity="0.72">Tyr127?</text>
+   </g>
+   <g class="residue" data-class="hydrophobic" data-confidence="very_low" data-form="eyelash" data-plddt="40.0" data-residue="Y:PHE151">
+    <title>Phe151: residue pLDDT 40</title>
+    <polyline points="102.06,51.54 99.29,50.75 96.6,49.69 94.03,48.38 91.6,46.82 89.34,45.03 87.25,43.03 85.38,40.83 83.73,38.47 82.31,35.95 81.15,33.3 80.25,30.56 79.63,27.74 79.28,24.88 79.22,21.99 79.43,19.11 79.93,16.27 80.7,13.48 81.74,10.79 83.03,8.21 84.58,5.77" fill="none" stroke="#c0392b" stroke-width="0.62" stroke-linecap="round" stroke-linejoin="round" opacity="0.42"/>
+    <line x1="98.12" y1="50.33" x2="95.97" y2="55.93" fill="none" stroke="#c0392b" stroke-width="0.62" stroke-linecap="round" stroke-linejoin="round" opacity="0.42"/>
+    <line x1="90.94" y1="46.33" x2="87.32" y2="51.12" fill="none" stroke="#c0392b" stroke-width="0.62" stroke-linecap="round" stroke-linejoin="round" opacity="0.42"/>
+    <line x1="85.13" y1="40.5" x2="80.33" y2="44.11" fill="none" stroke="#c0392b" stroke-width="0.62" stroke-linecap="round" stroke-linejoin="round" opacity="0.42"/>
+    <line x1="81.15" y1="33.3" x2="75.55" y2="35.45" fill="none" stroke="#c0392b" stroke-width="0.62" stroke-linecap="round" stroke-linejoin="round" opacity="0.42"/>
+    <line x1="79.31" y1="25.29" x2="73.34" y2="25.8" fill="none" stroke="#c0392b" stroke-width="0.62" stroke-linecap="round" stroke-linejoin="round" opacity="0.42"/>
+    <line x1="79.76" y1="17.07" x2="73.87" y2="15.92" fill="none" stroke="#c0392b" stroke-width="0.62" stroke-linecap="round" stroke-linejoin="round" opacity="0.42"/>
+    <line x1="82.45" y1="9.3" x2="77.11" y2="6.57" fill="none" stroke="#c0392b" stroke-width="0.62" stroke-linecap="round" stroke-linejoin="round" opacity="0.42"/>
+    <text x="108.76" y="27.07" font-size="12" text-anchor="middle" fill="#1f2933" opacity="0.72">Phe151?</text>
+   </g>
+   <g class="residue" data-class="polar" data-confidence="low" data-detail="sidechain" data-form="fragment" data-plddt="55.0" data-residue="Y:GLN154">
+    <title>Gln154: residue pLDDT 55</title>
+    <g class="fragment" data-confidence="low" opacity="0.62">
+     <line x1="-34.6" y1="-133.18" x2="-20.81" y2="-112.81" fill="none" stroke="#6b7a90" stroke-width="0.94" stroke-linecap="round" stroke-linejoin="round"/>
+     <line x1="-20.81" y1="-112.81" x2="-31.54" y2="-90.68" fill="none" stroke="#6b7a90" stroke-width="0.94" stroke-linecap="round" stroke-linejoin="round"/>
+     <line x1="-31.54" y1="-90.68" x2="-17.74" y2="-70.31" fill="none" stroke="#6b7a90" stroke-width="0.94" stroke-linecap="round" stroke-linejoin="round"/>
+     <line x1="-17.62" y1="-68.6" x2="1.6" y2="-69.98" fill="none" stroke="#6b7a90" stroke-width="0.94" stroke-linecap="round" stroke-linejoin="round"/>
+     <line x1="-17.87" y1="-72.03" x2="1.6" y2="-73.43" fill="none" stroke="#6b7a90" stroke-width="0.94" stroke-linecap="round" stroke-linejoin="round"/>
+     <line x1="-17.74" y1="-70.31" x2="-26.1" y2="-53.09" fill="none" stroke="#6b7a90" stroke-width="0.94" stroke-linecap="round" stroke-linejoin="round"/>
+     <text x="6.79" y="-68.67" font-size="9.5" text-anchor="middle" fill="#d6332a">O</text>
+     <text x="-28.48" y="-44.77" font-size="9.5" text-anchor="middle" fill="#2f5fd0">N</text>
+    </g>
+    <text x="-46.16" y="-145.92" font-size="12" text-anchor="middle" fill="#1f2933" opacity="0.82">Gln154</text>
+   </g>
+   <g class="residue" data-class="glycine" data-confidence="low" data-detail="sidechain" data-form="fragment" data-plddt="63.5" data-residue="Y:GLY192">
+    <title>Gly192: residue pLDDT 64</title>
+    <g class="fragment" data-confidence="low" opacity="0.62">
+     <line x1="133.67" y1="83.22" x2="112.36" y2="95.52" fill="none" stroke="#6b7a90" stroke-width="0.94" stroke-linecap="round" stroke-linejoin="round"/>
+     <line x1="113.22" y1="94.03" x2="96.26" y2="84.23" fill="none" stroke="#6b7a90" stroke-width="0.94" stroke-linecap="round" stroke-linejoin="round"/>
+     <line x1="111.5" y1="97.01" x2="96.13" y2="88.13" fill="none" stroke="#6b7a90" stroke-width="0.94" stroke-linecap="round" stroke-linejoin="round"/>
+     <text x="91.06" y="86.63" font-size="9.5" text-anchor="middle" fill="#d6332a">O</text>
+    </g>
+    <text x="155.16" y="75.12" font-size="12" text-anchor="middle" fill="#1f2933" opacity="0.82">Gly192</text>
+   </g>
+   <g class="residue" data-class="hydrophobic" data-confidence="low" data-detail="sidechain" data-form="fragment" data-plddt="64.6" data-residue="Y:LEU193">
+    <title>Leu193: residue pLDDT 65</title>
+    <g class="fragment" data-confidence="low" opacity="0.62">
+     <line x1="-112.86" y1="1.64" x2="-122.47" y2="24.29" fill="none" stroke="#6b7a90" stroke-width="0.94" stroke-linecap="round" stroke-linejoin="round"/>
+     <line x1="-122.68" y1="22.58" x2="-141.7" y2="24.91" fill="none" stroke="#6b7a90" stroke-width="0.94" stroke-linecap="round" stroke-linejoin="round"/>
+     <line x1="-122.27" y1="25.99" x2="-141.7" y2="28.38" fill="none" stroke="#6b7a90" stroke-width="0.94" stroke-linecap="round" stroke-linejoin="round"/>
+     <line x1="-112.86" y1="1.64" x2="-88.45" y2="-1.36" fill="none" stroke="#6b7a90" stroke-width="0.94" stroke-linecap="round" stroke-linejoin="round"/>
+     <line x1="-88.45" y1="-1.36" x2="-78.83" y2="-24" fill="none" stroke="#6b7a90" stroke-width="0.94" stroke-linecap="round" stroke-linejoin="round"/>
+     <line x1="-78.83" y1="-24" x2="-54.42" y2="-27" fill="none" stroke="#6b7a90" stroke-width="0.94" stroke-linecap="round" stroke-linejoin="round"/>
+     <line x1="-78.83" y1="-24" x2="-93.64" y2="-43.65" fill="none" stroke="#6b7a90" stroke-width="0.94" stroke-linecap="round" stroke-linejoin="round"/>
+     <text x="-146.89" y="30.69" font-size="9.5" text-anchor="middle" fill="#d6332a">O</text>
+    </g>
+    <text x="-125.91" y="-11.37" font-size="12" text-anchor="middle" fill="#1f2933" opacity="0.82">Leu193</text>
+   </g>
+  </g>
+ </g>
+ <g class="legend" transform="translate(18 475.92)">
+  <polygon points="26,9.19 19.6,11.69 19.6,6.69" fill="#1a9641"/>
+  <line x1="0" y1="9.19" x2="20.56" y2="9.19" fill="none" stroke="#1a9641" stroke-width="1.35" stroke-linejoin="round" stroke-dasharray="4.2 2.8"/>
+  <text x="34" y="12.96" font-size="10.5" fill="#667085">Hydrogen bond</text>
+  <polyline points="129.33,9.15 131.33,7.03 133.91,5.66 136.79,5.19 139.67,5.66 142.25,7.03 144.25,9.15" fill="none" stroke="#c0392b" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
+  <line x1="130.1" y1="8.17" x2="127.13" y2="5.49" fill="none" stroke="#c0392b" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
+  <line x1="132.02" y1="6.56" x2="129.9" y2="3.16" fill="none" stroke="#c0392b" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
+  <line x1="134.31" y1="5.54" x2="133.21" y2="1.69" fill="none" stroke="#c0392b" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
+  <line x1="136.79" y1="5.19" x2="136.79" y2="1.19" fill="none" stroke="#c0392b" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
+  <line x1="139.27" y1="5.54" x2="140.37" y2="1.69" fill="none" stroke="#c0392b" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
+  <line x1="141.56" y1="6.56" x2="143.68" y2="3.16" fill="none" stroke="#c0392b" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
+  <line x1="143.48" y1="8.17" x2="146.45" y2="5.49" fill="none" stroke="#c0392b" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="157.79" y="12.96" font-size="10.5" fill="#667085">Hydrophobic contact</text>
+  <text x="271.5" y="12.96" font-size="10.5" fill="#667085">Confidence:</text>
+  <line x1="345.52" y1="9.19" x2="371.52" y2="9.19" fill="none" stroke="#1f2933" stroke-width="1.76" stroke-linejoin="round"/>
+  <text x="379.52" y="12.96" font-size="10.5" fill="#667085">pLDDT ≥ 70</text>
+  <line x1="0" y1="27.56" x2="26" y2="27.56" fill="none" stroke="#1f2933" stroke-width="1.23" stroke-linejoin="round" opacity="0.62"/>
+  <text x="34" y="31.33" font-size="10.5" fill="#667085">50–70</text>
+  <line x1="81.19" y1="27.56" x2="89.55" y2="27.56" fill="none" stroke="#1f2933" stroke-width="0.88" stroke-linejoin="round" opacity="0.42"/>
+  <line x1="98.83" y1="27.56" x2="107.19" y2="27.56" fill="none" stroke="#1f2933" stroke-width="0.88" stroke-linejoin="round" opacity="0.42"/>
+  <text x="94.19" y="30.97" font-size="9.5" text-anchor="middle" fill="#1f2933" opacity="0.42">?</text>
+  <text x="115.19" y="31.33" font-size="10.5" fill="#667085">&lt; 50</text>
+  <rect x="0.6" y="40.44" width="20.8" height="11" rx="3.5" fill="#ffffff" stroke="#1f2933" stroke-width="1.15" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="27" y="49.71" font-size="10.5" fill="#667085">Residue of the N-terminal domain, numbered as in the structure file</text>
+  <text x="0" y="67.72" font-size="9.5" fill="#1f2933">PAE 7</text>
+  <text x="32.93" y="67.72" font-size="9.5" font-weight="bold" fill="#1f2933">PAE 11</text>
+  <text x="70.67" y="68.08" font-size="10.5" fill="#667085">Predicted aligned error (PAE) of a contact in Å: written from 5 Å, bold from 10 Å. Not pLDDT</text>
+ </g>
+ <g class="footnotes">
+  <text x="18" y="562.96" font-size="10.5" fill="#667085">Distances in Å.</text>
+  <text x="18" y="578.18" font-size="10.5" fill="#667085">Stroke weight and opacity follow the model's pLDDT: a contact is drawn at the lower of its two ends'</text>
+  <text x="18" y="593.41" font-size="10.5" fill="#667085">values, a residue at its own. ? marks pLDDT below 50.</text>
+  <text x="18" y="608.63" font-size="10.5" fill="#667085">The atoms that are drawn of a residue are all at their residue's pLDDT: this model gives one value for a</text>
+  <text x="18" y="623.86" font-size="10.5" fill="#667085">residue, not one for each of its atoms.</text>
+  <text x="18" y="639.08" font-size="10.5" fill="#667085">An interface has no centre. The residues of the N-terminal domain that touch the ZP domain stand in a</text>
+  <text x="18" y="654.31" font-size="10.5" fill="#667085">column, as boxes, in the order of the sequence; a dotted line stands for residues in between that do</text>
+  <text x="18" y="669.53" font-size="10.5" fill="#667085">not; those of the ZP domain around it. A line is a pair of residues, at the shortest of its contacts of one</text>
+  <text x="18" y="684.76" font-size="10.5" fill="#667085">kind.</text>
+  <text x="18" y="699.98" font-size="10.5" fill="#667085">Where a residue of the N-terminal domain makes a contact that has a direction (an H-bond, a salt</text>
+  <text x="18" y="715.21" font-size="10.5" fill="#667085">bridge and the like), the atoms that make it are drawn beside its box, and with them the whole side</text>
+  <text x="18" y="730.43" font-size="10.5" fill="#667085">chain. The box is the residue's alpha carbon. A line that ends on such an atom is the contact of that</text>
+  <text x="18" y="745.66" font-size="10.5" fill="#667085">atom and gives its distance; a line that ends on a box stands for the pair of residues.</text>
+  <text x="18" y="760.88" font-size="10.5" fill="#667085">All 4 residues of the N-terminal domain at the interface are shown, with 7 contacts.</text>
+  <text x="18" y="776.11" font-size="10.5" fill="#667085">PAE (predicted aligned error) is the model's expected error, in ångström, in placing one residue of a</text>
+  <text x="18" y="791.33" font-size="10.5" fill="#667085">contact relative to the other: low is confident, about 32 means no idea. It is not pLDDT, which line</text>
+  <text x="18" y="806.56" font-size="10.5" fill="#667085">weight, dashes and ? show.</text>
+  <text x="18" y="821.78" font-size="10.5" fill="#667085">5 of the 6 residue pairs in contact have a PAE of 5 Å or more, written on their lines.</text>
+ </g>
+</svg>

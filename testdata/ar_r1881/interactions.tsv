@@ -1,0 +1,11 @@
+interaction_type	residue_number	residue_name	chain	insertion_code	protein_atom	ligand_atom	distance	angle	ligand_is_donor	protein_atoms	ligand_atoms	water
+hbond	711	GLN	A		NE2	O83	3.7	126.81	False			
+hbond	752	ARG	A		NH2	O83	2.8	113.22	False			
+hbond	877	THR	A		OG1	O97	2.94	147.67	False			
+hydrophobic	701	LEU	A		CD2	C27	3.71					
+hydrophobic	745	MET	A		CB	C4	3.85					
+hydrophobic	764	PHE	A		CD1	C4	3.62					
+hydrophobic	764	PHE	A		CE1	C5	3.87					
+hydrophobic	873	LEU	A		CD2	C15	3.92					
+hydrophobic	876	PHE	A		CD1	C16	3.66					
+water_bridge	752	ARG	A		NH1	O83	3.24	104.93	False			A:4

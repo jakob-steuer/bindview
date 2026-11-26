@@ -1,0 +1,597 @@
+{
+ "ar_bicalutamide.detailed": {
+  "status": "ok",
+  "residues": 9,
+  "contacts": {
+   "halogen": 1,
+   "hbond": 3,
+   "water_bridge": 1
+  },
+  "ligand_atoms": 11,
+  "texts": 19
+ },
+ "ar_bicalutamide.schematic": {
+  "status": "ok",
+  "residues": 9,
+  "contacts": {
+   "halogen": 1,
+   "hbond": 3,
+   "water_bridge": 1
+  },
+  "ligand_atoms": 11,
+  "texts": 25
+ },
+ "ar_r1881.detailed": {
+  "status": "ok",
+  "residues": 8,
+  "contacts": {
+   "hbond": 3,
+   "water_bridge": 1
+  },
+  "ligand_atoms": 4,
+  "texts": 16
+ },
+ "ar_r1881.schematic": {
+  "status": "ok",
+  "residues": 8,
+  "contacts": {
+   "hbond": 3,
+   "water_bridge": 1
+  },
+  "ligand_atoms": 4,
+  "texts": 20
+ },
+ "ca2_celecoxib.detailed": {
+  "status": "ok",
+  "residues": 5,
+  "contacts": {
+   "hbond": 1,
+   "pi_stacking": 1
+  },
+  "ligand_atoms": 9,
+  "texts": 16
+ },
+ "ca2_celecoxib.schematic": {
+  "status": "ok",
+  "residues": 5,
+  "contacts": {
+   "hbond": 1,
+   "pi_stacking": 1
+  },
+  "ligand_atoms": 9,
+  "texts": 20
+ },
+ "chain.glp1r_semaglutide.schematic": {
+  "status": "degraded",
+  "residues": 32,
+  "contacts": {
+   "hbond": 11,
+   "hydrophobic": 27,
+   "saltbridge": 4
+  },
+  "ligand_atoms": 8,
+  "texts": 52
+ },
+ "chain.mhc_peptide_one_residue.schematic": {
+  "status": "ok",
+  "residues": 21,
+  "contacts": {
+   "hbond": 11,
+   "hydrophobic": 15,
+   "pi_cation": 1,
+   "saltbridge": 1
+  },
+  "ligand_atoms": 0,
+  "texts": 40
+ },
+ "chain.thrombin_hirudin.detailed": {
+  "status": "ok",
+  "residues": 8,
+  "contacts": {
+   "hbond": 4,
+   "hydrophobic": 7,
+   "saltbridge": 1
+  },
+  "ligand_atoms": 0,
+  "texts": 26
+ },
+ "chain.thrombin_hirudin.schematic": {
+  "status": "ok",
+  "residues": 8,
+  "contacts": {
+   "hbond": 4,
+   "hydrophobic": 7,
+   "saltbridge": 1
+  },
+  "ligand_atoms": 0,
+  "texts": 33
+ },
+ "confidence.gr_dexamethasone.schematic": {
+  "status": "ok",
+  "residues": 10,
+  "contacts": {
+   "hbond": 5
+  },
+  "ligand_atoms": 8,
+  "texts": 33
+ },
+ "confidence.kit_imatinib.detailed": {
+  "status": "ok",
+  "residues": 13,
+  "contacts": {
+   "hbond": 4,
+   "pi_cation": 2,
+   "pi_stacking": 1,
+   "saltbridge": 2,
+   "water_bridge": 2
+  },
+  "ligand_atoms": 8,
+  "texts": 30
+ },
+ "consensus.gr_diverse": {
+  "status": "ok",
+  "residues": 15,
+  "contacts": {},
+  "ligand_atoms": 0,
+  "texts": 33
+ },
+ "consensus.gr_steroids": {
+  "status": "ok",
+  "residues": 12,
+  "contacts": {},
+  "ligand_atoms": 46,
+  "texts": 41
+ },
+ "covalent.egfr_osimertinib.detailed": {
+  "status": "ok",
+  "residues": 7,
+  "contacts": {
+   "covalent": 1,
+   "hbond": 3,
+   "saltbridge": 1
+  },
+  "ligand_atoms": 9,
+  "texts": 17
+ },
+ "detail.afdb_apobec3d.backbone.detailed": {
+  "status": "ok",
+  "residues": 3,
+  "contacts": {
+   "hbond": 4,
+   "saltbridge": 1
+  },
+  "ligand_atoms": 10,
+  "texts": 38
+ },
+ "detail.afdb_tectb.sidechain.detailed": {
+  "status": "ok",
+  "residues": 5,
+  "contacts": {
+   "hbond": 4,
+   "hydrophobic": 3
+  },
+  "ligand_atoms": 7,
+  "texts": 43
+ },
+ "detail.ar_bicalutamide.atoms.detailed": {
+  "status": "ok",
+  "residues": 9,
+  "contacts": {
+   "halogen": 1,
+   "hbond": 3,
+   "water_bridge": 1
+  },
+  "ligand_atoms": 11,
+  "texts": 19
+ },
+ "detail.tnfa_ab.sidechain.detailed": {
+  "status": "ok",
+  "residues": 18,
+  "contacts": {
+   "hbond": 12,
+   "hydrophobic": 12,
+   "saltbridge": 3
+  },
+  "ligand_atoms": 22,
+  "texts": 58
+ },
+ "detail.tnfa_ab.sidechain.schematic": {
+  "status": "ok",
+  "residues": 18,
+  "contacts": {
+   "hbond": 12,
+   "hydrophobic": 12,
+   "saltbridge": 3
+  },
+  "ligand_atoms": 22,
+  "texts": 70
+ },
+ "dhfr_methotrexate.detailed": {
+  "status": "ok",
+  "residues": 10,
+  "contacts": {
+   "hbond": 4,
+   "saltbridge": 2,
+   "water_bridge": 2
+  },
+  "ligand_atoms": 13,
+  "texts": 21
+ },
+ "dhfr_methotrexate.schematic": {
+  "status": "ok",
+  "residues": 10,
+  "contacts": {
+   "hbond": 4,
+   "saltbridge": 2,
+   "water_bridge": 2
+  },
+  "ligand_atoms": 13,
+  "texts": 30
+ },
+ "difference.ar_ligands": {
+  "status": "ok",
+  "residues": 28,
+  "contacts": {
+   "halogen": 1,
+   "hbond": 6,
+   "water_bridge": 2
+  },
+  "ligand_atoms": 15,
+  "texts": 33
+ },
+ "difference.gr_pair": {
+  "status": "ok",
+  "residues": 22,
+  "contacts": {
+   "hbond": 9,
+   "pi_stacking": 1,
+   "water_bridge": 1
+  },
+  "ligand_atoms": 18,
+  "texts": 37
+ },
+ "egfr_osimertinib.detailed": {
+  "status": "ok",
+  "residues": 7,
+  "contacts": {
+   "hbond": 3,
+   "saltbridge": 1
+  },
+  "ligand_atoms": 9,
+  "texts": 15
+ },
+ "egfr_osimertinib.schematic": {
+  "status": "ok",
+  "residues": 7,
+  "contacts": {
+   "hbond": 3,
+   "saltbridge": 1
+  },
+  "ligand_atoms": 9,
+  "texts": 20
+ },
+ "ensemble.ake_consensus.detailed": {
+  "status": "ok",
+  "residues": 20,
+  "contacts": {
+   "hbond": 9,
+   "saltbridge": 5
+  },
+  "ligand_atoms": 37,
+  "texts": 35
+ },
+ "hb_carbon_monoxide.detailed": {
+  "status": "ok",
+  "residues": 1,
+  "contacts": {
+   "hbond": 1
+  },
+  "ligand_atoms": 2,
+  "texts": 10
+ },
+ "hb_carbon_monoxide.schematic": {
+  "status": "ok",
+  "residues": 1,
+  "contacts": {
+   "hbond": 1
+  },
+  "ligand_atoms": 2,
+  "texts": 11
+ },
+ "interface.fab_lysozyme.schematic": {
+  "status": "ok",
+  "residues": 14,
+  "contacts": {
+   "hbond": 12,
+   "hydrophobic": 7,
+   "saltbridge": 2
+  },
+  "ligand_atoms": 0,
+  "texts": 37
+ },
+ "interface.repressor_dna.schematic": {
+  "status": "ok",
+  "residues": 8,
+  "contacts": {
+   "hbond": 12,
+   "hydrophobic": 1,
+   "saltbridge": 2
+  },
+  "ligand_atoms": 0,
+  "texts": 30
+ },
+ "interface.thrombin_light_heavy.schematic": {
+  "status": "ok",
+  "residues": 17,
+  "contacts": {
+   "hbond": 17,
+   "hydrophobic": 11,
+   "saltbridge": 5
+  },
+  "ligand_atoms": 0,
+  "texts": 54
+ },
+ "interface.u1a_rna.schematic": {
+  "status": "ok",
+  "residues": 16,
+  "contacts": {
+   "hbond": 19,
+   "hydrophobic": 2,
+   "saltbridge": 2
+  },
+  "ligand_atoms": 0,
+  "texts": 37
+ },
+ "ions.ca2_celecoxib.detailed": {
+  "status": "ok",
+  "residues": 8,
+  "contacts": {
+   "hbond": 1,
+   "metal": 3,
+   "pi_stacking": 1
+  },
+  "ligand_atoms": 10,
+  "texts": 20
+ },
+ "kit_imatinib.detailed": {
+  "status": "ok",
+  "residues": 13,
+  "contacts": {
+   "hbond": 4,
+   "pi_cation": 2,
+   "pi_stacking": 1,
+   "saltbridge": 2,
+   "water_bridge": 2
+  },
+  "ligand_atoms": 8,
+  "texts": 22
+ },
+ "kit_imatinib.schematic": {
+  "status": "ok",
+  "residues": 13,
+  "contacts": {
+   "hbond": 4,
+   "pi_cation": 2,
+   "pi_stacking": 1,
+   "saltbridge": 2,
+   "water_bridge": 2
+  },
+  "ligand_atoms": 8,
+  "texts": 30
+ },
+ "multimer.tnfa_ab.detailed": {
+  "status": "ok",
+  "residues": 18,
+  "contacts": {
+   "hbond": 12,
+   "hydrophobic": 12,
+   "saltbridge": 3
+  },
+  "ligand_atoms": 0,
+  "texts": 54
+ },
+ "multimer.tnfa_ab.schematic": {
+  "status": "ok",
+  "residues": 18,
+  "contacts": {
+   "hbond": 12,
+   "hydrophobic": 12,
+   "saltbridge": 3
+  },
+  "ligand_atoms": 0,
+  "texts": 62
+ },
+ "multimer.tnfa_ab_plane.schematic": {
+  "status": "ok",
+  "residues": 18,
+  "contacts": {
+   "hbond": 12,
+   "hydrophobic": 12,
+   "saltbridge": 3
+  },
+  "ligand_atoms": 0,
+  "texts": 64
+ },
+ "multimer.tnfa_bc.schematic": {
+  "status": "ok",
+  "residues": 20,
+  "contacts": {
+   "hbond": 12,
+   "hydrophobic": 14,
+   "saltbridge": 3
+  },
+  "ligand_atoms": 0,
+  "texts": 62
+ },
+ "nucleic.riboswitch_basepairs.auto": {
+  "status": "ok",
+  "residues": 0,
+  "contacts": {},
+  "ligand_atoms": 0,
+  "texts": 13
+ },
+ "nucleic.riboswitch_basepairs.light": {
+  "status": "ok",
+  "residues": 0,
+  "contacts": {},
+  "ligand_atoms": 0,
+  "texts": 13
+ },
+ "nucleic.riboswitch_basepairs.rnapolis": {
+  "status": "ok",
+  "residues": 0,
+  "contacts": {},
+  "ligand_atoms": 0,
+  "texts": 16
+ },
+ "nucleic.riboswitch_bisguanidine.detailed": {
+  "status": "ok",
+  "residues": 5,
+  "contacts": {
+   "hbond": 3,
+   "pi_cation": 3,
+   "saltbridge": 3
+  },
+  "ligand_atoms": 6,
+  "texts": 16
+ },
+ "nucleic.riboswitch_bisguanidine.schematic": {
+  "status": "ok",
+  "residues": 5,
+  "contacts": {
+   "hbond": 3,
+   "pi_cation": 2,
+   "saltbridge": 3
+  },
+  "ligand_atoms": 6,
+  "texts": 20
+ },
+ "nucleic.riboswitch_chain_b.detailed": {
+  "status": "ok",
+  "residues": 6,
+  "contacts": {
+   "hbond": 14
+  },
+  "ligand_atoms": 0,
+  "texts": 17
+ },
+ "nucleic.riboswitch_interface.detailed": {
+  "status": "ok",
+  "residues": 6,
+  "contacts": {
+   "hbond": 7
+  },
+  "ligand_atoms": 0,
+  "texts": 17
+ },
+ "nucleic.riboswitch_interface.schematic": {
+  "status": "ok",
+  "residues": 6,
+  "contacts": {
+   "hbond": 7
+  },
+  "ligand_atoms": 0,
+  "texts": 21
+ },
+ "occupancy.gr_dexamethasone.detailed": {
+  "status": "ok",
+  "residues": 10,
+  "contacts": {
+   "hbond": 5
+  },
+  "ligand_atoms": 8,
+  "texts": 23
+ },
+ "pae.afdb_apobec3d.schematic": {
+  "status": "ok",
+  "residues": 3,
+  "contacts": {
+   "hbond": 3,
+   "saltbridge": 1
+  },
+  "ligand_atoms": 0,
+  "texts": 35
+ },
+ "pae.afdb_fah.schematic": {
+  "status": "ok",
+  "residues": 9,
+  "contacts": {
+   "hbond": 2,
+   "hydrophobic": 10
+  },
+  "ligand_atoms": 0,
+  "texts": 33
+ },
+ "pae.afdb_tectb.detailed": {
+  "status": "ok",
+  "residues": 5,
+  "contacts": {
+   "hbond": 4,
+   "hydrophobic": 3
+  },
+  "ligand_atoms": 0,
+  "texts": 37
+ },
+ "pae.afdb_tectb.schematic": {
+  "status": "ok",
+  "residues": 5,
+  "contacts": {
+   "hbond": 4,
+   "hydrophobic": 3
+  },
+  "ligand_atoms": 0,
+  "texts": 42
+ },
+ "plane.afdb_apobec3d.detailed": {
+  "status": "ok",
+  "residues": 3,
+  "contacts": {
+   "hbond": 3,
+   "saltbridge": 1
+  },
+  "ligand_atoms": 0,
+  "texts": 31
+ },
+ "plane.afdb_tectb.schematic": {
+  "status": "ok",
+  "residues": 5,
+  "contacts": {
+   "hbond": 4,
+   "hydrophobic": 3
+  },
+  "ligand_atoms": 0,
+  "texts": 45
+ },
+ "plane.thrombin_light_heavy.schematic": {
+  "status": "ok",
+  "residues": 17,
+  "contacts": {
+   "hbond": 17,
+   "hydrophobic": 11,
+   "saltbridge": 5
+  },
+  "ligand_atoms": 0,
+  "texts": 54
+ },
+ "pocket.burial.dhfr_methotrexate": {
+  "status": "ok",
+  "residues": 10,
+  "contacts": {
+   "hbond": 4,
+   "saltbridge": 2,
+   "water_bridge": 2
+  },
+  "ligand_atoms": 13,
+  "texts": 21
+ },
+ "pocket.solvent.ar_r1881": {
+  "status": "ok",
+  "residues": 8,
+  "contacts": {
+   "hbond": 3,
+   "water_bridge": 1
+  },
+  "ligand_atoms": 4,
+  "texts": 20
+ }
+}

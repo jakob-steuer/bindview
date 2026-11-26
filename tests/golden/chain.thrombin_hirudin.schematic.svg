@@ -1,0 +1,265 @@
+<svg xmlns="http://www.w3.org/2000/svg" class="bindview" width="317.46" height="585.07" viewBox="0 0 317.46 585.07" font-family="Helvetica, Arial, 'Liberation Sans', sans-serif" role="img">
+ <title>Ligand interaction diagram</title>
+ <rect class="background" width="317.46" height="585.07" fill="#ffffff"/>
+ <g class="confidence" data-buried-fraction="0.406">
+  <text x="18" y="26.26" font-size="11.5" fill="#667085">Ligand buried <tspan fill="#1f2933" font-weight="bold">41 %</tspan></text>
+ </g>
+ <g class="diagram" transform="translate(172.2 103.08)">
+  <g class="backdrop">
+   <rect x="-27.23" y="-13.73" width="54.46" height="27.46" rx="10.23" fill="#c9ced6" opacity="0.55"/>
+   <rect x="-25.49" y="42.01" width="50.97" height="23.97" rx="8.49" fill="#c9ced6" opacity="0.55"/>
+   <rect x="-25.85" y="68.65" width="51.7" height="24.7" rx="8.85" fill="#c9ced6" opacity="0.55"/>
+   <rect x="-27.33" y="148.17" width="54.65" height="27.65" rx="10.33" fill="#c9ced6" opacity="0.55"/>
+   <rect x="-26.48" y="176.02" width="52.96" height="25.96" rx="9.48" fill="#c9ced6" opacity="0.55"/>
+   <rect x="-26.06" y="230.44" width="52.13" height="25.13" rx="9.06" fill="#c9ced6" opacity="0.55"/>
+   <g class="lining" data-residues="B:PHE34" data-surface="hydrophobic">
+    <title>Lining, hydrophobic: Phe34</title>
+    <polyline points="-40.2,1.75 -39.85,4.7 -39.29,7.61 -38.74,10.47 -38.49,13.3 -38.67,16.12 -39.18,18.97 -39.75,21.86 -40.14,24.8 -40.22,27.76 -39.98,30.71 -39.48,33.63 -38.92,36.51" fill="none" stroke="#b8dc7a" stroke-width="4.4" stroke-linecap="round" stroke-linejoin="round" opacity="0.62"/>
+   </g>
+   <g class="lining" data-residues="B:THR74 B:TYR76" data-surface="polar">
+    <title>Lining, polar: Thr74, Tyr76</title>
+    <polyline points="-38.55,39.35 -38.58,42.17 -39,45.01 -39.58,47.88 -40.04,50.81 -40.23,53.76 -40.1,56.72 -39.67,59.66 -39.09,62.55 -38.6,65.41 -38.49,68.23 -38.8,71.05 -39.39,73.91 -39.93,76.82 -40.23,79.77 -40.2,82.73 -39.85,85.68 -39.3,88.59 -38.75,91.45 -38.49,94.28 -38.67,97.1 -39.18,99.95 -39.75,102.84" fill="none" stroke="#9fdcee" stroke-width="4.4" stroke-linecap="round" stroke-linejoin="round" opacity="0.62"/>
+   </g>
+   <g class="lining" data-residues="B:TYR76" data-surface="hydrophobic">
+    <title>Lining, hydrophobic: Tyr76</title>
+    <polyline points="-39.49,114.62 -38.92,117.49 -38.55,120.33 -38.58,123.16 -39,125.99 -39.57,128.86 -40.04,131.79 -40.24,134.74 -40.1,137.7 -39.67,140.64 -39.09,143.54 -38.6,146.39 -38.48,149.21 -38.8,152.03 -39.38,154.89" fill="none" stroke="#b8dc7a" stroke-width="4.4" stroke-linecap="round" stroke-linejoin="round" opacity="0.62"/>
+   </g>
+   <g class="lining" data-residues="B:TYR76" data-surface="polar">
+    <title>Lining, polar: Tyr76</title>
+    <polyline points="-39.85,166.66 -39.3,169.57 -38.75,172.44 -38.5,175.26 -38.67,178.09 -39.18,180.93 -39.74,183.82 -40.13,186.76 -40.22,189.72 -39.98,192.67 -39.49,195.6 -38.92,198.48 -38.55,201.32 -38.58,204.14" fill="none" stroke="#9fdcee" stroke-width="4.4" stroke-linecap="round" stroke-linejoin="round" opacity="0.62"/>
+   </g>
+   <g class="lining" data-residues="B:LYS36" data-surface="hydrophobic">
+    <title>Lining, hydrophobic: Lys36</title>
+    <polyline points="-38.17,253.31 -36.87,255.97 -35.28,258.48 -33.44,260.8 -31.35,262.9 -29.06,264.79 -26.68,266.54 -24.36,268.33 -22.2,270.28 -20.19,272.41 -18.19,274.59 -16.07,276.65 -13.74,278.48 -11.21,280 -8.51,281.21" fill="none" stroke="#b8dc7a" stroke-width="4.4" stroke-linecap="round" stroke-linejoin="round" opacity="0.62"/>
+   </g>
+   <g class="lining" data-residues="B:ILE82" data-surface="hydrophobic">
+    <title>Lining, hydrophobic: Ile82</title>
+    <polyline points="40.16,218.26 40.24,215.3 40,212.34 39.5,209.43 38.91,206.56 38.54,203.73 38.57,200.91 38.99,198.06 39.57,195.18" fill="none" stroke="#b8dc7a" stroke-width="4.4" stroke-linecap="round" stroke-linejoin="round" opacity="0.62"/>
+   </g>
+   <g class="lining" data-residues="B:ILE82" data-surface="polar">
+    <title>Lining, polar: Ile82</title>
+    <polyline points="40.03,192.25 40.23,189.29 40.09,186.33 39.67,183.4 39.1,180.52 38.63,177.68 38.52,174.85 38.82,172.02 39.38,169.15 39.91,166.23" fill="none" stroke="#9fdcee" stroke-width="4.4" stroke-linecap="round" stroke-linejoin="round" opacity="0.62"/>
+   </g>
+   <g class="lining" data-residues="B:ILE82 B:LEU65" data-surface="hydrophobic">
+    <title>Lining, hydrophobic: Ile82, Leu65</title>
+    <polyline points="39.84,157.37 39.28,154.47 38.72,151.62 38.46,148.8 38.64,145.97 39.18,143.11 39.76,140.21 40.16,137.27 40.24,134.31 40,131.35 39.5,128.44 38.91,125.57 38.54,122.74 38.57,119.92 38.99,117.07 39.57,114.18 40.03,111.26 40.23,108.3 40.09,105.34 39.67,102.41 39.1,99.53 38.63,96.68 38.52,93.86 38.82,91.03 39.38,88.16 39.91,85.24 40.21,82.29 40.19,79.33" fill="none" stroke="#b8dc7a" stroke-width="4.4" stroke-linecap="round" stroke-linejoin="round" opacity="0.62"/>
+   </g>
+   <g class="lining" data-residues="B:LEU40" data-surface="hydrophobic">
+    <title>Lining, hydrophobic: Leu40</title>
+    <polyline points="39.5,47.44 38.91,44.58 38.54,41.75 38.57,38.92 38.99,36.08 39.57,33.19 40.03,30.26 40.23,27.31 40.09,24.35 39.67,21.42 39.1,18.53 38.63,15.69 38.52,12.87 38.82,10.03 39.38,7.16" fill="none" stroke="#b8dc7a" stroke-width="4.4" stroke-linecap="round" stroke-linejoin="round" opacity="0.62"/>
+   </g>
+   <g class="lining" data-residues="B:ARG73" data-surface="positive">
+    <title>Lining, charged (+): Arg73</title>
+    <polyline points="-11.55,-36.82 -14.06,-35.25 -16.36,-33.4 -18.47,-31.31 -20.49,-29.13 -22.54,-27.02 -24.74,-25.08 -27.08,-23.28 -29.44,-21.5 -31.7,-19.57 -33.76,-17.44 -35.57,-15.09 -37.11,-12.56 -38.36,-9.87 -39.31,-7.06" fill="none" stroke="#a9a6f0" stroke-width="4.4" stroke-linecap="round" stroke-linejoin="round" opacity="0.62"/>
+   </g>
+  </g>
+  <g class="interactions">
+   <g class="interaction hydrophobic" data-distance="3.50" data-ligand-atoms="56/CD2" data-ligand-part="side-chain" data-ligand-residue="Phe56" data-protein-atoms="CE1" data-residue="B:PHE34" data-type="hydrophobic">
+    <title>Hydrophobic contact: Phe34 CE1 – Phe 56 of the ligand (side chain: 56/CD2), 3.50 Å</title>
+    <line x1="-50.07" y1="19.96" x2="-24.17" y2="23.6" fill="none" stroke="#5b6472" stroke-width="0.81" stroke-linejoin="round"/>
+   </g>
+   <g class="interaction hydrophobic" data-distance="3.95" data-ligand-atoms="64/CD2" data-ligand-part="side-chain" data-ligand-residue="Leu64" data-protein-atoms="CG" data-residue="B:LYS36" data-type="hydrophobic">
+    <title>Hydrophobic contact: Lys36 CG – Leu 64 of the ligand (side chain: 64/CD2), 3.95 Å</title>
+    <line x1="-32.08" y1="275.59" x2="-11.02" y2="254.2" fill="none" stroke="#5b6472" stroke-width="0.81" stroke-linejoin="round"/>
+   </g>
+   <g class="interaction hydrophobic" data-distance="3.87" data-ligand-atoms="56/CZ" data-ligand-part="side-chain" data-ligand-residue="Phe56" data-protein-atoms="CB" data-residue="B:LEU40" data-type="hydrophobic">
+    <title>Hydrophobic contact: Leu40 CB – Phe 56 of the ligand (side chain: 56/CZ), 3.87 Å</title>
+    <line x1="50.5" y1="26.81" x2="24.7" y2="26.91" fill="none" stroke="#5b6472" stroke-width="0.81" stroke-linejoin="round"/>
+   </g>
+   <g class="interaction hydrophobic" data-distance="3.69" data-ligand-atoms="59/CD1" data-ligand-part="side-chain" data-ligand-residue="Ile59" data-protein-atoms="CD1" data-residue="B:LEU65" data-type="hydrophobic">
+    <title>Hydrophobic contact: Leu65 CD1 – Ile 59 of the ligand (side chain: 59/CD1), 3.69 Å</title>
+    <line x1="49.66" y1="96.86" x2="23.39" y2="102.75" fill="none" stroke="#5b6472" stroke-width="0.81" stroke-linejoin="round"/>
+   </g>
+   <g class="interaction saltbridge" data-distance="3.55" data-ligand-atoms="55/OD1,55/OD2" data-ligand-part="side-chain" data-ligand-residue="Asp55" data-protein-atoms="NE,NH1,NH2" data-residue="B:ARG73" data-type="saltbridge">
+    <title>Salt bridge: Arg73 (+) – Asp 55 of the ligand (side chain: 55/OD1, 55/OD2), 3.55 Å</title>
+    <line x1="-36" y1="-30.2" x2="-13.33" y2="-11.19" fill="none" stroke="#2563eb" stroke-width="2.36" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0.01 3.7"/>
+   </g>
+   <g class="interaction hbond" data-distance="2.96" data-ligand-atoms="57/N" data-ligand-part="backbone" data-ligand-residue="Glu57" data-protein-atoms="O" data-residue="B:THR74" data-type="hbond">
+    <title>Hydrogen bond: Thr74 O – Glu 57 of the ligand (backbone: 57/N), 2.96 Å</title>
+    <polygon points="-50.98,55.44 -44.51,57.76 -44.65,52.76" fill="#c026d3"/>
+    <line x1="-45.54" y1="55.29" x2="-24.68" y2="54.7" fill="none" stroke="#c026d3" stroke-width="1.35" stroke-linejoin="round"/>
+   </g>
+   <g class="interaction hbond" data-distance="2.62" data-ligand-atoms="63/O3" data-ligand-part="side-chain" data-ligand-residue="Tys63" data-protein-atoms="OH" data-residue="B:TYR76" data-type="hbond">
+    <title>Hydrogen bond: Tyr76 OH – Tys 63 of the ligand (side chain: 63/O3), 2.62 Å</title>
+    <polygon points="-14.58,204.96 -21.2,203.09 -18.18,199.1" fill="#c026d3"/>
+    <line x1="-93.97" y1="144.84" x2="-18.92" y2="201.67" fill="none" stroke="#c026d3" stroke-width="1.35" stroke-linejoin="round" stroke-dasharray="4.2 2.6"/>
+   </g>
+   <g class="interaction hbond" data-distance="2.85" data-ligand-atoms="57/OE1" data-ligand-part="side-chain" data-ligand-residue="Glu57" data-protein-atoms="N" data-residue="B:TYR76" data-type="hbond">
+    <title>Hydrogen bond: Tyr76 N – Glu 57 of the ligand (side chain: 57/OE1), 2.85 Å</title>
+    <polygon points="-14.62,65.04 -18.23,70.89 -21.24,66.9" fill="#c026d3"/>
+    <line x1="-93.96" y1="124.94" x2="-18.97" y2="68.32" fill="none" stroke="#c026d3" stroke-width="1.35" stroke-linejoin="round"/>
+   </g>
+   <g class="interaction hydrophobic" data-distance="3.96" data-ligand-atoms="60/CG" data-ligand-part="side-chain" data-ligand-residue="Pro60" data-protein-atoms="CE2" data-residue="B:TYR76" data-type="hydrophobic">
+    <title>Hydrophobic contact: Tyr76 CE2 – Pro 60 of the ligand (side chain: 60/CG), 3.96 Å</title>
+    <line x1="-90.63" y1="134.9" x2="-24.7" y2="134.97" fill="none" stroke="#5b6472" stroke-width="0.81" stroke-linejoin="round"/>
+   </g>
+   <g class="interaction hbond" data-distance="2.94" data-ligand-atoms="63/O2" data-ligand-part="side-chain" data-ligand-residue="Tys63" data-protein-atoms="N" data-residue="B:ILE82" data-type="hbond">
+    <title>Hydrogen bond: Ile82 N – Tys 63 of the ligand (side chain: 63/O2), 2.94 Å</title>
+    <polygon points="12.25,204.81 16.51,199.41 19.04,203.73" fill="#c026d3"/>
+    <line x1="65.96" y1="173.29" x2="16.94" y2="202.06" fill="none" stroke="#c026d3" stroke-width="1.35" stroke-linejoin="round"/>
+   </g>
+   <g class="interaction hydrophobic" data-distance="3.82" data-ligand-atoms="63/CG" data-ligand-part="side-chain" data-ligand-residue="Tys63" data-protein-atoms="CG2" data-residue="B:ILE82" data-type="hydrophobic">
+    <title>Hydrophobic contact: Ile82 CG2 – Tys 63 of the ligand (side chain: 63/CG), 3.82 Å</title>
+    <line x1="65.96" y1="181.29" x2="20.99" y2="207.68" fill="none" stroke="#5b6472" stroke-width="0.81" stroke-linejoin="round"/>
+   </g>
+   <g class="interaction hydrophobic" data-distance="3.94" data-ligand-atoms="59/CD1" data-ligand-part="side-chain" data-ligand-residue="Ile59" data-protein-atoms="CD1" data-residue="B:ILE82" data-type="hydrophobic">
+    <title>Hydrophobic contact: Ile82 CD1 – Ile 59 of the ligand (side chain: 59/CD1), 3.94 Å</title>
+    <line x1="67.05" y1="158.96" x2="14.64" y2="119.13" fill="none" stroke="#5b6472" stroke-width="0.81" stroke-linejoin="round"/>
+   </g>
+  </g>
+  <g class="ligand" data-drawn-as="chain">
+   <g class="backbone">
+    <line x1="0" y1="8.5" x2="0" y2="18.5" fill="none" stroke="#1f2933" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="0" y1="35.5" x2="0" y2="45.5" fill="none" stroke="#1f2933" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="0" y1="62.5" x2="0" y2="72.5" fill="none" stroke="#1f2933" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="0" y1="89.5" x2="0" y2="99.5" fill="none" stroke="#1f2933" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="0" y1="116.5" x2="0" y2="126.5" fill="none" stroke="#1f2933" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="0" y1="143.5" x2="0" y2="153.5" fill="none" stroke="#1f2933" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="0" y1="170.5" x2="0" y2="180.5" fill="none" stroke="#1f2933" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="0" y1="197.5" x2="0" y2="207.5" fill="none" stroke="#1f2933" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="0" y1="224.5" x2="0" y2="234.5" fill="none" stroke="#1f2933" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+   </g>
+   <g class="bonds">
+   </g>
+   <g class="units">
+    <g class="unit" data-atoms="55/N,55/CA,55/C,55/O,55/CB,55/CG,55/OD1,55/OD2" data-class="negative" data-position="1" data-residue="ASP">
+     <title>Asp 55 of the ligand (numbered as in the structure file)</title>
+     <rect x="-22" y="-8.5" width="44" height="17" rx="5" fill="#ffffff" stroke="#1f2933" stroke-width="1.15" stroke-linecap="round" stroke-linejoin="round"/>
+     <text x="0" y="3.77" font-size="10.5" text-anchor="middle" fill="#1f2933"><tspan font-weight="bold">Asp</tspan><tspan font-size="8" fill="#667085"> 55</tspan></text>
+    </g>
+    <g class="unit" data-atoms="56/N,56/CA,56/C,56/O,56/CB,56/CG,56/CD1,56/CD2,56/CE1,56/CE2,56/CZ" data-class="hydrophobic" data-position="2" data-residue="PHE">
+     <title>Phe 56 of the ligand (numbered as in the structure file)</title>
+     <rect x="-22" y="18.5" width="44" height="17" rx="5" fill="#ffffff" stroke="#1f2933" stroke-width="1.15" stroke-linecap="round" stroke-linejoin="round"/>
+     <text x="0" y="30.77" font-size="10.5" text-anchor="middle" fill="#1f2933"><tspan font-weight="bold">Phe</tspan><tspan font-size="8" fill="#667085"> 56</tspan></text>
+    </g>
+    <g class="unit" data-atoms="57/N,57/CA,57/C,57/O,57/CB,57/CG,57/CD,57/OE1,57/OE2" data-class="negative" data-position="3" data-residue="GLU">
+     <title>Glu 57 of the ligand (numbered as in the structure file)</title>
+     <rect x="-22" y="45.5" width="44" height="17" rx="5" fill="#ffffff" stroke="#1f2933" stroke-width="1.15" stroke-linecap="round" stroke-linejoin="round"/>
+     <text x="0" y="57.77" font-size="10.5" text-anchor="middle" fill="#1f2933"><tspan font-weight="bold">Glu</tspan><tspan font-size="8" fill="#667085"> 57</tspan></text>
+    </g>
+    <g class="unit" data-atoms="58/N,58/CA,58/C,58/O,58/CB,58/CG,58/CD,58/OE1,58/OE2" data-class="negative" data-position="4" data-residue="GLU">
+     <title>Glu 58 of the ligand (numbered as in the structure file)</title>
+     <rect x="-22" y="72.5" width="44" height="17" rx="5" fill="#ffffff" stroke="#1f2933" stroke-width="1.15" stroke-linecap="round" stroke-linejoin="round"/>
+     <text x="0" y="84.77" font-size="10.5" text-anchor="middle" fill="#1f2933"><tspan font-weight="bold">Glu</tspan><tspan font-size="8" fill="#667085"> 58</tspan></text>
+    </g>
+    <g class="unit" data-atoms="59/N,59/CA,59/C,59/O,59/CB,59/CG1,59/CG2,59/CD1" data-class="hydrophobic" data-position="5" data-residue="ILE">
+     <title>Ile 59 of the ligand (numbered as in the structure file)</title>
+     <rect x="-22" y="99.5" width="44" height="17" rx="5" fill="#ffffff" stroke="#1f2933" stroke-width="1.15" stroke-linecap="round" stroke-linejoin="round"/>
+     <text x="0" y="111.77" font-size="10.5" text-anchor="middle" fill="#1f2933"><tspan font-weight="bold">Ile</tspan><tspan font-size="8" fill="#667085"> 59</tspan></text>
+    </g>
+    <g class="unit" data-atoms="60/N,60/CA,60/C,60/O,60/CB,60/CG,60/CD" data-class="hydrophobic" data-position="6" data-residue="PRO">
+     <title>Pro 60 of the ligand (numbered as in the structure file)</title>
+     <rect x="-22" y="126.5" width="44" height="17" rx="5" fill="#ffffff" stroke="#1f2933" stroke-width="1.15" stroke-linecap="round" stroke-linejoin="round"/>
+     <text x="0" y="138.77" font-size="10.5" text-anchor="middle" fill="#1f2933"><tspan font-weight="bold">Pro</tspan><tspan font-size="8" fill="#667085"> 60</tspan></text>
+    </g>
+    <g class="unit" data-atoms="61/N,61/CA,61/C,61/O,61/CB,61/CG,61/CD,61/OE1,61/OE2" data-class="negative" data-position="7" data-residue="GLU">
+     <title>Glu 61 of the ligand (numbered as in the structure file)</title>
+     <rect x="-22" y="153.5" width="44" height="17" rx="5" fill="#ffffff" stroke="#1f2933" stroke-width="1.15" stroke-linecap="round" stroke-linejoin="round"/>
+     <text x="0" y="165.77" font-size="10.5" text-anchor="middle" fill="#1f2933"><tspan font-weight="bold">Glu</tspan><tspan font-size="8" fill="#667085"> 61</tspan></text>
+    </g>
+    <g class="unit" data-atoms="62/N,62/CA,62/C,62/O,62/CB,62/CG,62/CD,62/OE1,62/OE2" data-class="negative" data-position="8" data-residue="GLU">
+     <title>Glu 62 of the ligand (numbered as in the structure file)</title>
+     <rect x="-22" y="180.5" width="44" height="17" rx="5" fill="#ffffff" stroke="#1f2933" stroke-width="1.15" stroke-linecap="round" stroke-linejoin="round"/>
+     <text x="0" y="192.77" font-size="10.5" text-anchor="middle" fill="#1f2933"><tspan font-weight="bold">Glu</tspan><tspan font-size="8" fill="#667085"> 62</tspan></text>
+    </g>
+    <g class="unit" data-atoms="63/N,63/CA,63/CB,63/CG,63/CD1,63/CD2,63/CE1,63/CE2,63/CZ,63/OH,63/S,63/O1,63/O2,63/O3,63/C,63/O" data-class="other" data-position="9" data-residue="TYS">
+     <title>Tys 63 of the ligand (numbered as in the structure file)</title>
+     <rect x="-22" y="207.5" width="44" height="17" rx="5" fill="#ffffff" stroke="#1f2933" stroke-width="1.15" stroke-linecap="round" stroke-linejoin="round"/>
+     <text x="0" y="219.77" font-size="10.5" text-anchor="middle" fill="#1f2933"><tspan font-weight="bold">Tys</tspan><tspan font-size="8" fill="#667085"> 63</tspan></text>
+    </g>
+    <g class="unit" data-atoms="64/N,64/CA,64/C,64/O,64/CB,64/CG,64/CD1,64/CD2" data-class="hydrophobic" data-position="10" data-residue="LEU">
+     <title>Leu 64 of the ligand (numbered as in the structure file)</title>
+     <rect x="-22" y="234.5" width="44" height="17" rx="5" fill="#ffffff" stroke="#1f2933" stroke-width="1.15" stroke-linecap="round" stroke-linejoin="round"/>
+     <text x="0" y="246.77" font-size="10.5" text-anchor="middle" fill="#1f2933"><tspan font-weight="bold">Leu</tspan><tspan font-size="8" fill="#667085"> 64</tspan></text>
+    </g>
+    <text x="0" y="-12.5" font-size="8.5" text-anchor="middle" fill="#667085">N</text>
+    <text x="0" y="261.6" font-size="8.5" text-anchor="middle" fill="#667085">C</text>
+   </g>
+   <g class="atoms">
+   </g>
+  </g>
+  <g class="residues">
+   <g class="residue" data-class="hydrophobic" data-form="bubble" data-residue="B:PHE34">
+    <title>Phe34: hydrophobic contact</title>
+    <path d="M-47.1 20.38 L-56.32 28.76 A15 15 0 1 1 -53.65 9.78 Z" fill="#b8dc7a" stroke="#5b6472" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="-66.41" y="16.56" font-size="9.5" text-anchor="middle" font-weight="bold" fill="#1f2933">PHE</text>
+    <text x="-66.41" y="25.58" font-size="9.5" text-anchor="middle" fill="#1f2933">34</text>
+   </g>
+   <g class="residue" data-class="positive" data-form="bubble" data-residue="B:LYS36">
+    <title>Lys36: hydrophobic contact</title>
+    <path d="M-29.97 273.45 L-28.73 285.85 A15 15 0 1 1 -42.39 272.4 Z" fill="#a9a6f0" stroke="#5b6472" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="-43.65" y="286.25" font-size="9.5" text-anchor="middle" font-weight="bold" fill="#1f2933">LYS</text>
+    <text x="-43.65" y="295.27" font-size="9.5" text-anchor="middle" fill="#1f2933">36</text>
+   </g>
+   <g class="residue" data-class="hydrophobic" data-form="bubble" data-residue="B:LEU40">
+    <title>Leu40: hydrophobic contact</title>
+    <path d="M47.5 26.82 L55.43 17.21 A15 15 0 1 1 55.5 36.38 Z" fill="#b8dc7a" stroke="#5b6472" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="67" y="25.65" font-size="9.5" text-anchor="middle" font-weight="bold" fill="#1f2933">LEU</text>
+    <text x="67" y="34.67" font-size="9.5" text-anchor="middle" fill="#1f2933">40</text>
+   </g>
+   <g class="residue" data-class="hydrophobic" data-form="bubble" data-residue="B:LEU65">
+    <title>Leu65: hydrophobic contact</title>
+    <path d="M46.73 97.51 L52.4 86.42 A15 15 0 1 1 56.6 105.12 Z" fill="#b8dc7a" stroke="#5b6472" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="65.76" y="92.14" font-size="9.5" text-anchor="middle" font-weight="bold" fill="#1f2933">LEU</text>
+    <text x="65.76" y="101.16" font-size="9.5" text-anchor="middle" fill="#1f2933">65</text>
+   </g>
+   <g class="residue" data-class="positive" data-form="bubble" data-residue="B:ARG73">
+    <title>Arg73: salt bridge</title>
+    <path d="M-33.61 -28.2 L-46.19 -25.91 A15.4 15.4 0 1 1 -33.54 -40.98 Z" fill="#a9a6f0" stroke="#5b6472" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="-48.94" y="-42.16" font-size="9.5" text-anchor="middle" font-weight="bold" fill="#1f2933">ARG</text>
+    <text x="-48.94" y="-33.14" font-size="9.5" text-anchor="middle" fill="#1f2933">73</text>
+   </g>
+   <g class="residue" data-class="polar" data-form="bubble" data-residue="B:THR74">
+    <title>Thr74: hydrogen bond</title>
+    <path d="M-47.98 55.36 L-55.66 65.16 A15 15 0 1 1 -56.21 46 Z" fill="#9fdcee" stroke="#5b6472" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="-67.47" y="54.81" font-size="9.5" text-anchor="middle" font-weight="bold" fill="#1f2933">THR</text>
+    <text x="-67.47" y="63.83" font-size="9.5" text-anchor="middle" fill="#1f2933">74</text>
+   </g>
+   <g class="residue" data-class="hydrophobic" data-form="bubble" data-residue="B:TYR76">
+    <title>Tyr76: hydrogen bond, hydrophobic contact</title>
+    <path d="M-87.63 134.9 L-95.6 144.48 A15 15 0 1 1 -95.58 125.31 Z" fill="#b8dc7a" stroke="#5b6472" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="-107.13" y="133.78" font-size="9.5" text-anchor="middle" font-weight="bold" fill="#1f2933">TYR</text>
+    <text x="-107.13" y="142.8" font-size="9.5" text-anchor="middle" fill="#1f2933">76</text>
+   </g>
+   <g class="residue" data-class="hydrophobic" data-form="bubble" data-residue="B:ILE82">
+    <title>Ile82: hydrogen bond, hydrophobic contact</title>
+    <path d="M60.87 171.6 L67.45 161.02 A15 15 0 1 1 70.07 180.01 Z" fill="#b8dc7a" stroke="#5b6472" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="80.19" y="167.84" font-size="9.5" text-anchor="middle" font-weight="bold" fill="#1f2933">ILE</text>
+    <text x="80.19" y="176.86" font-size="9.5" text-anchor="middle" fill="#1f2933">82</text>
+   </g>
+  </g>
+ </g>
+ <g class="legend" transform="translate(18 420.37)">
+  <circle cx="5.5" cy="9.19" r="5.5" fill="#b8dc7a" stroke="#5b6472" stroke-width="0.8" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="16" y="12.96" font-size="10.5" fill="#667085">Hydrophobic</text>
+  <circle cx="98.44" cy="9.19" r="5.5" fill="#9fdcee" stroke="#5b6472" stroke-width="0.8" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="108.94" y="12.96" font-size="10.5" fill="#667085">Polar</text>
+  <circle cx="156.94" cy="9.19" r="5.5" fill="#a9a6f0" stroke="#5b6472" stroke-width="0.8" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="167.44" y="12.96" font-size="10.5" fill="#667085">Charged (+)</text>
+  <polygon points="26,27.56 19.6,30.06 19.6,25.06" fill="#c026d3"/>
+  <line x1="0" y1="27.56" x2="20.56" y2="27.56" fill="none" stroke="#c026d3" stroke-width="1.35" stroke-linejoin="round"/>
+  <text x="34" y="31.33" font-size="10.5" fill="#667085">H-bond (backbone)</text>
+  <polygon points="167.87,27.56 161.47,30.06 161.47,25.06" fill="#c026d3"/>
+  <line x1="141.87" y1="27.56" x2="162.43" y2="27.56" fill="none" stroke="#c026d3" stroke-width="1.35" stroke-linejoin="round" stroke-dasharray="4.2 2.6"/>
+  <text x="175.87" y="31.33" font-size="10.5" fill="#667085">H-bond (side chain)</text>
+  <line x1="0" y1="45.94" x2="26" y2="45.94" fill="none" stroke="#2563eb" stroke-width="2.36" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0.01 3.7"/>
+  <text x="34" y="49.71" font-size="10.5" fill="#667085">Salt bridge</text>
+  <line x1="102.19" y1="45.94" x2="128.19" y2="45.94" fill="none" stroke="#5b6472" stroke-width="0.81" stroke-linejoin="round"/>
+  <text x="136.19" y="49.71" font-size="10.5" fill="#667085">Hydrophobic contact</text>
+  <circle cx="6.5" cy="64.31" r="6.5" fill="#c9ced6" opacity="0.6"/>
+  <text x="18" y="68.08" font-size="10.5" fill="#667085">Solvent exposure</text>
+  <text x="117.12" y="68.08" font-size="10.5" fill="#667085">Pocket lining:</text>
+  <line x1="199.77" y1="64.31" x2="213.37" y2="64.31" fill="none" stroke="#b8dc7a" stroke-width="4.4" stroke-linecap="round" stroke-linejoin="round" opacity="0.62"/>
+  <text x="220.57" y="68.08" font-size="10.5" fill="#667085">hydrophobic</text>
+  <line x1="2.2" y1="82.69" x2="15.8" y2="82.69" fill="none" stroke="#9fdcee" stroke-width="4.4" stroke-linecap="round" stroke-linejoin="round" opacity="0.62"/>
+  <text x="23" y="86.46" font-size="10.5" fill="#667085">polar</text>
+  <line x1="66.54" y1="82.69" x2="80.14" y2="82.69" fill="none" stroke="#a9a6f0" stroke-width="4.4" stroke-linecap="round" stroke-linejoin="round" opacity="0.62"/>
+  <text x="87.34" y="86.46" font-size="10.5" fill="#667085">charged (+)</text>
+  <rect x="0.6" y="95.56" width="20.8" height="11" rx="3.5" fill="#ffffff" stroke="#1f2933" stroke-width="1.15" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="27" y="104.83" font-size="10.5" fill="#667085">Residue of the ligand, numbered as in the structure file</text>
+ </g>
+ <g class="footnotes">
+  <text x="18" y="544.16" font-size="10.5" fill="#667085">Residues of the ligand carry the names and numbers of the</text>
+  <text x="18" y="559.39" font-size="10.5" fill="#667085">structure file (chain H).</text>
+ </g>
+</svg>

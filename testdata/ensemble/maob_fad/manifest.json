@@ -1,0 +1,56 @@
+{
+ "what": "Four deposited crystal structures of human monoamine oxidase B (MAO-B) with its cofactor FAD, as models of one ligand complex for bindview.Ensemble: one ligand in its pocket from several models, each contact weighted by the share of the models that make it.",
+ "what_it_is_not": "Not samples of one prediction and not an NMR bundle. Each entry is another crystal of the same protein with the same cofactor, and with another inhibitor beside the flavin; in three of the four that inhibitor is bonded to the flavin's N5 (2C65, 4CRT, 9FJT), in one it is not (7ZW3). The FAD is bonded to Cys397 in all four. So what differs between these models is what differs between four experiments.",
+ "structures": "Not in this folder. The four files are entries of testdata/waters, listed in testdata/waters/manifest.json, fetched from the RCSB PDB by scripts/fetch_structures.py and checked against testdata/structures.sha256. They are read and never written.",
+ "source": "RCSB Protein Data Bank, entries 2C65, 4CRT, 7ZW3 and 9FJT; the archive's data are in the public domain (CC0 1.0).",
+ "ligand": "FAD, on the first protein chain of each entry",
+ "name": "FAD",
+ "smiles": "CC1=CC2=C(C=C1C)N(C3=NC(=O)NC(=O)C3=N2)C[C@@H]([C@@H]([C@@H](COP(=O)(O)OP(=O)(O)OC[C@@H]4[C@H]([C@H]([C@@H](O4)N5C=NC6=C(N=CN=C65)N)O)O)O)O)O",
+ "smiles_from": "written out by hand; the constitution and the seven carbon stereo centres of the archive's chemical component FAD. The archive's record also marks the two phosphorus atoms as stereo centres; this one does not.",
+ "ensemble": "four crystal structures of MAO-B",
+ "chains": "2C65 and 4CRT name their chains A and B, 7ZW3 and 9FJT name them AAA and BBB. Residues are matched across models by chain and number, so the two newer entries are read with AAA as A and BBB as B (scripts/ensemble_tables.py, structure_of). Nothing else of a file is changed.",
+ "tables": "One a model, written by scripts/ensemble_tables.py in the environment that has PLIP: PLIP 3.0.1 through bindview.detect.detect_interactions, on the entry as it is read (both chains, the inhibitor, detergent and waters in place). Every row PLIP gives is kept.",
+ "order": "by PDB id; the order decides nothing but ties",
+ "models": [
+  {
+   "id": "2C65",
+   "file": "testdata/waters/MAOB_2C65.cif.gz",
+   "ligand": "A:600",
+   "table": "2C65.interactions.tsv",
+   "resolution": 1.7,
+   "beside_the_flavin": "4CR, a rasagiline analogue, bonded to N5 of the flavin"
+  },
+  {
+   "id": "4CRT",
+   "file": "testdata/waters/MAOB_4CRT.cif.gz",
+   "ligand": "A:600",
+   "table": "4CRT.interactions.tsv",
+   "resolution": 1.8,
+   "beside_the_flavin": "ASS (ASS234), bonded to N5 of the flavin"
+  },
+  {
+   "id": "7ZW3",
+   "file": "testdata/waters/MAOB_7ZW3.cif.gz",
+   "chains": {
+    "AAA": "A",
+    "BBB": "B"
+   },
+   "ligand": "A:601",
+   "table": "7ZW3.interactions.tsv",
+   "resolution": 2.0,
+   "beside_the_flavin": "AI0, not bonded to the flavin"
+  },
+  {
+   "id": "9FJT",
+   "file": "testdata/waters/MAOB_9FJT.cif.gz",
+   "chains": {
+    "AAA": "A",
+    "BBB": "B"
+   },
+   "ligand": "A:601",
+   "table": "9FJT.interactions.tsv",
+   "resolution": 1.4,
+   "beside_the_flavin": "A1IDI (MC4762), bonded to N5 of the flavin"
+  }
+ ]
+}

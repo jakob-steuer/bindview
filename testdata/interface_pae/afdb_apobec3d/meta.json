@@ -1,0 +1,40 @@
+{
+ "slug": "afdb_apobec3d",
+ "what": "the AlphaFold model of human DNA dC->dU-editing enzyme APOBEC-3D (APOBEC3D), one chain, cut between its two domains",
+ "source": {
+  "archive": "AlphaFold Protein Structure Database",
+  "entry": "AF-Q96AK3-F1",
+  "version": 6,
+  "uniprot": "Q96AK3",
+  "address": "https://alphafold.ebi.ac.uk/files/AF-Q96AK3-F1-model_v6.cif",
+  "pae_address": "https://alphafold.ebi.ac.uk/files/AF-Q96AK3-F1-predicted_aligned_error_v6.json",
+  "licence": "CC BY 4.0",
+  "cite": "Jumper et al., Nature 596, 583 (2021); Varadi et al., Nucleic Acids Res. 52, D368 (2024)",
+  "file": "model.cif.gz",
+  "pae_file": "predicted_aligned_error.json.gz",
+  "file_is": "the database's files, packed (gzip, no time stamp)",
+  "sha256_as_served": {
+   "model": "9c6cdb0fa438f9035e5c84a6d1b95d83b764b1ed90b261520930b7be7813724c",
+   "pae": "6a6f916ee954fc8f802768290e31a59b3d84c19e43ffe7eac3929ca4cf22b91f"
+  }
+ },
+ "chain": "A",
+ "participants": [
+  {
+   "name": "N-terminal domain",
+   "residues": [
+    13,
+    200
+   ]
+  },
+  {
+   "name": "C-terminal domain",
+   "residues": [
+    209,
+    384
+   ]
+  }
+ ],
+ "participants_from": "the first and the last residue of the two domains that TED (The Encyclopedia of Domains, CC BY 4.0) assigns to this entry",
+ "why_this_case": "Two confident domains whose arrangement the model does not know: every contact has a high predicted aligned error."
+}

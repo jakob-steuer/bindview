@@ -1,0 +1,22 @@
+{
+ "slug": "gr_mometasone",
+ "what": "the glucocorticoid receptor's ligand-binding domain with mometasone furoate",
+ "source": {
+  "archive": "RCSB Protein Data Bank",
+  "entry": "4P6W",
+  "address": "https://files.rcsb.org/download/4P6W.cif.gz",
+  "licence": "CC0 1.0 (the archive's data are in the public domain)",
+  "file": "model.cif.gz",
+  "file_is": "the archive's own file, byte for byte",
+  "sha256": "72e072f9d4769965fd9cdf6c9cc0e0bc775f3bc5e750214634c5d3d1683ab00a"
+ },
+ "ligand": {
+  "name": "mometasone furoate",
+  "component": "MOF",
+  "residue_name_in_cif": "MOF",
+  "smiles": "C[C@@H]1C[C@H]2[C@@H]3CCC4=CC(=O)C=C[C@@]4([C@]3([C@H](C[C@@]2([C@]1(C(=O)CCl)OC(=O)c5ccco5)C)O)Cl)C",
+  "smiles_from": "the archive's record of the chemical component MOF",
+  "heavy_atoms": 35
+ },
+ "why_this_case": "A member of the series of corticosteroids."
+}

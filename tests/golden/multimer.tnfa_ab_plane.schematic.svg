@@ -1,0 +1,435 @@
+<svg xmlns="http://www.w3.org/2000/svg" class="bindview" width="605.53" height="1207.19" viewBox="0 0 605.53 1207.19" font-family="Helvetica, Arial, 'Liberation Sans', sans-serif" role="img">
+ <title>chain A – chain B</title>
+ <desc>Predicted model: mean pLDDT 88 of the residues around the boxes, mean pLDDT 81 of the boxes, contact PAE, median of 2 draws 0.4–9.2 Å. The boxes stand where their residues lie on the plane through them: 95 % of neighbour relations kept, distances off by 5 %.</desc>
+ <rect class="background" width="605.53" height="1207.19" fill="#ffffff"/>
+ <g class="confidence" data-contact-pae-draws="2" data-contact-pae-max="9.2" data-contact-pae-min="0.4" data-ligand-plddt="80.6" data-pocket-plddt="88.3">
+  <text x="18" y="26.26" font-size="11.5" fill="#667085">Model confidence  residues around pLDDT <tspan fill="#1f2933" font-weight="bold">88</tspan>  ·  boxes pLDDT <tspan fill="#1f2933" font-weight="bold">81</tspan>  ·  contact PAE, median of 2 draws <tspan fill="#1f2933" font-weight="bold">0.4–9.2 Å</tspan></text>
+ </g>
+ <g class="diagram" transform="translate(316.48 314.88)">
+  <g class="backdrop">
+   <rect x="-83.84" y="-229.8" width="52.68" height="23.68" rx="8.34" fill="#c9ced6" opacity="0.55"/>
+   <rect x="-87.21" y="-273.33" width="51.74" height="22.74" rx="7.87" fill="#c9ced6" opacity="0.55"/>
+   <rect x="-5.96" y="-243.12" width="51.09" height="22.09" rx="7.55" fill="#c9ced6" opacity="0.55"/>
+   <rect x="-95.23" y="-59.64" width="50.86" height="21.86" rx="7.43" fill="#c9ced6" opacity="0.55"/>
+   <rect x="-8.38" y="390.68" width="51.13" height="22.13" rx="7.56" fill="#c9ced6" opacity="0.55"/>
+  </g>
+  <g class="interactions">
+   <g class="interaction hbond" data-confidence="very_low" data-distance="2.99" data-ligand-atoms="6/NH1" data-ligand-part="side-chain" data-ligand-residue="Arg6" data-pae="6.5" data-pae-draws="6.2 6.8" data-plddt="47.4" data-protein-atoms="O" data-residue="A:ASP10" data-type="hbond">
+    <title>Hydrogen bond: Asp10 O – Arg 6 of chain B (side chain: 6/NH1), 2.99 Å, contact pLDDT 47, PAE 6.5 Å (median of 2 draws, 6.2 to 6.8)</title>
+    <polygon points="-41.17,-180.58 -35.13,-183.46 -37.75,-186.32" fill="#c026d3" opacity="0.42"/>
+    <text x="-36.44" y="-197.41" font-size="9.5" fill="#c026d3" opacity="0.42">?</text>
+    <text x="-28.51" y="-197.41" font-size="9.5" fill="#1f2933">PAE 7</text>
+    <line x1="-37.15" y1="-184.25" x2="-35.78" y2="-185.5" fill="none" stroke="#c026d3" stroke-width="0.68" stroke-linejoin="round" opacity="0.42"/>
+    <line x1="-27.94" y1="-192.66" x2="-24.6" y2="-195.71" fill="none" stroke="#c026d3" stroke-width="0.68" stroke-linejoin="round" opacity="0.42"/>
+    <line x1="-13.42" y1="-205.93" x2="3.15" y2="-221.06" fill="none" stroke="#c026d3" stroke-width="0.68" stroke-linejoin="round" opacity="0.42"/>
+   </g>
+   <g class="interaction saltbridge" data-confidence="very_low" data-distance="3.38" data-ligand-atoms="6/NE,6/NH1,6/NH2" data-ligand-part="side-chain" data-ligand-residue="Arg6" data-pae="6.5" data-pae-draws="6.2 6.8" data-plddt="47.4" data-protein-atoms="OD1,OD2" data-residue="A:ASP10" data-type="saltbridge">
+    <title>Salt bridge: Asp10 (−) – Arg 6 of chain B (side chain: 6/NE, 6/NH1, 6/NH2), 3.38 Å, contact pLDDT 47, PAE 6.5 Å (median of 2 draws, 6.2 to 6.8)</title>
+    <text x="-42.21" y="-184.14" font-size="9.5" fill="#2563eb" opacity="0.42">?</text>
+    <text x="-34.28" y="-184.14" font-size="9.5" fill="#1f2933">PAE 7</text>
+    <line x1="-41.17" y1="-172.58" x2="-30.37" y2="-182.44" fill="none" stroke="#2563eb" stroke-width="1.18" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0.01 3.7" opacity="0.42"/>
+    <line x1="-19.18" y1="-192.66" x2="-15.85" y2="-195.71" fill="none" stroke="#2563eb" stroke-width="1.18" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0.01 3.7" opacity="0.42"/>
+    <line x1="-4.66" y1="-205.93" x2="11.7" y2="-220.88" fill="none" stroke="#2563eb" stroke-width="1.18" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0.01 3.7" opacity="0.42"/>
+   </g>
+   <g class="interaction hbond" data-confidence="very_low" data-distance="3.18" data-ligand-atoms="3/OG" data-ligand-part="side-chain" data-ligand-residue="Ser3" data-pae="8.1" data-pae-draws="6.9 9.4" data-plddt="44.1" data-protein-atoms="O" data-residue="A:GLU53" data-type="hbond">
+    <title>Hydrogen bond: Glu53 O – Ser 3 of chain B (side chain: 3/OG), 3.18 Å, contact pLDDT 44, PAE 8.1 Å (median of 2 draws, 6.9 to 9.4)</title>
+    <polygon points="-135.42,-229.05 -128.85,-227.79 -129.26,-231.65" fill="#c026d3" opacity="0.42"/>
+    <text x="-113.53" y="-229.77" font-size="9.5" fill="#c026d3" opacity="0.42">?</text>
+    <text x="-105.61" y="-229.77" font-size="9.5" fill="#1f2933">PAE 8</text>
+    <line x1="-130.01" y1="-229.62" x2="-115.03" y2="-231.19" fill="none" stroke="#c026d3" stroke-width="0.68" stroke-linejoin="round" opacity="0.42"/>
+    <line x1="-77.18" y1="-235.16" x2="-56.79" y2="-237.3" fill="none" stroke="#c026d3" stroke-width="0.68" stroke-linejoin="round" opacity="0.42"/>
+   </g>
+   <g class="interaction hbond" data-confidence="very_low" data-distance="3.46" data-ligand-atoms="4/OG" data-ligand-part="side-chain" data-ligand-residue="Ser4" data-pae="7.5" data-pae-draws="6.7 8.3" data-plddt="43.3" data-protein-atoms="OE1" data-residue="A:GLU53" data-type="hbond">
+    <title>Hydrogen bond: Glu53 OE1 – Ser 4 of chain B (side chain: 4/OG), 3.46 Å, contact pLDDT 43, PAE 7.5 Å (median of 2 draws, 6.7 to 8.3)</title>
+    <polygon points="-136.42,-233.23 -129.75,-233.71 -131.14,-237.33" fill="#c026d3" opacity="0.42"/>
+    <text x="-127.25" y="-240" font-size="9.5" fill="#c026d3" opacity="0.42">?</text>
+    <text x="-119.33" y="-240" font-size="9.5" fill="#1f2933">PAE 7</text>
+    <line x1="-131.34" y1="-235.17" x2="-123.18" y2="-238.3" fill="none" stroke="#c026d3" stroke-width="0.68" stroke-linejoin="round" stroke-dasharray="4.2 2.6" opacity="0.42"/>
+    <line x1="-96.47" y1="-248.52" x2="-83.23" y2="-253.59" fill="none" stroke="#c026d3" stroke-width="0.68" stroke-linejoin="round" stroke-dasharray="4.2 2.6" opacity="0.42"/>
+   </g>
+   <g class="interaction saltbridge" data-confidence="very_low" data-distance="2.72" data-ligand-atoms="2/NE,2/NH1,2/NH2" data-ligand-part="side-chain" data-ligand-residue="Arg2" data-pae="9.1" data-pae-draws="7.3 11.0" data-plddt="45.4" data-protein-atoms="OE1,OE2" data-residue="A:GLU53" data-type="saltbridge">
+    <title>Salt bridge: Glu53 (−) – Arg 2 of chain B (side chain: 2/NE, 2/NH1, 2/NH2), 2.72 Å, contact pLDDT 45, PAE 9.1 Å (median of 2 draws, 7.3 to 11.0)</title>
+    <text x="-121.34" y="-219.16" font-size="9.5" fill="#2563eb" opacity="0.42">?</text>
+    <text x="-113.42" y="-219.16" font-size="9.5" fill="#1f2933">PAE 9</text>
+    <line x1="-135.41" y1="-225.7" x2="-122.84" y2="-224.45" fill="none" stroke="#2563eb" stroke-width="1.18" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0.01 3.7" opacity="0.42"/>
+    <line x1="-84.98" y1="-220.69" x2="-82.91" y2="-220.49" fill="none" stroke="#2563eb" stroke-width="1.18" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0.01 3.7" opacity="0.42"/>
+   </g>
+   <g class="interaction hydrophobic" data-confidence="very_high" data-distance="3.57" data-ligand-atoms="36/CD1" data-ligand-part="side-chain" data-ligand-residue="Leu36" data-pae="0.7" data-pae-draws="0.7 0.7" data-plddt="90.4" data-protein-atoms="CD2" data-residue="A:LEU55" data-type="hydrophobic">
+    <title>Hydrophobic contact: Leu55 CD2 – Leu 36 of chain B (side chain: 36/CD1), 3.57 Å, contact pLDDT 90, PAE 0.7 Å (median of 2 draws, 0.7 to 0.7)</title>
+    <line x1="8.72" y1="-116.13" x2="5.44" y2="-93.31" fill="none" stroke="#5b6472" stroke-width="0.81" stroke-linejoin="round"/>
+   </g>
+   <g class="interaction hydrophobic" data-confidence="very_high" data-distance="3.82" data-ligand-atoms="13/CG1" data-ligand-part="side-chain" data-ligand-residue="Val13" data-pae="0.6" data-pae-draws="0.6 0.6" data-plddt="90.7" data-protein-atoms="CD1" data-residue="A:LEU55" data-type="hydrophobic">
+    <title>Hydrophobic contact: Leu55 CD1 – Val 13 of chain B (side chain: 13/CG1), 3.82 Å, contact pLDDT 91, PAE 0.6 Å (median of 2 draws, 0.6 to 0.6)</title>
+    <line x1="25.96" y1="-125.36" x2="43.94" y2="-116.8" fill="none" stroke="#5b6472" stroke-width="0.81" stroke-linejoin="round"/>
+   </g>
+   <g class="interaction hbond" data-confidence="confident" data-distance="2.66" data-ligand-atoms="113/O" data-ligand-part="backbone" data-ligand-residue="Pro113" data-pae="1.2" data-pae-draws="1.3 1.1" data-plddt="78.8" data-protein-atoms="NE2" data-residue="A:HIS73" data-type="hbond">
+    <title>Hydrogen bond: His73 NE2 – Pro 113 of chain B (backbone: 113/O), 2.66 Å, contact pLDDT 79, PAE 1.2 Å (median of 2 draws, 1.1 to 1.3)</title>
+    <line x1="-115.81" y1="292.95" x2="-98.75" y2="278.82" fill="none" stroke="#c026d3" stroke-width="1.35" stroke-linejoin="round" stroke-dasharray="4.2 2.6"/>
+   </g>
+   <g class="interaction hydrophobic" data-confidence="very_high" data-distance="3.82" data-ligand-atoms="115/CD1" data-ligand-part="side-chain" data-ligand-residue="Tyr115" data-pae="0.6" data-pae-draws="0.7 0.6" data-plddt="92.1" data-protein-atoms="CD2" data-residue="A:LEU75" data-type="hydrophobic">
+    <title>Hydrophobic contact: Leu75 CD2 – Tyr 115 of chain B (side chain: 115/CD1), 3.82 Å, contact pLDDT 92, PAE 0.6 Å (median of 2 draws, 0.6 to 0.7)</title>
+    <line x1="-53.32" y1="173.55" x2="-54.1" y2="193.18" fill="none" stroke="#5b6472" stroke-width="0.81" stroke-linejoin="round"/>
+   </g>
+   <g class="interaction hbond" data-confidence="confident" data-distance="2.98" data-ligand-atoms="34/OD1" data-ligand-part="side-chain" data-ligand-residue="Asn34" data-pae="1.1" data-pae-draws="1.2 1.1" data-plddt="86.7" data-protein-atoms="NH1" data-residue="A:ARG82" data-type="hbond">
+    <title>Hydrogen bond: Arg82 NH1 – Asn 34 of chain B (side chain: 34/OD1), 2.98 Å, contact pLDDT 87, PAE 1.1 Å (median of 2 draws, 1.1 to 1.2)</title>
+    <polygon points="-59.42,-37.51 -53.23,-34.51 -56.9,-31.11" fill="#c026d3"/>
+    <line x1="-43.9" y1="-20.78" x2="-55.72" y2="-33.52" fill="none" stroke="#c026d3" stroke-width="1.35" stroke-linejoin="round" stroke-dasharray="4.2 2.6"/>
+   </g>
+   <g class="interaction hydrophobic" data-confidence="very_high" data-distance="3.35" data-ligand-atoms="151/CE2" data-ligand-part="side-chain" data-ligand-residue="Tyr151" data-pae="0.5" data-pae-draws="0.5 0.5" data-plddt="97.4" data-protein-atoms="CD2" data-residue="A:LEU94" data-type="hydrophobic">
+    <title>Hydrophobic contact: Leu94 CD2 – Tyr 151 of chain B (side chain: 151/CE2), 3.35 Å, contact pLDDT 97, PAE 0.5 Å (median of 2 draws, 0.5 to 0.5)</title>
+    <line x1="13.09" y1="13.09" x2="15.49" y2="31.6" fill="none" stroke="#5b6472" stroke-width="0.81" stroke-linejoin="round"/>
+   </g>
+   <g class="interaction hbond" data-confidence="very_high" data-distance="2.69" data-ligand-atoms="148/O" data-ligand-part="backbone" data-ligand-residue="Gly148" data-pae="0.5" data-pae-draws="0.5 0.4" data-plddt="94.3" data-protein-atoms="N" data-residue="A:SER95" data-type="hbond">
+    <title>Hydrogen bond: Ser95 N – Gly 148 of chain B (backbone: 148/O), 2.69 Å, contact pLDDT 94, PAE 0.5 Å (median of 2 draws, 0.4 to 0.5)</title>
+    <polygon points="-47.46,65.24 -42.91,70.38 -47.6,72.11" fill="#c026d3"/>
+    <line x1="-38.1" y1="90.7" x2="-45.59" y2="70.34" fill="none" stroke="#c026d3" stroke-width="1.35" stroke-linejoin="round"/>
+   </g>
+   <g class="interaction hbond" data-confidence="very_high" data-distance="2.75" data-ligand-atoms="61/NE2" data-ligand-part="side-chain" data-ligand-residue="Gln61" data-pae="0.6" data-pae-draws="0.5 0.6" data-plddt="95.2" data-protein-atoms="O" data-residue="A:SER95" data-type="hbond">
+    <title>Hydrogen bond: Ser95 O – Gln 61 of chain B (side chain: 61/NE2), 2.75 Å, contact pLDDT 95, PAE 0.6 Å (median of 2 draws, 0.5 to 0.6)</title>
+    <polygon points="-17.12,99.99 -10.25,99.9 -12.13,95.26" fill="#c026d3"/>
+    <line x1="-12.08" y1="97.94" x2="0.85" y2="92.7" fill="none" stroke="#c026d3" stroke-width="1.35" stroke-linejoin="round"/>
+   </g>
+   <g class="interaction hydrophobic" data-confidence="very_high" data-distance="3.52" data-ligand-atoms="115/CG" data-ligand-part="side-chain" data-ligand-residue="Tyr115" data-pae="0.4" data-pae-draws="0.5 0.4" data-plddt="93.4" data-protein-atoms="CG2" data-residue="A:ILE97" data-type="hydrophobic">
+    <title>Hydrophobic contact: Ile97 CG2 – Tyr 115 of chain B (side chain: 115/CG), 3.52 Å, contact pLDDT 93, PAE 0.4 Å (median of 2 draws, 0.4 to 0.5)</title>
+    <line x1="-35.52" y1="234.45" x2="-47.46" y2="215.58" fill="none" stroke="#5b6472" stroke-width="0.81" stroke-linejoin="round"/>
+   </g>
+   <g class="interaction hydrophobic" data-confidence="very_high" data-distance="3.85" data-ligand-atoms="117/CG" data-ligand-part="side-chain" data-ligand-residue="Pro117" data-pae="0.5" data-pae-draws="0.5 0.5" data-plddt="92.3" data-protein-atoms="CG" data-residue="A:LYS98" data-type="hydrophobic">
+    <title>Hydrophobic contact: Lys98 CG – Pro 117 of chain B (side chain: 117/CG), 3.85 Å, contact pLDDT 92, PAE 0.5 Å (median of 2 draws, 0.5 to 0.5)</title>
+    <line x1="20.87" y1="183.5" x2="20.79" y2="165.05" fill="none" stroke="#5b6472" stroke-width="0.81" stroke-linejoin="round"/>
+   </g>
+   <g class="interaction hbond" data-confidence="confident" data-distance="3.19" data-ligand-atoms="115/N" data-ligand-part="backbone" data-ligand-residue="Tyr115" data-pae="0.5" data-pae-draws="0.5 0.5" data-plddt="87.0" data-protein-atoms="OG" data-residue="A:SER99" data-type="hbond">
+    <title>Hydrogen bond: Ser99 OG – Tyr 115 of chain B (backbone: 115/N), 3.19 Å, contact pLDDT 87, PAE 0.5 Å (median of 2 draws, 0.5 to 0.5)</title>
+    <polygon points="-97.1,213.97 -90.31,215 -91.41,210.13" fill="#c026d3"/>
+    <line x1="-91.8" y1="212.78" x2="-78.81" y2="209.85" fill="none" stroke="#c026d3" stroke-width="1.35" stroke-linejoin="round" stroke-dasharray="4.2 2.6"/>
+   </g>
+   <g class="interaction hbond" data-confidence="low" data-distance="3.18" data-ligand-atoms="104/O" data-ligand-part="backbone" data-ligand-residue="Glu104" data-pae="4.2" data-pae-draws="5.0 3.4" data-plddt="53.3" data-protein-atoms="NH2" data-residue="A:ARG103" data-type="hbond">
+    <title>Hydrogen bond: Arg103 NH2 – Glu 104 of chain B (backbone: 104/O), 3.18 Å, contact pLDDT 53, PAE 4.2 Å (median of 2 draws, 3.4 to 5.0)</title>
+    <polygon points="6.32,412.94 3.42,419.04 0.32,416.03" fill="#c026d3" opacity="0.62"/>
+    <line x1="-9.57" y1="429.34" x2="2.54" y2="416.85" fill="none" stroke="#c026d3" stroke-width="0.94" stroke-linejoin="round" stroke-dasharray="4.2 2.6" opacity="0.62"/>
+   </g>
+   <g class="interaction hydrophobic" data-confidence="very_high" data-distance="3.57" data-ligand-atoms="119/CE2" data-ligand-part="side-chain" data-ligand-residue="Tyr119" data-pae="0.4" data-pae-draws="0.4 0.5" data-plddt="96.7" data-protein-atoms="CE2" data-residue="A:TYR119" data-type="hydrophobic">
+    <title>Hydrophobic contact: Tyr119 CE2 – Tyr 119 of chain B (side chain: 119/CE2), 3.57 Å, contact pLDDT 97, PAE 0.4 Å (median of 2 draws, 0.4 to 0.5)</title>
+    <line x1="84.34" y1="98.72" x2="77.3" y2="78.76" fill="none" stroke="#5b6472" stroke-width="0.81" stroke-linejoin="round"/>
+   </g>
+   <g class="interaction hbond" data-confidence="very_high" data-distance="3.32" data-ligand-atoms="119/OH" data-ligand-part="side-chain" data-ligand-residue="Tyr119" data-pae="0.5" data-pae-draws="0.5 0.6" data-plddt="96.8" data-protein-atoms="O" data-residue="A:GLY121" data-type="hbond">
+    <title>Hydrogen bond: Gly121 O – Tyr 119 of chain B (side chain: 119/OH), 3.32 Å, contact pLDDT 97, PAE 0.5 Å (median of 2 draws, 0.5 to 0.6)</title>
+    <polygon points="106.76,44.05 100.08,45.69 102.96,49.77" fill="#c026d3"/>
+    <line x1="102.31" y1="47.18" x2="89.15" y2="56.44" fill="none" stroke="#c026d3" stroke-width="1.35" stroke-linejoin="round"/>
+   </g>
+   <g class="interaction hbond" data-confidence="very_high" data-distance="3.33" data-ligand-atoms="151/OH" data-ligand-part="side-chain" data-ligand-residue="Tyr151" data-pae="0.5" data-pae-draws="0.4 0.5" data-plddt="97.5" data-protein-atoms="O" data-residue="A:GLY121" data-type="hbond">
+    <title>Hydrogen bond: Gly121 O – Tyr 151 of chain B (side chain: 151/OH), 3.33 Å, contact pLDDT 97, PAE 0.5 Å (median of 2 draws, 0.4 to 0.5)</title>
+    <polygon points="103.8,35.86 97.22,33.88 97.62,38.86" fill="#c026d3"/>
+    <line x1="98.38" y1="36.3" x2="42.46" y2="40.76" fill="none" stroke="#c026d3" stroke-width="1.35" stroke-linejoin="round"/>
+   </g>
+   <g class="interaction hbond" data-confidence="very_high" data-distance="2.73" data-ligand-atoms="59/OH" data-ligand-part="side-chain" data-ligand-residue="Tyr59" data-pae="0.5" data-pae-draws="0.5 0.5" data-plddt="95.4" data-protein-atoms="N" data-residue="A:VAL123" data-type="hbond">
+    <title>Hydrogen bond: Val123 N – Tyr 59 of chain B (side chain: 59/OH), 2.73 Å, contact pLDDT 95, PAE 0.5 Å (median of 2 draws, 0.5 to 0.5)</title>
+    <polygon points="70.59,-12.02 66.01,-17.15 70.69,-18.89" fill="#c026d3"/>
+    <line x1="60.3" y1="-39.56" x2="68.69" y2="-17.12" fill="none" stroke="#c026d3" stroke-width="1.35" stroke-linejoin="round"/>
+   </g>
+   <g class="interaction hydrophobic" data-confidence="very_high" data-distance="3.68" data-ligand-atoms="59/CE2" data-ligand-part="side-chain" data-ligand-residue="Tyr59" data-pae="0.5" data-pae-draws="0.5 0.5" data-plddt="95.4" data-protein-atoms="CG2" data-residue="A:VAL123" data-type="hydrophobic">
+    <title>Hydrophobic contact: Val123 CG2 – Tyr 59 of chain B (side chain: 59/CE2), 3.68 Å, contact pLDDT 95, PAE 0.5 Å (median of 2 draws, 0.5 to 0.5)</title>
+    <line x1="60.3" y1="-31.56" x2="67.6" y2="-12.02" fill="none" stroke="#5b6472" stroke-width="0.81" stroke-linejoin="round"/>
+   </g>
+   <g class="interaction hydrophobic" data-confidence="very_high" data-distance="3.91" data-ligand-atoms="155/CG2" data-ligand-part="side-chain" data-ligand-residue="Ile155" data-pae="0.5" data-pae-draws="0.5 0.5" data-plddt="94.3" data-protein-atoms="CG2" data-residue="A:VAL123" data-type="hydrophobic">
+    <title>Hydrophobic contact: Val123 CG2 – Ile 155 of chain B (side chain: 155/CG2), 3.91 Å, contact pLDDT 94, PAE 0.5 Å (median of 2 draws, 0.5 to 0.5)</title>
+    <line x1="67.72" y1="-60.93" x2="85.1" y2="-73.99" fill="none" stroke="#5b6472" stroke-width="0.81" stroke-linejoin="round"/>
+   </g>
+   <g class="interaction hydrophobic" data-confidence="very_high" data-distance="3.96" data-ligand-atoms="13/CG2" data-ligand-part="side-chain" data-ligand-residue="Val13" data-pae="0.5" data-pae-draws="0.5 0.5" data-plddt="93.8" data-protein-atoms="CG1" data-residue="A:VAL123" data-type="hydrophobic">
+    <title>Hydrophobic contact: Val123 CG1 – Val 13 of chain B (side chain: 13/CG2), 3.96 Å, contact pLDDT 94, PAE 0.5 Å (median of 2 draws, 0.5 to 0.5)</title>
+    <line x1="57.31" y1="-67.28" x2="62.23" y2="-95.97" fill="none" stroke="#5b6472" stroke-width="0.81" stroke-linejoin="round"/>
+   </g>
+   <g class="interaction hydrophobic" data-confidence="very_high" data-distance="3.95" data-ligand-atoms="36/CD2" data-ligand-part="side-chain" data-ligand-residue="Leu36" data-pae="0.6" data-pae-draws="0.7 0.6" data-plddt="90.4" data-protein-atoms="CB" data-residue="A:GLN125" data-type="hydrophobic">
+    <title>Hydrophobic contact: Gln125 CB – Leu 36 of chain B (side chain: 36/CD2), 3.95 Å, contact pLDDT 90, PAE 0.6 Å (median of 2 draws, 0.6 to 0.7)</title>
+    <line x1="-35.76" y1="-97.99" x2="-17.76" y2="-90.77" fill="none" stroke="#5b6472" stroke-width="0.81" stroke-linejoin="round"/>
+   </g>
+   <g class="interaction saltbridge" data-confidence="very_low" data-distance="3.74" data-ligand-atoms="2/NE,2/NH1,2/NH2" data-ligand-part="side-chain" data-ligand-residue="Arg2" data-pae="9.2" data-pae-draws="7.4 11.1" data-plddt="45.4" data-protein-atoms="OE1,OE2" data-residue="A:GLU127" data-type="saltbridge">
+    <title>Salt bridge: Glu127 (−) – Arg 2 of chain B (side chain: 2/NE, 2/NH1, 2/NH2), 3.74 Å, contact pLDDT 45, PAE 9.2 Å (median of 2 draws, 7.4 to 11.1)</title>
+    <text x="-108.88" y="-179.51" font-size="9.5" fill="#2563eb" opacity="0.42">?</text>
+    <text x="-100.95" y="-179.51" font-size="9.5" fill="#1f2933">PAE 9</text>
+    <line x1="-114.55" y1="-159.08" x2="-96.4" y2="-177.81" fill="none" stroke="#2563eb" stroke-width="1.18" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0.01 3.7" opacity="0.42"/>
+    <line x1="-86.5" y1="-188.03" x2="-68.35" y2="-206.77" fill="none" stroke="#2563eb" stroke-width="1.18" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0.01 3.7" opacity="0.42"/>
+   </g>
+   <g class="interaction hydrophobic" data-confidence="confident" data-distance="3.16" data-ligand-atoms="155/CD1" data-ligand-part="side-chain" data-ligand-residue="Ile155" data-pae="0.7" data-pae-draws="0.7 0.7" data-plddt="87.2" data-protein-atoms="CD1" data-residue="A:LEU157" data-type="hydrophobic">
+    <title>Hydrophobic contact: Leu157 CD1 – Ile 155 of chain B (side chain: 155/CD1), 3.16 Å, contact pLDDT 87, PAE 0.7 Å (median of 2 draws, 0.7 to 0.7)</title>
+    <line x1="116.51" y1="-115.51" x2="106.09" y2="-96.37" fill="none" stroke="#5b6472" stroke-width="0.81" stroke-linejoin="round"/>
+   </g>
+  </g>
+  <g class="ligand" data-drawn-as="chain">
+   <g class="backbone">
+    <line x1="-47.42" y1="-226.47" x2="-41.5" y2="-231.47" fill="none" stroke="#1f2933" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="-42.98" y1="-248.47" x2="-49.78" y2="-253.47" fill="none" stroke="#1f2933" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="-51.07" y1="-57.21" x2="-14.91" y2="-73.61" fill="none" stroke="#1f2933" stroke-width="1.12" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0.01 3.2" opacity="0.7"/>
+    <line x1="68.17" y1="7.68" x2="27.46" y2="75.47" fill="none" stroke="#1f2933" stroke-width="1.12" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0.01 3.2" opacity="0.7"/>
+    <line x1="-81.1" y1="259.12" x2="-58.67" y2="212.88" fill="none" stroke="#1f2933" stroke-width="1.12" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0.01 3.2" opacity="0.7"/>
+    <line x1="-41.88" y1="195.88" x2="8.07" y2="162.35" fill="none" stroke="#1f2933" stroke-width="1.12" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0.01 3.2" opacity="0.7"/>
+    <line x1="25.92" y1="145.35" x2="68.17" y2="76.06" fill="none" stroke="#1f2933" stroke-width="1.12" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0.01 3.2" opacity="0.7"/>
+    <line x1="-28.58" y1="50.27" x2="-6.05" y2="46.57" fill="none" stroke="#1f2933" stroke-width="1.12" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0.01 3.2" opacity="0.7"/>
+   </g>
+   <g class="bonds">
+   </g>
+   <g class="units">
+    <g class="unit" data-atoms="2/N,2/CA,2/C,2/O,2/CB,2/CG,2/CD,2/NE,2/CZ,2/NH1,2/NH2" data-class="positive" data-confidence="very_low" data-position="1" data-residue="ARG">
+     <title>Arg 2 of chain B (numbered as in the structure file)</title>
+     <rect x="-80.5" y="-226.47" width="46" height="17" rx="5" fill="#ffffff" stroke="#1f2933" stroke-width="1.15" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="1.1 2.3" opacity="0.7"/>
+     <text x="-57.5" y="-214.2" font-size="10.5" text-anchor="middle" fill="#1f2933" opacity="0.85"><tspan font-weight="bold">Arg</tspan><tspan font-size="8" fill="#667085"> 2</tspan></text>
+    </g>
+    <g class="unit" data-atoms="3/N,3/CA,3/C,3/O,3/CB,3/OG" data-class="polar" data-confidence="very_low" data-position="2" data-residue="SER">
+     <title>Ser 3 of chain B (numbered as in the structure file)</title>
+     <rect x="-54.42" y="-248.47" width="46" height="17" rx="5" fill="#ffffff" stroke="#1f2933" stroke-width="1.15" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="1.1 2.3" opacity="0.7"/>
+     <text x="-31.42" y="-236.2" font-size="10.5" text-anchor="middle" fill="#1f2933" opacity="0.85"><tspan font-weight="bold">Ser</tspan><tspan font-size="8" fill="#667085"> 3</tspan></text>
+    </g>
+    <g class="unit" data-atoms="4/N,4/CA,4/C,4/O,4/CB,4/OG" data-class="polar" data-confidence="very_low" data-position="3" data-residue="SER">
+     <title>Ser 4 of chain B (numbered as in the structure file)</title>
+     <rect x="-84.34" y="-270.47" width="46" height="17" rx="5" fill="#ffffff" stroke="#1f2933" stroke-width="1.15" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="1.1 2.3" opacity="0.7"/>
+     <text x="-61.34" y="-258.2" font-size="10.5" text-anchor="middle" fill="#1f2933" opacity="0.85"><tspan font-weight="bold">Ser</tspan><tspan font-size="8" fill="#667085"> 4</tspan></text>
+    </g>
+    <g class="unit" data-atoms="6/N,6/CA,6/C,6/O,6/CB,6/CG,6/CD,6/NE,6/CZ,6/NH1,6/NH2" data-class="positive" data-confidence="very_low" data-position="4" data-residue="ARG">
+     <title>Arg 6 of chain B (numbered as in the structure file)</title>
+     <rect x="-3.42" y="-240.58" width="46" height="17" rx="5" fill="#ffffff" stroke="#1f2933" stroke-width="1.15" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="1.1 2.3" opacity="0.7"/>
+     <text x="19.58" y="-228.31" font-size="10.5" text-anchor="middle" fill="#1f2933" opacity="0.85"><tspan font-weight="bold">Arg</tspan><tspan font-size="8" fill="#667085"> 6</tspan></text>
+    </g>
+    <g class="unit" data-atoms="13/N,13/CA,13/C,13/O,13/CB,13/CG1,13/CG2" data-class="hydrophobic" data-confidence="very_high" data-position="5" data-residue="VAL">
+     <title>Val 13 of chain B (numbered as in the structure file)</title>
+     <rect x="41.15" y="-115.67" width="46" height="17" rx="5" fill="#ffffff" stroke="#1f2933" stroke-width="1.15" stroke-linecap="round" stroke-linejoin="round"/>
+     <text x="64.15" y="-103.4" font-size="10.5" text-anchor="middle" fill="#1f2933"><tspan font-weight="bold">Val</tspan><tspan font-size="8" fill="#667085"> 13</tspan></text>
+    </g>
+    <g class="unit" data-atoms="34/N,34/CA,34/C,34/O,34/CB,34/CG,34/OD1,34/ND2" data-class="polar" data-confidence="confident" data-position="6" data-residue="ASN">
+     <title>Asn 34 of chain B (numbered as in the structure file)</title>
+     <rect x="-92.8" y="-57.21" width="46" height="17" rx="5" fill="#ffffff" stroke="#1f2933" stroke-width="1.15" stroke-linecap="round" stroke-linejoin="round"/>
+     <text x="-69.8" y="-44.94" font-size="10.5" text-anchor="middle" fill="#1f2933"><tspan font-weight="bold">Asn</tspan><tspan font-size="8" fill="#667085"> 34</tspan></text>
+    </g>
+    <g class="unit" data-atoms="36/N,36/CA,36/C,36/O,36/CB,36/CG,36/CD1,36/CD2" data-class="hydrophobic" data-confidence="very_high" data-position="7" data-residue="LEU">
+     <title>Leu 36 of chain B (numbered as in the structure file)</title>
+     <rect x="-19.17" y="-90.61" width="46" height="17" rx="5" fill="#ffffff" stroke="#1f2933" stroke-width="1.15" stroke-linecap="round" stroke-linejoin="round"/>
+     <text x="3.83" y="-78.34" font-size="10.5" text-anchor="middle" fill="#1f2933"><tspan font-weight="bold">Leu</tspan><tspan font-size="8" fill="#667085"> 36</tspan></text>
+    </g>
+    <g class="unit" data-atoms="59/N,59/CA,59/C,59/O,59/CB,59/CG,59/CD1,59/CD2,59/CE1,59/CE2,59/CZ,59/OH" data-class="hydrophobic" data-confidence="very_high" data-position="8" data-residue="TYR">
+     <title>Tyr 59 of chain B (numbered as in the structure file)</title>
+     <rect x="50.28" y="-9.32" width="46" height="17" rx="5" fill="#ffffff" stroke="#1f2933" stroke-width="1.15" stroke-linecap="round" stroke-linejoin="round"/>
+     <text x="73.28" y="2.94" font-size="10.5" text-anchor="middle" fill="#1f2933"><tspan font-weight="bold">Tyr</tspan><tspan font-size="8" fill="#667085"> 59</tspan></text>
+    </g>
+    <g class="unit" data-atoms="61/N,61/CA,61/C,61/O,61/CB,61/CG,61/CD,61/OE1,61/NE2" data-class="polar" data-confidence="very_high" data-position="9" data-residue="GLN">
+     <title>Gln 61 of chain B (numbered as in the structure file)</title>
+     <rect x="-0.64" y="75.47" width="46" height="17" rx="5" fill="#ffffff" stroke="#1f2933" stroke-width="1.15" stroke-linecap="round" stroke-linejoin="round"/>
+     <text x="22.36" y="87.74" font-size="10.5" text-anchor="middle" fill="#1f2933"><tspan font-weight="bold">Gln</tspan><tspan font-size="8" fill="#667085"> 61</tspan></text>
+    </g>
+    <g class="unit" data-atoms="104/N,104/CA,104/C,104/O,104/CB,104/CG,104/CD,104/OE1,104/OE2" data-class="negative" data-confidence="low" data-position="10" data-residue="GLU">
+     <title>Glu 104 of chain B (numbered as in the structure file)</title>
+     <rect x="-5.82" y="393.24" width="46" height="17" rx="5" fill="#ffffff" stroke="#1f2933" stroke-width="1.15" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="3.6 2.2" opacity="0.85"/>
+     <text x="17.18" y="405.51" font-size="10.5" text-anchor="middle" fill="#1f2933" opacity="0.85"><tspan font-weight="bold">Glu</tspan><tspan font-size="8" fill="#667085"> 104</tspan></text>
+    </g>
+    <g class="unit" data-atoms="113/N,113/CA,113/C,113/O,113/CB,113/CG,113/CD" data-class="hydrophobic" data-confidence="confident" data-position="11" data-residue="PRO">
+     <title>Pro 113 of chain B (numbered as in the structure file)</title>
+     <rect x="-108.22" y="259.12" width="46" height="17" rx="5" fill="#ffffff" stroke="#1f2933" stroke-width="1.15" stroke-linecap="round" stroke-linejoin="round"/>
+     <text x="-85.22" y="271.39" font-size="10.5" text-anchor="middle" fill="#1f2933"><tspan font-weight="bold">Pro</tspan><tspan font-size="8" fill="#667085"> 113</tspan></text>
+    </g>
+    <g class="unit" data-atoms="115/N,115/CA,115/C,115/O,115/CB,115/CG,115/CD1,115/CD2,115/CE1,115/CE2,115/CZ,115/OH" data-class="hydrophobic" data-confidence="very_high" data-position="12" data-residue="TYR">
+     <title>Tyr 115 of chain B (numbered as in the structure file)</title>
+     <rect x="-77.54" y="195.88" width="46" height="17" rx="5" fill="#ffffff" stroke="#1f2933" stroke-width="1.15" stroke-linecap="round" stroke-linejoin="round"/>
+     <text x="-54.54" y="208.15" font-size="10.5" text-anchor="middle" fill="#1f2933"><tspan font-weight="bold">Tyr</tspan><tspan font-size="8" fill="#667085"> 115</tspan></text>
+    </g>
+    <g class="unit" data-atoms="117/N,117/CA,117/C,117/O,117/CB,117/CG,117/CD" data-class="hydrophobic" data-confidence="very_high" data-position="13" data-residue="PRO">
+     <title>Pro 117 of chain B (numbered as in the structure file)</title>
+     <rect x="-2.26" y="145.35" width="46" height="17" rx="5" fill="#ffffff" stroke="#1f2933" stroke-width="1.15" stroke-linecap="round" stroke-linejoin="round"/>
+     <text x="20.74" y="157.62" font-size="10.5" text-anchor="middle" fill="#1f2933"><tspan font-weight="bold">Pro</tspan><tspan font-size="8" fill="#667085"> 117</tspan></text>
+    </g>
+    <g class="unit" data-atoms="119/N,119/CA,119/C,119/O,119/CB,119/CG,119/CD1,119/CD2,119/CE1,119/CE2,119/CZ,119/OH" data-class="hydrophobic" data-confidence="very_high" data-position="14" data-residue="TYR">
+     <title>Tyr 119 of chain B (numbered as in the structure file)</title>
+     <rect x="50.36" y="59.06" width="46" height="17" rx="5" fill="#ffffff" stroke="#1f2933" stroke-width="1.15" stroke-linecap="round" stroke-linejoin="round"/>
+     <text x="73.36" y="71.33" font-size="10.5" text-anchor="middle" fill="#1f2933"><tspan font-weight="bold">Tyr</tspan><tspan font-size="8" fill="#667085"> 119</tspan></text>
+    </g>
+    <g class="unit" data-atoms="148/N,148/CA,148/C,148/O" data-class="glycine" data-confidence="very_high" data-position="15" data-residue="GLY">
+     <title>Gly 148 of chain B (numbered as in the structure file)</title>
+     <rect x="-74.58" y="45.54" width="46" height="17" rx="5" fill="#ffffff" stroke="#1f2933" stroke-width="1.15" stroke-linecap="round" stroke-linejoin="round"/>
+     <text x="-51.58" y="57.81" font-size="10.5" text-anchor="middle" fill="#1f2933"><tspan font-weight="bold">Gly</tspan><tspan font-size="8" fill="#667085"> 148</tspan></text>
+    </g>
+    <g class="unit" data-atoms="151/N,151/CA,151/C,151/O,151/CB,151/CG,151/CD1,151/CD2,151/CE1,151/CE2,151/CZ,151/OH" data-class="hydrophobic" data-confidence="very_high" data-position="16" data-residue="TYR">
+     <title>Tyr 151 of chain B (numbered as in the structure file)</title>
+     <rect x="-6.05" y="34.3" width="46" height="17" rx="5" fill="#ffffff" stroke="#1f2933" stroke-width="1.15" stroke-linecap="round" stroke-linejoin="round"/>
+     <text x="16.95" y="46.57" font-size="10.5" text-anchor="middle" fill="#1f2933"><tspan font-weight="bold">Tyr</tspan><tspan font-size="8" fill="#667085"> 151</tspan></text>
+    </g>
+    <g class="unit" data-atoms="155/N,155/CA,155/C,155/O,155/CB,155/CG1,155/CG2,155/CD1" data-class="hydrophobic" data-confidence="very_high" data-position="17" data-residue="ILE">
+     <title>Ile 155 of chain B (numbered as in the structure file)</title>
+     <rect x="76.99" y="-93.67" width="46" height="17" rx="5" fill="#ffffff" stroke="#1f2933" stroke-width="1.15" stroke-linecap="round" stroke-linejoin="round"/>
+     <text x="99.99" y="-81.4" font-size="10.5" text-anchor="middle" fill="#1f2933"><tspan font-weight="bold">Ile</tspan><tspan font-size="8" fill="#667085"> 155</tspan></text>
+    </g>
+   </g>
+   <g class="atoms">
+   </g>
+  </g>
+  <g class="residues">
+   <g class="residue" data-class="negative" data-confidence="confident" data-form="bubble" data-plddt="75.5" data-residue="A:ASP10">
+    <title>Asp10: hydrogen bond, salt bridge; residue pLDDT 75</title>
+    <path d="M-38.95 -178.6 L-38.37 -166.15 A15 15 0 1 1 -51.29 -180.31 Z" fill="#f4a98a" stroke="#5b6472" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="-53.35" y="-166.55" font-size="9.5" text-anchor="middle" font-weight="bold" fill="#1f2933">ASP</text>
+    <text x="-53.35" y="-157.53" font-size="9.5" text-anchor="middle" fill="#1f2933">10</text>
+   </g>
+   <g class="residue" data-class="negative" data-confidence="confident" data-form="bubble" data-plddt="86.9" data-residue="A:GLU53">
+    <title>Glu53: hydrogen bond, salt bridge; residue pLDDT 87</title>
+    <path d="M-132.48 -229.73 L-139.2 -219.24 A15 15 0 1 1 -141.56 -238.26 Z" fill="#f4a98a" stroke="#5b6472" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="-151.83" y="-228.43" font-size="9.5" text-anchor="middle" font-weight="bold" fill="#1f2933">GLU</text>
+    <text x="-151.83" y="-219.41" font-size="9.5" text-anchor="middle" fill="#1f2933">53</text>
+   </g>
+   <g class="residue" data-class="hydrophobic" data-confidence="very_high" data-form="bubble" data-plddt="90.7" data-residue="A:LEU55">
+    <title>Leu55: hydrophobic contact; residue pLDDT 91</title>
+    <path d="M21.17 -115.79 L8.85 -117.63 A15 15 0 1 1 25.24 -127.56 Z" fill="#b8dc7a" stroke="#5b6472" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="11.06" y="-133.56" font-size="9.5" text-anchor="middle" font-weight="bold" fill="#1f2933">LEU</text>
+    <text x="11.06" y="-124.54" font-size="9.5" text-anchor="middle" fill="#1f2933">55</text>
+   </g>
+   <g class="residue" data-class="polar" data-confidence="confident" data-form="bubble" data-plddt="78.8" data-residue="A:HIS73">
+    <title>His73: hydrogen bond; residue pLDDT 79</title>
+    <path d="M-113.5 291.04 L-113.52 303.5 A15 15 0 1 1 -125.75 288.74 Z" fill="#9fdcee" stroke="#5b6472" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="-128.52" y="302.38" font-size="9.5" text-anchor="middle" font-weight="bold" fill="#1f2933">HIS</text>
+    <text x="-128.52" y="311.4" font-size="9.5" text-anchor="middle" fill="#1f2933">73</text>
+   </g>
+   <g class="residue" data-class="hydrophobic" data-confidence="very_high" data-form="bubble" data-plddt="92.1" data-residue="A:LEU75">
+    <title>Leu75: hydrophobic contact; residue pLDDT 92</title>
+    <path d="M-53.43 176.55 L-62.7 168.21 A15 15 0 1 1 -43.54 168.97 Z" fill="#b8dc7a" stroke="#5b6472" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="-52.66" y="155.96" font-size="9.5" text-anchor="middle" font-weight="bold" fill="#1f2933">LEU</text>
+    <text x="-52.66" y="164.98" font-size="9.5" text-anchor="middle" fill="#1f2933">75</text>
+   </g>
+   <g class="residue" data-class="positive" data-confidence="very_high" data-form="bubble" data-plddt="95.9" data-residue="A:ARG82">
+    <title>Arg82: hydrogen bond; residue pLDDT 96</title>
+    <path d="M-46.02 -23.07 L-33.25 -23.76 A15.4 15.4 0 1 1 -47.68 -10.38 Z" fill="#a9a6f0" stroke="#5b6472" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="-32.41" y="-9.49" font-size="9.5" text-anchor="middle" font-weight="bold" fill="#1f2933">ARG</text>
+    <text x="-32.41" y="-0.47" font-size="9.5" text-anchor="middle" fill="#1f2933">82</text>
+   </g>
+   <g class="residue" data-class="hydrophobic" data-confidence="very_high" data-form="bubble" data-plddt="97.4" data-residue="A:LEU94">
+    <title>Leu94: hydrophobic contact; residue pLDDT 97</title>
+    <path d="M13.48 16.07 L2.95 9.41 A15 15 0 1 1 21.96 6.94 Z" fill="#b8dc7a" stroke="#5b6472" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="10.97" y="-4.37" font-size="9.5" text-anchor="middle" font-weight="bold" fill="#1f2933">LEU</text>
+    <text x="10.97" y="4.65" font-size="9.5" text-anchor="middle" fill="#1f2933">94</text>
+   </g>
+   <g class="residue" data-class="polar" data-confidence="very_high" data-form="bubble" data-plddt="95.2" data-residue="A:SER95">
+    <title>Ser95: hydrogen bond; residue pLDDT 95</title>
+    <path d="M-23.99 88.6 L-18.78 99.92 A15 15 0 1 1 -36.07 91.65 Z" fill="#9fdcee" stroke="#5b6472" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="-32.41" y="105.09" font-size="9.5" text-anchor="middle" font-weight="bold" fill="#1f2933">SER</text>
+    <text x="-32.41" y="114.11" font-size="9.5" text-anchor="middle" fill="#1f2933">95</text>
+   </g>
+   <g class="residue" data-class="hydrophobic" data-confidence="very_high" data-form="bubble" data-plddt="93.5" data-residue="A:ILE97">
+    <title>Ile97: hydrophobic contact; residue pLDDT 94</title>
+    <path d="M-37.12 231.92 L-24.77 233.53 A15 15 0 1 1 -40.97 243.77 Z" fill="#b8dc7a" stroke="#5b6472" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="-26.7" y="247.3" font-size="9.5" text-anchor="middle" font-weight="bold" fill="#1f2933">ILE</text>
+    <text x="-26.7" y="256.32" font-size="9.5" text-anchor="middle" fill="#1f2933">97</text>
+   </g>
+   <g class="residue" data-class="positive" data-confidence="very_high" data-form="bubble" data-plddt="92.3" data-residue="A:LYS98">
+    <title>Lys98: hydrophobic contact; residue pLDDT 92</title>
+    <path d="M20.86 180.5 L30.48 188.42 A15 15 0 1 1 11.31 188.51 Z" fill="#a9a6f0" stroke="#5b6472" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="20.95" y="198.9" font-size="9.5" text-anchor="middle" font-weight="bold" fill="#1f2933">LYS</text>
+    <text x="20.95" y="207.92" font-size="9.5" text-anchor="middle" fill="#1f2933">98</text>
+   </g>
+   <g class="residue" data-class="polar" data-confidence="confident" data-form="bubble" data-plddt="87.0" data-residue="A:SER99">
+    <title>Ser99: hydrogen bond; residue pLDDT 87</title>
+    <path d="M-94.18 213.31 L-99.84 224.41 A15 15 0 1 1 -104.05 205.71 Z" fill="#9fdcee" stroke="#5b6472" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="-113.2" y="216.5" font-size="9.5" text-anchor="middle" font-weight="bold" fill="#1f2933">SER</text>
+    <text x="-113.2" y="225.52" font-size="9.5" text-anchor="middle" fill="#1f2933">99</text>
+   </g>
+   <g class="residue" data-class="positive" data-confidence="low" data-form="bubble" data-plddt="58.3" data-residue="A:ARG103">
+    <title>Arg103: hydrogen bond; residue pLDDT 58</title>
+    <path d="M-7.4 427.1 L-6.02 439.81 A15.4 15.4 0 1 1 -20.15 426.12 Z" fill="#a9a6f0" opacity="0.62"/>
+    <path d="M-7.4 427.1 L-6.02 439.81 A15.4 15.4 0 1 1 -20.15 426.12 Z" fill="none" stroke="#5b6472" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="3.6 2.2"/>
+    <text x="-21.33" y="440.37" font-size="9.5" text-anchor="middle" fill="#1f2933" opacity="0.85">ARG</text>
+    <text x="-21.33" y="449.39" font-size="9.5" text-anchor="middle" fill="#1f2933" opacity="0.85">103</text>
+   </g>
+   <g class="residue" data-class="hydrophobic" data-confidence="very_high" data-form="bubble" data-plddt="96.7" data-residue="A:TYR119">
+    <title>Tyr119: hydrophobic contact; residue pLDDT 97</title>
+    <path d="M83.34 95.89 L95.03 100.21 A15 15 0 1 1 76.95 106.58 Z" fill="#b8dc7a" stroke="#5b6472" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="89.82" y="113.18" font-size="9.5" text-anchor="middle" font-weight="bold" fill="#1f2933">TYR</text>
+    <text x="89.82" y="122.2" font-size="9.5" text-anchor="middle" fill="#1f2933">119</text>
+   </g>
+   <g class="residue" data-class="glycine" data-confidence="very_high" data-form="bubble" data-plddt="97.6" data-residue="A:GLY121">
+    <title>Gly121: hydrogen bond; residue pLDDT 98</title>
+    <path d="M101.45 39.71 L106.58 28.36 A15 15 0 1 1 111.66 46.85 Z" fill="#ecebd8" stroke="#5b6472" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="120.25" y="33.45" font-size="9.5" text-anchor="middle" font-weight="bold" fill="#1f2933">GLY</text>
+    <text x="120.25" y="42.47" font-size="9.5" text-anchor="middle" fill="#1f2933">121</text>
+   </g>
+   <g class="residue" data-class="hydrophobic" data-confidence="very_high" data-form="bubble" data-plddt="95.4" data-residue="A:VAL123">
+    <title>Val123: hydrogen bond, hydrophobic contact; residue pLDDT 95</title>
+    <path d="M73.92 -48.91 L64.96 -40.24 A15 15 0 1 1 67.04 -59.3 Z" fill="#b8dc7a" stroke="#5b6472" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="54.53" y="-52.12" font-size="9.5" text-anchor="middle" font-weight="bold" fill="#1f2933">VAL</text>
+    <text x="54.53" y="-43.1" font-size="9.5" text-anchor="middle" fill="#1f2933">123</text>
+   </g>
+   <g class="residue" data-class="polar" data-confidence="very_high" data-form="bubble" data-plddt="90.8" data-residue="A:GLN125">
+    <title>Gln125: hydrophobic contact; residue pLDDT 91</title>
+    <path d="M-32.97 -96.87 L-43.93 -90.94 A15 15 0 1 1 -36.79 -108.73 Z" fill="#9fdcee" stroke="#5b6472" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="-51.07" y="-105.23" font-size="9.5" text-anchor="middle" font-weight="bold" fill="#1f2933">GLN</text>
+    <text x="-51.07" y="-96.21" font-size="9.5" text-anchor="middle" fill="#1f2933">125</text>
+   </g>
+   <g class="residue" data-class="negative" data-confidence="very_high" data-form="bubble" data-plddt="90.9" data-residue="A:GLU127">
+    <title>Glu127: salt bridge; residue pLDDT 91</title>
+    <path d="M-112.46 -161.23 L-111.11 -148.85 A15 15 0 1 1 -124.88 -162.18 Z" fill="#f4a98a" stroke="#5b6472" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="-126.03" y="-148.33" font-size="9.5" text-anchor="middle" font-weight="bold" fill="#1f2933">GLU</text>
+    <text x="-126.03" y="-139.31" font-size="9.5" text-anchor="middle" fill="#1f2933">127</text>
+   </g>
+   <g class="residue" data-class="hydrophobic" data-confidence="confident" data-form="bubble" data-plddt="87.2" data-residue="A:LEU157">
+    <title>Leu157: hydrophobic contact; residue pLDDT 87</title>
+    <path d="M115.07 -112.87 L110.46 -124.45 A15 15 0 1 1 127.3 -115.28 Z" fill="#b8dc7a" stroke="#5b6472" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="124.4" y="-131.1" font-size="9.5" text-anchor="middle" font-weight="bold" fill="#1f2933">LEU</text>
+    <text x="124.4" y="-122.08" font-size="9.5" text-anchor="middle" fill="#1f2933">157</text>
+   </g>
+  </g>
+ </g>
+ <g class="legend" transform="translate(18 786.82)">
+  <circle cx="5.5" cy="9.19" r="5.5" fill="#b8dc7a" stroke="#5b6472" stroke-width="0.8" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="16" y="12.96" font-size="10.5" fill="#667085">Hydrophobic</text>
+  <circle cx="98.44" cy="9.19" r="5.5" fill="#9fdcee" stroke="#5b6472" stroke-width="0.8" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="108.94" y="12.96" font-size="10.5" fill="#667085">Polar</text>
+  <circle cx="156.94" cy="9.19" r="5.5" fill="#a9a6f0" stroke="#5b6472" stroke-width="0.8" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="167.44" y="12.96" font-size="10.5" fill="#667085">Charged (+)</text>
+  <circle cx="247.25" cy="9.19" r="5.5" fill="#f4a98a" stroke="#5b6472" stroke-width="0.8" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="257.75" y="12.96" font-size="10.5" fill="#667085">Charged (−)</text>
+  <circle cx="337.57" cy="9.19" r="5.5" fill="#ecebd8" stroke="#5b6472" stroke-width="0.8" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="348.07" y="12.96" font-size="10.5" fill="#667085">Glycine</text>
+  <polygon points="427.07,9.19 420.67,11.69 420.67,6.69" fill="#c026d3"/>
+  <line x1="401.07" y1="9.19" x2="421.63" y2="9.19" fill="none" stroke="#c026d3" stroke-width="1.35" stroke-linejoin="round"/>
+  <text x="435.07" y="12.96" font-size="10.5" fill="#667085">H-bond (backbone)</text>
+  <polygon points="26,27.56 19.6,30.06 19.6,25.06" fill="#c026d3"/>
+  <line x1="0" y1="27.56" x2="20.56" y2="27.56" fill="none" stroke="#c026d3" stroke-width="1.35" stroke-linejoin="round" stroke-dasharray="4.2 2.6"/>
+  <text x="34" y="31.33" font-size="10.5" fill="#667085">H-bond (side chain)</text>
+  <line x1="143.61" y1="27.56" x2="169.61" y2="27.56" fill="none" stroke="#2563eb" stroke-width="2.36" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0.01 3.7"/>
+  <text x="177.61" y="31.33" font-size="10.5" fill="#667085">Salt bridge</text>
+  <line x1="245.8" y1="27.56" x2="271.8" y2="27.56" fill="none" stroke="#5b6472" stroke-width="0.81" stroke-linejoin="round"/>
+  <text x="279.8" y="31.33" font-size="10.5" fill="#667085">Hydrophobic contact</text>
+  <circle cx="400.01" cy="27.56" r="6.5" fill="#c9ced6" opacity="0.6"/>
+  <text x="411.51" y="31.33" font-size="10.5" fill="#667085">Solvent exposure</text>
+  <text x="0" y="49.71" font-size="10.5" fill="#667085">Confidence:</text>
+  <line x1="74.03" y1="45.94" x2="100.03" y2="45.94" fill="none" stroke="#1f2933" stroke-width="1.76" stroke-linejoin="round"/>
+  <text x="108.03" y="49.71" font-size="10.5" fill="#667085">pLDDT ≥ 70</text>
+  <line x1="182.56" y1="45.94" x2="208.56" y2="45.94" fill="none" stroke="#1f2933" stroke-width="1.23" stroke-linejoin="round" opacity="0.62"/>
+  <text x="216.56" y="49.71" font-size="10.5" fill="#667085">50–70</text>
+  <line x1="263.75" y1="45.94" x2="272.11" y2="45.94" fill="none" stroke="#1f2933" stroke-width="0.88" stroke-linejoin="round" opacity="0.42"/>
+  <line x1="281.39" y1="45.94" x2="289.75" y2="45.94" fill="none" stroke="#1f2933" stroke-width="0.88" stroke-linejoin="round" opacity="0.42"/>
+  <text x="276.75" y="49.35" font-size="9.5" text-anchor="middle" fill="#1f2933" opacity="0.42">?</text>
+  <text x="297.75" y="49.71" font-size="10.5" fill="#667085">&lt; 50</text>
+  <rect x="0.6" y="58.81" width="20.8" height="11" rx="3.5" fill="#ffffff" stroke="#1f2933" stroke-width="1.15" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="27" y="68.08" font-size="10.5" fill="#667085">Residue of chain B, numbered as in the structure file</text>
+  <line x1="288.95" y1="64.31" x2="346.68" y2="64.31" fill="none" stroke="#667085" stroke-width="1.1" stroke-linejoin="round"/>
+  <line x1="288.95" y1="60.81" x2="288.95" y2="67.81" fill="none" stroke="#667085" stroke-width="1.1" stroke-linejoin="round"/>
+  <line x1="346.68" y1="60.81" x2="346.68" y2="67.81" fill="none" stroke="#667085" stroke-width="1.1" stroke-linejoin="round"/>
+  <text x="354.68" y="68.08" font-size="10.5" fill="#667085">5 Å between the centres of two boxes</text>
+  <text x="0" y="86.1" font-size="9.5" fill="#1f2933">PAE 7</text>
+  <text x="31.93" y="86.46" font-size="10.5" fill="#667085">Predicted aligned error (PAE) of a contact in Å, median of 2 draws: written from 5 Å, bold from 10 Å. Not pLDDT</text>
+ </g>
+ <g class="footnotes">
+  <text x="18" y="892.23" font-size="10.5" fill="#667085">Stroke weight and opacity follow the model's pLDDT: a contact is drawn at the lower of its two ends' values, a residue at its</text>
+  <text x="18" y="907.46" font-size="10.5" fill="#667085">own. ? marks pLDDT below 50.</text>
+  <text x="18" y="922.68" font-size="10.5" fill="#667085">An interface has no centre. The residues of chain B that touch chain A come in 7 stretches of its chain: each box stands</text>
+  <text x="18" y="937.91" font-size="10.5" fill="#667085">where its residue's centre lies on the plane through those centres, at one scale, seen from the side of chain A; a line joins</text>
+  <text x="18" y="953.13" font-size="10.5" fill="#667085">neighbours in the chain, a dotted line two with up to three residues between them. Those of chain A are not drawn where</text>
+  <text x="18" y="968.36" font-size="10.5" fill="#667085">they lie but beside the boxes they touch. A line to one of them is a pair of residues, at the shortest of its contacts of one</text>
+  <text x="18" y="983.58" font-size="10.5" fill="#667085">kind.</text>
+  <text x="18" y="998.81" font-size="10.5" fill="#667085">Measured on the boxes as drawn: 20 pairs of boxes are neighbours (centres within 8 Å) in the figure or in space; 1 is</text>
+  <text x="18" y="1014.03" font-size="10.5" fill="#667085">drawn as neighbours and lies more than 10 Å apart in space: 95 % of neighbour relations are kept. Distances between the</text>
+  <text x="18" y="1029.26" font-size="10.5" fill="#667085">centres of boxes differ from those in space by 5 % (root mean square). The residues' centres lie 3.1 Å (root mean square)</text>
+  <text x="18" y="1044.48" font-size="10.5" fill="#667085">off the plane; 8 boxes were moved off their places to keep boxes apart.</text>
+  <text x="18" y="1059.71" font-size="10.5" fill="#667085">All 17 residues of chain B at the interface are shown, with 27 contacts.</text>
+  <text x="18" y="1074.93" font-size="10.5" fill="#667085">PAE (predicted aligned error) is the model's expected error, in ångström, in placing one residue of a contact relative to the</text>
+  <text x="18" y="1090.16" font-size="10.5" fill="#667085">other: low is confident, about 32 means no idea. It is not pLDDT, which line weight, dashes and ? show.</text>
+  <text x="18" y="1105.38" font-size="10.5" fill="#667085">The PAE comes from 2 samples of the model (2 draws). The PAE of a contact is the median of its 2 values, not the</text>
+  <text x="18" y="1120.61" font-size="10.5" fill="#667085">largest, which would rise with the number of draws whatever the model knows. Draw by draw the contacts shown here</text>
+  <text x="18" y="1135.83" font-size="10.5" fill="#667085">range over 0.4–7.4 and 0.4–11.1 Å. Chains A, B and C are copies of one another, and the model names them in another</text>
+  <text x="18" y="1151.06" font-size="10.5" fill="#667085">order in 1 of these 2 draws: the chains of every draw were matched to those of the structure shown here, by superposition,</text>
+  <text x="18" y="1166.28" font-size="10.5" fill="#667085">before its values were read.</text>
+  <text x="18" y="1181.51" font-size="10.5" fill="#667085">5 of the 25 residue pairs in contact have a PAE of 5 Å or more, written on their lines.</text>
+ </g>
+</svg>

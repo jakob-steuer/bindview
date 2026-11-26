@@ -1,0 +1,21 @@
+{
+ "slug": "mhc_peptide",
+ "what": "HLA-A2 with the nonamer GLCTLVAML in its groove",
+ "source": {
+  "archive": "RCSB Protein Data Bank",
+  "entry": "3MRE",
+  "address": "https://files.rcsb.org/download/3MRE.cif.gz",
+  "licence": "CC0 1.0 (the archive's data are in the public domain)",
+  "file": "model.cif.gz",
+  "file_is": "the archive's file, unpacked and packed again (gzip, no time stamp)",
+  "sha256": "eb13d9e50755eb9a5a7f6cd291c9da663b62ee712ce5b84f6ce3719bdceecd13"
+ },
+ "chains": {
+  "A": "HLA-A2 heavy chain",
+  "B": "beta-2 microglobulin",
+  "P": "the peptide, nine residues"
+ },
+ "chain_names": "the authors' (auth_asym_id)",
+ "peptide_chain": "P",
+ "why_this_case": "A short peptide in a groove, as a chain of its own."
+}
