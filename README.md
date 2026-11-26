@@ -4,6 +4,7 @@
   <img src="docs/images/badges/version.svg" alt="version"> <img src="docs/images/badges/python.svg" alt="Python">
   <img src="docs/images/badges/rdkit.svg" alt="RDKit"> <img src="docs/images/badges/numpy.svg" alt="NumPy">
   <img src="docs/images/badges/licence.svg" alt="licence">
+  <a href="https://doi.org/10.5281/zenodo.24568132"><img src="docs/images/badges/doi.svg" alt="DOI 10.5281/zenodo.24568132"></a>
 </p>
 
 <p align="center">
@@ -236,4 +237,5 @@ Also in the manual: [arranging by hand](docs/manual.md#arranging-by-hand) (`dia.
 
 MIT ([LICENSE](LICENSE)). The core imports RDKit and NumPy (both BSD) and nothing else; one module imports PLIP, when
 asked to. The test data are open: each folder says where it is from, and [NOTICE](NOTICE) names the work of others
-in the repository. Cite with [CITATION.cff](CITATION.cff). Changes: [CHANGELOG.md](CHANGELOG.md).
+in the repository. Cite bindview by its DOI, [10.5281/zenodo.24568132](https://doi.org/10.5281/zenodo.24568132) (every
+version; Zenodo has one for each release too), or with [CITATION.cff](CITATION.cff). Changes: [CHANGELOG.md](CHANGELOG.md).

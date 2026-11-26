@@ -12,6 +12,7 @@ authors:
     affiliation: >-
       FHNW University of Applied Sciences and Arts Northwestern Switzerland, School of Life Sciences,
       Institute for Chemistry and Bioanalytics, Data Science in Life Sciences
+doi: "10.5281/zenodo.24568132"
 repository-code: "https://github.com/jakob-steuer/bindview"
 version: "0.1.0"
 date-released: "2026-11-26"

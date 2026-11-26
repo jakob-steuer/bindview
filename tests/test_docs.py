@@ -223,6 +223,9 @@ def test_the_badges_say_what_the_project_says():
     made = build_docs_images._badges()
     assert project["version"] == bindview.__version__ and f"bindview {bindview.__version__}" in made["badges/version"]
     assert f"licence {project['license']}" in made["badges/licence"]
+    doi = build_docs_images.citation_doi()                                   # the one CITATION.cff gives
+    assert f"DOI {doi}" in made["badges/doi"] and f'<a href="https://doi.org/{doi}"><img src="docs/images/badges/doi.svg"' \
+        in page("README.md") and f"[{doi}](https://doi.org/{doi})" in page("README.md")
     for name, svg in made.items():
         assert (IMAGES / f"{name}.svg").read_text(encoding="utf-8") == svg and f"docs/images/{name}.svg" in page("README.md")
     assert "img.shields.io" not in page("README.md")                        # the page asks no other site for them

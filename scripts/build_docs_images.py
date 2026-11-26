@@ -132,9 +132,14 @@ def _panels(only: "set[str] | None" = None) -> "dict[str, str]":
     return out
 
 
+def citation_doi() -> str:
+    """The DOI that CITATION.cff gives bindview: Zenodo's concept DOI, which stands for every version."""
+    return re.search(r'^doi: "([^"]+)"$', (ROOT / "CITATION.cff").read_text(encoding="utf-8"), flags=re.M).group(1)
+
+
 def _badges() -> "dict[str, str]":
-    """The badges at the top of the README, from pyproject.toml: pictures of our own, so that the page asks no other
-    site for them."""
+    """The badges at the top of the README, from pyproject.toml and CITATION.cff: pictures of our own, so that the
+    page asks no other site for them."""
     import tomllib
 
     from bindview.textmetrics import text_width
@@ -144,7 +149,8 @@ def _badges() -> "dict[str, str]":
     said = {"version": ("bindview", project["version"], "#0f766e"),
             "python": ("Python", project["requires-python"].replace(">=", "\u2265 "), "#2f5fd0"),
             "rdkit": ("RDKit", needs["rdkit"], "#475569"), "numpy": ("NumPy", needs["numpy"], "#475569"),
-            "licence": ("licence", project["license"], "#475569")}
+            "licence": ("licence", project["license"], "#475569"),
+            "doi": ("DOI", citation_doi(), "#0369a1")}
     out = {}
     for name, (left, right, colour) in said.items():
         a, b = text_width(left, 11.0) + 14.0, text_width(right, 11.0, bold=True) + 14.0
