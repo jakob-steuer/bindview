@@ -120,8 +120,8 @@ class RenderOptions:
     #: Predict solvent sites that could bridge ligand and protein, and draw them -- marked as
     #: predicted. Off unless asked for, and never done for a structure that has waters of its own.
     solvent_sites: bool = False
-    #: The colour scheme: ``"standard"``, or ``"contrast"``, whose residue classes are further apart
-    #: (:data:`bindview.theme.SCHEMES`). The theme picks its light or its dark palette.
+    #: The colour scheme: ``"standard"``, ``"contrast"``, whose residue classes are further apart, or one of the
+    #: caller's own registered in :data:`bindview.theme.SCHEMES`. The theme picks its light or its dark palette.
     colors: str = "standard"
     #: Show the model's pLDDT by AlphaFold's four colours and not by stroke weight: residues and the
     #: atoms of the ligand are coloured by their band, and every line is drawn at full strength.

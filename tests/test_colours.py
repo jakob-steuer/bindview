@@ -19,7 +19,7 @@ import pytest
 
 from conftest import (TESTDATA, chain_diagram, diagram_of, invented_plddt, meta_of, model_of, predicted_diagram,
                       structure_of)
-from bindview import LIGHT, Comparison, Diagram, load_interactions
+from bindview import DARK, LIGHT, Comparison, Diagram, load_interactions
 from bindview.cli import main
 from bindview.confidence import BANDS, band_of
 from bindview.styles.base import LINING_WIDTH
@@ -154,6 +154,30 @@ def test_a_scheme_has_a_palette_for_each_theme():
     assert f"--lf-class-hydrophobic:{CONTRAST.residue_classes['hydrophobic']}" in auto.svg
     assert f"--lf-class-hydrophobic:{CONTRAST_DARK.residue_classes['hydrophobic']}" in auto.svg
     assert scheme("contrast") == (CONTRAST, CONTRAST_DARK) and set(SCHEMES) == {"standard", "contrast"}
+
+
+def test_a_scheme_of_ones_own_is_registered_and_asked_for_by_its_name(monkeypatch):
+    """The manual's way to colours of one's own in both themes: a light and a dark palette in ``SCHEMES``, under a
+    name in lower case. A palette handed in as the theme is one theme; ``with_()`` refuses a colour it has not."""
+    dia = diagram_of("ca2_celecoxib")
+
+    def house(light: str, dark: str):
+        return (LIGHT.with_(name="house", residue_classes={**LIGHT.residue_classes, "hydrophobic": light}),
+                DARK.with_(name="house-dark", residue_classes={**DARK.residue_classes, "hydrophobic": dark}))
+
+    monkeypatch.setitem(SCHEMES, "house", house("#123456", "#654321"))
+    light, dark = (dia.render(style="schematic", colors="house", theme=t) for t in ("light", "dark"))
+    assert "#123456" in light.svg and "#654321" not in light.svg
+    assert "#654321" in dark.svg and "#123456" not in dark.svg
+    auto = dia.render(style="schematic", colors="House", theme="auto")                 # (a name is asked for in any case)
+    assert auto.theme == "auto" and all(f"--lf-class-hydrophobic:{c}" in auto.svg for c in ("#123456", "#654321"))
+    # Registered again under the same name: the next figure is drawn in its colours, not in those of the last one.
+    monkeypatch.setitem(SCHEMES, "house", house("#abcdef", "#fedcba"))
+    assert "#abcdef" in dia.render(style="schematic", colors="house").svg
+    with pytest.raises(ValueError, match="the schemes are 'standard', 'contrast', 'house'"):
+        dia.render(colors="rainbow")
+    with pytest.raises(TypeError, match="residue_class_text"):
+        LIGHT.with_(residue_class_text="#000000")
 
 
 def test_colours_that_are_no_scheme_are_refused():

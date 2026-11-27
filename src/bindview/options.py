@@ -35,7 +35,8 @@ GROUPS: tuple[tuple[str, tuple[tuple[str, str], ...]], ...] = (
         ("absent_style", '"marked" (a stroke of a marker pen) or "faint"'),
     )),
     ("Colours and words", (
-        ("colors", 'the colour scheme: "standard", or "contrast"; the theme picks its light or dark palette'),
+        ("colors", 'the colour scheme: "standard", "contrast" or one registered in theme.SCHEMES; the theme picks '
+                   'its light or dark palette'),
         ("background", "False: no background, transparent"),
         ("title", "a title above the figure"),
         ("subtitle", "a line under the title"),

@@ -59,7 +59,7 @@ Written by `python scripts/build_api.py` from the library itself. In Python: `bi
 
 | option | default | |
 |---|---|---|
-| `colors` | `'standard'` | the colour scheme: "standard", or "contrast"; the theme picks its light or dark palette |
+| `colors` | `'standard'` | the colour scheme: "standard", "contrast" or one registered in theme.SCHEMES; the theme picks its light or dark palette |
 | `background` | `True` | False: no background, transparent |
 | `title` | `None` | a title above the figure |
 | `subtitle` | `None` | a line under the title |

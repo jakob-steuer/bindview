@@ -9,7 +9,8 @@ theme is a palette plus the dimensional :class:`Metrics`. Two palettes ship
 
 A *colour scheme* is a pair of palettes, one for each theme (:data:`SCHEMES`):
 ``standard``, which is those two, and ``contrast``, whose residue classes are
-further apart for every kind of colour vision. The four colours of the pLDDT bands are AlphaFold's and belong
+further apart for every kind of colour vision. A caller registers a scheme of its own there, under a name in
+lower case, and asks for it by that name (``colors=``). The four colours of the pLDDT bands are AlphaFold's and belong
 to no palette (:data:`PLDDT_COLORS`): they mean the same on every page.
 """
 

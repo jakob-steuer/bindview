@@ -321,7 +321,9 @@ print(wet.render(solvent_sites=True).notes[-1])
 
 `Comparison` draws ligands of one pocket against one frame of residues: two give what differs, more what they share.
 The residues do not move from panel to panel, so a difference between panels is one between ligands. Residues are
-matched by chain and number, and the figure says whether the ligands share a scaffold to align on.
+matched by chain and number, and the figure says whether the ligands share a scaffold to align on: a common
+substructure that covers 60 % of the smallest ligand's heavy atoms or more (`Comparison(..., min_fraction=0.6)`,
+`--min-fraction 0.6`).
 
 ```python
 from bindview import Comparison
@@ -426,6 +428,19 @@ from bindview import DARK, LIGHT
 dia.render(colors="contrast", theme="dark")
 dia.render(theme=LIGHT.with_(hbond="#1f77b4", hydrophobic="#2ca02c"))
 dia.render(theme=DARK.with_(hbond="#7fb8e6"), background=False)
+```
+
+A `Palette` handed in as the theme has no dark side: the figure is drawn in it alone, and `theme="auto"` is not
+open to it. For colours of your own in both themes, register a scheme: a light and a dark palette in
+`bindview.theme.SCHEMES`, under a name in lower case. `colors=` then takes that name as it takes `"contrast"`,
+with every theme, `"auto"` too. `with_()` takes the names of the fields of `Palette` and refuses any other with a
+`TypeError`, so a colour that a palette does not have is found where the scheme is registered.
+
+```python
+from bindview.theme import SCHEMES
+
+SCHEMES["house"] = (LIGHT.with_(name="house", hbond="#1f77b4"), DARK.with_(name="house-dark", hbond="#7fb8e6"))
+dia.render(colors="house", theme="auto")
 ```
 
 ## Figures in a web page

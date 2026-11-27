@@ -13,7 +13,8 @@ import xml.etree.ElementTree as ET
 import pytest
 
 import bindview.cli
-from bindview.cli import main
+from bindview.align import MIN_FRACTION
+from bindview.cli import build_parser, main
 from bindview.interface import dump_interface_contacts
 from conftest import CASE_SPECS, TESTDATA, meta_of, model_of, trimer_contacts, trimer_file
 
@@ -319,6 +320,8 @@ def test_what_the_library_refuses_is_a_message_too(tmp_path, capsys):
     (["basepairs", "model.pdb", "--chains", "A", "B", "--step", "0"], "--step"),
     (["basepairs", "model.pdb", "--chains", "A", "B", "--step", "-5"], "--step"),
     (["compare", "a", "b", "--width-mm", "inf"], "--width-mm"),
+    (["compare", "a", "b", "--min-fraction", "1.5"], "--min-fraction"),
+    (["compare", "a", "b", "--min-fraction", "nan"], "--min-fraction"),
 ])
 def test_a_number_that_cannot_be_one_is_refused_where_it_is_given(argv, option, capsys):
     with pytest.raises(SystemExit) as left:
@@ -389,3 +392,12 @@ def test_a_member_of_a_comparison_is_a_folder_as_the_archive_packs_it(tmp_path):
     out = tmp_path / "pair.svg"
     assert main(["compare", str(TESTDATA / "ar_r1881"), str(TESTDATA / "ar_bicalutamide"), "-q", "-o", str(out)]) == 0
     assert out.read_text().startswith("<svg")
+
+
+def test_the_share_a_comparison_aligns_at_is_given_on_the_command_line(tmp_path, capsys):
+    """``--min-fraction`` is ``Comparison(min_fraction=)``: how much of the smallest ligand the common substructure
+    has to cover to be aligned on."""
+    pair = [str(TESTDATA / "ar_r1881"), str(TESTDATA / "ar_bicalutamide"), "-q", "--json", "-o", str(tmp_path / "a.svg")]
+    assert main(["compare", *pair, "--min-fraction", "0.05"]) == 0
+    assert json.loads(capsys.readouterr().out)["alignment"]["min_fraction"] == 0.05
+    assert build_parser().parse_args(["compare", "a", "b"]).min_fraction == MIN_FRACTION == 0.6

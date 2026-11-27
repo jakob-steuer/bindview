@@ -2,6 +2,8 @@
 
 ## Unreleased
 
+- `bindview compare --min-fraction`: how much of the smallest ligand the common substructure covers to be aligned on, as `Comparison(min_fraction=)` takes it (0.6).
+- A colour scheme of your own, light and dark, registered in `bindview.theme.SCHEMES` and asked for by its name (`colors=`), with every theme, `"auto"` too: in the manual, and tested.
 - Fixed: a contact named by two or more backbone atoms of an arginine, aspartate, glutamate, lysine or histidine (`N` and `O`, say) raised an `IndexError` in the detailed style; its line now stops at those atoms.
 
 ## 0.1.0 - 2026-11-26

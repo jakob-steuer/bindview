@@ -25,6 +25,7 @@ from pathlib import Path
 from typing import Any, Callable, Iterator, Sequence
 
 from . import __version__
+from .align import MIN_FRACTION
 from .compare import VIEWS, Comparison
 from .diagram import DISTANCES, STYLES, Diagram
 from .theme import SCHEMES
@@ -70,6 +71,17 @@ def _from(least: float, above: bool = False, whole: bool = False) -> "Callable[[
         return value
 
     return parse
+
+
+def _fraction(text: str) -> float:
+    """The type of an argument that is a fraction: a number from 0 to 1."""
+    try:
+        value = float(text)
+    except ValueError:
+        value = math.nan
+    if not 0.0 <= value <= 1.0:                          # (nan is not either)
+        raise argparse.ArgumentTypeError(f"{text!r} is not a fraction from 0 to 1")
+    return value
 
 
 def build_parser() -> argparse.ArgumentParser:
@@ -316,6 +328,9 @@ def build_parser() -> argparse.ArgumentParser:
     d.add_argument("--min-ligands", type=int, default=1, metavar="N",
                    help="consensus view: leave out residues contacted by fewer ligands")
     d.add_argument("--no-thumbnails", action="store_true", help="consensus view: no drawing of each single ligand")
+    d.add_argument("--min-fraction", type=_fraction, default=MIN_FRACTION, metavar="F",
+                   help=f"align on the common substructure where it covers at least this fraction of the smallest "
+                        f"ligand's heavy atoms ({MIN_FRACTION:g})")
     d.add_argument("--burial", action=argparse.BooleanOptionalAction, default=True,
                    help="each ligand's buried fraction in the figure (on by default)")
     d.add_argument("--theme", choices=("light", "dark", "auto"), default="light")
@@ -712,7 +727,7 @@ def _compare(args: argparse.Namespace) -> int:
     unknown = [n for n in args.untrusted if n not in [b[0] for b in built]]
     if unknown:
         raise BindviewError(f"--untrusted names no ligand of the set: {', '.join(unknown)}")
-    cmp_ = Comparison([d for _, d in built], [n for n, _ in built])
+    cmp_ = Comparison([d for _, d in built], [n for n, _ in built], min_fraction=args.min_fraction)
     result = cmp_.render_svg(args.output, view=args.view, theme=args.theme, title=args.title,
                              subtitle=args.subtitle, min_ligands=args.min_ligands,
                              thumbnails=not args.no_thumbnails, figure_width_mm=args.width_mm,
