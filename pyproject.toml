@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "bindview"
-version = "0.1.0"
+version = "0.1.1"
 description = "Publication-quality figures of molecular interactions: small molecules, peptides, RNA, DNA and proteins, from one structure to an ensemble."
 dynamic = ["readme"]
 requires-python = ">=3.12"

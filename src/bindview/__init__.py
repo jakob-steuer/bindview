@@ -56,7 +56,7 @@ from .structure import Structure, read_models, read_structure
 from .svg import stylesheet
 from .theme import DARK, LIGHT, Metrics, Palette
 
-__version__ = "0.1.0"
+__version__ = "0.1.1"
 
 __all__ = [
     "Diagram", "RenderResult", "Quality", "STYLES", "options", "stylesheet",

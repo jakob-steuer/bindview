@@ -1,6 +1,6 @@
 # Changelog
 
-## Unreleased
+## 0.1.1 - 2026-11-27
 
 - `bindview compare --min-fraction`: how much of the smallest ligand the common substructure covers to be aligned on, as `Comparison(min_fraction=)` takes it (0.6).
 - A colour scheme of your own, light and dark, registered in `bindview.theme.SCHEMES` and asked for by its name (`colors=`), with every theme, `"auto"` too: in the manual, and tested.
