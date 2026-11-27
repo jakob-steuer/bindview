@@ -229,8 +229,10 @@ class DetailedStyle:
             spread = max(math.hypot(q[0] - centre[0], q[1] - centre[1]) for q in pts)
             if info.site_kind == "ring":
                 return centre, 3.6, None, spread, None
-            # A charged group: the link stops at its halo or at the labels of its atoms.
-            names = [n for n in _HALO_ATOMS.get(canonical_resname(grp.resname), info.site_atoms) if n in local]
+            # A charged group: the link stops at its halo or at the labels of its atoms. A group of the atoms of a
+            # charged residue that are not its charge (its backbone N and O, say) has no halo drawn: it stops at them.
+            names = [n for n in _HALO_ATOMS.get(canonical_resname(grp.resname), info.site_atoms) if n in local] \
+                or list(info.site_atoms)
             chosen = set(names)
             segs = [(local[a], local[b]) for a, b, _ in frag.bonds if a in chosen and b in chosen] \
                 or [(local[n], local[n]) for n in names]

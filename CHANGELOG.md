@@ -1,5 +1,9 @@
 # Changelog
 
+## Unreleased
+
+- Fixed: a contact named by two or more backbone atoms of an arginine, aspartate, glutamate, lysine or histidine (`N` and `O`, say) raised an `IndexError` in the detailed style; its line now stops at those atoms.
+
 ## 0.1.0 - 2026-11-26
 
 bindview draws molecular interaction diagrams as SVG, from a structure file and a table of contacts ([manual](docs/manual.md)).

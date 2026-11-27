@@ -298,6 +298,22 @@ def test_a_figure_of_no_residue_is_refused_in_words():
         choose_site([], [], {}, limit=0)
 
 
+def test_a_contact_of_several_backbone_atoms_of_a_charged_residue_is_drawn():
+    """A contact that names two or more atoms of a residue is a group; on an arginine, an aspartate, a glutamate,
+    a lysine or a histidine its line stops at the halo of the residue's charge. One through the residue's backbone
+    alone has no halo drawn and stops at its own atoms (in 0.1.0 it raised an IndexError)."""
+    from conftest import trimer_contacts, trimer_structure
+
+    contacts = trimer_contacts()
+    pick = next(c for c in contacts if c.resname_b in ("ARG", "ASP", "GLU", "LYS", "HIS"))
+    odd = replace(pick, type="hbond", atoms_a=pick.atoms_a[:1], atoms_b=("N", "O"))
+    face = Interface(trimer_structure(), ["A", "B"], contacts[:12] + [odd], model_confidence=None)
+    for absent in (None, [odd.number_b]):
+        drawn = [c.to_dict() for c in face.render(**({} if absent is None else {"absent": absent})).graph.contacts]
+        assert [(c["site"], c["drawn"]) for c in drawn if c["residue"] == f"R:B:{odd.resname_b}{odd.number_b}"
+                and c["protein_atoms"] == ["N", "O"]] == [("group", True)]
+
+
 def test_a_contact_carries_its_confidence_into_the_graph(tmp_path):
     st = structure_of("thrombin_hirudin")
     contacts = interface_contacts(st, ["A"], ["B"])
